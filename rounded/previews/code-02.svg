@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="892" viewBox="0 0 1200 892" color="#252931" font-family="Helvetica, Arial, sans-serif">
+<title>Code editor — 37 icons · Page 2 of 2 · Rounded library</title>
+<rect width="1200" height="892" fill="#f4f5f7"/>
+<text x="40" y="42" fill="#747a86" font-size="11" font-weight="600" text-anchor="start">GFX / ROUNDED LIBRARY</text>
+<text x="40" y="87" fill="#252931" font-size="34" font-weight="600" text-anchor="start">Code editor</text>
+<text x="40" y="120" fill="#747a86" font-size="14" font-weight="400" text-anchor="start">37 icons · Page 2 of 2 · Rounded library</text>
+<text x="1160" y="42" fill="#747a86" font-size="11" font-weight="600" text-anchor="end">LIGHT</text>
+<rect x="40" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="103.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 13V3M8 7l4-4 4 4"/><circle cx="12" cy="19" r="2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="127.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Step out</text>
+<text x="127.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Debugging</text>
+<rect x="229" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="292.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5 8a8 8 0 1 1-1 7M5 3v5h5"/><path d="m10 9 5 3-5 3Z"/>
+</svg>
+
+<text x="316.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Restart</text>
+<text x="316.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Debugging</text>
+<rect x="418" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="481.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M6 7.5v9M18 7.5q0 7-12 7"/>
+</svg>
+
+<text x="505.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Git branch</text>
+<text x="505.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="607" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="670.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="4.5"/><path d="M3 12h4.5m9 0H21"/>
+</svg>
+
+<text x="694.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Git commit</text>
+<text x="694.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="796" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="859.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M6 7.5v9M18 16.5q0-7-12-7"/>
+</svg>
+
+<text x="883.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Git merge</text>
+<text x="883.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="985" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="1048.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M6 7.5v9M18 16.5V9q0-4-4-4h-1M15.5 2.5 13 5l2.5 2.5"/>
+</svg>
+
+<text x="1072.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Pull request</text>
+<text x="1072.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="40" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="103.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M3.5 12h17M9 7.5h6M12 5v5M9 16.5h6"/>
+</svg>
+
+<text x="127.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Diff</text>
+<text x="127.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="229" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="292.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/><path d="m8 5.8 8 4.5v4"/>
+</svg>
+
+<text x="316.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Package</text>
+<text x="316.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="418" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="481.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 10h4V6a3 3 0 0 1 6 0v4h4q2 0 2 2v2h-3a2.5 2.5 0 0 0 0 5h3v1H6q-2 0-2-2v-3h3a2.5 2.5 0 0 0 0-5Z"/>
+</svg>
+
+<text x="505.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Extensions</text>
+<text x="505.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="607" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="670.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m9 3-.7 2.5-2.6.7-1.8 3 1.8 1.8v2l-1.8 1.8 1.8 3 2.6.7L9 21h6l.7-2.5 2.6-.7 1.8-3-1.8-1.8v-2l1.8-1.8-1.8-3-2.6-.7L15 3Z"/><circle cx="12" cy="12" r="3.2"/>
+</svg>
+
+<text x="694.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Settings</text>
+<text x="694.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="796" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="859.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="4" width="18" height="16" rx="3"/><path d="M12 4v16"/>
+</svg>
+
+<text x="883.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Split editor</text>
+<text x="883.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="985" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="1048.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M7 8h5M7 12h4M7 16h5"/><rect x="15.5" y="6.5" width="2" height="11" rx="1" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1072.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Minimap</text>
+<text x="1072.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="40" y="484" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="103.5" y="508" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="2.5" y="6" width="19" height="12" rx="4"/><path d="m6 10 2 2-2 2M12 12h5"/>
+</svg>
+
+<text x="127.5" y="591" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Command palette</text>
+<text x="127.5" y="613" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<path d="M40 839h1120" stroke="#e0e3e8"/>
+<text x="40" y="866" fill="#747a86" font-size="11" font-weight="400" text-anchor="start">25–37 of 37 · Shown at 48 px</text>
+<text x="1160" y="866" fill="#747a86" font-size="11" font-weight="400" text-anchor="end">24 px / 2 px stroke</text>
+</svg>

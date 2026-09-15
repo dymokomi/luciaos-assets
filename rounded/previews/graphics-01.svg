@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="892" viewBox="0 0 1200 892" color="#252931" font-family="Helvetica, Arial, sans-serif">
+<title>Graphics &amp; shared controls — 67 icons · Page 1 of 3 · Rounded library</title>
+<rect width="1200" height="892" fill="#f4f5f7"/>
+<text x="40" y="42" fill="#747a86" font-size="11" font-weight="600" text-anchor="start">GFX / ROUNDED LIBRARY</text>
+<text x="40" y="87" fill="#252931" font-size="34" font-weight="600" text-anchor="start">Graphics &amp; shared controls</text>
+<text x="40" y="120" fill="#747a86" font-size="14" font-weight="400" text-anchor="start">67 icons · Page 1 of 3 · Rounded library</text>
+<text x="1160" y="42" fill="#747a86" font-size="11" font-weight="600" text-anchor="end">LIGHT</text>
+<rect x="40" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="103.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.5 8V7Q3.5 4 6.5 4h2Q9.5 4 10.2 4.8l1.6 1.9Q12.4 7.5 13.5 7.5H18Q21 7.5 21 10.5v5.8Q21 20 17.5 20h-11Q3 20 3 16.5V10Q3 8 5 8h4.5Q10.5 8 11.2 8.8l.4.4Q12.4 10 13.5 10H21"/>
+</svg>
+
+<text x="127.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Group</text>
+<text x="127.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Layers</text>
+<rect x="229" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="292.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7.5 16.5H6.3Q3 16.5 3 13.2V6.3Q3 3 6.3 3h6.9Q16.5 3 16.5 6.3v1.2"/><path d="M10.7 7.5Q14.0 7.25 17.3 7.5Q20.5 7.5 20.5 10.7Q20.75 14.0 20.5 17.3Q20.5 20.5 17.3 20.5Q14.0 20.75 10.7 20.5Q7.5 20.5 7.5 17.3Q7.25 14.0 7.5 10.7Q7.5 7.5 10.7 7.5Z"/>
+</svg>
+
+<text x="316.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Duplicate</text>
+<text x="316.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Layers</text>
+<rect x="418" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="481.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 5v14M5 12h14"/>
+</svg>
+
+<text x="505.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Add / Plus</text>
+<text x="505.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Layers</text>
+<rect x="607" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="670.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="8.25"/><path d="M12 3.75a8.25 8.25 0 0 0 0 16.5Z" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="694.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Color correction</text>
+<text x="694.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Color</text>
+<rect x="796" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="859.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m11 8 3.3-1.9Q16.5 4.8 17.8 7l.8 1.4Q20 10.7 17.6 12L11 15.8M17 12.5h.7Q21 12.5 21 15.8v1Q21 20 17.8 20H7.5"/><path d="M6.5 3.5h2Q11 3.5 11 6v10.5a3.75 3.75 0 0 1-7.5 0V6Q3.5 3.5 6.5 3.5ZM3.5 8.5H11M3.5 13H11"/><circle cx="7.25" cy="16.5" r=".8" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="883.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Color swatch</text>
+<text x="883.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Color</text>
+<rect x="985" y="156" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="1048.5" y="180" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5v17M3.5 12h17M8.8 6.7 12 3.5l3.2 3.2M8.8 17.3l3.2 3.2 3.2-3.2M6.7 8.8 3.5 12l3.2 3.2M17.3 8.8l3.2 3.2-3.2 3.2"/>
+</svg>
+
+<text x="1072.5" y="263" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Move tool</text>
+<text x="1072.5" y="285" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Tools</text>
+<rect x="40" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="103.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5 8V6Q5 4.5 6.5 4.5h11Q19 4.5 19 6v2M12 4.5v15M8.5 19.5q3.5.5 7 0"/>
+</svg>
+
+<text x="127.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Text tool</text>
+<text x="127.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Tools</text>
+<rect x="229" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="292.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6.5 3.5v11.3q0 3.2 3.2 3.2h10.8M3.5 6.5h11.3q3.2 0 3.2 3.2v10.8"/>
+</svg>
+
+<text x="316.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Crop tool</text>
+<text x="316.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Tools</text>
+<rect x="418" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="481.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4.2 14.5 10.3-10.3q1.7-1.7 3.4 0l1.9 1.9q1.7 1.7 0 3.4L9.5 19.8q-1.7 1.7-3.4 0l-1.9-1.9q-1.7-1.7 0-3.4ZM12.5 6.5l2 2M9.5 9.5 11 11M6.5 12.5l2 2"/>
+</svg>
+
+<text x="505.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Measure tool</text>
+<text x="505.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Tools</text>
+<rect x="607" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="670.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 4.5H6.5q-2 0-2 2V7M10.5 4.5h3M17 4.5h.5q2 0 2 2V7M19.5 10.5v3M19.5 17v.5q0 2-2 2H17M13.5 19.5h-3M7 19.5h-.5q-2 0-2-2V17M4.5 13.5v-3"/>
+</svg>
+
+<text x="694.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Selection tool</text>
+<text x="694.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Tools</text>
+<rect x="796" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="859.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4.5 16.6 8.9-8.9q.9-.9 1.8 0l1.1 1.1q.9.9 0 1.8l-8.9 8.9q-.9.9-1.8 0l-1.1-1.1q-.9-.9 0-1.8ZM11 10l3 3"/><path d="M18.5 2.7q.4 1.5 2.3 2.3-1.9.8-2.3 2.3Q18.1 5.8 16.2 5q1.9-.8 2.3-2.3Z" fill="currentColor" stroke="none"/><path d="M7 3.5v3M5.5 5h3M19.5 14v3M18 15.5h3"/>
+</svg>
+
+<text x="883.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Magic wand tool</text>
+<text x="883.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Tools</text>
+<rect x="985" y="320" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="1048.5" y="344" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.5 3.5v17"/><path d="M9.8 5Q14.25 4.75 18.7 5Q20.5 5 20.5 6.8Q20.75 7.75 20.5 8.7Q20.5 10.5 18.7 10.5Q14.25 10.75 9.8 10.5Q8 10.5 8 8.7Q7.75 7.75 8 6.8Q8 5 9.8 5Z"/><path d="M9.8 14Q12.0 13.75 14.2 14Q16 14 16 15.8Q16.25 16.75 16 17.7Q16 19.5 14.2 19.5Q12.0 19.75 9.8 19.5Q8 19.5 8 17.7Q7.75 16.75 8 15.8Q8 14 9.8 14Z"/>
+</svg>
+
+<text x="1072.5" y="427" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Align left</text>
+<text x="1072.5" y="449" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Alignment</text>
+<rect x="40" y="484" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="103.5" y="508" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(24 0) scale(-1 1)"><path d="M3.5 3.5v17"/><path d="M9.8 5Q14.25 4.75 18.7 5Q20.5 5 20.5 6.8Q20.75 7.75 20.5 8.7Q20.5 10.5 18.7 10.5Q14.25 10.75 9.8 10.5Q8 10.5 8 8.7Q7.75 7.75 8 6.8Q8 5 9.8 5Z"/><path d="M9.8 14Q12.0 13.75 14.2 14Q16 14 16 15.8Q16.25 16.75 16 17.7Q16 19.5 14.2 19.5Q12.0 19.75 9.8 19.5Q8 19.5 8 17.7Q7.75 16.75 8 15.8Q8 14 9.8 14Z"/></g>
+</svg>
+
+<text x="127.5" y="591" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Align right</text>
+<text x="127.5" y="613" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Alignment</text>
+<rect x="229" y="484" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="292.5" y="508" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 12h2m5.5 0h3m5.5 0h2"/><path d="M7.4 4Q7.75 3.75 8.1 4Q10.5 4 10.5 6.4Q10.75 12.0 10.5 17.6Q10.5 20 8.1 20Q7.75 20.25 7.4 20Q5 20 5 17.6Q4.75 12.0 5 6.4Q5 4 7.4 4Z"/><path d="M15.9 7.5Q16.25 7.25 16.6 7.5Q19.0 7.5 19.0 9.9Q19.25 12.0 19.0 14.1Q19.0 16.5 16.6 16.5Q16.25 16.75 15.9 16.5Q13.5 16.5 13.5 14.1Q13.25 12.0 13.5 9.9Q13.5 7.5 15.9 7.5Z"/>
+</svg>
+
+<text x="316.5" y="591" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Align vertical center</text>
+<text x="316.5" y="613" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Alignment</text>
+<rect x="418" y="484" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="481.5" y="508" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><path d="M3.5 3.5v17"/><path d="M9.8 5Q14.25 4.75 18.7 5Q20.5 5 20.5 6.8Q20.75 7.75 20.5 8.7Q20.5 10.5 18.7 10.5Q14.25 10.75 9.8 10.5Q8 10.5 8 8.7Q7.75 7.75 8 6.8Q8 5 9.8 5Z"/><path d="M9.8 14Q12.0 13.75 14.2 14Q16 14 16 15.8Q16.25 16.75 16 17.7Q16 19.5 14.2 19.5Q12.0 19.75 9.8 19.5Q8 19.5 8 17.7Q7.75 16.75 8 15.8Q8 14 9.8 14Z"/></g>
+</svg>
+
+<text x="505.5" y="591" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Align top</text>
+<text x="505.5" y="613" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Alignment</text>
+<rect x="607" y="484" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="670.5" y="508" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><g transform="translate(24 0) scale(-1 1)"><path d="M3.5 3.5v17"/><path d="M9.8 5Q14.25 4.75 18.7 5Q20.5 5 20.5 6.8Q20.75 7.75 20.5 8.7Q20.5 10.5 18.7 10.5Q14.25 10.75 9.8 10.5Q8 10.5 8 8.7Q7.75 7.75 8 6.8Q8 5 9.8 5Z"/><path d="M9.8 14Q12.0 13.75 14.2 14Q16 14 16 15.8Q16.25 16.75 16 17.7Q16 19.5 14.2 19.5Q12.0 19.75 9.8 19.5Q8 19.5 8 17.7Q7.75 16.75 8 15.8Q8 14 9.8 14Z"/></g></g>
+</svg>
+
+<text x="694.5" y="591" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Align bottom</text>
+<text x="694.5" y="613" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Alignment</text>
+<rect x="796" y="484" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="859.5" y="508" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><path d="M3 12h2m5.5 0h3m5.5 0h2"/><path d="M7.4 4Q7.75 3.75 8.1 4Q10.5 4 10.5 6.4Q10.75 12.0 10.5 17.6Q10.5 20 8.1 20Q7.75 20.25 7.4 20Q5 20 5 17.6Q4.75 12.0 5 6.4Q5 4 7.4 4Z"/><path d="M15.9 7.5Q16.25 7.25 16.6 7.5Q19.0 7.5 19.0 9.9Q19.25 12.0 19.0 14.1Q19.0 16.5 16.6 16.5Q16.25 16.75 15.9 16.5Q13.5 16.5 13.5 14.1Q13.25 12.0 13.5 9.9Q13.5 7.5 15.9 7.5Z"/></g>
+</svg>
+
+<text x="883.5" y="591" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Align horizontal center</text>
+<text x="883.5" y="613" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Alignment</text>
+<rect x="985" y="484" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="1048.5" y="508" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="7" width="3.5" height="10" rx="1.75" fill="currentColor" stroke="none"/><rect x="10.25" y="4" width="3.5" height="16" rx="1.75" fill="currentColor" stroke="none"/><rect x="17.5" y="7" width="3.5" height="10" rx="1.75" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1072.5" y="591" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Distribute horizontally</text>
+<text x="1072.5" y="613" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Alignment</text>
+<rect x="40" y="648" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="103.5" y="672" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><rect x="3" y="7" width="3.5" height="10" rx="1.75" fill="currentColor" stroke="none"/><rect x="10.25" y="4" width="3.5" height="16" rx="1.75" fill="currentColor" stroke="none"/><rect x="17.5" y="7" width="3.5" height="10" rx="1.75" fill="currentColor" stroke="none"/></g>
+</svg>
+
+<text x="127.5" y="755" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Distribute vertically</text>
+<text x="127.5" y="777" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Alignment</text>
+<rect x="229" y="648" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="292.5" y="672" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 6q0-1.5 1.5-1.5h2Q9 4.5 9 6v7a3 3 0 0 0 6 0V6q0-1.5 1.5-1.5h2Q20 4.5 20 6v7a8 8 0 0 1-16 0ZM4 9h5m6 0h5"/>
+</svg>
+
+<text x="316.5" y="755" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Snap</text>
+<text x="316.5" y="777" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">View</text>
+<rect x="418" y="648" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="481.5" y="672" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6.5 3.5Q12.0 3.25 17.5 3.5Q20.5 3.5 20.5 6.5Q20.75 12.0 20.5 17.5Q20.5 20.5 17.5 20.5Q12.0 20.75 6.5 20.5Q3.5 20.5 3.5 17.5Q3.25 12.0 3.5 6.5Q3.5 3.5 6.5 3.5Z"/><path d="M9 3.5v17M15 3.5v17M3.5 9h17M3.5 15h17"/>
+</svg>
+
+<text x="505.5" y="755" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Grid</text>
+<text x="505.5" y="777" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">View</text>
+<rect x="607" y="648" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="670.5" y="672" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 8V5.5q0-2 2-2h6q2 0 2 2V8M7 17H6q-3 0-3-3v-3q0-3 3-3h12q3 0 3 3v3q0 3-3 3h-1"/><path d="M8.4 13.5Q12.0 13.25 15.6 13.5Q17 13.5 17 14.9Q17.25 17.0 17 19.1Q17 20.5 15.6 20.5Q12.0 20.75 8.4 20.5Q7 20.5 7 19.1Q6.75 17.0 7 14.9Q7 13.5 8.4 13.5Z"/><circle cx="17.5" cy="10.75" r=".8" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="694.5" y="755" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Print</text>
+<text x="694.5" y="777" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Output</text>
+<rect x="796" y="648" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="859.5" y="672" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20.5 10.5V7.8q0-3.3-3.3-3.3H6.8q-3.3 0-3.3 3.3v8.4q0 3.3 3.3 3.3H12M3.5 15.5l3.9-3.9q1.1-1.1 2.2 0l2.8 2.8q.7.7 1.4 0l.7-.7"/><circle cx="15.75" cy="8.75" r="1.1" fill="currentColor" stroke="none"/><path d="M16 14.8q0-1.1.9-.5l3.5 2.4q1 .8 0 1.6l-3.5 2.4q-.9.6-.9-.5Z"/>
+</svg>
+
+<text x="883.5" y="755" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Render</text>
+<text x="883.5" y="777" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Output</text>
+<rect x="985" y="648" width="175" height="150" rx="12" fill="#ffffff" stroke="#e0e3e8"/>
+<svg x="1048.5" y="672" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 13 17.5 4.5q1.5-1.5 2.5-.5t-.5 2.5L12 15M9 13l3 2M8.5 13.5q-3-1-3.5 2.5-.4 2-2 3 5.5 2 8-2 .8-1.7-2.5-3.5Z"/>
+</svg>
+
+<text x="1072.5" y="755" fill="#252931" font-size="11.5" font-weight="500" text-anchor="middle">Brush tool</text>
+<text x="1072.5" y="777" fill="#747a86" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<path d="M40 839h1120" stroke="#e0e3e8"/>
+<text x="40" y="866" fill="#747a86" font-size="11" font-weight="400" text-anchor="start">01–24 of 67 · Shown at 48 px</text>
+<text x="1160" y="866" fill="#747a86" font-size="11" font-weight="400" text-anchor="end">24 px / 2 px stroke</text>
+</svg>

@@ -1,0 +1,1610 @@
+{
+  "name": "GFX Rounded",
+  "version": "1.0.0",
+  "canvas": 24,
+  "strokeWidth": 2,
+  "icons": [
+    {
+      "id": "group",
+      "name": "Group",
+      "domain": "graphics",
+      "category": "Layers",
+      "tags": [
+        "layers",
+        "editor"
+      ],
+      "file": "icons/group.svg"
+    },
+    {
+      "id": "duplicate",
+      "name": "Duplicate",
+      "domain": "graphics",
+      "category": "Layers",
+      "tags": [
+        "layers",
+        "editor"
+      ],
+      "file": "icons/duplicate.svg"
+    },
+    {
+      "id": "plus",
+      "name": "Add / Plus",
+      "domain": "graphics",
+      "category": "Layers",
+      "tags": [
+        "layers",
+        "editor"
+      ],
+      "file": "icons/plus.svg"
+    },
+    {
+      "id": "color-correction",
+      "name": "Color correction",
+      "domain": "graphics",
+      "category": "Color",
+      "tags": [
+        "color",
+        "editor"
+      ],
+      "file": "icons/color-correction.svg"
+    },
+    {
+      "id": "color-swatch",
+      "name": "Color swatch",
+      "domain": "graphics",
+      "category": "Color",
+      "tags": [
+        "color",
+        "editor"
+      ],
+      "file": "icons/color-swatch.svg"
+    },
+    {
+      "id": "move-tool",
+      "name": "Move tool",
+      "domain": "graphics",
+      "category": "Tools",
+      "tags": [
+        "tools",
+        "editor"
+      ],
+      "file": "icons/move-tool.svg"
+    },
+    {
+      "id": "text-tool",
+      "name": "Text tool",
+      "domain": "graphics",
+      "category": "Tools",
+      "tags": [
+        "tools",
+        "editor"
+      ],
+      "file": "icons/text-tool.svg"
+    },
+    {
+      "id": "crop-tool",
+      "name": "Crop tool",
+      "domain": "graphics",
+      "category": "Tools",
+      "tags": [
+        "tools",
+        "editor"
+      ],
+      "file": "icons/crop-tool.svg"
+    },
+    {
+      "id": "measure-tool",
+      "name": "Measure tool",
+      "domain": "graphics",
+      "category": "Tools",
+      "tags": [
+        "tools",
+        "editor"
+      ],
+      "file": "icons/measure-tool.svg"
+    },
+    {
+      "id": "selection-tool",
+      "name": "Selection tool",
+      "domain": "graphics",
+      "category": "Tools",
+      "tags": [
+        "tools",
+        "editor"
+      ],
+      "file": "icons/selection-tool.svg"
+    },
+    {
+      "id": "magic-wand-tool",
+      "name": "Magic wand tool",
+      "domain": "graphics",
+      "category": "Tools",
+      "tags": [
+        "tools",
+        "editor"
+      ],
+      "file": "icons/magic-wand-tool.svg"
+    },
+    {
+      "id": "align-left",
+      "name": "Align left",
+      "domain": "graphics",
+      "category": "Alignment",
+      "tags": [
+        "alignment",
+        "editor"
+      ],
+      "file": "icons/align-left.svg"
+    },
+    {
+      "id": "align-right",
+      "name": "Align right",
+      "domain": "graphics",
+      "category": "Alignment",
+      "tags": [
+        "alignment",
+        "editor"
+      ],
+      "file": "icons/align-right.svg"
+    },
+    {
+      "id": "align-vertical-center",
+      "name": "Align vertical center",
+      "domain": "graphics",
+      "category": "Alignment",
+      "tags": [
+        "alignment",
+        "editor"
+      ],
+      "file": "icons/align-vertical-center.svg"
+    },
+    {
+      "id": "align-top",
+      "name": "Align top",
+      "domain": "graphics",
+      "category": "Alignment",
+      "tags": [
+        "alignment",
+        "editor"
+      ],
+      "file": "icons/align-top.svg"
+    },
+    {
+      "id": "align-bottom",
+      "name": "Align bottom",
+      "domain": "graphics",
+      "category": "Alignment",
+      "tags": [
+        "alignment",
+        "editor"
+      ],
+      "file": "icons/align-bottom.svg"
+    },
+    {
+      "id": "align-horizontal-center",
+      "name": "Align horizontal center",
+      "domain": "graphics",
+      "category": "Alignment",
+      "tags": [
+        "alignment",
+        "editor"
+      ],
+      "file": "icons/align-horizontal-center.svg"
+    },
+    {
+      "id": "distribute-horizontal",
+      "name": "Distribute horizontally",
+      "domain": "graphics",
+      "category": "Alignment",
+      "tags": [
+        "alignment",
+        "editor"
+      ],
+      "file": "icons/distribute-horizontal.svg"
+    },
+    {
+      "id": "distribute-vertical",
+      "name": "Distribute vertically",
+      "domain": "graphics",
+      "category": "Alignment",
+      "tags": [
+        "alignment",
+        "editor"
+      ],
+      "file": "icons/distribute-vertical.svg"
+    },
+    {
+      "id": "snap",
+      "name": "Snap",
+      "domain": "graphics",
+      "category": "View",
+      "tags": [
+        "view",
+        "editor"
+      ],
+      "file": "icons/snap.svg"
+    },
+    {
+      "id": "grid",
+      "name": "Grid",
+      "domain": "graphics",
+      "category": "View",
+      "tags": [
+        "view",
+        "editor"
+      ],
+      "file": "icons/grid.svg"
+    },
+    {
+      "id": "print",
+      "name": "Print",
+      "domain": "graphics",
+      "category": "Output",
+      "tags": [
+        "output",
+        "editor"
+      ],
+      "file": "icons/print.svg"
+    },
+    {
+      "id": "render",
+      "name": "Render",
+      "domain": "graphics",
+      "category": "Output",
+      "tags": [
+        "output",
+        "editor"
+      ],
+      "file": "icons/render.svg"
+    },
+    {
+      "id": "brush-tool",
+      "name": "Brush tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "paint",
+        "draw",
+        "paintbrush"
+      ],
+      "file": "icons/brush-tool.svg"
+    },
+    {
+      "id": "pencil-tool",
+      "name": "Pencil tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "draw",
+        "sketch"
+      ],
+      "file": "icons/pencil-tool.svg"
+    },
+    {
+      "id": "eraser-tool",
+      "name": "Eraser tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "erase",
+        "remove"
+      ],
+      "file": "icons/eraser-tool.svg"
+    },
+    {
+      "id": "pen-tool",
+      "name": "Pen tool",
+      "domain": "graphics",
+      "category": "Paths & shapes",
+      "tags": [
+        "bezier",
+        "vector",
+        "nib"
+      ],
+      "file": "icons/pen-tool.svg"
+    },
+    {
+      "id": "node-tool",
+      "name": "Node tool",
+      "domain": "graphics",
+      "category": "Paths & shapes",
+      "tags": [
+        "anchor",
+        "handles",
+        "bezier"
+      ],
+      "file": "icons/node-tool.svg"
+    },
+    {
+      "id": "eyedropper-tool",
+      "name": "Eyedropper tool",
+      "domain": "graphics",
+      "category": "Color",
+      "tags": [
+        "color picker",
+        "sample"
+      ],
+      "file": "icons/eyedropper-tool.svg"
+    },
+    {
+      "id": "fill-tool",
+      "name": "Fill tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "paint bucket",
+        "flood fill"
+      ],
+      "file": "icons/fill-tool.svg"
+    },
+    {
+      "id": "gradient-tool",
+      "name": "Gradient tool",
+      "domain": "graphics",
+      "category": "Color",
+      "tags": [
+        "blend",
+        "ramp"
+      ],
+      "file": "icons/gradient-tool.svg"
+    },
+    {
+      "id": "blur-tool",
+      "name": "Blur tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "soften",
+        "drop"
+      ],
+      "file": "icons/blur-tool.svg"
+    },
+    {
+      "id": "sharpen-tool",
+      "name": "Sharpen tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "detail",
+        "triangle"
+      ],
+      "file": "icons/sharpen-tool.svg"
+    },
+    {
+      "id": "smudge-tool",
+      "name": "Smudge tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "finger",
+        "blend"
+      ],
+      "file": "icons/smudge-tool.svg"
+    },
+    {
+      "id": "lasso-tool",
+      "name": "Lasso tool",
+      "domain": "graphics",
+      "category": "Selection",
+      "tags": [
+        "freehand",
+        "select"
+      ],
+      "file": "icons/lasso-tool.svg"
+    },
+    {
+      "id": "polygon-select-tool",
+      "name": "Polygon selection",
+      "domain": "graphics",
+      "category": "Selection",
+      "tags": [
+        "polygonal lasso"
+      ],
+      "file": "icons/polygon-select-tool.svg"
+    },
+    {
+      "id": "ellipse-select-tool",
+      "name": "Ellipse selection",
+      "domain": "graphics",
+      "category": "Selection",
+      "tags": [
+        "marquee",
+        "oval"
+      ],
+      "file": "icons/ellipse-select-tool.svg"
+    },
+    {
+      "id": "select-all",
+      "name": "Select all",
+      "domain": "graphics",
+      "category": "Selection",
+      "tags": [
+        "selection",
+        "everything"
+      ],
+      "file": "icons/select-all.svg"
+    },
+    {
+      "id": "deselect",
+      "name": "Deselect",
+      "domain": "graphics",
+      "category": "Selection",
+      "tags": [
+        "clear selection"
+      ],
+      "file": "icons/deselect.svg"
+    },
+    {
+      "id": "invert-selection",
+      "name": "Invert selection",
+      "domain": "graphics",
+      "category": "Selection",
+      "tags": [
+        "inverse",
+        "selection"
+      ],
+      "file": "icons/invert-selection.svg"
+    },
+    {
+      "id": "add-to-selection",
+      "name": "Add to selection",
+      "domain": "graphics",
+      "category": "Selection",
+      "tags": [
+        "union",
+        "selection"
+      ],
+      "file": "icons/add-to-selection.svg"
+    },
+    {
+      "id": "subtract-from-selection",
+      "name": "Subtract from selection",
+      "domain": "graphics",
+      "category": "Selection",
+      "tags": [
+        "remove",
+        "selection"
+      ],
+      "file": "icons/subtract-from-selection.svg"
+    },
+    {
+      "id": "rectangle-tool",
+      "name": "Rectangle tool",
+      "domain": "graphics",
+      "category": "Paths & shapes",
+      "tags": [
+        "shape",
+        "box"
+      ],
+      "file": "icons/rectangle-tool.svg"
+    },
+    {
+      "id": "ellipse-tool",
+      "name": "Ellipse tool",
+      "domain": "graphics",
+      "category": "Paths & shapes",
+      "tags": [
+        "shape",
+        "oval",
+        "circle"
+      ],
+      "file": "icons/ellipse-tool.svg"
+    },
+    {
+      "id": "line-tool",
+      "name": "Line tool",
+      "domain": "graphics",
+      "category": "Paths & shapes",
+      "tags": [
+        "segment",
+        "stroke"
+      ],
+      "file": "icons/line-tool.svg"
+    },
+    {
+      "id": "path-tool",
+      "name": "Path tool",
+      "domain": "graphics",
+      "category": "Paths & shapes",
+      "tags": [
+        "curve",
+        "vector"
+      ],
+      "file": "icons/path-tool.svg"
+    },
+    {
+      "id": "rotate-tool",
+      "name": "Rotate tool",
+      "domain": "graphics",
+      "category": "Transform",
+      "tags": [
+        "rotation"
+      ],
+      "file": "icons/rotate-tool.svg"
+    },
+    {
+      "id": "scale-tool",
+      "name": "Scale tool",
+      "domain": "graphics",
+      "category": "Transform",
+      "tags": [
+        "resize",
+        "enlarge"
+      ],
+      "file": "icons/scale-tool.svg"
+    },
+    {
+      "id": "flip-horizontal",
+      "name": "Flip horizontal",
+      "domain": "graphics",
+      "category": "Transform",
+      "tags": [
+        "mirror",
+        "reflect"
+      ],
+      "file": "icons/flip-horizontal.svg"
+    },
+    {
+      "id": "flip-vertical",
+      "name": "Flip vertical",
+      "domain": "graphics",
+      "category": "Transform",
+      "tags": [
+        "mirror",
+        "reflect"
+      ],
+      "file": "icons/flip-vertical.svg"
+    },
+    {
+      "id": "layer",
+      "name": "Layer",
+      "domain": "graphics",
+      "category": "Layers",
+      "tags": [
+        "stack",
+        "object"
+      ],
+      "file": "icons/layer.svg"
+    },
+    {
+      "id": "layer-mask",
+      "name": "Layer mask",
+      "domain": "graphics",
+      "category": "Layers",
+      "tags": [
+        "mask",
+        "alpha"
+      ],
+      "file": "icons/layer-mask.svg"
+    },
+    {
+      "id": "merge-layers",
+      "name": "Merge layers",
+      "domain": "graphics",
+      "category": "Layers",
+      "tags": [
+        "flatten",
+        "combine"
+      ],
+      "file": "icons/merge-layers.svg"
+    },
+    {
+      "id": "bring-forward",
+      "name": "Bring forward",
+      "domain": "graphics",
+      "category": "Layers",
+      "tags": [
+        "arrange",
+        "raise"
+      ],
+      "file": "icons/bring-forward.svg"
+    },
+    {
+      "id": "send-backward",
+      "name": "Send backward",
+      "domain": "graphics",
+      "category": "Layers",
+      "tags": [
+        "arrange",
+        "lower"
+      ],
+      "file": "icons/send-backward.svg"
+    },
+    {
+      "id": "lock",
+      "name": "Lock",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "protect"
+      ],
+      "file": "icons/lock.svg"
+    },
+    {
+      "id": "unlock",
+      "name": "Unlock",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "unprotect"
+      ],
+      "file": "icons/unlock.svg"
+    },
+    {
+      "id": "visible",
+      "name": "Visible",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "eye",
+        "show"
+      ],
+      "file": "icons/visible.svg"
+    },
+    {
+      "id": "hidden",
+      "name": "Hidden",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "eye off",
+        "hide"
+      ],
+      "file": "icons/hidden.svg"
+    },
+    {
+      "id": "undo",
+      "name": "Undo",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "history",
+        "back"
+      ],
+      "file": "icons/undo.svg"
+    },
+    {
+      "id": "redo",
+      "name": "Redo",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "history",
+        "forward"
+      ],
+      "file": "icons/redo.svg"
+    },
+    {
+      "id": "save",
+      "name": "Save",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "disk",
+        "write"
+      ],
+      "file": "icons/save.svg"
+    },
+    {
+      "id": "import",
+      "name": "Import",
+      "domain": "graphics",
+      "category": "Output",
+      "tags": [
+        "download",
+        "open",
+        "inbound"
+      ],
+      "file": "icons/import.svg"
+    },
+    {
+      "id": "export",
+      "name": "Export",
+      "domain": "graphics",
+      "category": "Output",
+      "tags": [
+        "upload",
+        "share",
+        "outbound"
+      ],
+      "file": "icons/export.svg"
+    },
+    {
+      "id": "zoom-in",
+      "name": "Zoom in",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "magnify"
+      ],
+      "file": "icons/zoom-in.svg"
+    },
+    {
+      "id": "zoom-out",
+      "name": "Zoom out",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "magnify"
+      ],
+      "file": "icons/zoom-out.svg"
+    },
+    {
+      "id": "pan-tool",
+      "name": "Pan tool",
+      "domain": "graphics",
+      "category": "Document & view",
+      "tags": [
+        "hand",
+        "canvas"
+      ],
+      "file": "icons/pan-tool.svg"
+    },
+    {
+      "id": "cube",
+      "name": "Cube",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "box",
+        "primitive"
+      ],
+      "file": "icons/cube.svg"
+    },
+    {
+      "id": "sphere",
+      "name": "Sphere",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "ball",
+        "primitive"
+      ],
+      "file": "icons/sphere.svg"
+    },
+    {
+      "id": "cylinder",
+      "name": "Cylinder",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "tube",
+        "primitive"
+      ],
+      "file": "icons/cylinder.svg"
+    },
+    {
+      "id": "cone",
+      "name": "Cone",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "primitive"
+      ],
+      "file": "icons/cone.svg"
+    },
+    {
+      "id": "torus",
+      "name": "Torus",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "donut",
+        "ring",
+        "primitive"
+      ],
+      "file": "icons/torus.svg"
+    },
+    {
+      "id": "plane",
+      "name": "Plane",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "surface",
+        "quad",
+        "primitive"
+      ],
+      "file": "icons/plane.svg"
+    },
+    {
+      "id": "vertex-select",
+      "name": "Vertex selection",
+      "domain": "3d",
+      "category": "Mesh selection",
+      "tags": [
+        "point",
+        "component"
+      ],
+      "file": "icons/vertex-select.svg"
+    },
+    {
+      "id": "edge-select",
+      "name": "Edge selection",
+      "domain": "3d",
+      "category": "Mesh selection",
+      "tags": [
+        "component",
+        "line"
+      ],
+      "file": "icons/edge-select.svg"
+    },
+    {
+      "id": "face-select",
+      "name": "Face selection",
+      "domain": "3d",
+      "category": "Mesh selection",
+      "tags": [
+        "polygon",
+        "component"
+      ],
+      "file": "icons/face-select.svg"
+    },
+    {
+      "id": "extrude",
+      "name": "Extrude",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "push",
+        "pull",
+        "mesh"
+      ],
+      "file": "icons/extrude.svg"
+    },
+    {
+      "id": "inset",
+      "name": "Inset",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "face",
+        "offset"
+      ],
+      "file": "icons/inset.svg"
+    },
+    {
+      "id": "bevel",
+      "name": "Bevel",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "chamfer",
+        "round edge"
+      ],
+      "file": "icons/bevel.svg"
+    },
+    {
+      "id": "loop-cut",
+      "name": "Loop cut",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "edge loop",
+        "cut"
+      ],
+      "file": "icons/loop-cut.svg"
+    },
+    {
+      "id": "subdivide",
+      "name": "Subdivide",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "quad",
+        "subdivision"
+      ],
+      "file": "icons/subdivide.svg"
+    },
+    {
+      "id": "merge-vertices",
+      "name": "Merge vertices",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "weld",
+        "collapse"
+      ],
+      "file": "icons/merge-vertices.svg"
+    },
+    {
+      "id": "mesh",
+      "name": "Mesh",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "topology",
+        "geometry"
+      ],
+      "file": "icons/mesh.svg"
+    },
+    {
+      "id": "sculpt-tool",
+      "name": "Sculpt tool",
+      "domain": "3d",
+      "category": "Sculpting",
+      "tags": [
+        "clay",
+        "brush"
+      ],
+      "file": "icons/sculpt-tool.svg"
+    },
+    {
+      "id": "smooth-tool",
+      "name": "Smooth tool",
+      "domain": "3d",
+      "category": "Sculpting",
+      "tags": [
+        "relax",
+        "surface",
+        "polish"
+      ],
+      "file": "icons/smooth-tool.svg"
+    },
+    {
+      "id": "orbit-tool",
+      "name": "Orbit tool",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "turntable",
+        "rotate view"
+      ],
+      "file": "icons/orbit-tool.svg"
+    },
+    {
+      "id": "perspective",
+      "name": "Perspective",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "projection",
+        "depth"
+      ],
+      "file": "icons/perspective.svg"
+    },
+    {
+      "id": "orthographic",
+      "name": "Orthographic",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "projection",
+        "parallel"
+      ],
+      "file": "icons/orthographic.svg"
+    },
+    {
+      "id": "wireframe",
+      "name": "Wireframe",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "display",
+        "edges"
+      ],
+      "file": "icons/wireframe.svg"
+    },
+    {
+      "id": "solid-view",
+      "name": "Solid view",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "shaded",
+        "display"
+      ],
+      "file": "icons/solid-view.svg"
+    },
+    {
+      "id": "material",
+      "name": "Material",
+      "domain": "3d",
+      "category": "Shading",
+      "tags": [
+        "shader",
+        "surface"
+      ],
+      "file": "icons/material.svg"
+    },
+    {
+      "id": "texture",
+      "name": "Texture",
+      "domain": "3d",
+      "category": "Shading",
+      "tags": [
+        "checker",
+        "uv",
+        "image map"
+      ],
+      "file": "icons/texture.svg"
+    },
+    {
+      "id": "camera",
+      "name": "Camera",
+      "domain": "3d",
+      "category": "Scene",
+      "tags": [
+        "view",
+        "lens"
+      ],
+      "file": "icons/camera.svg"
+    },
+    {
+      "id": "light-point",
+      "name": "Point light",
+      "domain": "3d",
+      "category": "Scene",
+      "tags": [
+        "bulb",
+        "lamp"
+      ],
+      "file": "icons/light-point.svg"
+    },
+    {
+      "id": "light-sun",
+      "name": "Sun light",
+      "domain": "3d",
+      "category": "Scene",
+      "tags": [
+        "directional",
+        "daylight"
+      ],
+      "file": "icons/light-sun.svg"
+    },
+    {
+      "id": "light-spot",
+      "name": "Spot light",
+      "domain": "3d",
+      "category": "Scene",
+      "tags": [
+        "cone",
+        "lamp"
+      ],
+      "file": "icons/light-spot.svg"
+    },
+    {
+      "id": "transform-gizmo",
+      "name": "Transform gizmo",
+      "domain": "3d",
+      "category": "Transform & modifiers",
+      "tags": [
+        "axes",
+        "xyz",
+        "manipulator"
+      ],
+      "file": "icons/transform-gizmo.svg"
+    },
+    {
+      "id": "pivot",
+      "name": "Pivot",
+      "domain": "3d",
+      "category": "Transform & modifiers",
+      "tags": [
+        "origin",
+        "center"
+      ],
+      "file": "icons/pivot.svg"
+    },
+    {
+      "id": "boolean-union",
+      "name": "Boolean union",
+      "domain": "3d",
+      "category": "Transform & modifiers",
+      "tags": [
+        "combine",
+        "csg"
+      ],
+      "file": "icons/boolean-union.svg"
+    },
+    {
+      "id": "boolean-subtract",
+      "name": "Boolean subtract",
+      "domain": "3d",
+      "category": "Transform & modifiers",
+      "tags": [
+        "difference",
+        "csg",
+        "cut"
+      ],
+      "file": "icons/boolean-subtract.svg"
+    },
+    {
+      "id": "boolean-intersect",
+      "name": "Boolean intersect",
+      "domain": "3d",
+      "category": "Transform & modifiers",
+      "tags": [
+        "overlap",
+        "csg"
+      ],
+      "file": "icons/boolean-intersect.svg"
+    },
+    {
+      "id": "mirror-modifier",
+      "name": "Mirror modifier",
+      "domain": "3d",
+      "category": "Transform & modifiers",
+      "tags": [
+        "symmetry"
+      ],
+      "file": "icons/mirror-modifier.svg"
+    },
+    {
+      "id": "array-modifier",
+      "name": "Array modifier",
+      "domain": "3d",
+      "category": "Transform & modifiers",
+      "tags": [
+        "repeat",
+        "instances"
+      ],
+      "file": "icons/array-modifier.svg"
+    },
+    {
+      "id": "rig",
+      "name": "Rig",
+      "domain": "3d",
+      "category": "Animation",
+      "tags": [
+        "skeleton",
+        "bones",
+        "armature"
+      ],
+      "file": "icons/rig.svg"
+    },
+    {
+      "id": "animation",
+      "name": "Animation",
+      "domain": "3d",
+      "category": "Animation",
+      "tags": [
+        "motion",
+        "playback"
+      ],
+      "file": "icons/animation.svg"
+    },
+    {
+      "id": "keyframe",
+      "name": "Keyframe",
+      "domain": "3d",
+      "category": "Animation",
+      "tags": [
+        "diamond",
+        "key",
+        "pose"
+      ],
+      "file": "icons/keyframe.svg"
+    },
+    {
+      "id": "timeline",
+      "name": "Timeline",
+      "domain": "3d",
+      "category": "Animation",
+      "tags": [
+        "tracks",
+        "frames"
+      ],
+      "file": "icons/timeline.svg"
+    },
+    {
+      "id": "file",
+      "name": "File",
+      "domain": "code",
+      "category": "Files & navigation",
+      "tags": [
+        "document"
+      ],
+      "file": "icons/file.svg"
+    },
+    {
+      "id": "file-code",
+      "name": "Code file",
+      "domain": "code",
+      "category": "Files & navigation",
+      "tags": [
+        "source",
+        "script"
+      ],
+      "file": "icons/file-code.svg"
+    },
+    {
+      "id": "file-new",
+      "name": "New file",
+      "domain": "code",
+      "category": "Files & navigation",
+      "tags": [
+        "create",
+        "document"
+      ],
+      "file": "icons/file-new.svg"
+    },
+    {
+      "id": "folder-open",
+      "name": "Open folder",
+      "domain": "code",
+      "category": "Files & navigation",
+      "tags": [
+        "directory",
+        "workspace"
+      ],
+      "file": "icons/folder-open.svg"
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal",
+      "domain": "code",
+      "category": "Editing",
+      "tags": [
+        "shell",
+        "console",
+        "cli"
+      ],
+      "file": "icons/terminal.svg"
+    },
+    {
+      "id": "code",
+      "name": "Code",
+      "domain": "code",
+      "category": "Editing",
+      "tags": [
+        "source",
+        "markup",
+        "brackets"
+      ],
+      "file": "icons/code.svg"
+    },
+    {
+      "id": "braces",
+      "name": "Braces",
+      "domain": "code",
+      "category": "Editing",
+      "tags": [
+        "block",
+        "json",
+        "curly"
+      ],
+      "file": "icons/braces.svg"
+    },
+    {
+      "id": "comment",
+      "name": "Comment",
+      "domain": "code",
+      "category": "Editing",
+      "tags": [
+        "message",
+        "annotation"
+      ],
+      "file": "icons/comment.svg"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "domain": "code",
+      "category": "Search",
+      "tags": [
+        "find",
+        "magnifier"
+      ],
+      "file": "icons/search.svg"
+    },
+    {
+      "id": "replace",
+      "name": "Replace",
+      "domain": "code",
+      "category": "Search",
+      "tags": [
+        "substitute",
+        "swap"
+      ],
+      "file": "icons/replace.svg"
+    },
+    {
+      "id": "find-in-files",
+      "name": "Find in files",
+      "domain": "code",
+      "category": "Search",
+      "tags": [
+        "workspace search",
+        "project"
+      ],
+      "file": "icons/find-in-files.svg"
+    },
+    {
+      "id": "regex",
+      "name": "Regular expression",
+      "domain": "code",
+      "category": "Search",
+      "tags": [
+        "pattern",
+        "regexp",
+        "wildcard"
+      ],
+      "file": "icons/regex.svg"
+    },
+    {
+      "id": "case-sensitive",
+      "name": "Case sensitive",
+      "domain": "code",
+      "category": "Search",
+      "tags": [
+        "match case",
+        "Aa"
+      ],
+      "file": "icons/case-sensitive.svg"
+    },
+    {
+      "id": "indent",
+      "name": "Indent",
+      "domain": "code",
+      "category": "Editing",
+      "tags": [
+        "tab",
+        "increase indent"
+      ],
+      "file": "icons/indent.svg"
+    },
+    {
+      "id": "outdent",
+      "name": "Outdent",
+      "domain": "code",
+      "category": "Editing",
+      "tags": [
+        "unindent",
+        "decrease indent"
+      ],
+      "file": "icons/outdent.svg"
+    },
+    {
+      "id": "format-code",
+      "name": "Format code",
+      "domain": "code",
+      "category": "Editing",
+      "tags": [
+        "beautify",
+        "prettify",
+        "indentation"
+      ],
+      "file": "icons/format-code.svg"
+    },
+    {
+      "id": "autocomplete",
+      "name": "Autocomplete",
+      "domain": "code",
+      "category": "Editing",
+      "tags": [
+        "suggestion",
+        "completion",
+        "intellisense"
+      ],
+      "file": "icons/autocomplete.svg"
+    },
+    {
+      "id": "bug",
+      "name": "Bug",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "debug",
+        "insect"
+      ],
+      "file": "icons/bug.svg"
+    },
+    {
+      "id": "breakpoint",
+      "name": "Breakpoint",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "debug",
+        "stop point"
+      ],
+      "file": "icons/breakpoint.svg"
+    },
+    {
+      "id": "run",
+      "name": "Run",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "play",
+        "execute",
+        "start"
+      ],
+      "file": "icons/run.svg"
+    },
+    {
+      "id": "pause",
+      "name": "Pause",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "suspend"
+      ],
+      "file": "icons/pause.svg"
+    },
+    {
+      "id": "stop",
+      "name": "Stop",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "terminate",
+        "halt"
+      ],
+      "file": "icons/stop.svg"
+    },
+    {
+      "id": "step-over",
+      "name": "Step over",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "debug",
+        "next"
+      ],
+      "file": "icons/step-over.svg"
+    },
+    {
+      "id": "step-into",
+      "name": "Step into",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "debug",
+        "enter"
+      ],
+      "file": "icons/step-into.svg"
+    },
+    {
+      "id": "step-out",
+      "name": "Step out",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "debug",
+        "return"
+      ],
+      "file": "icons/step-out.svg"
+    },
+    {
+      "id": "restart",
+      "name": "Restart",
+      "domain": "code",
+      "category": "Debugging",
+      "tags": [
+        "reload",
+        "relaunch"
+      ],
+      "file": "icons/restart.svg"
+    },
+    {
+      "id": "git-branch",
+      "name": "Git branch",
+      "domain": "code",
+      "category": "Version control",
+      "tags": [
+        "fork",
+        "source control"
+      ],
+      "file": "icons/git-branch.svg"
+    },
+    {
+      "id": "git-commit",
+      "name": "Git commit",
+      "domain": "code",
+      "category": "Version control",
+      "tags": [
+        "revision",
+        "snapshot"
+      ],
+      "file": "icons/git-commit.svg"
+    },
+    {
+      "id": "git-merge",
+      "name": "Git merge",
+      "domain": "code",
+      "category": "Version control",
+      "tags": [
+        "integrate",
+        "source control"
+      ],
+      "file": "icons/git-merge.svg"
+    },
+    {
+      "id": "pull-request",
+      "name": "Pull request",
+      "domain": "code",
+      "category": "Version control",
+      "tags": [
+        "merge request",
+        "review",
+        "PR"
+      ],
+      "file": "icons/pull-request.svg"
+    },
+    {
+      "id": "diff",
+      "name": "Diff",
+      "domain": "code",
+      "category": "Version control",
+      "tags": [
+        "compare",
+        "changes",
+        "patch"
+      ],
+      "file": "icons/diff.svg"
+    },
+    {
+      "id": "package",
+      "name": "Package",
+      "domain": "code",
+      "category": "Workspace",
+      "tags": [
+        "dependency",
+        "module",
+        "build"
+      ],
+      "file": "icons/package.svg"
+    },
+    {
+      "id": "extensions",
+      "name": "Extensions",
+      "domain": "code",
+      "category": "Workspace",
+      "tags": [
+        "plugin",
+        "addon",
+        "puzzle"
+      ],
+      "file": "icons/extensions.svg"
+    },
+    {
+      "id": "settings",
+      "name": "Settings",
+      "domain": "code",
+      "category": "Workspace",
+      "tags": [
+        "preferences",
+        "gear",
+        "configuration"
+      ],
+      "file": "icons/settings.svg"
+    },
+    {
+      "id": "split-editor",
+      "name": "Split editor",
+      "domain": "code",
+      "category": "Workspace",
+      "tags": [
+        "panes",
+        "layout"
+      ],
+      "file": "icons/split-editor.svg"
+    },
+    {
+      "id": "minimap",
+      "name": "Minimap",
+      "domain": "code",
+      "category": "Workspace",
+      "tags": [
+        "overview",
+        "navigation"
+      ],
+      "file": "icons/minimap.svg"
+    },
+    {
+      "id": "command-palette",
+      "name": "Command palette",
+      "domain": "code",
+      "category": "Workspace",
+      "tags": [
+        "quick command",
+        "launcher",
+        "actions"
+      ],
+      "file": "icons/command-palette.svg"
+    }
+  ]
+}
