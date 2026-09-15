@@ -28,3 +28,20 @@ Source SVGs are in [`rounded/icons/`](rounded/icons). They are the editable
 originals; the sprite, catalog, and previews are rebuilt from them with
 `python3 rounded/scripts/build_previews.py`, which uses only the Python
 standard library.
+
+## License
+
+Copyright © 2026 Dy Mokomi.
+
+These assets are licensed under the
+[Creative Commons Attribution 4.0 International License](LICENSE). You may
+share and adapt them for any purpose, including commercially, as long as you
+give appropriate credit, link to the license, and say whether you made
+changes.
+
+Suggested credit:
+
+```text
+Rounded icons by Dy Mokomi (https://github.com/dymokomi/luciaos-assets),
+licensed under CC BY 4.0.
+```
