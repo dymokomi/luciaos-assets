@@ -1,33 +1,62 @@
 # LuciaOS Assets
 
-Shared visual assets for LuciaOS and its tools.
+The shared asset library for LuciaOS and related projects.
 
 ## Rounded icons
 
-**144 editable SVG icons** for graphics editing, 3D applications, and code editors.
+**157 editable SVG icons**, organized into thematic folders. Every icon uses a
+24 × 24 canvas, a 2 px base stroke, transparent background, and `currentColor`.
 
-![Rounded icon preview](rounded/preview.png)
+| Collection | Icons | Location |
+| --- | ---: | --- |
+| Common controls | 45 | [`rounded/icons/common/`](rounded/icons/common/) |
+| Graphics editing | 43 | [`rounded/icons/graphics/`](rounded/icons/graphics/) |
+| 3D tools | 40 | [`rounded/icons/3d/`](rounded/icons/3d/) |
+| Code editing | 29 | [`rounded/icons/code/`](rounded/icons/code/) |
 
-| Domain | Count |
-| --- | ---: |
-| Graphics & shared controls | 67 |
-| 3D tools | 40 |
-| Code editor | 37 |
+Each collection has functional subfolders such as `files`, `painting`,
+`primitives`, or `debugging`. Shared controls live in `common/` so applications
+can reuse the same assets.
 
-Every icon is a standalone SVG on a 24 × 24 canvas with a 2 px stroke, a
-transparent background, and `currentColor`, so it inherits the surrounding CSS
-color. The set also ships a symbol sprite, metadata with search keywords,
-light and dark preview sheets, and actual-size samples.
+## Complete preview sheets
 
-- [Usage, design notes, and rebuild instructions](rounded/README.md)
+Both sheets contain **all 157 icons**, with names and categories:
+
+- **White:** [PNG](rounded/previews/all-white.png) · [SVG](rounded/previews/all-white.svg)
+- **Dark:** [PNG](rounded/previews/all-dark.png) · [SVG](rounded/previews/all-dark.svg)
+
+The PNGs are 1600 × 3204 px; the SVG sheets can be scaled freely.
+
+![All rounded icons on white](rounded/previews/all-white.png)
+
+## Browse and use
+
+- [Searchable catalog](rounded/catalog.html) — offline search, collection/theme filters, copy, and download
 - [Full icon index](rounded/ICONS.md)
-- [Searchable catalog](rounded/catalog.html) — open it locally; it has no network dependencies
-- [Metadata](rounded/catalog.json) — stable IDs, names, domains, categories, keywords
+- [Usage and design notes](rounded/README.md)
+- [Metadata](rounded/catalog.json) — the source of truth for names, paths, IDs, and keywords
+- [Symbol sprite](rounded/sprite.svg) — existing symbol IDs remain unchanged
 
-Source SVGs are in [`rounded/icons/`](rounded/icons). They are the editable
-originals; the sprite, catalog, and previews are rebuilt from them with
-`python3 rounded/scripts/build_previews.py`, which uses only the Python
-standard library.
+Icons now live under `rounded/icons/<collection>/<theme>/`. Filenames and SVG
+artwork are unchanged. For existing direct imports, use the [old-to-new path
+map](rounded/path-migrations.json).
+
+## Rebuild
+
+From the repository root:
+
+```sh
+python3 rounded/scripts/build_previews.py
+```
+
+This uses Python's standard library to rebuild the sprite, searchable catalog,
+icon index, and both full SVG sheets from the source SVGs and `catalog.json`.
+
+To export the PNG sheets on macOS, using the built-in Quick Look and `sips`:
+
+```sh
+python3 rounded/scripts/render_previews.py
+```
 
 ## License
 

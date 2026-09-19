@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GFX Rounded — Icon library</title>
+<title>LuciaOS Assets — Rounded icons</title>
 <style>
-:root { color-scheme: light; --bg:#f4f5f7; --card:#fff; --ink:#252931; --muted:#707785; --line:#dce0e6; --accent:#5454cf; --soft:#ededff; --size:32px; }
+:root { color-scheme: light; --bg:#fff; --card:#fff; --ink:#252931; --muted:#707785; --line:#dce0e6; --accent:#5454cf; --soft:#ededff; --size:32px; }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
 body.dark { color-scheme:dark; --bg:#181a1e; --card:#24272d; --ink:#f0f1f3; --muted:#a3a9b5; --line:#393e47; --accent:#b3adff; --soft:#34314c; }
@@ -54,12 +54,12 @@ textarea { width:100%; height:170px; border:1px solid var(--line); background:va
 </head>
 <body>
 <main class="shell">
-<header><div><div class="eyebrow">GFX / ROUNDED LIBRARY</div><h1>A toolkit for making things.</h1><p id="summary">Graphics, 3D, and code. One consistent visual language.</p></div><div class="top-actions"><a class="control" href="sprite.svg" download>Download sprite</a><button class="control" id="theme" type="button" aria-pressed="false">Dark theme</button></div></header>
-<div class="bar"><label class="sr" for="search">Search icons by name or keyword</label><input class="search" id="search" type="search" placeholder="Search icons — brush, extrude, Git…" autocomplete="off"><label for="size">Preview size</label><select class="control" id="size"><option value="24">24 px</option><option value="32" selected>32 px</option><option value="48">48 px</option></select></div>
-<nav class="filters" aria-label="Icon domain"><button class="filter" data-domain="all" aria-pressed="true">All icons</button><button class="filter" data-domain="graphics" aria-pressed="false">Graphics & shared</button><button class="filter" data-domain="3d" aria-pressed="false">3D tools</button><button class="filter" data-domain="code" aria-pressed="false">Code editor</button></nav>
+<header><div><div class="eyebrow">LUCIAOS / ASSET LIBRARY</div><h1>Rounded icons for every project.</h1><p id="summary">Shared controls, graphics, 3D, and code.</p></div><div class="top-actions"><a class="control" href="sprite.svg" download>Download sprite</a><button class="control" id="theme" type="button" aria-pressed="false">Dark theme</button></div></header>
+<div class="bar"><label class="sr" for="search">Search icons by name or keyword</label><input class="search" id="search" type="search" placeholder="Search icons — brush, extrude, Git…" autocomplete="off"><label for="category">Theme</label><select class="control" id="category"><option value="all">All themes</option></select><label for="size">Preview size</label><select class="control" id="size"><option value="24">24 px</option><option value="32" selected>32 px</option><option value="48">48 px</option></select></div>
+<nav class="filters" id="domains" aria-label="Icon collection"></nav>
 <div class="result-line"><span id="count" aria-live="polite"></span><span>24 × 24 canvas · 2 px strokes · Click an icon to copy or download</span></div>
 <section class="grid" id="icons" aria-label="Icon library"></section><p class="empty" id="empty" hidden>No icons match. Try another word or choose All icons.</p>
-<footer>Original SVG paths. Theme-aware with currentColor. All files work without an internet connection. <a href="README.md">Usage notes</a></footer>
+<footer>Complete sheets: <a href="previews/all-white.svg">White</a> · <a href="previews/all-dark.svg">Dark</a>. All files work offline. <a href="README.md">Usage notes</a> · Icons by Dy Mokomi, <a href="../LICENSE">CC BY 4.0</a>.</footer>
 </main>
 <dialog id="detail" aria-labelledby="detail-name"><div class="dialog-top"><div><h2 id="detail-name"></h2><p class="filename" id="detail-file"></p></div><form method="dialog"><button class="control" aria-label="Close icon details">Close</button></form></div><div class="hero-icon" id="detail-art" aria-hidden="true"></div><label class="sr" for="source">SVG source</label><textarea id="source" readonly spellcheck="false"></textarea><div class="dialog-actions"><button class="control primary" id="copy" type="button">Copy SVG</button><button class="control" id="download" type="button">Download SVG</button></div><span id="copy-status" role="status"></span></dialog>
 <script>
@@ -69,15 +69,16 @@ const grid = document.getElementById('icons');
 const search = document.getElementById('search');
 const detail = document.getElementById('detail');
 let domain = 'all';
+let category = 'all';
 let selected = null;
 const escapeHTML = value => value.replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-function matches(icon, query, selectedDomain) {
+function matches(icon, query, selectedDomain, selectedCategory = 'all') {
   const words = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
-  const haystack = [icon.id, icon.name, icon.domain, icon.category, ...icon.tags].join(' ').toLowerCase();
-  return (selectedDomain === 'all' || icon.domain === selectedDomain) && words.every(word => haystack.includes(word));
+  const haystack = [icon.id, icon.name, icon.domain, icon.category, icon.categoryId, icon.file, ...icon.tags].join(' ').toLowerCase();
+  return (selectedDomain === 'all' || icon.domain === selectedDomain) && (selectedCategory === 'all' || icon.category === selectedCategory) && words.every(word => haystack.includes(word));
 }
 function render() {
-  const visible = icons.filter(icon => matches(icon, search.value, domain));
+  const visible = icons.filter(icon => matches(icon, search.value, domain, category));
   grid.innerHTML = visible.map(icon => `<button class="tile" type="button" data-id="${escapeHTML(icon.id)}" aria-label="${escapeHTML(icon.name)}: view SVG"><span class="art" aria-hidden="true">${icon.svg}</span><span><strong>${escapeHTML(icon.name)}</strong><small>${escapeHTML(icon.category)}</small></span></button>`).join('');
   document.getElementById('count').textContent = `${visible.length} of ${icons.length} icons`;
   document.getElementById('empty').hidden = visible.length !== 0;
@@ -94,11 +95,20 @@ function showIcon(id) {
 }
 grid.addEventListener('click', event => { const card = event.target.closest('[data-id]'); if (card) showIcon(card.dataset.id); });
 search.addEventListener('input', render);
+document.getElementById('domains').innerHTML = [{id:'all', name:'All icons'}, ...library.collections].map(collection => `<button class="filter" type="button" data-domain="${escapeHTML(collection.id)}" aria-pressed="${collection.id === 'all'}">${escapeHTML(collection.name)} <span>(${icons.filter(icon => collection.id === 'all' || icon.domain === collection.id).length})</span></button>`).join('');
+function updateCategories() {
+  const categories = [...new Set(icons.filter(icon => domain === 'all' || icon.domain === domain).map(icon => icon.category))];
+  if (!categories.includes(category)) category = 'all';
+  document.getElementById('category').innerHTML = '<option value="all">All themes</option>' + categories.map(value => `<option value="${escapeHTML(value)}">${escapeHTML(value)}</option>`).join('');
+  document.getElementById('category').value = category;
+}
 document.querySelectorAll('[data-domain]').forEach(button => button.addEventListener('click', () => {
   domain = button.dataset.domain;
   document.querySelectorAll('[data-domain]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+  updateCategories();
   render();
 }));
+document.getElementById('category').addEventListener('change', event => { category = event.target.value; render(); });
 document.getElementById('size').addEventListener('change', event => document.documentElement.style.setProperty('--size', event.target.value + 'px'));
 document.getElementById('theme').addEventListener('click', event => {
   const dark = document.body.classList.toggle('dark');
@@ -117,7 +127,8 @@ document.getElementById('download').addEventListener('click', () => {
   const link = document.createElement('a'); link.href = url; link.download = selected.id + '.svg';
   document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
 });
-document.getElementById('summary').textContent = `${icons.length} SVG icons for graphics, 3D, and code. One consistent visual language.`;
+document.getElementById('summary').textContent = `${icons.length} SVG icons for shared controls, graphics, 3D, and code. Organized by theme.`;
+updateCategories();
 render();
 </script>
 </body>

@@ -1,0 +1,1198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="3204" viewBox="0 0 1600 3204" color="#eef1f6" font-family="Helvetica, Arial, sans-serif">
+<title>LuciaOS Rounded — all 157 icons on dark</title>
+<desc>Complete icon library, grouped by common controls, graphics, 3D, and code. Each icon is labelled by name and category.</desc>
+<rect width="1600" height="3204" fill="#14171c"/>
+<text x="48" y="44" fill="#a2abb9" font-size="12" font-weight="600" text-anchor="start">LUCIAOS / ASSET LIBRARY</text>
+<text x="48" y="94" fill="#eef1f6" font-size="40" font-weight="600" text-anchor="start">Rounded icon library</text>
+<text x="48" y="127" fill="#a2abb9" font-size="15" font-weight="400" text-anchor="start">157 icons · 24 × 24 canvas · 2 px base stroke · CurrentColor · Shown at 48 px</text>
+<text x="1552" y="44" fill="#a2abb9" font-size="12" font-weight="600" text-anchor="end">DARK / COMPLETE SET</text>
+<text x="48" y="186" fill="#eef1f6" font-size="24" font-weight="600" text-anchor="start">Common</text>
+<text x="48" y="210" fill="#a2abb9" font-size="13" font-weight="400" text-anchor="start">Shared actions, files, layout, view, and playback controls.</text>
+<text x="1552" y="186" fill="#a2abb9" font-size="12" font-weight="600" text-anchor="end">45 ICONS</text>
+<rect x="48" y="232" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="duplicate" x="111.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7.5 16.5H6.3Q3 16.5 3 13.2V6.3Q3 3 6.3 3h6.9Q16.5 3 16.5 6.3v1.2"/><path d="M10.7 7.5Q14.0 7.25 17.3 7.5Q20.5 7.5 20.5 10.7Q20.75 14.0 20.5 17.3Q20.5 20.5 17.3 20.5Q14.0 20.75 10.7 20.5Q7.5 20.5 7.5 17.3Q7.25 14.0 7.5 10.7Q7.5 7.5 10.7 7.5Z"/>
+</svg>
+
+<text x="135.0" y="315" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Duplicate</text>
+<text x="135.0" y="333" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Actions</text>
+<rect x="238" y="232" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="plus" x="301.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 5v14M5 12h14"/>
+</svg>
+
+<text x="325.0" y="315" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Add / Plus</text>
+<text x="325.0" y="333" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Actions</text>
+<rect x="428" y="232" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="close" x="491.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m6 6 12 12M18 6 6 18"/>
+</svg>
+
+<text x="515.0" y="315" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Close</text>
+<text x="515.0" y="333" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Actions</text>
+<rect x="618" y="232" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="trash" x="681.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 6.5l.8 12Q7 21 9.5 21h5Q17 21 17.2 18.5L18 6.5M4 6.5h16M9 6.5V5q0-2 2-2h2q2 0 2 2v1.5M10 10.5V17M14 10.5V17"/>
+</svg>
+
+<text x="705.0" y="315" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Trash</text>
+<text x="705.0" y="333" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Actions</text>
+<rect x="808" y="232" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="undo" x="871.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 8h9a6 6 0 0 1 0 12h-1"/>
+  <path d="M6 6 4 8 6 10"/>
+</svg>
+
+<text x="895.0" y="315" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Undo</text>
+<text x="895.0" y="333" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Actions</text>
+<rect x="998" y="232" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="redo" x="1061.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 8h-9a6 6 0 0 0 0 12h1"/>
+  <path d="M18 10 20 8 18 6"/>
+</svg>
+
+<text x="1085.0" y="315" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Redo</text>
+<text x="1085.0" y="333" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Actions</text>
+<rect x="1188" y="232" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="reload" x="1251.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 12.5a8 8 0 1 0 8-8H7.5"/>
+  <path d="M9.5 2.5 7.5 4.5 9.5 6.5"/>
+</svg>
+
+<text x="1275.0" y="315" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Reload</text>
+<text x="1275.0" y="333" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Actions</text>
+<rect x="1378" y="232" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="group" x="1441.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 8.5v-2Q3 4 5.5 4h3q1 0 1.7.8l3.1 3.7"/>
+  <path d="M3 8.5h15.5Q21 8.5 21 11v6.5q0 2.5-2.5 2.5h-13Q3 20 3 17.5Z"/>
+</svg>
+
+<text x="1465.0" y="315" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Group</text>
+<text x="1465.0" y="333" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="48" y="356" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="folder" x="111.0" y="369" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 8.5v-2Q3 4 5.5 4h3q1 0 1.7.8l3.1 3.7"/>
+  <path d="M3 8.5h15.5Q21 8.5 21 11v6.5q0 2.5-2.5 2.5h-13Q3 20 3 17.5Z"/>
+</svg>
+
+<text x="135.0" y="439" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Folder</text>
+<text x="135.0" y="457" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="238" y="356" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="print" x="301.0" y="369" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 8V5.5q0-2 2-2h6q2 0 2 2V8M7 17H6q-3 0-3-3v-3q0-3 3-3h12q3 0 3 3v3q0 3-3 3h-1"/><path d="M8.4 13.5Q12.0 13.25 15.6 13.5Q17 13.5 17 14.9Q17.25 17.0 17 19.1Q17 20.5 15.6 20.5Q12.0 20.75 8.4 20.5Q7 20.5 7 19.1Q6.75 17.0 7 14.9Q7 13.5 8.4 13.5Z"/><circle cx="17.5" cy="10.75" r=".8" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="325.0" y="439" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Print</text>
+<text x="325.0" y="457" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="428" y="356" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="render" x="491.0" y="369" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 10V7q0-3-3-3H7Q4 4 4 7v10q0 3 3 3h3.5"/>
+  <path d="m4 14.5 3-3q.75-.75 1.5 0l2.5 2.5"/>
+  <circle cx="15" cy="8.25" r="1.1" fill="currentColor" stroke="none"/>
+  <path d="M15 14.2q0-1 .9-.4l4.8 3.2q.9.6 0 1.2l-4.8 3.2q-.9.6-.9-.4Z"/>
+</svg>
+
+<text x="515.0" y="439" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Render</text>
+<text x="515.0" y="457" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="618" y="356" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="save" x="681.0" y="369" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M17 3.5H6.5q-3 0-3 3v11q0 3 3 3h11q3 0 3-3v-10ZM8 3.5v5h8v-5"/><rect x="8" y="13" width="8" height="7.5" rx="1.5"/>
+</svg>
+
+<text x="705.0" y="439" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Save</text>
+<text x="705.0" y="457" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="808" y="356" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="open" x="871.0" y="369" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 17V6.5Q3 4 5.5 4h3q1 0 1.7.8l1.6 1.9q.6.8 1.7.8H17q2.5 0 2.5 2.5"/>
+  <path d="M7 10.5h12.5q3 0 2 2.5L19 18q-.8 2-3 2H6q-3 0-3-3l1.5-4.5q.7-2 2.5-2Z"/>
+</svg>
+
+<text x="895.0" y="439" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Open</text>
+<text x="895.0" y="457" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="998" y="356" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="import" x="1061.0" y="369" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 13v4q0 3 3 3h10q3 0 3-3v-4"/>
+  <path d="M12 3v11"/>
+  <path d="M10 12 12 14 14 12"/>
+</svg>
+
+<text x="1085.0" y="439" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Import</text>
+<text x="1085.0" y="457" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="1188" y="356" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="export" x="1251.0" y="369" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 13v4q0 3 3 3h10q3 0 3-3v-4"/>
+  <path d="M12 14V3"/>
+  <path d="M14 5 12 3 10 5"/>
+</svg>
+
+<text x="1275.0" y="439" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Export</text>
+<text x="1275.0" y="457" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="1378" y="356" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="file" x="1441.0" y="369" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 3.5H7q-3 0-3 3v11q0 3 3 3h10q3 0 3-3V9.5ZM14 3.5v4q0 2 2 2h4"/>
+</svg>
+
+<text x="1465.0" y="439" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">File</text>
+<text x="1465.0" y="457" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="48" y="480" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="file-new" x="111.0" y="493" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 3.5H7q-3 0-3 3V17q0 3 3 3h6M20 13V9.5l-6-6v4q0 2 2 2h4"/>
+  <path d="M20 17.5v5M17.5 20h5"/>
+</svg>
+
+<text x="135.0" y="563" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">New file</text>
+<text x="135.0" y="581" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="238" y="480" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="folder-new" x="301.0" y="493" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 8.5v-2Q3 4 5.5 4h3q1 0 1.7.8l3.1 3.7"/>
+  <path d="M3 8.5h14.5Q20 8.5 20 11v2M13 20H5.5Q3 20 3 17.5v-9"/>
+  <path d="M20 17.5v5M17.5 20h5"/>
+</svg>
+
+<text x="325.0" y="563" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">New folder</text>
+<text x="325.0" y="581" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="428" y="480" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="folder-open" x="491.0" y="493" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 17V6.5Q3 4 5.5 4h3q1 0 1.7.8l1.6 1.9q.6.8 1.7.8H17q2.5 0 2.5 2.5"/>
+  <path d="M7 10.5h12.5q3 0 2 2.5L19 18q-.8 2-3 2H6q-3 0-3-3l1.5-4.5q.7-2 2.5-2Z"/>
+</svg>
+
+<text x="515.0" y="563" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Open folder</text>
+<text x="515.0" y="581" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<rect x="618" y="480" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="align-left" x="681.0" y="493" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.5 3.5v17"/><path d="M9.8 5Q14.25 4.75 18.7 5Q20.5 5 20.5 6.8Q20.75 7.75 20.5 8.7Q20.5 10.5 18.7 10.5Q14.25 10.75 9.8 10.5Q8 10.5 8 8.7Q7.75 7.75 8 6.8Q8 5 9.8 5Z"/><path d="M9.8 14Q12.0 13.75 14.2 14Q16 14 16 15.8Q16.25 16.75 16 17.7Q16 19.5 14.2 19.5Q12.0 19.75 9.8 19.5Q8 19.5 8 17.7Q7.75 16.75 8 15.8Q8 14 9.8 14Z"/>
+</svg>
+
+<text x="705.0" y="563" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Align left</text>
+<text x="705.0" y="581" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="808" y="480" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="align-right" x="871.0" y="493" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="translate(24 0) scale(-1 1)"><path d="M3.5 3.5v17"/><path d="M9.8 5Q14.25 4.75 18.7 5Q20.5 5 20.5 6.8Q20.75 7.75 20.5 8.7Q20.5 10.5 18.7 10.5Q14.25 10.75 9.8 10.5Q8 10.5 8 8.7Q7.75 7.75 8 6.8Q8 5 9.8 5Z"/><path d="M9.8 14Q12.0 13.75 14.2 14Q16 14 16 15.8Q16.25 16.75 16 17.7Q16 19.5 14.2 19.5Q12.0 19.75 9.8 19.5Q8 19.5 8 17.7Q7.75 16.75 8 15.8Q8 14 9.8 14Z"/></g>
+</svg>
+
+<text x="895.0" y="563" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Align right</text>
+<text x="895.0" y="581" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="998" y="480" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="align-vertical-center" x="1061.0" y="493" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 12h2m5.5 0h3m5.5 0h2"/><path d="M7.4 4Q7.75 3.75 8.1 4Q10.5 4 10.5 6.4Q10.75 12.0 10.5 17.6Q10.5 20 8.1 20Q7.75 20.25 7.4 20Q5 20 5 17.6Q4.75 12.0 5 6.4Q5 4 7.4 4Z"/><path d="M15.9 7.5Q16.25 7.25 16.6 7.5Q19.0 7.5 19.0 9.9Q19.25 12.0 19.0 14.1Q19.0 16.5 16.6 16.5Q16.25 16.75 15.9 16.5Q13.5 16.5 13.5 14.1Q13.25 12.0 13.5 9.9Q13.5 7.5 15.9 7.5Z"/>
+</svg>
+
+<text x="1085.0" y="563" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Align vertical center</text>
+<text x="1085.0" y="581" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="1188" y="480" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="align-top" x="1251.0" y="493" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><path d="M3.5 3.5v17"/><path d="M9.8 5Q14.25 4.75 18.7 5Q20.5 5 20.5 6.8Q20.75 7.75 20.5 8.7Q20.5 10.5 18.7 10.5Q14.25 10.75 9.8 10.5Q8 10.5 8 8.7Q7.75 7.75 8 6.8Q8 5 9.8 5Z"/><path d="M9.8 14Q12.0 13.75 14.2 14Q16 14 16 15.8Q16.25 16.75 16 17.7Q16 19.5 14.2 19.5Q12.0 19.75 9.8 19.5Q8 19.5 8 17.7Q7.75 16.75 8 15.8Q8 14 9.8 14Z"/></g>
+</svg>
+
+<text x="1275.0" y="563" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Align top</text>
+<text x="1275.0" y="581" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="1378" y="480" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="align-bottom" x="1441.0" y="493" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><g transform="translate(24 0) scale(-1 1)"><path d="M3.5 3.5v17"/><path d="M9.8 5Q14.25 4.75 18.7 5Q20.5 5 20.5 6.8Q20.75 7.75 20.5 8.7Q20.5 10.5 18.7 10.5Q14.25 10.75 9.8 10.5Q8 10.5 8 8.7Q7.75 7.75 8 6.8Q8 5 9.8 5Z"/><path d="M9.8 14Q12.0 13.75 14.2 14Q16 14 16 15.8Q16.25 16.75 16 17.7Q16 19.5 14.2 19.5Q12.0 19.75 9.8 19.5Q8 19.5 8 17.7Q7.75 16.75 8 15.8Q8 14 9.8 14Z"/></g></g>
+</svg>
+
+<text x="1465.0" y="563" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Align bottom</text>
+<text x="1465.0" y="581" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="48" y="604" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="align-horizontal-center" x="111.0" y="617" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><path d="M3 12h2m5.5 0h3m5.5 0h2"/><path d="M7.4 4Q7.75 3.75 8.1 4Q10.5 4 10.5 6.4Q10.75 12.0 10.5 17.6Q10.5 20 8.1 20Q7.75 20.25 7.4 20Q5 20 5 17.6Q4.75 12.0 5 6.4Q5 4 7.4 4Z"/><path d="M15.9 7.5Q16.25 7.25 16.6 7.5Q19.0 7.5 19.0 9.9Q19.25 12.0 19.0 14.1Q19.0 16.5 16.6 16.5Q16.25 16.75 15.9 16.5Q13.5 16.5 13.5 14.1Q13.25 12.0 13.5 9.9Q13.5 7.5 15.9 7.5Z"/></g>
+</svg>
+
+<text x="135.0" y="687" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Align horizontal center</text>
+<text x="135.0" y="705" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="238" y="604" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="distribute-horizontal" x="301.0" y="617" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="7" width="3.5" height="10" rx="1.75" fill="currentColor" stroke="none"/><rect x="10.25" y="4" width="3.5" height="16" rx="1.75" fill="currentColor" stroke="none"/><rect x="17.5" y="7" width="3.5" height="10" rx="1.75" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="325.0" y="687" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Distribute horizontally</text>
+<text x="325.0" y="705" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="428" y="604" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="distribute-vertical" x="491.0" y="617" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><rect x="3" y="7" width="3.5" height="10" rx="1.75" fill="currentColor" stroke="none"/><rect x="10.25" y="4" width="3.5" height="16" rx="1.75" fill="currentColor" stroke="none"/><rect x="17.5" y="7" width="3.5" height="10" rx="1.75" fill="currentColor" stroke="none"/></g>
+</svg>
+
+<text x="515.0" y="687" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Distribute vertically</text>
+<text x="515.0" y="705" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="618" y="604" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="split-window-horizontal" x="681.0" y="617" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6.5 3.5h11a3 3 0 0 1 3 3V8h-17V6.5a3 3 0 0 1 3-3Z" fill="currentColor" stroke="none"/>
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M3.5 8h17M3.5 14.25h17"/>
+</svg>
+
+<text x="705.0" y="687" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Split window horizontally</text>
+<text x="705.0" y="705" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="808" y="604" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="split-window-vertical" x="871.0" y="617" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6.5 3.5h11a3 3 0 0 1 3 3V8h-17V6.5a3 3 0 0 1 3-3Z" fill="currentColor" stroke="none"/>
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M3.5 8h17M12 8v12.5"/>
+</svg>
+
+<text x="895.0" y="687" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Split window vertically</text>
+<text x="895.0" y="705" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Alignment &amp; layout</text>
+<rect x="998" y="604" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="snap" x="1061.0" y="617" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 6q0-1.5 1.5-1.5h2Q9 4.5 9 6v7a3 3 0 0 0 6 0V6q0-1.5 1.5-1.5h2Q20 4.5 20 6v7a8 8 0 0 1-16 0ZM4 9h5m6 0h5"/>
+</svg>
+
+<text x="1085.0" y="687" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Snap</text>
+<text x="1085.0" y="705" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="1188" y="604" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="grid" x="1251.0" y="617" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6.5 3.5Q12.0 3.25 17.5 3.5Q20.5 3.5 20.5 6.5Q20.75 12.0 20.5 17.5Q20.5 20.5 17.5 20.5Q12.0 20.75 6.5 20.5Q3.5 20.5 3.5 17.5Q3.25 12.0 3.5 6.5Q3.5 3.5 6.5 3.5Z"/><path d="M9 3.5v17M15 3.5v17M3.5 9h17M3.5 15h17"/>
+</svg>
+
+<text x="1275.0" y="687" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Grid</text>
+<text x="1275.0" y="705" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="1378" y="604" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="snap-to-grid" x="1441.0" y="617" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6.5 3.5Q12.0 3.25 17.5 3.5Q20.5 3.5 20.5 6.5Q20.75 12.0 20.5 17.5Q20.5 20.5 17.5 20.5Q12.0 20.75 6.5 20.5Q3.5 20.5 3.5 17.5Q3.25 12.0 3.5 6.5Q3.5 3.5 6.5 3.5Z"/>
+  <circle cx="9" cy="9" r="1.25" fill="currentColor" stroke="none"/>
+  <circle cx="15" cy="9" r="1.25" fill="currentColor" stroke="none"/>
+  <circle cx="9" cy="15" r="1.25" fill="currentColor" stroke="none"/>
+  <circle cx="15" cy="15" r="1.25" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1465.0" y="687" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Snap to grid</text>
+<text x="1465.0" y="705" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="48" y="728" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="lock" x="111.0" y="741" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/><path d="M12 14v3"/>
+</svg>
+
+<text x="135.0" y="811" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Lock</text>
+<text x="135.0" y="829" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="238" y="728" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="unlock" x="301.0" y="741" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="5" y="10" width="14" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 7.5-2"/><path d="M12 14v3"/>
+</svg>
+
+<text x="325.0" y="811" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Unlock</text>
+<text x="325.0" y="829" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="428" y="728" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="visible" x="491.0" y="741" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.5"/>
+</svg>
+
+<text x="515.0" y="811" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Visible</text>
+<text x="515.0" y="829" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="618" y="728" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="hidden" x="681.0" y="741" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 12c2.6-3.8 5.6-5.7 9-5.7s6.4 1.9 9 5.7c-2.6 3.8-5.6 5.7-9 5.7S5.6 15.8 3 12Z"/>
+  <circle cx="12" cy="12" r="2.6"/>
+  <path d="M4 4l16 16"/>
+</svg>
+
+<text x="705.0" y="811" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Hidden</text>
+<text x="705.0" y="829" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="808" y="728" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="zoom-in" x="871.0" y="741" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5M10.5 7.5v6M7.5 10.5h6"/>
+</svg>
+
+<text x="895.0" y="811" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Zoom in</text>
+<text x="895.0" y="829" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="998" y="728" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="zoom-out" x="1061.0" y="741" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5M7.5 10.5h6"/>
+</svg>
+
+<text x="1085.0" y="811" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Zoom out</text>
+<text x="1085.0" y="829" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="1188" y="728" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="pan-tool" x="1251.0" y="741" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6.5 12V7a1.5 1.5 0 0 1 3 0V5a1.5 1.5 0 0 1 3 0v2a1.5 1.5 0 0 1 3 0v2a1.5 1.5 0 0 1 3 0v6q0 6-5.5 6H11q-3 0-4.5-2.5L3 13.5q-1-2 1-2 1 0 2.5 2M9.5 7v5M12.5 7v5M15.5 9v3"/>
+</svg>
+
+<text x="1275.0" y="811" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Pan tool</text>
+<text x="1275.0" y="829" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="1378" y="728" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="run" x="1441.0" y="741" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 5.5q0-2 1.7-.9L20 11q1.5 1 0 2L8.7 19.4q-1.7 1.1-1.7-.9Z"/>
+</svg>
+
+<text x="1465.0" y="811" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Start / Run</text>
+<text x="1465.0" y="829" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="48" y="852" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="pause" x="111.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="5.5" y="4" width="4.5" height="16" rx="2" fill="currentColor" stroke="none"/><rect x="14" y="4" width="4.5" height="16" rx="2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="135.0" y="935" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Pause</text>
+<text x="135.0" y="953" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="238" y="852" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="stop" x="301.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="5" y="5" width="14" height="14" rx="3" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="325.0" y="935" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Stop</text>
+<text x="325.0" y="953" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="428" y="852" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="restart" x="491.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 12.5a8 8 0 1 0 8-8H7.5M9.5 2.5l-2 2 2 2"/>
+  <path d="M10 9.7q0-.7.6-.3l4.4 2.6q.7.4 0 .8l-4.4 2.6q-.6.4-.6-.3Z" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="515.0" y="935" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Restart</text>
+<text x="515.0" y="953" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="618" y="852" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="search" x="681.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/>
+</svg>
+
+<text x="705.0" y="935" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Search</text>
+<text x="705.0" y="953" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Interface</text>
+<rect x="808" y="852" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="settings" x="871.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9.226 5.302 L10.369 4.936 L10.437 3.137 L13.563 3.137 L13.631 4.936 L14.774 5.302 L15.842 5.852 L17.162 4.628 L19.372 6.838 L18.148 8.158 L18.698 9.226 L19.064 10.369 L20.863 10.437 L20.863 13.563 L19.064 13.631 L18.698 14.774 L18.148 15.842 L19.372 17.162 L17.162 19.372 L15.842 18.148 L14.774 18.698 L13.631 19.064 L13.563 20.863 L10.437 20.863 L10.369 19.064 L9.226 18.698 L8.158 18.148 L6.838 19.372 L4.628 17.162 L5.852 15.842 L5.302 14.774 L4.936 13.631 L3.137 13.563 L3.137 10.437 L4.936 10.369 L5.302 9.226 L5.852 8.158 L4.628 6.838 L6.838 4.628 L8.158 5.852Z"/>
+  <circle cx="12" cy="12" r="3"/>
+</svg>
+
+<text x="895.0" y="935" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Settings</text>
+<text x="895.0" y="953" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Interface</text>
+<text x="48" y="1026" fill="#eef1f6" font-size="24" font-weight="600" text-anchor="start">Graphics</text>
+<text x="48" y="1050" fill="#a2abb9" font-size="13" font-weight="400" text-anchor="start">Painting, color, selections, paths, layers, and transforms.</text>
+<text x="1552" y="1026" fill="#a2abb9" font-size="12" font-weight="600" text-anchor="end">43 ICONS</text>
+<rect x="48" y="1072" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="brush-tool" x="111.0" y="1085" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 13 17.5 4.5q1.5-1.5 2.5-.5t-.5 2.5L12 15M9 13l3 2M8.5 13.5q-3-1-3.5 2.5-.4 2-2 3 5.5 2 8-2 .8-1.7-2.5-3.5Z"/>
+</svg>
+
+<text x="135.0" y="1155" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Brush tool</text>
+<text x="135.0" y="1173" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<rect x="238" y="1072" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="pencil-tool" x="301.0" y="1085" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4 15 10.5-10.5q1.5-1.5 3 0l2 2q1.5 1.5 0 3L9 20l-5.5.5ZM12.5 6.5l5 5M4 15l5 5"/>
+</svg>
+
+<text x="325.0" y="1155" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Pencil tool</text>
+<text x="325.0" y="1173" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<rect x="428" y="1072" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="eraser-tool" x="491.0" y="1085" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4.5 12.5 8-8q1.5-1.5 3 0l4 4q1.5 1.5 0 3L11 20H8l-3.5-3.5q-2-2 0-4ZM9 8l7 7M11 20h9"/>
+</svg>
+
+<text x="515.0" y="1155" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Eraser tool</text>
+<text x="515.0" y="1173" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<rect x="618" y="1072" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="fill-tool" x="681.0" y="1085" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.75 12H19l-6.5 6.5q-1.5 1.5-3 0l-5-5Q3.75 12.75 3.75 12Z" fill="currentColor" stroke="none"/>
+  <path d="m4.5 10.5 7-7 8 8-7 7q-1.5 1.5-3 0l-5-5q-1.5-1.5 0-3ZM7 3l6 6M4.2 12h14.6M19 15q-4 5 0 6 4-1 0-6Z"/>
+</svg>
+
+<text x="705.0" y="1155" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Fill tool</text>
+<text x="705.0" y="1173" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<rect x="808" y="1072" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="blur-tool" x="871.0" y="1085" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5S5 10.5 5 14a7 7 0 0 0 14 0c0-3.5-7-10.5-7-10.5ZM8.5 14.5q.5 3 3.5 3"/>
+</svg>
+
+<text x="895.0" y="1155" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Blur tool</text>
+<text x="895.0" y="1173" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<rect x="998" y="1072" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="sharpen-tool" x="1061.0" y="1085" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 4 21 19H3ZM12 4v15"/><path d="M12 4v15h9Z" fill="currentColor" fill-opacity=".18"/>
+</svg>
+
+<text x="1085.0" y="1155" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Sharpen tool</text>
+<text x="1085.0" y="1173" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<rect x="1188" y="1072" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="smudge-tool" x="1251.0" y="1085" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 14V6a2 2 0 0 1 4 0v5l2-1 5 3q2 1 1 3l-2 4H9q-1.5 0-2.5-1.5L3 14q-1-2 1-2 1 0 3 2Z"/>
+  <path d="M14.5 5h6"/>
+</svg>
+
+<text x="1275.0" y="1155" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Smudge tool</text>
+<text x="1275.0" y="1173" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<rect x="1378" y="1072" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="clone-stamp" x="1441.0" y="1085" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 9.5a4 4 0 1 1 6 0v3l4 2v3H5v-3l4-2ZM4 21h16"/>
+</svg>
+
+<text x="1465.0" y="1155" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Clone stamp</text>
+<text x="1465.0" y="1173" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Painting</text>
+<rect x="48" y="1196" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="color-correction" x="111.0" y="1209" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="8.25"/><path d="M12 3.75a8.25 8.25 0 0 0 0 16.5Z" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="135.0" y="1279" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Color correction</text>
+<text x="135.0" y="1297" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Color</text>
+<rect x="238" y="1196" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="color-swatch" x="301.0" y="1209" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m11 8 3.3-1.9Q16.5 4.8 17.8 7l.8 1.4Q20 10.7 17.6 12L11 15.8M17 12.5h.7Q21 12.5 21 15.8v1Q21 20 17.8 20H7.5"/><path d="M6.5 3.5h2Q11 3.5 11 6v10.5a3.75 3.75 0 0 1-7.5 0V6Q3.5 3.5 6.5 3.5ZM3.5 8.5H11M3.5 13H11"/><circle cx="7.25" cy="16.5" r=".8" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="325.0" y="1279" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Color swatch</text>
+<text x="325.0" y="1297" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Color</text>
+<rect x="428" y="1196" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="eyedropper-tool" x="491.0" y="1209" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(45 12 12)">
+    <path d="M9.5 9V5.5a2.5 2.5 0 0 1 5 0V9M8 9h8"/>
+    <path d="M10.5 9v8.5q0 1.5 1.5 3 1.5-1.5 1.5-3V9"/>
+  </g>
+</svg>
+
+<text x="515.0" y="1279" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Eyedropper tool</text>
+<text x="515.0" y="1297" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Color</text>
+<rect x="618" y="1196" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="gradient-tool" x="681.0" y="1209" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="4" width="17" height="16" rx="3"/><path d="M8 4v16M12 4v16M15.5 4v16M18 5v14"/>
+</svg>
+
+<text x="705.0" y="1279" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Gradient tool</text>
+<text x="705.0" y="1297" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Color</text>
+<rect x="808" y="1196" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="reflection" x="871.0" y="1209" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="4" width="18" height="14" rx="3"/>
+  <path d="M12 18v3M8 21h8M6.5 14l6-6M11.5 14l6-6"/>
+</svg>
+
+<text x="895.0" y="1279" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Reflection</text>
+<text x="895.0" y="1297" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Effects</text>
+<rect x="998" y="1196" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="selection-tool" x="1061.0" y="1209" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 4.5H6.5q-2 0-2 2V7M10.5 4.5h3M17 4.5h.5q2 0 2 2V7M19.5 10.5v3M19.5 17v.5q0 2-2 2H17M13.5 19.5h-3M7 19.5h-.5q-2 0-2-2V17M4.5 13.5v-3"/>
+</svg>
+
+<text x="1085.0" y="1279" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Selection tool</text>
+<text x="1085.0" y="1297" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="1188" y="1196" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="magic-wand-tool" x="1251.0" y="1209" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4.5 16.6 8.9-8.9q.9-.9 1.8 0l1.1 1.1q.9.9 0 1.8l-8.9 8.9q-.9.9-1.8 0l-1.1-1.1q-.9-.9 0-1.8ZM11 10l3 3"/><path d="M18.5 2.7q.4 1.5 2.3 2.3-1.9.8-2.3 2.3Q18.1 5.8 16.2 5q1.9-.8 2.3-2.3Z" fill="currentColor" stroke="none"/><path d="M7 3.5v3M5.5 5h3M19.5 14v3M18 15.5h3"/>
+</svg>
+
+<text x="1275.0" y="1279" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Magic wand tool</text>
+<text x="1275.0" y="1297" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="1378" y="1196" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="lasso-tool" x="1441.0" y="1209" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="12" cy="9" rx="8" ry="5.5"/>
+  <path d="M6.5 13q-2 3.5.5 6t7 0"/>
+</svg>
+
+<text x="1465.0" y="1279" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Lasso tool</text>
+<text x="1465.0" y="1297" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="48" y="1320" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="polygon-select-tool" x="111.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5 6 18 4l3 12-12 4-6-8Z" stroke-dasharray="3 3"/><circle cx="5" cy="6" r="1.5" fill="currentColor" stroke="none"/><circle cx="18" cy="4" r="1.5" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="135.0" y="1403" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Polygon selection</text>
+<text x="135.0" y="1421" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="238" y="1320" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="ellipse-select-tool" x="301.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="12" cy="12" rx="8.5" ry="7.5" stroke-dasharray="3 3"/>
+</svg>
+
+<text x="325.0" y="1403" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Ellipse selection</text>
+<text x="325.0" y="1421" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="428" y="1320" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="select-all" x="491.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="4" width="16" height="16" rx="2.5" stroke-dasharray="3 3"/><rect x="8" y="8" width="8" height="8" rx="1.5"/>
+</svg>
+
+<text x="515.0" y="1403" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Select all</text>
+<text x="515.0" y="1421" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="618" y="1320" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="deselect" x="681.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10 4h7q3 0 3 3v7M14 20H7q-3 0-3-3v-7" stroke-dasharray="3 3"/><path d="M3 3l18 18"/>
+</svg>
+
+<text x="705.0" y="1403" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Deselect</text>
+<text x="705.0" y="1421" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="808" y="1320" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="invert-selection" x="871.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="4" width="16" height="16" rx="2.5" stroke-dasharray="3 3"/><path d="M12 8a4 4 0 0 0 0 8Z" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="4"/>
+</svg>
+
+<text x="895.0" y="1403" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Invert selection</text>
+<text x="895.0" y="1421" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="998" y="1320" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="add-to-selection" x="1061.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 4.5H6.5q-2 0-2 2V7M10.5 4.5h3M19.5 10.5v3M19.5 17v.5q0 2-2 2H17M13.5 19.5h-3M7 19.5h-.5q-2 0-2-2V17M4.5 13.5v-3"/>
+  <path d="M19.5 2v5M17 4.5h5"/>
+</svg>
+
+<text x="1085.0" y="1403" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Add to selection</text>
+<text x="1085.0" y="1421" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="1188" y="1320" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="subtract-from-selection" x="1251.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 4.5H6.5q-2 0-2 2V7M10.5 4.5h3M19.5 10.5v3M19.5 17v.5q0 2-2 2H17M13.5 19.5h-3M7 19.5h-.5q-2 0-2-2V17M4.5 13.5v-3"/>
+  <path d="M17 4.5h5"/>
+</svg>
+
+<text x="1275.0" y="1403" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Subtract from selection</text>
+<text x="1275.0" y="1421" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
+<rect x="1378" y="1320" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="pen-tool" x="1441.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 15l-5 5H9l-5-5ZM12 3.5v8M9 20l1-4m5 4-1-4"/><circle cx="12" cy="13.5" r="2"/>
+</svg>
+
+<text x="1465.0" y="1403" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Pen tool</text>
+<text x="1465.0" y="1421" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Paths &amp; shapes</text>
+<rect x="48" y="1444" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="node-tool" x="111.0" y="1457" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5 18Q7 6 19 6M5 18l-1-9M19 6l-9-2"/><rect x="3" y="16" width="4" height="4" rx="1"/><rect x="17" y="4" width="4" height="4" rx="1"/><circle cx="4" cy="9" r="1" fill="currentColor" stroke="none"/><circle cx="10" cy="4" r="1" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="135.0" y="1527" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Node tool</text>
+<text x="135.0" y="1545" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Paths &amp; shapes</text>
+<rect x="238" y="1444" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="rectangle-tool" x="301.0" y="1457" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="5" width="17" height="14" rx="3"/>
+</svg>
+
+<text x="325.0" y="1527" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Rectangle tool</text>
+<text x="325.0" y="1545" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Paths &amp; shapes</text>
+<rect x="428" y="1444" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="ellipse-tool" x="491.0" y="1457" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="12" cy="12" rx="8.5" ry="7"/>
+</svg>
+
+<text x="515.0" y="1527" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Ellipse tool</text>
+<text x="515.0" y="1545" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Paths &amp; shapes</text>
+<rect x="618" y="1444" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="line-tool" x="681.0" y="1457" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6 18 18 6"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="5" r="2"/>
+</svg>
+
+<text x="705.0" y="1527" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Line tool</text>
+<text x="705.0" y="1545" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Paths &amp; shapes</text>
+<rect x="808" y="1444" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="path-tool" x="871.0" y="1457" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5 18C5 4 19 20 19 6"/><rect x="3" y="16" width="4" height="4" rx="1"/><rect x="17" y="4" width="4" height="4" rx="1"/>
+</svg>
+
+<text x="895.0" y="1527" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Path tool</text>
+<text x="895.0" y="1545" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Paths &amp; shapes</text>
+<rect x="998" y="1444" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="layer" x="1061.0" y="1457" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m3.5 12 8.5-6 8.5 6-8.5 6Z"/>
+</svg>
+
+<text x="1085.0" y="1527" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Layer</text>
+<text x="1085.0" y="1545" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Layers</text>
+<rect x="1188" y="1444" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="layer-mask" x="1251.0" y="1457" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="5" width="17" height="14" rx="3"/><circle cx="12" cy="12" r="4"/>
+</svg>
+
+<text x="1275.0" y="1527" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Layer mask</text>
+<text x="1275.0" y="1545" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Layers</text>
+<rect x="1378" y="1444" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="merge-layers" x="1441.0" y="1457" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m3.5 13.5 8.5-4.5 8.5 4.5-8.5 4.5ZM3.5 17l8.5 4.5 8.5-4.5M12 2.5v3"/>
+  <path d="M10 3.5 12 5.5 14 3.5"/>
+</svg>
+
+<text x="1465.0" y="1527" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Merge layers</text>
+<text x="1465.0" y="1545" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Layers</text>
+<rect x="48" y="1568" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="bring-forward" x="111.0" y="1581" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 15H6q-2.5 0-2.5-2.5V6q0-2.5 2.5-2.5h6.5Q15 3.5 15 6v1"/><rect x="8" y="8" width="12.5" height="12.5" rx="3"/><path d="M14.25 17v-5m-2 2 2-2 2 2"/>
+</svg>
+
+<text x="135.0" y="1651" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Bring forward</text>
+<text x="135.0" y="1669" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Layers</text>
+<rect x="238" y="1568" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="send-backward" x="301.0" y="1581" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="3.5" width="12.5" height="12.5" rx="3"/><path d="M8 19v-1M8 19q0 1.5 2 1.5h8q2.5 0 2.5-2.5v-8q0-2-1.5-2h-1M9.75 7v5m-2-2 2 2 2-2"/>
+</svg>
+
+<text x="325.0" y="1651" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Send backward</text>
+<text x="325.0" y="1669" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Layers</text>
+<rect x="428" y="1568" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="move-tool" x="491.0" y="1581" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5v17M3.5 12h17"/>
+  <path d="M14 5.5 12 3.5 10 5.5"/>
+  <path d="M10 18.5 12 20.5 14 18.5"/>
+  <path d="M5.5 10 3.5 12 5.5 14"/>
+  <path d="M18.5 14 20.5 12 18.5 10"/>
+</svg>
+
+<text x="515.0" y="1651" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Move tool</text>
+<text x="515.0" y="1669" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="618" y="1568" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="crop-tool" x="681.0" y="1581" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M6.5 3.5v11.3q0 3.2 3.2 3.2h10.8M3.5 6.5h11.3q3.2 0 3.2 3.2v10.8"/>
+</svg>
+
+<text x="705.0" y="1651" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Crop tool</text>
+<text x="705.0" y="1669" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="808" y="1568" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="measure-tool" x="871.0" y="1581" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4.2 14.5 10.3-10.3q1.7-1.7 3.4 0l1.9 1.9q1.7 1.7 0 3.4L9.5 19.8q-1.7 1.7-3.4 0l-1.9-1.9q-1.7-1.7 0-3.4ZM12.5 6.5l2 2M9.5 9.5 11 11M6.5 12.5l2 2"/>
+</svg>
+
+<text x="895.0" y="1651" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Measure tool</text>
+<text x="895.0" y="1669" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="998" y="1568" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="rotate-tool" x="1061.0" y="1581" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 12.5a8 8 0 1 0 8-8H7.5"/>
+  <path d="M9.5 2.5 7.5 4.5 9.5 6.5"/>
+  <rect x="9.5" y="10" width="5" height="5" rx="1.5"/>
+</svg>
+
+<text x="1085.0" y="1651" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Rotate tool</text>
+<text x="1085.0" y="1669" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="1188" y="1568" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="scale-tool" x="1251.0" y="1581" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 4H7q-3 0-3 3v10q0 3 3 3h10q3 0 3-3v-5M14 10l6-6"/>
+  <path d="M20 6.8284 20 4 17.1716 4"/>
+  <rect x="7" y="13" width="4" height="4" rx="1"/>
+</svg>
+
+<text x="1275.0" y="1651" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Scale tool</text>
+<text x="1275.0" y="1669" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="1378" y="1568" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="flip-horizontal" x="1441.0" y="1581" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3v2m0 4v2m0 4v2m0 4v.1M3.5 8 8 5v14l-4.5-3ZM20.5 8 16 5v14l4.5-3Z"/>
+</svg>
+
+<text x="1465.0" y="1651" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Flip horizontal</text>
+<text x="1465.0" y="1669" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="48" y="1692" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="flip-vertical" x="111.0" y="1705" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="matrix(0 1 1 0 0 0)"><path d="M12 3v2m0 4v2m0 4v2m0 4v.1M3.5 8 8 5v14l-4.5-3ZM20.5 8 16 5v14l4.5-3Z"/></g>
+</svg>
+
+<text x="135.0" y="1775" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Flip vertical</text>
+<text x="135.0" y="1793" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="238" y="1692" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="corner-pin" x="301.0" y="1705" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m7.5 5.3 9.5-.8M19 6.5v11m-2 1.9-10.5-.8M4.6 16.5l.7-9"/><rect x="3.5" y="3.5" width="4" height="4" rx="1"/><rect x="17" y="2.5" width="4" height="4" rx="1"/><rect x="17" y="17.5" width="4" height="4" rx="1"/><rect x="2.5" y="16.5" width="4" height="4" rx="1"/>
+</svg>
+
+<text x="325.0" y="1775" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Corner pin</text>
+<text x="325.0" y="1793" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="428" y="1692" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="text-tool" x="491.0" y="1705" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5 8V6Q5 4.5 6.5 4.5h11Q19 4.5 19 6v2M12 4.5v15M8.5 19.5q3.5.5 7 0"/>
+</svg>
+
+<text x="515.0" y="1775" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Text tool</text>
+<text x="515.0" y="1793" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Typography</text>
+<text x="48" y="1866" fill="#eef1f6" font-size="24" font-weight="600" text-anchor="start">3D</text>
+<text x="48" y="1890" fill="#a2abb9" font-size="13" font-weight="400" text-anchor="start">Primitives, modeling, sculpting, scenes, and animation.</text>
+<text x="1552" y="1866" fill="#a2abb9" font-size="12" font-weight="600" text-anchor="end">40 ICONS</text>
+<rect x="48" y="1912" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="cube" x="111.0" y="1925" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/>
+</svg>
+
+<text x="135.0" y="1995" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Cube</text>
+<text x="135.0" y="2013" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Primitives</text>
+<rect x="238" y="1912" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="sphere" x="301.0" y="1925" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="8.5"/><ellipse cx="12" cy="12" rx="3.5" ry="8.5"/><path d="M4 12q8 4 16 0"/>
+</svg>
+
+<text x="325.0" y="1995" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Sphere</text>
+<text x="325.0" y="2013" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Primitives</text>
+<rect x="428" y="1912" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="cylinder" x="491.0" y="1925" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="12" cy="5.5" rx="7" ry="2.5"/><path d="M5 5.5v13a7 2.5 0 0 0 14 0v-13M5 18.5a7 2.5 0 0 1 14 0"/>
+</svg>
+
+<text x="515.0" y="1995" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Cylinder</text>
+<text x="515.0" y="2013" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Primitives</text>
+<rect x="618" y="1912" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="cone" x="681.0" y="1925" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="12" cy="18" rx="7" ry="2.5"/><path d="M5 18 12 3.5 19 18"/>
+</svg>
+
+<text x="705.0" y="1995" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Cone</text>
+<text x="705.0" y="2013" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Primitives</text>
+<rect x="808" y="1912" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="torus" x="871.0" y="1925" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="12" cy="12" rx="8.5" ry="6.5"/><ellipse cx="12" cy="10.5" rx="4" ry="2.5"/>
+</svg>
+
+<text x="895.0" y="1995" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Torus</text>
+<text x="895.0" y="2013" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Primitives</text>
+<rect x="998" y="1912" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="plane" x="1061.0" y="1925" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m3 12 9-5 9 5-9 5Z"/>
+</svg>
+
+<text x="1085.0" y="1995" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Plane</text>
+<text x="1085.0" y="2013" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Primitives</text>
+<rect x="1188" y="1912" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="vertex-select" x="1251.0" y="1925" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/><circle cx="12" cy="12.5" r="2.3" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1275.0" y="1995" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Vertex selection</text>
+<text x="1275.0" y="2013" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Mesh selection</text>
+<rect x="1378" y="1912" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="edge-select" x="1441.0" y="1925" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/><path d="M12 12.5v8" stroke-width="3.5"/>
+</svg>
+
+<text x="1465.0" y="1995" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Edge selection</text>
+<text x="1465.0" y="2013" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Mesh selection</text>
+<rect x="48" y="2036" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="face-select" x="111.0" y="2049" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/><path d="m12 12.5 8-4.5v8l-8 4.5Z" fill="currentColor" fill-opacity=".18"/>
+</svg>
+
+<text x="135.0" y="2119" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Face selection</text>
+<text x="135.0" y="2137" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Mesh selection</text>
+<rect x="238" y="2036" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="extrude" x="301.0" y="2049" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4 12 8-4 8 4-8 4ZM4 12v5l8 4 8-4v-5M12 16v5M12 8V2.5"/>
+  <path d="M14 4.5 12 2.5 10 4.5"/>
+</svg>
+
+<text x="325.0" y="2119" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Extrude</text>
+<text x="325.0" y="2137" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="428" y="2036" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="inset" x="491.0" y="2049" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><rect x="8" y="8" width="8" height="8" rx="1.5"/><path d="M4.5 4.5 8 8M19.5 4.5 16 8M4.5 19.5 8 16M19.5 19.5 16 16"/>
+</svg>
+
+<text x="515.0" y="2119" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Inset</text>
+<text x="515.0" y="2137" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="618" y="2036" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="bevel" x="681.0" y="2049" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 3.5h10q2.5 0 2.5 2.5v12q0 2.5-2.5 2.5H6q-2.5 0-2.5-2.5V8ZM8 3.5V8H3.5M8 8l4 4"/>
+</svg>
+
+<text x="705.0" y="2119" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Bevel</text>
+<text x="705.0" y="2137" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="808" y="2036" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="loop-cut" x="871.0" y="2049" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/><path d="M4 12l8 4.5 8-4.5" stroke-width="2.5"/>
+</svg>
+
+<text x="895.0" y="2119" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Loop cut</text>
+<text x="895.0" y="2137" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="998" y="2036" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="subdivide" x="1061.0" y="2049" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M12 3.5v17M3.5 12h17"/><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1085.0" y="2119" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Subdivide</text>
+<text x="1085.0" y="2137" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="1188" y="2036" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="merge-vertices" x="1251.0" y="2049" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="5" cy="5" r="1.6"/><circle cx="19" cy="5" r="1.6"/><circle cx="5" cy="19" r="1.6"/><circle cx="19" cy="19" r="1.6"/><path d="m7 7 3 3m4 4 3 3m0-10-3 3m-4 4-3 3"/><circle cx="12" cy="12" r="2.2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1275.0" y="2119" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Merge vertices</text>
+<text x="1275.0" y="2137" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="1378" y="2036" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="mesh" x="1441.0" y="2049" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4 8 8-4 8 4v8l-8 4-8-4ZM4 8l8 4 8-4M4 16l8-4 8 4M12 4v16"/>
+</svg>
+
+<text x="1465.0" y="2119" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mesh</text>
+<text x="1465.0" y="2137" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="48" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="sculpt-tool" x="111.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10 8Q5 6 4 12q-3 5 2 8 4 2 8 0 3-1 4-5M11 12l7-8q1-1 2 0t0 2l-7 8ZM11 12q-3 0-3 5 4 0 5-3"/>
+</svg>
+
+<text x="135.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Sculpt tool</text>
+<text x="135.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Sculpting</text>
+<rect x="238" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="smooth-tool" x="301.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 7q4-4 9 0t9 0M3 12q4-3 9 0t9 0M3 17q4-2 9 0t9 0"/>
+</svg>
+
+<text x="325.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Smooth tool</text>
+<text x="325.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Sculpting</text>
+<rect x="428" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="orbit-tool" x="491.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14.9902 4.9663A9.5 6 -30 1 1 9 6.8038"/>
+  <path d="M8.2679 9.5359 9 6.8038 6.2679 6.0718"/>
+  <circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="515.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Orbit tool</text>
+<text x="515.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Viewport</text>
+<rect x="618" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="perspective" x="681.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.5 5 20.5 8v8l-17 3ZM10 6v12M3.5 12h17"/>
+</svg>
+
+<text x="705.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Perspective</text>
+<text x="705.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Viewport</text>
+<rect x="808" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="orthographic" x="871.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="7" width="13" height="13" rx="2.5"/><path d="M8 7V4h12v12h-3M17 7l3-3"/>
+</svg>
+
+<text x="895.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Orthographic</text>
+<text x="895.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Viewport</text>
+<rect x="998" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="wireframe" x="1061.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/>
+  <path d="M4 8h16M4 8l8 12.5L20 8"/>
+</svg>
+
+<text x="1085.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Wireframe</text>
+<text x="1085.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Viewport</text>
+<rect x="1188" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="solid-view" x="1251.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8Z" fill="currentColor" fill-opacity=".18"/><path d="M4 8l8 4.5L20 8M12 12.5v8"/>
+</svg>
+
+<text x="1275.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Solid view</text>
+<text x="1275.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Viewport</text>
+<rect x="1378" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="material" x="1441.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="10.5" cy="13" r="7.5"/><path d="M10.5 5.5a7.5 7.5 0 0 1 0 15Z" fill="currentColor" fill-opacity=".18"/><path d="M18.5 2.5q.5 2 3 2.5-2.5.5-3 2.5Q18 5.5 15.5 5q2.5-.5 3-2.5Z" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1465.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Material</text>
+<text x="1465.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Shading</text>
+<rect x="48" y="2284" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="texture" x="111.0" y="2297" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M9 4v16M15 4v16M4 9h16M4 15h16"/><path d="M4 4h5v5H4ZM9 9h6v6H9ZM15 15h5v5h-5Z" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="135.0" y="2367" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Texture</text>
+<text x="135.0" y="2385" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Shading</text>
+<rect x="238" y="2284" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="camera" x="301.0" y="2297" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="6.5" width="11" height="12" rx="3"/><path d="m14 10 7-4v13l-7-4Z"/>
+</svg>
+
+<text x="325.0" y="2367" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Camera</text>
+<text x="325.0" y="2385" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Scene</text>
+<rect x="428" y="2284" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="light-point" x="491.0" y="2297" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8.5 15a6 6 0 1 1 7 0v3h-7ZM9 21h6M9 18h6"/>
+</svg>
+
+<text x="515.0" y="2367" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Point light</text>
+<text x="515.0" y="2385" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Scene</text>
+<rect x="618" y="2284" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="light-sun" x="681.0" y="2297" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>
+</svg>
+
+<text x="705.0" y="2367" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Sun light</text>
+<text x="705.0" y="2385" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Scene</text>
+<rect x="808" y="2284" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="light-spot" x="871.0" y="2297" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="5" r="2.5"/>
+  <path d="M10 8 4 19a17 17 0 0 0 16 0L14 8"/>
+  <path d="M8.5 17.038405a13.5 13.5 0 0 0 7 0"/>
+</svg>
+
+<text x="895.0" y="2367" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Spot light</text>
+<text x="895.0" y="2385" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Scene</text>
+<rect x="998" y="2284" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="transform-gizmo" x="1061.0" y="2297" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 12V3M12 12l8 7M12 12l-8 7"/>
+  <path d="M14 5 12 3 10 5"/>
+  <path d="M17.1778 19.1881 20 19 19.8119 16.1778"/>
+  <path d="M4.1881 16.1778 4 19 6.8222 19.1881"/>
+  <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1085.0" y="2367" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Transform gizmo</text>
+<text x="1085.0" y="2385" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="1188" y="2284" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="pivot" x="1251.0" y="2297" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="6.5"/><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M12 2.5v4m0 11v4M2.5 12h4m11 0h4"/>
+</svg>
+
+<text x="1275.0" y="2367" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Pivot</text>
+<text x="1275.0" y="2385" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform</text>
+<rect x="1378" y="2284" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="boolean-union" x="1441.0" y="2297" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 5.5a7 7 0 1 0 0 13 7 7 0 1 0 0-13Z" fill="currentColor" fill-opacity=".18"/>
+</svg>
+
+<text x="1465.0" y="2367" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Boolean union</text>
+<text x="1465.0" y="2385" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform &amp; modifiers</text>
+<rect x="48" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="boolean-subtract" x="111.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 5.5a7 7 0 1 0 0 13 7 7 0 0 1 0-13Z" fill="currentColor" fill-opacity=".18"/><path d="M15 5a7 7 0 0 1 0 14" stroke-dasharray="2 3"/>
+</svg>
+
+<text x="135.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Boolean subtract</text>
+<text x="135.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform &amp; modifiers</text>
+<rect x="238" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="boolean-intersect" x="301.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="8.5" cy="12" r="6.5"/><circle cx="15.5" cy="12" r="6.5"/><path d="M12 6.52a6.5 6.5 0 0 1 0 10.96 6.5 6.5 0 0 1 0-10.96Z" fill="currentColor" fill-opacity=".18"/>
+</svg>
+
+<text x="325.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Boolean intersect</text>
+<text x="325.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform &amp; modifiers</text>
+<rect x="428" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="mirror-modifier" x="491.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3v18" stroke-dasharray="2 3"/><path d="M8 6 3.5 9v7L8 19ZM16 6l4.5 3v7L16 19Z"/>
+</svg>
+
+<text x="515.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mirror modifier</text>
+<text x="515.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform &amp; modifiers</text>
+<rect x="618" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="array-modifier" x="681.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 3h5q2 0 2 2v5M11 6h5q2 0 2 2v5M8 9h5q2 0 2 2v5"/>
+  <rect x="3" y="12" width="9" height="9" rx="2"/>
+</svg>
+
+<text x="705.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Array modifier</text>
+<text x="705.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform &amp; modifiers</text>
+<rect x="808" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="rig" x="871.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="4.5" r="2"/><path d="M12 6.5V14M5 9l7 2 7-2M7 21l5-7 5 7"/><circle cx="5" cy="9" r="1" fill="currentColor" stroke="none"/><circle cx="19" cy="9" r="1" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="895.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Rig</text>
+<text x="895.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Animation</text>
+<rect x="998" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="animation" x="1061.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 4h10q3 0 3 3v10q0 3-3 3H7M4 7v.5M4 11.5v1M4 16v1"/><path d="m10 8 6 4-6 4Z"/>
+</svg>
+
+<text x="1085.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Animation</text>
+<text x="1085.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Animation</text>
+<rect x="1188" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="keyframe" x="1251.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m10.6 4.3-6.3 6.3q-1.4 1.4 0 2.8l6.3 6.3q1.4 1.4 2.8 0l6.3-6.3q1.4-1.4 0-2.8l-6.3-6.3q-1.4-1.4-2.8 0Z"/>
+</svg>
+
+<text x="1275.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Keyframe</text>
+<text x="1275.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Animation</text>
+<rect x="1378" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="timeline" x="1441.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 9h18M3 17h18M12 6v15"/>
+  <path d="M9 3h6l-3 3Z" fill="currentColor"/>
+  <path d="m5 14-3 3 3 3 3-3ZM19 6l-3 3 3 3 3-3Z" fill="currentColor"/>
+</svg>
+
+<text x="1465.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Timeline</text>
+<text x="1465.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Animation</text>
+<text x="48" y="2582" fill="#eef1f6" font-size="24" font-weight="600" text-anchor="start">Code</text>
+<text x="48" y="2606" fill="#a2abb9" font-size="13" font-weight="400" text-anchor="start">Editing, search, debugging, version control, and workspace tools.</text>
+<text x="1552" y="2582" fill="#a2abb9" font-size="12" font-weight="600" text-anchor="end">29 ICONS</text>
+<rect x="48" y="2628" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="file-code" x="111.0" y="2641" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 3.5H7q-3 0-3 3v11q0 3 3 3h10q3 0 3-3V9.5ZM14 3.5v4q0 2 2 2h4"/>
+  <path d="M10 13.5 8.5 15 10 16.5M14 13.5 15.5 15 14 16.5"/>
+</svg>
+
+<text x="135.0" y="2711" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Code file</text>
+<text x="135.0" y="2729" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Files &amp; navigation</text>
+<rect x="238" y="2628" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="terminal" x="301.0" y="2641" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="4.5" width="18" height="15" rx="3"/><path d="m7 9 3 3-3 3m6 0h4"/>
+</svg>
+
+<text x="325.0" y="2711" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Terminal</text>
+<text x="325.0" y="2729" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
+<rect x="428" y="2628" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="code" x="491.0" y="2641" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m7 7-4 5 4 5m10-10 4 5-4 5M14 4l-4 16"/>
+</svg>
+
+<text x="515.0" y="2711" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Code</text>
+<text x="515.0" y="2729" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
+<rect x="618" y="2628" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="braces" x="681.0" y="2641" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 3.5H7q-2 0-2 2v4q0 2-2 2.5 2 .5 2 2.5v4q0 2 2 2h1M16 3.5h1q2 0 2 2v4q0 2 2 2.5-2 .5-2 2.5v4q0 2-2 2h-1"/>
+</svg>
+
+<text x="705.0" y="2711" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Braces</text>
+<text x="705.0" y="2729" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
+<rect x="808" y="2628" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="comment" x="871.0" y="2641" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7 4h10q4 0 4 4v6q0 4-4 4H9l-5 3v-5q-1-1-1-3V8q0-4 4-4Z"/><path d="M7 9h10M7 13h6"/>
+</svg>
+
+<text x="895.0" y="2711" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Comment</text>
+<text x="895.0" y="2729" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
+<rect x="998" y="2628" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="indent" x="1061.0" y="2641" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M11 5h9M11 10h9M11 15h9M4 20h16M3 12h4"/>
+  <path d="M5 14 7 12 5 10"/>
+</svg>
+
+<text x="1085.0" y="2711" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Indent</text>
+<text x="1085.0" y="2729" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
+<rect x="1188" y="2628" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="outdent" x="1251.0" y="2641" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M11 5h9M11 10h9M11 15h9M4 20h16M3 12h4"/>
+  <path d="M5 10 3 12 5 14"/>
+</svg>
+
+<text x="1275.0" y="2711" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Outdent</text>
+<text x="1275.0" y="2729" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
+<rect x="1378" y="2628" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="format-code" x="1441.0" y="2641" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 4h16M8 9h12M8 14h8M4 19h16M2.5 11.5H5"/>
+  <path d="M3 13.5 5 11.5 3 9.5"/>
+</svg>
+
+<text x="1465.0" y="2711" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Format code</text>
+<text x="1465.0" y="2729" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
+<rect x="48" y="2752" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="autocomplete" x="111.0" y="2765" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 5h8M4 10h5M4 15h13M4 20h13M18 3q.8 3.2 4 4-3.2.8-4 4-.8-3.2-4-4 3.2-.8 4-4Z"/>
+</svg>
+
+<text x="135.0" y="2835" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Autocomplete</text>
+<text x="135.0" y="2853" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
+<rect x="238" y="2752" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="replace" x="301.0" y="2765" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 7h10M20 17H10"/>
+  <path d="m12 5 2 2-2 2M12 15l-2 2 2 2"/>
+  <circle cx="20" cy="7" r="2" fill="currentColor" stroke="none"/>
+  <circle cx="4" cy="17" r="2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="325.0" y="2835" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Replace</text>
+<text x="325.0" y="2853" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Search</text>
+<rect x="428" y="2752" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="find-in-files" x="491.0" y="2765" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 9V7q0-3-3-3H7q-3 0-3 3v10q0 3 3 3h2M8 8h5M8 12h2"/><circle cx="15.5" cy="15" r="4.5"/><path d="m19 18.5 2.5 2.5"/>
+</svg>
+
+<text x="515.0" y="2835" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Find in files</text>
+<text x="515.0" y="2853" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Search</text>
+<rect x="618" y="2752" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="regex" x="681.0" y="2765" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="5" cy="18" r="1.5" fill="currentColor" stroke="none"/><path d="M15 4v12M9.8 7l10.4 6M9.8 13l10.4-6"/>
+</svg>
+
+<text x="705.0" y="2835" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Regular expression</text>
+<text x="705.0" y="2853" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Search</text>
+<rect x="808" y="2752" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="case-sensitive" x="871.0" y="2765" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 18 8 5l5 13M5 13h6M20 11v7M20 12q-1-2-3-1t-2 3.5q0 3.5 2.5 3.5 1.5 0 2.5-2"/>
+</svg>
+
+<text x="895.0" y="2835" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Case sensitive</text>
+<text x="895.0" y="2853" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Search</text>
+<rect x="998" y="2752" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="bug" x="1061.0" y="2765" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="8" y="8" width="8" height="12" rx="4"/><path d="M9 8V6q0-3 3-3t3 3v2M5 7l3 3m8 0 3-3M3 13h5m8 0h5M5 20l3-3m8 0 3 3M12 12v7"/>
+</svg>
+
+<text x="1085.0" y="2835" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Bug</text>
+<text x="1085.0" y="2853" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Debugging</text>
+<rect x="1188" y="2752" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="breakpoint" x="1251.0" y="2765" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="7" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1275.0" y="2835" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Breakpoint</text>
+<text x="1275.0" y="2853" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Debugging</text>
+<rect x="1378" y="2752" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="step-over" x="1441.0" y="2765" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M4 12V9a8 6 0 0 1 16 0v3"/>
+  <path d="M18 10 20 12 22 10"/>
+  <circle cx="12" cy="18" r="2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="1465.0" y="2835" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Step over</text>
+<text x="1465.0" y="2853" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Debugging</text>
+<rect x="48" y="2876" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="step-into" x="111.0" y="2889" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3v10"/>
+  <path d="M10 11 12 13 14 11"/>
+  <circle cx="12" cy="19" r="2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="135.0" y="2959" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Step into</text>
+<text x="135.0" y="2977" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Debugging</text>
+<rect x="238" y="2876" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="step-out" x="301.0" y="2889" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 13V3"/>
+  <path d="M14 5 12 3 10 5"/>
+  <circle cx="12" cy="19" r="2" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="325.0" y="2959" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Step out</text>
+<text x="325.0" y="2977" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Debugging</text>
+<rect x="428" y="2876" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="git-branch" x="491.0" y="2889" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M6 7.5v9M18 7.5q0 7-12 7"/>
+</svg>
+
+<text x="515.0" y="2959" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Git branch</text>
+<text x="515.0" y="2977" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="618" y="2876" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="git-commit" x="681.0" y="2889" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="4.5"/><path d="M3 12h4.5m9 0H21"/>
+</svg>
+
+<text x="705.0" y="2959" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Git commit</text>
+<text x="705.0" y="2977" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="808" y="2876" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="git-merge" x="871.0" y="2889" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M6 7.5v9M18 16.5q0-7-12-7"/>
+</svg>
+
+<text x="895.0" y="2959" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Git merge</text>
+<text x="895.0" y="2977" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="998" y="2876" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="pull-request" x="1061.0" y="2889" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6" cy="5" r="2.5"/>
+  <circle cx="6" cy="19" r="2.5"/>
+  <circle cx="18" cy="19" r="2.5"/>
+  <path d="M6 7.5v9M18 16.5V9q0-4-4-4h-2"/>
+  <path d="M14 3 12 5 14 7"/>
+</svg>
+
+<text x="1085.0" y="2959" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Pull request</text>
+<text x="1085.0" y="2977" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="1188" y="2876" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="diff" x="1251.0" y="2889" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M3.5 12h17M9 7.5h6M12 5v5M9 16.5h6"/>
+</svg>
+
+<text x="1275.0" y="2959" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Diff</text>
+<text x="1275.0" y="2977" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Version control</text>
+<rect x="1378" y="2876" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="package" x="1441.0" y="2889" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/><path d="m8 5.8 8 4.5v4"/>
+</svg>
+
+<text x="1465.0" y="2959" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Package</text>
+<text x="1465.0" y="2977" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="48" y="3000" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="extensions" x="111.0" y="3013" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9.5 7.5h-3Q4 7.5 4 10v1.5h1.5a2.5 2.5 0 0 1 0 5H4V18q0 2.5 2.5 2.5h11q2.5 0 2.5-2.5v-1.5h-1.5a2.5 2.5 0 0 1 0-5H20V10q0-2.5-2.5-2.5h-3v-1a2.5 2.5 0 0 0-5 0Z"/>
+</svg>
+
+<text x="135.0" y="3083" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Extensions</text>
+<text x="135.0" y="3101" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="238" y="3000" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="split-editor" x="301.0" y="3013" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3" y="4" width="18" height="16" rx="3"/><path d="M12 4v16"/>
+</svg>
+
+<text x="325.0" y="3083" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Split editor</text>
+<text x="325.0" y="3101" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="428" y="3000" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="minimap" x="491.0" y="3013" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M7 8h5M7 12h4M7 16h5"/><rect x="15.5" y="6.5" width="2" height="11" rx="1" fill="currentColor" stroke="none"/>
+</svg>
+
+<text x="515.0" y="3083" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Minimap</text>
+<text x="515.0" y="3101" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="618" y="3000" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="command-palette" x="681.0" y="3013" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="2.5" y="6" width="19" height="12" rx="4"/><path d="m6 10 2 2-2 2M12 12h5"/>
+</svg>
+
+<text x="705.0" y="3083" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Command palette</text>
+<text x="705.0" y="3101" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<rect x="808" y="3000" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
+<svg data-icon-id="build" x="871.0" y="3013" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <g transform="rotate(45 12 12)"><rect x="6.5" y="4.5" width="11" height="4.5" rx="1.5"/><path d="M10.5 9v10q0 1.5 1.5 1.5t1.5-1.5V9"/></g>
+</svg>
+
+<text x="895.0" y="3083" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Build</text>
+<text x="895.0" y="3101" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Workspace</text>
+<path d="M48 3153h1504" stroke="#353c47"/>
+<text x="48" y="3180" fill="#a2abb9" font-size="12" font-weight="400" text-anchor="start">All 157 icons · Editable SVG paths · Browse and search in rounded/catalog.html</text>
+<text x="1552" y="3180" fill="#a2abb9" font-size="12" font-weight="400" text-anchor="end">Dy Mokomi / CC BY 4.0</text>
+</svg>

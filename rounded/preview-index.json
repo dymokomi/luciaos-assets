@@ -1,0 +1,16 @@
+[
+  {
+    "theme": "white",
+    "file": "previews/all-white.svg",
+    "count": 157,
+    "width": 1600,
+    "height": 3204
+  },
+  {
+    "theme": "dark",
+    "file": "previews/all-dark.svg",
+    "count": 157,
+    "width": 1600,
+    "height": 3204
+  }
+]
