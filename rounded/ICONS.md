@@ -1,6 +1,6 @@
 # Rounded icon index
 
-157 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+171 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 45
 
@@ -52,10 +52,13 @@
 | Search | [search.svg](icons/common/interface/search.svg) | Interface |
 | Settings | [settings.svg](icons/common/interface/settings.svg) | Interface |
 
-## Graphics — 43
+## Graphics — 46
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
+| Burn tool | [burn-tool.svg](icons/graphics/painting/burn-tool.svg) | Painting |
+| Dodge tool | [dodge-tool.svg](icons/graphics/painting/dodge-tool.svg) | Painting |
+| Healing brush | [healing-brush.svg](icons/graphics/painting/healing-brush.svg) | Painting |
 | Brush tool | [brush-tool.svg](icons/graphics/painting/brush-tool.svg) | Painting |
 | Pencil tool | [pencil-tool.svg](icons/graphics/painting/pencil-tool.svg) | Painting |
 | Eraser tool | [eraser-tool.svg](icons/graphics/painting/eraser-tool.svg) | Painting |
@@ -100,10 +103,21 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 40
+## 3D — 51
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
+| Triangulate | [triangulate.svg](icons/3d/modeling/triangulate.svg) | Modeling |
+| Split mesh | [split-mesh.svg](icons/3d/modeling/split-mesh.svg) | Modeling |
+| Dissolve edges | [dissolve.svg](icons/3d/modeling/dissolve.svg) | Modeling |
+| Flatten | [flatten.svg](icons/3d/modeling/flatten.svg) | Modeling |
+| Noise deformation | [noise.svg](icons/3d/modeling/noise.svg) | Modeling |
+| Surface normals | [surface-normal.svg](icons/3d/modeling/surface-normal.svg) | Modeling |
+| Fill hole | [fill-hole.svg](icons/3d/modeling/fill-hole.svg) | Modeling |
+| Reverse normals | [reverse-normals.svg](icons/3d/modeling/reverse-normals.svg) | Modeling |
+| Frame selection | [frame-selection.svg](icons/3d/viewport/frame-selection.svg) | Viewport |
+| Solid with wireframe | [solid-wireframe.svg](icons/3d/viewport/solid-wireframe.svg) | Viewport |
+| Shaded with wireframe | [shaded-wireframe.svg](icons/3d/viewport/shaded-wireframe.svg) | Viewport |
 | Cube | [cube.svg](icons/3d/primitives/cube.svg) | Primitives |
 | Sphere | [sphere.svg](icons/3d/primitives/sphere.svg) | Primitives |
 | Cylinder | [cylinder.svg](icons/3d/primitives/cylinder.svg) | Primitives |

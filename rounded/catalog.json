@@ -1,9 +1,177 @@
 {
   "name": "LuciaOS Rounded",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "canvas": 24,
   "strokeWidth": 2,
   "icons": [
+    {
+      "id": "triangulate",
+      "name": "Triangulate",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/modeling/triangulate.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "split-mesh",
+      "name": "Split mesh",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/modeling/split-mesh.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "dissolve",
+      "name": "Dissolve edges",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/modeling/dissolve.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "flatten",
+      "name": "Flatten",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/modeling/flatten.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "noise",
+      "name": "Noise deformation",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/modeling/noise.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "surface-normal",
+      "name": "Surface normals",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/modeling/surface-normal.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "fill-hole",
+      "name": "Fill hole",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/modeling/fill-hole.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "reverse-normals",
+      "name": "Reverse normals",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/modeling/reverse-normals.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "frame-selection",
+      "name": "Frame selection",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/viewport/frame-selection.svg",
+      "categoryId": "viewport"
+    },
+    {
+      "id": "solid-wireframe",
+      "name": "Solid with wireframe",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/viewport/solid-wireframe.svg",
+      "categoryId": "viewport"
+    },
+    {
+      "id": "shaded-wireframe",
+      "name": "Shaded with wireframe",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "mesh",
+        "editor"
+      ],
+      "file": "icons/3d/viewport/shaded-wireframe.svg",
+      "categoryId": "viewport"
+    },
+    {
+      "id": "burn-tool",
+      "name": "Burn tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "painting",
+        "editor"
+      ],
+      "file": "icons/graphics/painting/burn-tool.svg",
+      "categoryId": "painting"
+    },
+    {
+      "id": "dodge-tool",
+      "name": "Dodge tool",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "painting",
+        "editor"
+      ],
+      "file": "icons/graphics/painting/dodge-tool.svg",
+      "categoryId": "painting"
+    },
+    {
+      "id": "healing-brush",
+      "name": "Healing brush",
+      "domain": "graphics",
+      "category": "Painting",
+      "tags": [
+        "painting",
+        "editor"
+      ],
+      "file": "icons/graphics/painting/healing-brush.svg",
+      "categoryId": "painting"
+    },
     {
       "id": "duplicate",
       "name": "Duplicate",
