@@ -1,6 +1,6 @@
 # Rounded icon index
 
-171 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+185 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 45
 
@@ -192,4 +192,23 @@
 | Minimap | [minimap.svg](icons/code/workspace/minimap.svg) | Workspace |
 | Command palette | [command-palette.svg](icons/code/workspace/command-palette.svg) | Workspace |
 | Build | [build.svg](icons/code/workspace/build.svg) | Workspace |
+
+## Mail — 14
+
+| Icon | SVG file | Theme |
+| --- | --- | --- |
+| Mail | [mail.svg](icons/mail/messages/mail.svg) | Messages |
+| Mark unread | [mail-unread.svg](icons/mail/messages/mail-unread.svg) | Messages |
+| Get mail | [get-mail.svg](icons/mail/messages/get-mail.svg) | Messages |
+| Inbox | [inbox.svg](icons/mail/messages/inbox.svg) | Messages |
+| Send | [send.svg](icons/mail/messages/send.svg) | Messages |
+| Reply | [reply.svg](icons/mail/messages/reply.svg) | Messages |
+| Reply all | [reply-all.svg](icons/mail/messages/reply-all.svg) | Messages |
+| Forward | [forward.svg](icons/mail/messages/forward.svg) | Messages |
+| Archive | [archive.svg](icons/mail/messages/archive.svg) | Messages |
+| Flag | [flag.svg](icons/mail/messages/flag.svg) | Messages |
+| Junk | [junk.svg](icons/mail/messages/junk.svg) | Messages |
+| Attachment | [attachment.svg](icons/mail/messages/attachment.svg) | Messages |
+| Compose | [compose.svg](icons/mail/messages/compose.svg) | Messages |
+| Drafts | [drafts.svg](icons/mail/messages/drafts.svg) | Messages |
 

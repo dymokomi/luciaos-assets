@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-157 editable icons for shared controls, graphics, 3D, and code applications.
+171 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 

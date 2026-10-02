@@ -2100,6 +2100,210 @@
         "assemble"
       ],
       "file": "icons/code/workspace/build.svg"
+    },
+    {
+      "id": "mail",
+      "name": "Mail",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "envelope",
+        "message",
+        "email",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/mail.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "mail-unread",
+      "name": "Mark unread",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "unread",
+        "new",
+        "dot",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/mail-unread.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "get-mail",
+      "name": "Get mail",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "download",
+        "fetch",
+        "check",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/get-mail.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "inbox",
+      "name": "Inbox",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "tray",
+        "incoming",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/inbox.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "send",
+      "name": "Send",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "paper plane",
+        "sent",
+        "outgoing",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/send.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "reply",
+      "name": "Reply",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "respond",
+        "answer",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/reply.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "reply-all",
+      "name": "Reply all",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "respond",
+        "everyone",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/reply-all.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "forward",
+      "name": "Forward",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "pass on",
+        "share",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/forward.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "archive",
+      "name": "Archive",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "box",
+        "store",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/archive.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "flag",
+      "name": "Flag",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "mark",
+        "important",
+        "follow up",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/flag.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "junk",
+      "name": "Junk",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "spam",
+        "shield",
+        "block",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/junk.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "attachment",
+      "name": "Attachment",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "paperclip",
+        "file",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/attachment.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "compose",
+      "name": "Compose",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "new message",
+        "write",
+        "pencil",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/compose.svg",
+      "categoryId": "messages"
+    },
+    {
+      "id": "drafts",
+      "name": "Drafts",
+      "domain": "mail",
+      "category": "Messages",
+      "tags": [
+        "unsent",
+        "document",
+        "draft",
+        "mail",
+        "editor"
+      ],
+      "file": "icons/mail/messages/drafts.svg",
+      "categoryId": "messages"
     }
   ],
   "collections": [
@@ -2122,6 +2326,11 @@
       "id": "code",
       "name": "Code",
       "description": "Editing, search, debugging, version control, and workspace tools."
+    },
+    {
+      "id": "mail",
+      "name": "Mail",
+      "description": "Messaging: compose, reply, file and flag mail."
     }
   ]
 }
