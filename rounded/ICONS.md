@@ -1,8 +1,8 @@
 # Rounded icon index
 
-185 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+189 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
-## Common — 45
+## Common — 49
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -51,6 +51,10 @@
 | Restart | [restart.svg](icons/common/playback/restart.svg) | Playback |
 | Search | [search.svg](icons/common/interface/search.svg) | Interface |
 | Settings | [settings.svg](icons/common/interface/settings.svg) | Interface |
+| Arrow left | [arrow-left.svg](icons/common/navigation/arrow-left.svg) | Navigation |
+| Arrow right | [arrow-right.svg](icons/common/navigation/arrow-right.svg) | Navigation |
+| Arrow up | [arrow-up.svg](icons/common/navigation/arrow-up.svg) | Navigation |
+| Arrow down | [arrow-down.svg](icons/common/navigation/arrow-down.svg) | Navigation |
 
 ## Graphics — 46
 

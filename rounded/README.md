@@ -1,13 +1,13 @@
 # LuciaOS Rounded
 
-185 editable icons for shared controls, graphics, 3D, code and mail applications.
+189 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
 ```text
 rounded/
   icons/
-    common/      actions, files, layout, view, playback, interface
+    common/      actions, files, layout, view, navigation, playback, interface
     graphics/    painting, color, effects, selection, paths, layers, transform, typography
     3d/          primitives, selection, modeling, sculpting, viewport, shading,
                  scene, transform, modifiers, animation
@@ -25,7 +25,7 @@ rounded/
 
 | Collection | Count | Examples |
 | --- | ---: | --- |
-| Common | 45 | Save, Undo, Zoom, Lock, Alignment, Playback |
+| Common | 49 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
 | Graphics | 43 | Brush, Pen, Magic Wand, Layers, Color, Transform |
 | 3D | 40 | Cube, Extrude, Sculpt, Material, Lights, Keyframes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
@@ -37,12 +37,15 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 157 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 3204 canvas. The white sheet uses a pure white background.
+Both sheets contain all 189 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 3920 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 
 - **Files and windows:** Open, Close, Folder, New folder, and New file.
+- **Navigation:** Arrow left, right, up and down: a straight shaft with the
+  directional arrowhead, for Back, Forward and Up (a browser's history, a
+  file list's parent folder). Undo and Redo keep their curved history cue.
 
 - **Split window horizontally:** stacked top/bottom panes, with a horizontal divider.
 - **Split window vertically:** side-by-side panes, with a vertical divider.

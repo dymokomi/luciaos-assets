@@ -2304,13 +2304,70 @@
       ],
       "file": "icons/mail/messages/drafts.svg",
       "categoryId": "messages"
+    },
+    {
+      "id": "arrow-left",
+      "name": "Arrow left",
+      "domain": "common",
+      "category": "Navigation",
+      "categoryId": "navigation",
+      "tags": [
+        "back",
+        "previous",
+        "left",
+        "arrow",
+        "navigation"
+      ],
+      "file": "icons/common/navigation/arrow-left.svg"
+    },
+    {
+      "id": "arrow-right",
+      "name": "Arrow right",
+      "domain": "common",
+      "category": "Navigation",
+      "categoryId": "navigation",
+      "tags": [
+        "forward",
+        "next",
+        "right",
+        "arrow",
+        "navigation"
+      ],
+      "file": "icons/common/navigation/arrow-right.svg"
+    },
+    {
+      "id": "arrow-up",
+      "name": "Arrow up",
+      "domain": "common",
+      "category": "Navigation",
+      "categoryId": "navigation",
+      "tags": [
+        "up",
+        "parent",
+        "arrow",
+        "navigation"
+      ],
+      "file": "icons/common/navigation/arrow-up.svg"
+    },
+    {
+      "id": "arrow-down",
+      "name": "Arrow down",
+      "domain": "common",
+      "category": "Navigation",
+      "categoryId": "navigation",
+      "tags": [
+        "down",
+        "arrow",
+        "navigation"
+      ],
+      "file": "icons/common/navigation/arrow-down.svg"
     }
   ],
   "collections": [
     {
       "id": "common",
       "name": "Common",
-      "description": "Shared actions, files, layout, view, and playback controls."
+      "description": "Shared actions, files, layout, view, navigation, and playback controls."
     },
     {
       "id": "graphics",
