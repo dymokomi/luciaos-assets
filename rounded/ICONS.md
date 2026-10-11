@@ -1,8 +1,8 @@
 # Rounded icon index
 
-189 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+201 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
-## Common — 49
+## Common — 58
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -55,6 +55,15 @@
 | Arrow right | [arrow-right.svg](icons/common/navigation/arrow-right.svg) | Navigation |
 | Arrow up | [arrow-up.svg](icons/common/navigation/arrow-up.svg) | Navigation |
 | Arrow down | [arrow-down.svg](icons/common/navigation/arrow-down.svg) | Navigation |
+| Go to start | [go-to-start.svg](icons/common/playback/go-to-start.svg) | Playback |
+| Step back one frame | [step-back.svg](icons/common/playback/step-back.svg) | Playback |
+| Step forward one frame | [step-forward.svg](icons/common/playback/step-forward.svg) | Playback |
+| Go to end | [go-to-end.svg](icons/common/playback/go-to-end.svg) | Playback |
+| Repeat playback | [repeat.svg](icons/common/playback/repeat.svg) | Playback |
+| Play backwards | [play-backwards.svg](icons/common/playback/play-backwards.svg) | Playback |
+| Filter | [filter.svg](icons/common/interface/filter.svg) | Interface |
+| Ghosted | [ghosted.svg](icons/common/view/ghosted.svg) | View & visibility |
+| Project settings | [project-settings.svg](icons/common/files/project-settings.svg) | Files & output |
 
 ## Graphics — 46
 
@@ -107,7 +116,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 51
+## 3D — 54
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -162,6 +171,9 @@
 | Animation | [animation.svg](icons/3d/animation/animation.svg) | Animation |
 | Keyframe | [keyframe.svg](icons/3d/animation/keyframe.svg) | Animation |
 | Timeline | [timeline.svg](icons/3d/animation/timeline.svg) | Animation |
+| Add node | [add-node.svg](icons/3d/nodes/add-node.svg) | Nodes |
+| Group nodes | [group-nodes.svg](icons/3d/nodes/group-nodes.svg) | Nodes |
+| Output node | [output-node.svg](icons/3d/nodes/output-node.svg) | Nodes |
 
 ## Code — 29
 

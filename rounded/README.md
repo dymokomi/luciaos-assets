@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-189 editable icons for shared controls, graphics, 3D, code and mail applications.
+201 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
@@ -10,8 +10,9 @@ rounded/
     common/      actions, files, layout, view, navigation, playback, interface
     graphics/    painting, color, effects, selection, paths, layers, transform, typography
     3d/          primitives, selection, modeling, sculpting, viewport, shading,
-                 scene, transform, modifiers, animation
+                 scene, transform, modifiers, animation, nodes
     code/        files, editing, search, debugging, version-control, workspace
+    mail/        messages
   previews/
     all-white.svg / all-white.png
     all-dark.svg  / all-dark.png
@@ -25,10 +26,11 @@ rounded/
 
 | Collection | Count | Examples |
 | --- | ---: | --- |
-| Common | 49 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
-| Graphics | 43 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 40 | Cube, Extrude, Sculpt, Material, Lights, Keyframes |
+| Common | 58 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
+| Graphics | 46 | Brush, Pen, Magic Wand, Layers, Color, Transform |
+| 3D | 54 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
+| Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 
 ## Preview and browse
 
@@ -37,8 +39,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 189 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 3920 canvas. The white sheet uses a pure white background.
+Both sheets contain all 201 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 4044 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 
@@ -60,14 +62,55 @@ uses the stable `run` icon ID, with the catalog label **Start / Run**.
 Open shares its artwork with Open folder; Folder shares its artwork with
 Group. Each has its own stable ID for application-specific control labels.
 
+## Editor control mapping
+
+Paths below are relative to `icons/`. Reuse the existing shared icons for Play,
+Pause, Search, Frame nodes, Go up one level, Show all, and Hide.
+
+| Editor action | Icon |
+| --- | --- |
+| Go to start | `common/playback/go-to-start.svg` |
+| Step back one frame | `common/playback/step-back.svg` |
+| Play | `common/playback/run.svg` |
+| Pause | `common/playback/pause.svg` |
+| Step forward one frame | `common/playback/step-forward.svg` |
+| Go to end | `common/playback/go-to-end.svg` |
+| Loop / repeat playback | `common/playback/repeat.svg` |
+| Play backwards | `common/playback/play-backwards.svg` |
+| Add node | `3d/nodes/add-node.svg` |
+| Group nodes / collapse into a subnetwork | `3d/nodes/group-nodes.svg` |
+| Frame nodes / fit all nodes in view | `3d/viewport/frame-selection.svg` |
+| Go up one level / parent network | `common/navigation/arrow-up.svg` |
+| Subnetwork output node | `3d/nodes/output-node.svg` |
+| Outliner search | `common/interface/search.svg` |
+| Outliner filter | `common/interface/filter.svg` |
+| Show all objects outside the current network | `common/view/visible.svg` |
+| Show outside objects greyed / ghosted | `common/view/ghosted.svg` |
+| Hide outside objects / show none | `common/view/hidden.svg` |
+| Project settings | `common/files/project-settings.svg` |
+
+The visibility set uses an eye: solid outline, thin dashed outline, or a slash.
+Project settings combines a document and gear; app-wide settings keeps the
+standalone `common/interface/settings.svg` gear. Frame stepping puts the bar
+behind the triangle, while jumping to an endpoint puts it ahead of the triangle.
+
 ## Design
 
 - **Canvas:** 24 × 24; transparent backgrounds.
 - **Base stroke:** 2 px, rounded ends and joins, softer corners.
 - **Directional arrowheads:** the compact rounded chevron used by Restart,
   4 px across and 2 px deep on the 24 px canvas, rotated to follow the shaft.
-- **Color:** `currentColor`. Selected faces use a translucent fill, playback
-  controls use solid indicators, and Edge selection uses a heavier line.
+- **Color:** `currentColor`. New filled regions use soft fills (opacity .18–.45).
+  Existing selection dots and Pause / Stop indicators retain their solid fills.
+- **3D context:** follow `selection/vertex-select`, `edge-select`, and `face-select`:
+  context uses a 1.25 px stroke, `1.6 2.2` dashes, and .75 opacity; the active
+  subject uses the 2 px base stroke, with heavier lines for selected edges.
+  Continuous supporting curves use 1.25 px strokes when dashes would obscure
+  the shape. Keep internal mesh detail sparse at toolbar sizes.
+- **Cube geometry:** reuse the selection cube: top `(12, 3.5)`, side corners
+  `(4, 8)` and `(20, 8)`, front junction `(12, 12.5)`, and bottom `(12, 20.5)`.
+  Modeling icons emphasize the affected edge, face, or operation. Planar mesh
+  operations share a rounded 16 × 16 boundary from `(4, 4)` to `(20, 20)`.
 - **Source:** native SVG paths and shapes; no fonts or embedded raster images.
 - **Sizing:** 24 px is the preferred toolbar size. Fine details become less
   distinct at 16 px.
@@ -111,8 +154,8 @@ appropriate `aria-label`. Icons do not contain fixed IDs or titles.
 
 Version 2 organizes the flat source folder into collection/theme subfolders.
 Use [path-migrations.json](path-migrations.json) to update direct file imports.
-For example, `icons/cube.svg` is now `icons/3d/primitives/cube.svg`. The artwork,
-filenames, and sprite IDs are unchanged.
+For example, `icons/cube.svg` is now `icons/3d/primitives/cube.svg`. Existing
+filenames and sprite IDs stay stable when artwork is revised.
 
 `align-vertical-center` aligns center Y positions around a horizontal guide.
 `align-horizontal-center` aligns center X positions around a vertical guide.
@@ -126,7 +169,8 @@ filenames, and sprite IDs are unchanged.
 
 ```sh
 python3 rounded/scripts/build_previews.py
-python3 rounded/scripts/render_previews.py
+resvg rounded/previews/all-white.svg rounded/previews/all-white.png
+resvg rounded/previews/all-dark.svg rounded/previews/all-dark.png
 ```
 
 The first command requires Python 3.9+ and uses only its standard library.
@@ -135,9 +179,14 @@ Markdown index, full SVG sheets, and preview index. New icons are included in
 both full sheets automatically. Edit `scripts/catalog_template.html` to change
 the catalog UI; `catalog.html` is generated.
 
-The second command exports PNGs using macOS Quick Look and `sips`; no Python
-packages are required. The SVG sheets work on other platforms as well. PNGs
-are generated snapshots and should be refreshed after editing.
+The `resvg` commands export PNGs. On macOS, `python3 rounded/scripts/render_previews.py`
+is an alternative using Quick Look and `sips`. PNGs are generated snapshots
+and should be refreshed after editing.
+
+For visual review, render each changed SVG with `resvg` at 24 px and 96 px,
+using light ink on `#262626`; inspect both sizes and check the whole family at
+24 px and 48 px. Set `color` only on the temporary review copy or wrapper so
+the source SVG continues to inherit `currentColor` and stays transparent.
 
 The offline catalog falls back to selecting the SVG source for manual copying
 if clipboard access is unavailable. Individual downloads work offline.

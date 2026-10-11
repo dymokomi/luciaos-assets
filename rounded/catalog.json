@@ -107,7 +107,11 @@
       "category": "Viewport",
       "tags": [
         "mesh",
-        "editor"
+        "editor",
+        "frame nodes",
+        "frame all",
+        "fit all",
+        "network"
       ],
       "file": "icons/3d/viewport/frame-selection.svg",
       "categoryId": "viewport"
@@ -600,7 +604,10 @@
       "category": "View & visibility",
       "tags": [
         "eye",
-        "show"
+        "show",
+        "show all",
+        "context objects",
+        "outside network"
       ],
       "file": "icons/common/view/visible.svg",
       "categoryId": "view"
@@ -612,7 +619,10 @@
       "category": "View & visibility",
       "tags": [
         "eye off",
-        "hide"
+        "hide",
+        "show none",
+        "context objects",
+        "outside network"
       ],
       "file": "icons/common/view/hidden.svg",
       "categoryId": "view"
@@ -659,7 +669,9 @@
       "tags": [
         "play",
         "execute",
-        "start"
+        "start",
+        "forward playback",
+        "timeline"
       ],
       "file": "icons/common/playback/run.svg",
       "categoryId": "playback"
@@ -670,7 +682,9 @@
       "domain": "common",
       "category": "Playback",
       "tags": [
-        "suspend"
+        "suspend",
+        "timeline",
+        "pause playback"
       ],
       "file": "icons/common/playback/pause.svg",
       "categoryId": "playback"
@@ -706,7 +720,8 @@
       "category": "Interface",
       "tags": [
         "find",
-        "magnifier"
+        "magnifier",
+        "outliner"
       ],
       "file": "icons/common/interface/search.svg",
       "categoryId": "interface"
@@ -2345,7 +2360,10 @@
         "up",
         "parent",
         "arrow",
-        "navigation"
+        "navigation",
+        "parent network",
+        "go up one level",
+        "subnetwork"
       ],
       "file": "icons/common/navigation/arrow-up.svg"
     },
@@ -2361,6 +2379,180 @@
         "navigation"
       ],
       "file": "icons/common/navigation/arrow-down.svg"
+    },
+    {
+      "id": "go-to-start",
+      "name": "Go to start",
+      "domain": "common",
+      "category": "Playback",
+      "categoryId": "playback",
+      "tags": [
+        "timeline",
+        "first frame",
+        "start",
+        "playback"
+      ],
+      "file": "icons/common/playback/go-to-start.svg"
+    },
+    {
+      "id": "step-back",
+      "name": "Step back one frame",
+      "domain": "common",
+      "category": "Playback",
+      "categoryId": "playback",
+      "tags": [
+        "timeline",
+        "previous frame",
+        "step backward",
+        "playback"
+      ],
+      "file": "icons/common/playback/step-back.svg"
+    },
+    {
+      "id": "step-forward",
+      "name": "Step forward one frame",
+      "domain": "common",
+      "category": "Playback",
+      "categoryId": "playback",
+      "tags": [
+        "timeline",
+        "next frame",
+        "step forward",
+        "playback"
+      ],
+      "file": "icons/common/playback/step-forward.svg"
+    },
+    {
+      "id": "go-to-end",
+      "name": "Go to end",
+      "domain": "common",
+      "category": "Playback",
+      "categoryId": "playback",
+      "tags": [
+        "timeline",
+        "last frame",
+        "end",
+        "playback"
+      ],
+      "file": "icons/common/playback/go-to-end.svg"
+    },
+    {
+      "id": "repeat",
+      "name": "Repeat playback",
+      "domain": "common",
+      "category": "Playback",
+      "categoryId": "playback",
+      "tags": [
+        "loop",
+        "repeat",
+        "cycle",
+        "timeline",
+        "playback"
+      ],
+      "file": "icons/common/playback/repeat.svg"
+    },
+    {
+      "id": "play-backwards",
+      "name": "Play backwards",
+      "domain": "common",
+      "category": "Playback",
+      "categoryId": "playback",
+      "tags": [
+        "reverse",
+        "backward",
+        "timeline",
+        "playback"
+      ],
+      "file": "icons/common/playback/play-backwards.svg"
+    },
+    {
+      "id": "add-node",
+      "name": "Add node",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "tags": [
+        "create node",
+        "network",
+        "graph",
+        "editor"
+      ],
+      "file": "icons/3d/nodes/add-node.svg"
+    },
+    {
+      "id": "group-nodes",
+      "name": "Group nodes",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "tags": [
+        "collapse",
+        "selection",
+        "subnetwork",
+        "network",
+        "graph",
+        "editor"
+      ],
+      "file": "icons/3d/nodes/group-nodes.svg"
+    },
+    {
+      "id": "output-node",
+      "name": "Output node",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "tags": [
+        "subnetwork output",
+        "terminal",
+        "result",
+        "network",
+        "graph",
+        "editor"
+      ],
+      "file": "icons/3d/nodes/output-node.svg"
+    },
+    {
+      "id": "filter",
+      "name": "Filter",
+      "domain": "common",
+      "category": "Interface",
+      "categoryId": "interface",
+      "tags": [
+        "outliner",
+        "funnel",
+        "list",
+        "search"
+      ],
+      "file": "icons/common/interface/filter.svg"
+    },
+    {
+      "id": "ghosted",
+      "name": "Ghosted",
+      "domain": "common",
+      "category": "View & visibility",
+      "categoryId": "view",
+      "tags": [
+        "show greyed",
+        "ghost",
+        "context objects",
+        "outside network",
+        "visibility"
+      ],
+      "file": "icons/common/view/ghosted.svg"
+    },
+    {
+      "id": "project-settings",
+      "name": "Project settings",
+      "domain": "common",
+      "category": "Files & output",
+      "categoryId": "files",
+      "tags": [
+        "document",
+        "gear",
+        "project preferences",
+        "configuration"
+      ],
+      "file": "icons/common/files/project-settings.svg"
     }
   ],
   "collections": [
@@ -2377,7 +2569,7 @@
     {
       "id": "3d",
       "name": "3D",
-      "description": "Primitives, modeling, sculpting, scenes, and animation."
+      "description": "Primitives, modeling, sculpting, scenes, node networks, and animation."
     },
     {
       "id": "code",
