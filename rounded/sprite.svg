@@ -206,7 +206,8 @@
 <path d="M7 5.5q0-2 1.7-.9L20 11q1.5 1 0 2L8.7 19.4q-1.7 1.1-1.7-.9Z"/>
 </symbol>
 <symbol id="pause" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<rect x="5.5" y="4" width="4.5" height="16" rx="2" fill="currentColor" stroke="none"/><rect x="14" y="4" width="4.5" height="16" rx="2" fill="currentColor" stroke="none"/>
+<rect x="5.5" y="4.2" width="4.5" height="15.6" rx="1.5"/>
+  <rect x="14" y="4.2" width="4.5" height="15.6" rx="1.5"/>
 </symbol>
 <symbol id="stop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <rect x="5" y="5" width="14" height="14" rx="3" fill="currentColor" stroke="none"/>
@@ -718,6 +719,9 @@
 </symbol>
 <symbol id="play-backwards" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <path d="M17 5.5q0-2-1.7-.9L4 11q-1.5 1 0 2l11.3 6.4q1.7 1.1 1.7-.9Z"/>
+</symbol>
+<symbol id="play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M7 5.5q0-2 1.7-.9L20 11q1.5 1 0 2l-11.3 6.4q-1.7 1.1-1.7-.9Z"/>
 </symbol>
 <symbol id="add-node" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <path d="M12 6H6q-2 0-2 2v10q0 2 2 2h10q2 0 2-2v-6M18 3v6m-3-3h6M9 3v3m2 14v2"/>

@@ -1,8 +1,8 @@
 # Rounded icon index
 
-201 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+202 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
-## Common — 58
+## Common — 59
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -61,6 +61,7 @@
 | Go to end | [go-to-end.svg](icons/common/playback/go-to-end.svg) | Playback |
 | Repeat playback | [repeat.svg](icons/common/playback/repeat.svg) | Playback |
 | Play backwards | [play-backwards.svg](icons/common/playback/play-backwards.svg) | Playback |
+| Play | [play.svg](icons/common/playback/play.svg) | Playback |
 | Filter | [filter.svg](icons/common/interface/filter.svg) | Interface |
 | Ghosted | [ghosted.svg](icons/common/view/ghosted.svg) | View & visibility |
 | Project settings | [project-settings.svg](icons/common/files/project-settings.svg) | Files & output |

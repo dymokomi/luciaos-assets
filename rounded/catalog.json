@@ -667,11 +667,10 @@
       "domain": "common",
       "category": "Playback",
       "tags": [
-        "play",
         "execute",
         "start",
-        "forward playback",
-        "timeline"
+        "script",
+        "job"
       ],
       "file": "icons/common/playback/run.svg",
       "categoryId": "playback"
@@ -2464,6 +2463,21 @@
         "playback"
       ],
       "file": "icons/common/playback/play-backwards.svg"
+    },
+    {
+      "id": "play",
+      "name": "Play",
+      "domain": "common",
+      "category": "Playback",
+      "categoryId": "playback",
+      "tags": [
+        "forward",
+        "forward playback",
+        "timeline",
+        "playback",
+        "transport"
+      ],
+      "file": "icons/common/playback/play.svg"
     },
     {
       "id": "add-node",

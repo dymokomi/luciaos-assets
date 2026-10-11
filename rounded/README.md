@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-201 editable icons for shared controls, graphics, 3D, code and mail applications.
+202 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
@@ -26,7 +26,7 @@ rounded/
 
 | Collection | Count | Examples |
 | --- | ---: | --- |
-| Common | 58 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
+| Common | 59 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
 | Graphics | 46 | Brush, Pen, Magic Wand, Layers, Color, Transform |
 | 3D | 54 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
@@ -39,7 +39,7 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 201 icons once, grouped by collection. Icons are shown
+Both sheets contain all 202 icons once, grouped by collection. Icons are shown
 at 48 px on a 1600 × 4044 canvas. The white sheet uses a pure white background.
 
 ## Application controls
@@ -58,6 +58,7 @@ at 48 px on a 1600 × 4044 canvas. The white sheet uses a pure white background.
 Reflection depicts a screen with a sharp 45-degree glare. `reload` is a plain
 refresh arrow; the existing `restart` icon retains its playback cue. Start
 uses the stable `run` icon ID, with the catalog label **Start / Run**.
+Timeline playback uses the separate `play` icon ID, paired with `play-backwards`.
 
 Open shares its artwork with Open folder; Folder shares its artwork with
 Group. Each has its own stable ID for application-specific control labels.
@@ -71,12 +72,12 @@ Pause, Search, Frame nodes, Go up one level, Show all, and Hide.
 | --- | --- |
 | Go to start | `common/playback/go-to-start.svg` |
 | Step back one frame | `common/playback/step-back.svg` |
-| Play | `common/playback/run.svg` |
+| Play backwards | `common/playback/play-backwards.svg` |
+| Play | `common/playback/play.svg` |
 | Pause | `common/playback/pause.svg` |
 | Step forward one frame | `common/playback/step-forward.svg` |
 | Go to end | `common/playback/go-to-end.svg` |
 | Loop / repeat playback | `common/playback/repeat.svg` |
-| Play backwards | `common/playback/play-backwards.svg` |
 | Add node | `3d/nodes/add-node.svg` |
 | Group nodes / collapse into a subnetwork | `3d/nodes/group-nodes.svg` |
 | Frame nodes / fit all nodes in view | `3d/viewport/frame-selection.svg` |
@@ -101,7 +102,7 @@ behind the triangle, while jumping to an endpoint puts it ahead of the triangle.
 - **Directional arrowheads:** the compact rounded chevron used by Restart,
   4 px across and 2 px deep on the 24 px canvas, rotated to follow the shaft.
 - **Color:** `currentColor`. New filled regions use soft fills (opacity .18–.45).
-  Existing selection dots and Pause / Stop indicators retain their solid fills.
+  Existing selection dots and Stop indicators retain their solid fills.
 - **3D context:** follow `selection/vertex-select`, `edge-select`, and `face-select`:
   context uses a 1.25 px stroke, `1.6 2.2` dashes, and .75 opacity; the active
   subject uses the 2 px base stroke, with heavier lines for selected edges.
