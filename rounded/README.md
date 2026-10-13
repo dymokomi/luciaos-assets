@@ -105,8 +105,8 @@ behind the triangle, while jumping to an endpoint puts it ahead of the triangle.
 - **Color:** `currentColor`. New filled regions use soft fills (opacity .18–.45).
   Existing selection dots and Stop indicators retain their solid fills.
 - **Source:** native SVG paths and shapes; no fonts or embedded raster images.
-- **Sizing:** 24 px is the preferred toolbar size. Fine details become less
-  distinct at 16 px.
+- **Sizing:** 24 px is the preferred toolbar size. The operation and differences
+  between related tools must also read at 16 px; reserve fine detail for context.
 
 ### 3D fidelity and shading
 
@@ -130,6 +130,12 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
 - Fills sit under strokes: put the fill path first, then the stroke path.
 - Do not use opacity below .35 on strokes. At 35% disabled alpha a .35 stroke
   drops to about 12% and disappears; that is acceptable only for ghosts.
+- Essential contours belong to the subject, even when they describe supporting
+  geometry. Use solid 1.5–2 px edges at full opacity for a necessary rail, rim,
+  table or endpoint; keep the operation itself at 2–3 px. A dashed context line
+  must never be the only cue separating two operations. The context and ghost
+  tiers above stay unchanged: adding weight to every scaffold makes small icons
+  busy. Verify the subject with those tiers hidden as well as at 35% overall alpha.
 - Semi-opaque fills darken when they overlap. Avoid overlap unless it conveys
   the operation (Intersect, Combine).
 
@@ -150,7 +156,9 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
   arcs with the chevron tangent to the arc.
 - **Badges (+, −, x, check):** bottom-right 7 × 7 px only, 2 px stroke, 1 px
   clear gap from art. They mark mode (Insert Knot, Remove Knot, Delete Face),
-  never replace the picture.
+  never replace the picture. Attribute operations instead pair a two-row table
+  with a large subject mark in the right half: plus, minus, up arrow, pencil or
+  text caret. Finish Sketch's check is the operation itself and spans the plane.
 - **Optical size:** content box 3–21 px; keep at least 1.5 px between parallel
   strokes. Use at most about 8 strokes. At 16 px the subject must read even
   when every context line vanishes.
@@ -163,7 +171,9 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
 - **Removed geometry:** ghost; add an x badge only when removal is the point
   (Delete Face, Remove Knot).
 - **Before / after side by side:** conversions only (Trim Convert, Tessellate,
-  Curve to Mesh). Small left glyph at .6, 4 px arrow, right glyph at full opacity.
+  Curve to Mesh). Small left glyph at .6, 4 px arrow, larger right glyph at full
+  opacity. The destination must read by itself. Set Curve Type instead overlays
+  an angular ghost and a smooth curve, without the conversion layout.
 - **Inputs:** sketch profile, rail and boundary curves use subject strokes, no
   fill. Their surface or body result takes the shaded tier.
 
@@ -176,6 +186,15 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
 - Share family bases: select rules use a 3 × 3 grid or the selection cube;
   surfacing the same curved patch; curves the same S-curve; node kinds the
   rounded box from `3d/nodes`.
+- Prefer a magnified edge or face when a whole cube hides the operation.
+  Fillet and Chamfer use broad curved and straight edge sections; Shell uses a
+  deep, unobstructed opening, thick rim and short walls; Split Face uses one divided face.
+  Extrude is a tall prism from one profile; Offset Face separates a lifted face
+  from its ghost. Keep these silhouettes distinct in menus and node networks.
+- Selection patterns may omit the grid: Checker is contiguous alternating solid
+  cells; Random is a sparse, irregular scatter. These selected cells, like the
+  existing selected points, use solid ink. Grow and Shrink use two opposing
+  arrows at the region edge, with space to read their outward or inward heads.
 - Every new filename must have a library-wide unique stem: luce-ui embeds by
   stem, regardless of folder.
 - Tool-specific drawings may specify extra normal arrows or analysis fill
@@ -184,19 +203,20 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
 
 #### Five worked examples
 
-1. **Fillet (`3d/cad`):** selection cube context, omitting `M12 12.5v8`.
-   Replace that edge with a quarter-round strip whose boundaries lie 2.5 px
-   either side, 2 px solid, fill .45. A thin 1 px / .5 curved middle isoline
-   and a dashed radius-2.5 rolling ball show roundness. It must read at 16 px
-   and differ from Chamfer (one flat strip, no isoline or ball) and Bevel
-   (2–3 segment lines across the strip).
-2. **Offset Face (`3d/cad`, Fusion Press Pull):** whole dashed cube, top lifted
-   by 4 px. Original diamond ghost .45; new diamond fill .45, 2 px outline.
-   Connecting walls fill .2 with 1.25 px solid edges. One upward arrow leaves
-   the cap, ending near y=1.5. Extrude instead starts with a single face.
-3. **Skin (`3d/surfacing`):** three bold gentle-C sections, the middle larger,
-   arranged diagonally back to front. Two 1.25 px boundaries join their ends;
-   lofted region fill .25. No arrows. Input curves are subject; result shaded.
+1. **Fillet (`3d/cad`):** enlarged radius-10 quarter-round edge, 2.5 px subject
+   contour; offset boundary at 1.5 px, shaded strip .3. Chamfer uses the same
+   section with a long straight diagonal. No cube, isoline or rolling ball.
+   Sketch Fillet and Sketch Chamfer use the corresponding flat, unshaded outline.
+2. **Offset Face (`3d/cad`, Fusion Press Pull):** a diamond face with fill .45
+   and 2 px outline, clearly separated above the original ghost diamond. An
+   upward arrow sits beside the gap. No connecting walls: those would turn the
+   silhouette back into Extrude's continuous tall prism.
+3. **Skin (`3d/surfacing`):** three bold section curves, spaced across a .25
+   lofted region, with two lighter boundaries joining their ends. No arrow.
+   Rail uses an arched section across two long rails; Profile Sweep uses a square
+   profile and a path; Tube uses a broad elbow with round open ends. Align has a
+   continuity mark across a seam, Square four bowed boundaries, and Extend a
+   lighter continuation beyond the original edge.
 4. **Select Loop (`3d/selection`):** unchanged selection cube context. The
    visible closed edge loop is `M4 12l8 4.5 8-4.5`, 3 px, with 3 px dots where
    it crosses visible edges. No plus. Loop Cut's new line gains a 2 px plus
@@ -279,6 +299,22 @@ For visual review, render every changed or new SVG with `resvg` at 16, 24 and
 96 px: light ink on `#262626` and dark ink on `#ffffff`, enabled and at 35%
 opacity. Inspect the family together at 16, 24 and 48 px. Set `color` only on the temporary review copy or wrapper so
 the source SVG continues to inherit `currentColor` and stays transparent.
+
+For a reproducible before/after review of exactly the changed icons, use:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref 8bfff65 \
+  --output-dir /tmp/lucia-round3/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/round3
+```
+
+This renders each version with `resvg` at 16, 24, 48 and 96 px in both themes,
+enabled and at 35% overall opacity. It writes labelled `round3_before.png` and
+`round3_after.png` sheets at native 16/24/48 px, with the identical changed-icon
+inventory in each. The output directory holds individual PNGs, temporary SVGs
+and a manifest. `--names` optionally supplies a preferred stem order; its list
+must match exactly the changed inventory. Use a different baseline and output
+prefix for subsequent rounds. The script requires `resvg` and Python 3.9+ only.
 
 The offline catalog falls back to selecting the SVG source for manual copying
 if clipboard access is unavailable. Individual downloads work offline.

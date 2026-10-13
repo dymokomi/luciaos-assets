@@ -819,21 +819,18 @@
 <text x="135.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="238" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="split-mesh" x="301.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 5h5v14H4ZM15 5h5v14h-5Z" fill="currentColor" fill-opacity="0.35" stroke="none"/>
-  <path d="M4 5h5M4 5v14h5M15 5h5v14h-5" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M9 5v14M15 5v14"/>
-  <path d="M7 12 3 12M5 14 3 12 5 10"/>
-  <path d="M17 12 21 12M19 10 21 12 19 14"/>
+  <path d="M3 5h6v14H3ZM15 5h6v14h-6Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M3 5h6v14H3ZM15 5h6v14h-6Z"/>
+  <path d="M3 5l6 14M15 19l6-14" stroke-width="1.5"/>
 </svg>
 
 <text x="325.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Split mesh</text>
 <text x="325.0" y="2261" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="428" y="2160" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="dissolve" x="491.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="4" y="4" width="16" height="16" rx="2" fill="currentColor" fill-opacity=".3" stroke="none"/>
-  <rect x="4" y="4" width="16" height="16" rx="2"/>
-  <path d="M12 4v16" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M4 4h16v16H4Z"/>
+  <path d="M12 4v4m0 8v4" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M9 12h6" stroke-width="2.5"/>
 </svg>
 
 <text x="515.0" y="2243" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Dissolve edges</text>
@@ -1010,11 +1007,12 @@
 <text x="705.0" y="2509" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Mesh selection</text>
 <rect x="808" y="2408" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="extrude" x="871.0" y="2421" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 11l8 4.5v6L4 17ZM12 15.5 20 11v6l-8 4.5Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M4 11l8-4.5 8 4.5-8 4.5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M4 11v6l8 4.5 8-4.5v-6M12 15.5v6" stroke-width="1.25"/>
-  <path d="M4 11l8-4.5 8 4.5-8 4.5Z"/>
-  <path d="M12 10 12 2.5M10 4.5 12 2.5 14 4.5"/>
+  <path d="M5 8l6 3.5v10L5 18Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M11 11.5 17 8v10l-6 3.5Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M5 8l6-3.5L17 8l-6 3.5Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M5 8v10l6 3.5 6-3.5V8M11 11.5v10" stroke-width="1.5"/>
+  <path d="M5 8l6-3.5L17 8l-6 3.5Z"/>
+  <path d="M20.5 11V3m-2 2 2-2 2 2"/>
 </svg>
 
 <text x="895.0" y="2491" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Extrude</text>
@@ -1231,12 +1229,9 @@
 <text x="705.0" y="2881" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Transform &amp; modifiers</text>
 <rect x="808" y="2780" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="boolean-intersect" x="871.0" y="2793" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <g stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45">
-  <circle cx="8.5" cy="12" r="6.5"/>
-  <circle cx="15.5" cy="12" r="6.5"/>
-  </g>
-  <path d="M12 6.523a6.5 6.5 0 0 1 0 10.954 6.5 6.5 0 0 1 0-10.954Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M12 6.523a6.5 6.5 0 0 1 0 10.954 6.5 6.5 0 0 1 0-10.954Z"/>
+  <path d="M12 6.5a6.5 6.5 0 1 0 0 11M12 6.5a6.5 6.5 0 1 1 0 11" stroke-width="1.25" opacity=".6"/>
+  <path d="M12 6.5a6.5 6.5 0 0 1 0 11 6.5 6.5 0 0 1 0-11Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M12 6.5a6.5 6.5 0 0 1 0 11 6.5 6.5 0 0 1 0-11Z"/>
 </svg>
 
 <text x="895.0" y="2863" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Boolean intersect</text>
@@ -1350,13 +1345,10 @@
 <text x="1465.0" y="3005" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="48" y="3028" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="bevel-weight" x="111.0" y="3041" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <g transform="translate(1.8 2.8) scale(0.6)">
-  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M12 12.5v8" stroke-width="3"/>
-  </g>
-  <rect x="15" y="13" width="1.5" height="7" rx="0.5" fill="currentColor" stroke="none"/>
-  <rect x="18" y="10" width="1.5" height="10" rx="0.5" fill="currentColor" fill-opacity=".35" stroke="none"/>
-  <rect x="21" y="6" width="1.5" height="14" rx="0.5" fill="currentColor" fill-opacity=".35" stroke="none"/>
+  <path d="M3 8l5-4 5 4-5 4Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M3 8l5-4 5 4-5 4Zm0 0v9l5 4 5-4V8" stroke-width="1.5"/>
+  <path d="M8 12v9" stroke-width="3"/>
+  <path d="M17 20v-7M21 20V7" stroke-width="2.5"/>
 </svg>
 
 <text x="135.0" y="3111" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mesh Bevel Weight</text>
@@ -1386,23 +1378,20 @@
 <text x="515.0" y="3129" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="618" y="3028" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="connect" x="681.0" y="3041" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 4h16v8H4Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M4 12h16v8H4Z" fill="currentColor" fill-opacity="0.35" stroke="none"/>
-  <path d="M4 4h16v16H4Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M4 12h16"/>
-  <circle cx="4" cy="12" r="1.5" fill="currentColor" stroke="none"/>
-  <circle cx="20" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <path d="M4 4v16M20 4v16" stroke-width="1.5"/>
+  <path d="M4 12h16" stroke-width="2.5"/>
+  <circle cx="4" cy="12" r="2" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="12" r="2" fill="currentColor" stroke="none"/>
 </svg>
 
 <text x="705.0" y="3111" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mesh Connect</text>
 <text x="705.0" y="3129" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="808" y="3028" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="edge-slide" x="871.0" y="3041" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 8h11v12H4Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M4 8h16v12H4ZM4 14h16" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M10 8v12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M15 8v12"/>
-  <path d="M8 4 18 4M16 2 18 4 16 6M10 6 8 4 10 2"/>
+  <path d="M4 11h16M4 20h16" stroke-width="1.5"/>
+  <path d="M8 11v9" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M15 11v9" stroke-width="3"/>
+  <path d="M5 5h14m-2-2 2 2-2 2M7 3 5 5l2 2"/>
 </svg>
 
 <text x="895.0" y="3111" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mesh Edge Slide</text>
@@ -1445,15 +1434,9 @@
 <text x="1465.0" y="3129" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="48" y="3152" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="clean-mesh" x="111.0" y="3165" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 6h8l-2 10H4Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M4 6h8l-2 10H4ZM4 6l6 10M4 11h7" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <g opacity=".45">
-  <circle cx="4" cy="20" r="1.5" fill="currentColor" stroke="none"/>
-  <circle cx="9" cy="20" r="1.5" fill="currentColor" stroke="none"/>
-  </g>
-  <path d="M15 15l6 1-5 5Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="m16.5 16.5 4 4m0-4-4 4"/>
-  <path d="M18 3q0 4-4 4 4 0 4 4 0-4 4-4-4 0-4-4Z" stroke-width="1.5"/>
+  <path d="M3 10h11v11H3Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M3 10h11v11H3ZM3 10l11 11" stroke-width="1.5"/>
+  <path d="M18 3q0 5-4 5 4 0 4 5 0-5 4-5-4 0-4-5Z"/>
 </svg>
 
 <text x="135.0" y="3235" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mesh Clean</text>
@@ -1471,10 +1454,9 @@
 <text x="325.0" y="3253" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="428" y="3152" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="subdivision-surface" x="491.0" y="3165" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M8 9q4-4 8 0 3 5 0 8-4 3-8 0-3-4 0-8Z" fill="currentColor" fill-opacity="0.35" stroke="none"/>
-  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M8 9q4-4 8 0 3 5 0 8-4 3-8 0-3-4 0-8Z"/>
-  <path d="M8 9q4 4 8 0M12 11v7" stroke-width="1" opacity=".5"/>
+  <path d="M4 8Q4 4 8 4h8q4 0 4 4v8q0 4-4 4H8q-4 0-4-4Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M4 8Q4 4 8 4h8q4 0 4 4v8q0 4-4 4H8q-4 0-4-4Z"/>
+  <path d="M4 12q8-4 16 0M12 4q-4 8 0 16" stroke-width="1.5"/>
 </svg>
 
 <text x="515.0" y="3235" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mesh Subdivision</text>
@@ -1491,12 +1473,9 @@
 <text x="705.0" y="3253" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="808" y="3152" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="peak" x="871.0" y="3165" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 11C8 6 16 6 20 11L20 14C16 9 8 9 4 14Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
-  <path d="M4 19C8 14 16 14 20 19" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M4 12C8 7 16 7 20 12"/>
-  <path d="M5 9 3 5M2.10557 7.68328 3 5 5.68328 5.89443"/>
-  <path d="M12 6 12 2M10 4 12 2 14 4"/>
-  <path d="M19 9 21 5M18.3167 5.89443 21 5 21.8944 7.68328"/>
+  <path d="M3 20q9-7 18 0" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M3 16q9-8 18 0" stroke-width="2.5"/>
+  <path d="M12 11V3m-2 2 2-2 2 2"/>
 </svg>
 
 <text x="895.0" y="3235" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mesh Peak</text>
@@ -1523,21 +1502,19 @@
 <text x="1275.0" y="3253" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">CAD</text>
 <rect x="1378" y="3152" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="finish-sketch" x="1441.0" y="3165" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 12l7-3.5 7 3.5-7 3.5Z" stroke-width="1.25" opacity=".6"/>
-  <path d="M6 11l4-2 4 2" stroke-width="1.5"/>
-  <path d="m15.5 18 2 2 4-4"/>
+  <path d="M3 13l8-4 10 5-8 5Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M3 13l8-4 10 5-8 5Z" stroke-width="1.5" opacity=".6"/>
+  <path d="M6 9l5 5L20 4" stroke-width="3"/>
 </svg>
 
 <text x="1465.0" y="3235" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Finish Sketch</text>
 <text x="1465.0" y="3253" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">CAD</text>
 <rect x="48" y="3276" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="revolve" x="111.0" y="3289" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M5 9C8 11 5 15 5 18Q8 20 12 20V9Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M12 9h7c-3 2 0 6 0 9h-7Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M5 9C8 11 5 15 5 18Q12 22 19 18" stroke-width="1.25" opacity=".6"/>
-  <path d="M12 9h7c-3 2 0 6 0 9h-7"/>
-  <path d="M5 6C5 2 19 2 19 6m-2-2 2 2 2-2"/>
+  <path d="M5 10q7 4 14 0v8q-7 5-14 0Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <ellipse cx="12" cy="10" rx="7" ry="2" stroke-width="1.5"/>
+  <path d="M5 10v8q7 5 14 0v-8"/>
+  <path d="M4 5C4 1 20 1 20 5m-2-2 2 2 2-2"/>
 </svg>
 
 <text x="135.0" y="3359" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">CAD Revolve</text>
@@ -1554,35 +1531,31 @@
 <text x="325.0" y="3377" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">CAD</text>
 <rect x="428" y="3276" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="offset-face" x="491.0" y="3289" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 8l8 4.5v4L4 12ZM12 12.5 20 8v4l-8 4.5Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M4 12v4l8 4.5 8-4.5v-4M12 16.5v4" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M12 7.5 20 12l-8 4.5L4 12Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M4 8v4M20 8v4M12 12.5v4" stroke-width="1.25"/>
-  <path d="M12 3.5 20 8l-8 4.5L4 8Z"/>
-  <path d="M12 7.5 12 1.5M10 3.5 12 1.5 14 3.5"/>
+  <path d="M3 17l7-4 7 4-7 4Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M3 7l7-4 7 4-7 4Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M3 7l7-4 7 4-7 4Z"/>
+  <path d="M20.5 18V8m-2 2 2-2 2 2"/>
 </svg>
 
 <text x="515.0" y="3359" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">CAD Offset Face</text>
 <text x="515.0" y="3377" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">CAD</text>
 <rect x="618" y="3276" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="shell" x="681.0" y="3289" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
-  <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity="0.3" stroke="none"/>
-  <path d="M4 8l8-4.5L20 8l-8 4.5ZM7 8l5 2.8L17 8l-5-2.8Z" fill="currentColor" fill-opacity="0.45" stroke="none" fill-rule="evenodd"/>
-  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8"/>
-  <path d="M7 8l5-2.8L17 8l-5 2.8ZM12 5.2v5.6" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 9l9 6v6l-9-6Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M12 15l9-6v6l-9 6Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M3 9l9-6 9 6-9 6ZM6 9l6 4 6-4-6-4Z" fill="currentColor" fill-opacity=".45" stroke="none" fill-rule="evenodd"/>
+  <path d="M3 9l9-6 9 6v6l-9 6-9-6ZM3 9l9 6 9-6M12 15v6"/>
+  <path d="M6 9l6-4 6 4-6 4Z" stroke-width="1.5"/>
 </svg>
 
 <text x="705.0" y="3359" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">CAD Shell</text>
 <text x="705.0" y="3377" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">CAD</text>
 <rect x="808" y="3276" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="split-face" x="871.0" y="3289" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M12 12.5l8-4.5v4l-8 4.5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M12 16.5l8-4.5v4l-8 4.5Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M3 11l9 5.5 9-5" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M12 16.5 20 12"/>
+  <path d="M4 5h16v14H4Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M4 5h5l6 14H4Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M4 5h16v14H4Z" stroke-width="1.5"/>
+  <path d="M9 5l6 14" stroke-width="3"/>
 </svg>
 
 <text x="895.0" y="3359" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">CAD Split Face</text>
@@ -1646,22 +1619,18 @@
 <text x="135.0" y="3501" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">CAD</text>
 <rect x="238" y="3400" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="fillet" x="301.0" y="3413" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M9.5 11.1Q12 13.9 14.5 11.1v8Q12 21.9 9.5 19.1Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M9.5 19.1 4 16V8l8-4.5L20 8v8l-5.5 3.1M4 8l5.5 3.1M14.5 11.1 20 8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M9.5 11.1v8M14.5 11.1v8"/>
-  <path d="M9.5 11.1Q12 13.9 14.5 11.1M9.5 19.1Q12 21.9 14.5 19.1" stroke-width="1.25" opacity=".6"/>
-  <path d="M12 12.5c-1 2.5-1 5 0 8" stroke-width="1" opacity=".5"/>
-  <circle cx="17" cy="14.5" r="2.5" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M3 17v-4A10 10 0 0 1 13 3h4l4 4h-4A10 10 0 0 0 7 17v4Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M3 17l4 4v-4A10 10 0 0 1 17 7h4l-4-4" stroke-width="1.5"/>
+  <path d="M3 17v-4A10 10 0 0 1 13 3h4" stroke-width="2.5"/>
 </svg>
 
 <text x="325.0" y="3483" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">CAD Fillet</text>
 <text x="325.0" y="3501" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">CAD</text>
 <rect x="428" y="3400" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="chamfer" x="491.0" y="3413" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M9.5 11.1h5v8h-5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M9.5 19.1 4 16V8l8-4.5L20 8v8l-5.5 3.1M4 8l5.5 3.1M14.5 11.1 20 8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M9.5 11.1v8M14.5 11.1v8"/>
-  <path d="M9.5 11.1h5M9.5 19.1h5" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 17v-4L13 3h4l4 4h-4L7 17v4Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M3 17l4 4v-4L17 7h4l-4-4" stroke-width="1.5"/>
+  <path d="M3 17v-4L13 3h4" stroke-width="2.5"/>
 </svg>
 
 <text x="515.0" y="3483" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">CAD Chamfer</text>
@@ -1719,10 +1688,10 @@
 <text x="1275.0" y="3501" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="1378" y="3400" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="intersect-surfaces" x="1441.0" y="3413" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 11C9 8 15 14 21 11v7C15 21 9 15 3 18Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M8 3l7 4v14l-7-4Z" fill="currentColor" fill-opacity="0.35" stroke="none"/>
-  <path d="M3 11C9 8 15 14 21 11v7C15 21 9 15 3 18ZM8 3l7 4v14l-7-4Z" stroke-width="1.25" opacity=".6"/>
-  <path d="M8 10.2C10 10.3 13 11.6 15 11.8" stroke-width="3"/>
+  <path d="M3 3l18 6v12L3 15Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M21 3 3 9v12l18-6Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M3 3l18 6v12L3 15ZM21 3 3 9v12l18-6Z" stroke-width="1.5" opacity=".6"/>
+  <path d="M12 6v12" stroke-width="3"/>
 </svg>
 
 <text x="1465.0" y="3483" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Intersect</text>
@@ -1801,12 +1770,11 @@
 <text x="1085.0" y="3625" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="1188" y="3524" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="align-surface" x="1251.0" y="3537" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 6q4-2 9 1v12q-5-3-9-1Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
-  <path d="M12 7q5 3 9-1v12q-4 4-9 1Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M3 6q4-2 9 1v12q-5-3-9-1Z M12 7q5 3 9-1v12q-4 4-9 1Z" stroke-width="1.25" opacity=".6"/>
-  <path d="M12 7v12"/>
-  <path d="M3 11q4-2 9 1t9-1" stroke-width="1" opacity=".5"/>
-  <path d="M8 10l8 3M8 15l8 3" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 5q4-2 9 1v14q-5-3-9-1Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M12 6q5 3 9-1v14q-4 4-9 1Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M3 5q4-2 9 1 5 3 9-1v14q-4 4-9 1-5-3-9-1Z" stroke-width="1.5"/>
+  <path d="M12 6v14" stroke-width="1.25" opacity=".6"/>
+  <path d="M8 10h8M8 15h8" stroke-width="2.5"/>
 </svg>
 
 <text x="1275.0" y="3607" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Align</text>
@@ -1825,39 +1793,37 @@
 <text x="1465.0" y="3625" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="48" y="3648" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="square-surface" x="111.0" y="3661" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 6C9 3.5 15 8.5 20 6L20 18C15 20.5 9 15.5 4 18Z" fill="currentColor" fill-opacity="0.35" stroke="none"/>
-  <path d="M4 6C9 3.5 15 8.5 20 6L20 18C15 20.5 9 15.5 4 18Z"/>
-  <path d="M4 10C9 7.5 15 12.5 20 10M4 14C9 11.5 15 16.5 20 14" stroke-width="1" opacity=".5"/>
+  <path d="M4 4Q12 8 20 4Q16 12 20 20Q12 16 4 20Q8 12 4 4Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M4 4Q12 8 20 4Q16 12 20 20Q12 16 4 20Q8 12 4 4Z"/>
 </svg>
 
 <text x="135.0" y="3731" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Square</text>
 <text x="135.0" y="3749" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="238" y="3648" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="skin" x="301.0" y="3661" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 13 9 9 15 4Q22 7 19 11L15 17 9 20Q7 16 4 13Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
-  <path d="M4 13 9 9 15 4M9 20l6-3 4-6" stroke-width="1.25" opacity=".6"/>
-  <path d="M4 13Q11 14 9 20M9 9Q17 10 15 17M15 4Q21 6 19 11"/>
+  <path d="M3 8Q7 2 11 8T19 8L21 19Q17 13 13 19T5 19Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M3 8 5 19M19 8l2 11" stroke-width="1.5" opacity=".6"/>
+  <path d="M3 8Q7 2 11 8T19 8M4 13.5Q8 7.5 12 13.5T20 13.5M5 19Q9 13 13 19T21 19"/>
 </svg>
 
 <text x="325.0" y="3731" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Skin</text>
 <text x="325.0" y="3749" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="428" y="3648" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="rail-surface" x="491.0" y="3661" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 18C3 9 13 11 15 4L21 7C19 14 10 12 10 21Z" fill="currentColor" fill-opacity="0.3" stroke="none"/>
-  <path d="M4 18C3 9 13 11 15 4M10 21C10 12 19 14 21 7M4 18Q7 16 10 21"/>
-  <path d="M15 4l6 3" stroke-width="1.25" opacity=".6"/>
-  <path d="M7 12q3-2 7 1" stroke-width="1" opacity=".5"/>
+  <path d="M3 18Q11 21 16 8L21 11Q16 24 8 21Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M3 18Q11 21 17 3M8 21Q16 24 22 6"/>
+  <path d="M7 15Q10 9 15 15" stroke-width="2.5"/>
+  <path d="M14 9l3-6 1 3"/>
 </svg>
 
 <text x="515.0" y="3731" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Rail</text>
 <text x="515.0" y="3749" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="618" y="3648" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="profile-sweep" x="681.0" y="3661" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 15C13 15 9 3 20 3v6C14 9 18 21 4 21Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
-  <path d="M4 15C13 15 9 3 20 3M4 21C18 21 14 9 20 9" stroke-width="1.25" opacity=".6"/>
-  <path d="M4 18C15 18 11 6 20 6"/>
-  <ellipse cx="4" cy="18" rx="2.5" ry="3"/>
-  <path d="M20 3v6" stroke-width="1.25" opacity=".6"/>
+  <path d="M4 14h6v6H4Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M4 14h6v6H4Z"/>
+  <path d="M10 17C18 17 10 5 20 5m-2-2 2 2-2 2"/>
+  <path d="M10 20C21 20 13 8 21 8" stroke-width="1.25" opacity=".6"/>
 </svg>
 
 <text x="705.0" y="3731" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Profile</text>
@@ -1882,23 +1848,21 @@
 <text x="1085.0" y="3749" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="1188" y="3648" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="sheet-revolve" x="1251.0" y="3661" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M5 8Q9 12 5 18Q12 22 19 18Q15 12 19 8Q12 12 5 8Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
-  <path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M5 8Q9 12 5 18Q12 22 19 18M5 8Q12 12 19 8" stroke-width="1.25" opacity=".6"/>
-  <path d="M19 8Q15 12 19 18"/>
-  <path d="M4 6C4 2 20 2 20 6m-2-2 2 2 2-2"/>
+  <path d="M4 9q6 6 15 0-4 6 0 12-9 6-15 0 4-6 0-12Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M4 9q6 6 15 0M4 9q4 6 0 12 6 3 15 0" stroke-width="1.5"/>
+  <path d="M19 9q-4 6 0 12" stroke-width="2.5"/>
+  <path d="M4 5C4 1 20 1 20 5m-2-2 2 2 2-2"/>
 </svg>
 
 <text x="1275.0" y="3731" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Sheet Revolve</text>
 <text x="1275.0" y="3749" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="1378" y="3648" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="extend-surface" x="1441.0" y="3661" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 6q5-2 10 1v12q-5-3-10-1Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M13 7q4 2 8-1v12q-4 3-8 1Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
-  <path d="M3 6q5-2 10 1M3 6v12q5-2 10 1M13 7q4 2 8-1M13 19q4 2 8-1" stroke-width="1.25" opacity=".6"/>
-  <path d="M13 7v12"/>
-  <path d="M21 6v12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M16 12 21 12M19 10 21 12 19 14"/>
+  <path d="M3 5q4-2 9 1v14q-5-3-9-1Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M12 6q5 3 9-1v14q-4 4-9 1Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M12 6q5 3 9-1v14q-4 4-9 1" stroke-width="1.5" opacity=".6"/>
+  <path d="M3 5q4-2 9 1v14q-5-3-9-1Z"/>
+  <path d="M15 12h6m-2-2 2 2-2 2"/>
 </svg>
 
 <text x="1465.0" y="3731" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Extend</text>
@@ -1927,11 +1891,10 @@
 <text x="325.0" y="3873" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Surfacing</text>
 <rect x="428" y="3772" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="tube" x="491.0" y="3785" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 17C3 3 17 17 17 5l4 2C21 21 7 7 7 19Z" fill="currentColor" fill-opacity="0.3" stroke="none"/>
-  <path d="M3 17C3 3 17 17 17 5M7 19C7 7 21 21 21 7" stroke-width="1.25" opacity=".6"/>
-  <path d="M4 18C4 5 20 19 20 6"/>
-  <ellipse cx="5" cy="18" rx="2.5" ry="2" stroke-width="1.5"/>
-  <ellipse cx="19" cy="6" rx="2.5" ry="2" stroke-width="1.5"/>
+  <path d="M4 19V12a8 8 0 0 1 8-8h7v7h-7a1 1 0 0 0-1 1v7Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M4 19V12a8 8 0 0 1 8-8h7M11 19v-7a1 1 0 0 1 1-1h7"/>
+  <ellipse cx="19" cy="7.5" rx="2" ry="3.5"/>
+  <ellipse cx="7.5" cy="19" rx="3.5" ry="2"/>
 </svg>
 
 <text x="515.0" y="3855" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Surfacing Tube</text>
@@ -2022,9 +1985,9 @@
 <text x="515.0" y="3997" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Curves</text>
 <rect x="618" y="3896" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="blend-curve" x="681.0" y="3909" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 18C5 18 7 17 8 15M16 9C17 7 19 6 21 6"/>
-  <path d="M8 15C12 9 12 15 16 9" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M6 14l4 2M14 8l4 2" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 18h3M18 6h3"/>
+  <path d="M6 18C13 18 11 6 18 6" stroke-width="3"/>
+  <path d="M6 15v6M18 3v6" stroke-width="1.5"/>
 </svg>
 
 <text x="705.0" y="3979" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Curves Blend Curve</text>
@@ -2071,10 +2034,8 @@
 <text x="1465.0" y="3997" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Curves</text>
 <rect x="48" y="4020" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="reverse-curve" x="111.0" y="4033" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 21C4 8 20 22 20 9" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M4 18C4 5 20 19 20 6"/>
-  <path d="M18 8l2-2 2 2"/>
-  <path d="M2 19l2 2 2-2" stroke-width="1.25" opacity=".45"/>
+  <path d="M20 6C20 19 4 5 4 18m-2-2 2 2 2-2" stroke-width="2.5"/>
+  <path d="M7 4h10m-2-2 2 2-2 2" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
 </svg>
 
 <text x="135.0" y="4103" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Curves Reverse</text>
@@ -2156,59 +2117,52 @@
 <text x="1275.0" y="4121" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Curves</text>
 <rect x="1378" y="4020" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="resample-curve" x="1441.0" y="4033" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 18C4 5 20 19 20 6"/>
-  <circle cx="4.0" cy="18.0" r="1.5" fill="currentColor" stroke="none"/>
-  <circle cx="5.23" cy="13.45" r="1.5" fill="currentColor" stroke="none"/>
-  <circle cx="9.57" cy="11.9" r="1.5" fill="currentColor" stroke="none"/>
-  <circle cx="14.43" cy="12.1" r="1.5" fill="currentColor" stroke="none"/>
-  <circle cx="18.77" cy="10.55" r="1.5" fill="currentColor" stroke="none"/>
-  <circle cx="20.0" cy="6.0" r="1.5" fill="currentColor" stroke="none"/>
+  <path d="M3 17C7 4 17 20 21 7" stroke-width="1.5"/>
+  <circle cx="3" cy="17" r="2" fill="currentColor" stroke="none"/>
+  <circle cx="8" cy="11.3" r="2" fill="currentColor" stroke="none"/>
+  <circle cx="16" cy="12.7" r="2" fill="currentColor" stroke="none"/>
+  <circle cx="21" cy="7" r="2" fill="currentColor" stroke="none"/>
 </svg>
 
 <text x="1465.0" y="4103" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Resample Curve</text>
 <text x="1465.0" y="4121" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Curves</text>
 <rect x="48" y="4144" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="trim-curve" x="111.0" y="4157" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 18C4 7 15.5 15.2 19 10"/>
-  <path d="M19 10q1-1.5 1-4" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M17 8.5l4 3" stroke-width="1.5"/>
+  <path d="M4 19C4 8 10 16 15 10" stroke-width="2.5"/>
+  <path d="M15 10q4-3 5-7" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M12 6l7 7" stroke-width="2.5"/>
 </svg>
 
 <text x="135.0" y="4227" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Trim Curve</text>
 <text x="135.0" y="4245" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Curves</text>
 <rect x="238" y="4144" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="set-curve-type" x="301.0" y="4157" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <g opacity=".6">
-  <path d="M3 17l2-9 3 7"/>
-  </g>
-  <path d="M10 12 14 12M12 10 14 12 12 14"/>
-  <path d="M16 17C16 7 21 18 21 7"/>
+  <path d="M3 18 8 5l8 14 5-13" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M3 18C3 2 12 2 12 12S21 22 21 6"/>
+  <circle cx="3" cy="18" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="21" cy="6" r="1.5" fill="currentColor" stroke="none"/>
 </svg>
 
 <text x="325.0" y="4227" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Set Curve Type</text>
 <text x="325.0" y="4245" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Curves</text>
 <rect x="428" y="4144" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="curve-to-mesh" x="491.0" y="4157" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <g opacity=".6">
-  <path d="M3 18C3 5 8 19 8 6"/>
-  </g>
-  <path d="M10 12 14 12M12 10 14 12 12 14"/>
-  <path d="M16 8l5-3v12l-5 3Z" fill="currentColor" fill-opacity="0.35" stroke="none"/>
-  <path d="M16 8l5-3v12l-5 3Z" stroke-width="1.5"/>
-  <path d="M16 12l5-3M16 16l5-3" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 12q0-6 4-6" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 17h5m-2-2 2 2-2 2"/>
+  <path d="M12 4h9v16h-9Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M12 4h9v16h-9Z"/>
+  <path d="M12 4l9 8-9 8M12 12h9" stroke-width="1.5"/>
 </svg>
 
 <text x="515.0" y="4227" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Curve to Mesh</text>
 <text x="515.0" y="4245" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Curves</text>
 <rect x="618" y="4144" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="mesh-to-curve" x="681.0" y="4157" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <g opacity=".6">
-  <path d="M3 8l5-3v12l-5 3Z" fill="currentColor" fill-opacity="0.35" stroke="none"/>
-  <path d="M3 8l5-3v12l-5 3Z" stroke-width="1.5"/>
-  <path d="M3 12l5-3M3 16l5-3" stroke-width="1.25" opacity=".6"/>
-  </g>
-  <path d="M10 12 14 12M12 10 14 12 12 14"/>
-  <path d="M16 18C16 5 21 19 21 6"/>
+  <path d="M3 4h6v7H3ZM3 4l6 7" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 17h5m-2-2 2 2-2 2"/>
+  <path d="M12 20C12 4 21 20 21 4" stroke-width="2.5"/>
+  <circle cx="12" cy="20" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="21" cy="4" r="1.5" fill="currentColor" stroke="none"/>
 </svg>
 
 <text x="705.0" y="4227" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Mesh to Curve</text>
@@ -2251,28 +2205,19 @@
 <text x="1465.0" y="4245" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
 <rect x="48" y="4268" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="select-grow" x="111.0" y="4281" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M6 6h12v12H6ZM10 10v4h4v-4Z" fill="currentColor" fill-opacity="0.25" stroke="none" fill-rule="evenodd"/>
-  <path d="M10 10h4v4h-4Z" fill="currentColor" fill-opacity="0.6" stroke="none"/>
-  <path d="M6 6h12v12H6ZM10 6v12M14 6v12M6 10h12M6 14h12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M10 10h4v4h-4Z" stroke-width="1.5"/>
-  <path d="M12 5 12 2M10 4 12 2 14 4"/>
-  <path d="M12 19 12 22M14 20 12 22 10 20"/>
-  <path d="M5 12 2 12M4 14 2 12 4 10"/>
-  <path d="M19 12 22 12M20 10 22 12 20 14"/>
+  <path d="M7 6h10v12H7Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M7 6h10v12H7Z"/>
+  <path d="M7 12H2m2-2-2 2 2 2M17 12h5m-2-2 2 2-2 2"/>
 </svg>
 
 <text x="135.0" y="4351" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Select Grow Selection</text>
 <text x="135.0" y="4369" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
 <rect x="238" y="4268" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="select-shrink" x="301.0" y="4281" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M6 6h12v12H6ZM10 10v4h4v-4Z" fill="currentColor" fill-opacity="0.25" stroke="none" fill-rule="evenodd"/>
-  <path d="M10 10h4v4h-4Z" fill="currentColor" fill-opacity="0.6" stroke="none"/>
-  <path d="M6 6h12v12H6ZM10 6v12M14 6v12M6 10h12M6 14h12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M10 10h4v4h-4Z" stroke-width="1.5"/>
-  <path d="M12 2 12 5M14 3 12 5 10 3"/>
-  <path d="M12 22 12 19M10 21 12 19 14 21"/>
-  <path d="M2 12 5 12M3 10 5 12 3 14"/>
-  <path d="M22 12 19 12M21 14 19 12 21 10"/>
+  <path d="M3 4h18v16H3Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M9 7h6v10H9Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M9 7h6v10H9Z"/>
+  <path d="M2 12h5m-2-2 2 2-2 2M22 12h-5m2-2-2 2 2 2"/>
 </svg>
 
 <text x="325.0" y="4351" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Select Shrink Selection</text>
@@ -2289,11 +2234,9 @@
 <text x="515.0" y="4369" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
 <rect x="618" y="4268" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="select-linked" x="681.0" y="4281" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 7l7-3 2 10-7 4Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M3 7l7-3 2 10-7 4Z"/>
-  <path d="M3 7l9 7M10 4 5 18" stroke-width="1.25" opacity=".6"/>
-  <circle cx="6.5" cy="10.5" r="1.5" fill="currentColor" stroke="none"/>
-  <path d="M16 7l5 3-1 9-5-3ZM16 7l4 12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 5h9v7H3ZM12 12h9v7h-9Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M3 5h9v7H3ZM12 12h9v7h-9Z"/>
+  <path d="M7 12v7h5"/>
 </svg>
 
 <text x="705.0" y="4351" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Select Connected</text>
@@ -2321,10 +2264,9 @@
 <text x="1085.0" y="4369" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
 <rect x="1188" y="4268" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="select-similar" x="1251.0" y="4281" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 8h5v6H3ZM16 8h5v6h-5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M3 8h5v6H3ZM16 8h5v6h-5Z" stroke-width="1.5"/>
-  <path d="M9 14l3-7 3 7Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M9 18h6M9 21h6" stroke-width="1.5"/>
+  <path d="M3 5h6v7H3ZM15 5h6v7h-6Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M3 5h6v7H3ZM15 5h6v7h-6Z"/>
+  <path d="M9 17h6M9 21h6"/>
 </svg>
 
 <text x="1275.0" y="4351" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Select Similar</text>
@@ -2340,10 +2282,9 @@
 <text x="1465.0" y="4369" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
 <rect x="48" y="4392" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="select-by-sides" x="111.0" y="4405" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 16 5.5 9 8 16Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
-  <path d="M9 9h6v7H9Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M9 9h6v7H9Z" stroke-width="1.5"/>
-  <path d="M16 11l3-3 3 3-1 5h-4Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M11 10h10v11H11Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M3 10 6 4l3 6Z" stroke-width="1.25" opacity=".6"/>
+  <path d="M11 10h10v11H11Z"/>
 </svg>
 
 <text x="135.0" y="4475" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Select By Sides</text>
@@ -2399,23 +2340,18 @@
 <text x="1085.0" y="4493" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
 <rect x="1188" y="4392" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="select-checker" x="1251.0" y="4405" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="3" y="3" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <rect x="15" y="3" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <rect x="9" y="9" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <rect x="3" y="15" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <rect x="15" y="15" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M3 3h18v18H3ZM9 3v18M15 3v18M3 9h18M3 15h18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 3h6v6H3ZM15 3h6v6h-6ZM9 9h6v6H9ZM3 15h6v6H3ZM15 15h6v6h-6Z" fill="currentColor" stroke="none"/>
 </svg>
 
 <text x="1275.0" y="4475" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Select Checker</text>
 <text x="1275.0" y="4493" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Selection</text>
 <rect x="1378" y="4392" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="select-random" x="1441.0" y="4405" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="3" y="3" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <rect x="9" y="3" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <rect x="15" y="9" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <rect x="9" y="15" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M3 3h18v18H3ZM9 3v18M15 3v18M3 9h18M3 15h18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <rect x="3" y="5" width="4" height="4" rx=".6" fill="currentColor" stroke="none"/>
+  <rect x="13" y="3" width="4" height="4" rx=".6" fill="currentColor" stroke="none"/>
+  <rect x="17" y="11" width="4" height="4" rx=".6" fill="currentColor" stroke="none"/>
+  <rect x="8" y="13" width="4" height="4" rx=".6" fill="currentColor" stroke="none"/>
+  <rect x="4" y="19" width="4" height="4" rx=".6" fill="currentColor" stroke="none"/>
 </svg>
 
 <text x="1465.0" y="4475" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Select Random</text>
@@ -2740,16 +2676,14 @@
 <text x="1465.0" y="4989" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Sketch</text>
 <rect x="48" y="5012" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="sketch-fillet" x="111.0" y="5025" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 11V4h8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M4 20v-8a8 8 0 0 1 8-8h8"/>
+  <path d="M4 21v-4A13 13 0 0 1 17 4h4" stroke-width="2.5"/>
 </svg>
 
 <text x="135.0" y="5095" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Sketch Fillet</text>
 <text x="135.0" y="5113" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Sketch</text>
 <rect x="238" y="5012" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="sketch-chamfer" x="301.0" y="5025" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M4 12V4h8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M4 20v-8l8-8h8"/>
+  <path d="M4 21v-4L17 4h4" stroke-width="2.5"/>
 </svg>
 
 <text x="325.0" y="5095" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Sketch Chamfer</text>
@@ -3058,10 +2992,9 @@
 <text x="135.0" y="5609" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="238" y="5508" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="context-gsplats" x="301.0" y="5521" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <ellipse cx="7" cy="10" rx="5" ry="3" fill="currentColor" fill-opacity=".25" stroke="none" transform="rotate(-35 7 10)" />
-  <ellipse cx="14" cy="8" rx="5" ry="3" fill="currentColor" fill-opacity=".35" stroke="none" transform="rotate(25 14 8)" />
-  <ellipse cx="14" cy="15" rx="6" ry="3.5" fill="currentColor" fill-opacity=".45" stroke="none" transform="rotate(-35 14 15)" />
-  <ellipse cx="8" cy="17" rx="4" ry="2.5" fill="currentColor" fill-opacity=".3" stroke="none" transform="rotate(15 8 17)" />
+  <ellipse cx="7" cy="6" rx="4" ry="2.5" transform="rotate(-25 7 6)" fill="currentColor" fill-opacity=".25"/>
+  <ellipse cx="17.5" cy="12" rx="3.5" ry="2.5" transform="rotate(30 17.5 12)" fill="currentColor" fill-opacity=".25"/>
+  <ellipse cx="7.5" cy="18" rx="4" ry="2.5" transform="rotate(-20 7.5 18)" fill="currentColor" fill-opacity=".25"/>
 </svg>
 
 <text x="325.0" y="5591" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">GSplats Context</text>
@@ -3088,14 +3021,10 @@
 <text x="705.0" y="5609" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="808" y="5508" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="assign-material" x="871.0" y="5521" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M6 3a3 3 0 0 1 0 6Z" fill="currentColor" fill-opacity="0.45" stroke="none" />
-  <g transform="translate(8.8 7.8) scale(0.6)">
-    <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity="0.45" stroke="none" />
-    <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75" />
-    <path d="M12 12.5 20 8v8l-8 4.5Z" />
-  </g>
-  <circle cx="6" cy="6" r="3" />
-  <path d="M6 12 11 15M10.314 12.256 11 15 8.25602 15.686" />
+  <path d="M11 3a8 8 0 0 1 0 16Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <circle cx="11" cy="11" r="8"/>
+  <path d="M11 3v16" stroke-width="1.5"/>
+  <path d="M16 21l5-5m-4 0h4v4"/>
 </svg>
 
 <text x="895.0" y="5591" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Assign Material</text>
@@ -3116,13 +3045,10 @@
 <text x="1085.0" y="5609" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="1188" y="5508" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="blast" x="1251.0" y="5521" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M15 10l6-3v6l-6 3Z" fill="currentColor" fill-opacity="0.35" stroke="none" />
-  <g transform="translate(0.8 6.8) scale(0.6)">
-    <path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity="0.2" stroke="none" />
-    <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75" />
-  </g>
-  <path d="M15 10l6-3v6l-6 3Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45" />
-  <path d="M11 4l1 3M16 3l-1 3M19 4l-1 2" stroke-width="1.5" />
+  <path d="M3 11h9v10H3Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M3 11h9v10H3Z"/>
+  <path d="M16 11l5-2v7l-5 2Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M6 4l2 3M13 3v3M20 3l-2 3"/>
 </svg>
 
 <text x="1275.0" y="5591" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Blast</text>
@@ -3234,42 +3160,12 @@
 <text x="1275.0" y="5733" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="1378" y="5632" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="copy-to-points" x="1441.0" y="5645" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <g opacity="1">
-    <circle cx="7" cy="11.25" r="1" fill="currentColor" stroke="none" />
-    <g transform="translate(1 1) scale(0.5)">
-      <path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity="0.2" stroke="none" />
-      <path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity="0.45" stroke="none" />
-      <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity="0.3" stroke="none" />
-      <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" />
-    </g>
-  </g>
-  <g opacity=".45">
-    <circle cx="17" cy="11.25" r="1" fill="currentColor" stroke="none" />
-    <g transform="translate(11 1) scale(0.5)">
-      <path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity="0.2" stroke="none" />
-      <path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity="0.45" stroke="none" />
-      <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity="0.3" stroke="none" />
-      <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" />
-    </g>
-  </g>
-  <g opacity=".45">
-    <circle cx="7" cy="21.25" r="1" fill="currentColor" stroke="none" />
-    <g transform="translate(1 11) scale(0.5)">
-      <path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity="0.2" stroke="none" />
-      <path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity="0.45" stroke="none" />
-      <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity="0.3" stroke="none" />
-      <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" />
-    </g>
-  </g>
-  <g opacity=".45">
-    <circle cx="17" cy="21.25" r="1" fill="currentColor" stroke="none" />
-    <g transform="translate(11 11) scale(0.5)">
-      <path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity="0.2" stroke="none" />
-      <path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity="0.45" stroke="none" />
-      <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity="0.3" stroke="none" />
-      <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" />
-    </g>
-  </g>
+  <rect x="3" y="3" width="6" height="6" rx="1"/>
+  <rect x="15" y="3" width="6" height="6" rx="1"/>
+  <rect x="9" y="14" width="6" height="6" rx="1"/>
+  <circle cx="6" cy="6" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="18" cy="6" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="17" r="1.5" fill="currentColor" stroke="none"/>
 </svg>
 
 <text x="1465.0" y="5715" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Copy to Points</text>
@@ -3289,27 +3185,28 @@
 <text x="135.0" y="5857" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="238" y="5756" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="attribute-create" x="301.0" y="5769" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="4" y="4" width="11" height="11" rx="2" stroke-width="1.5" />
-  <path d="M7 7h5M7 10h5M7 13h3" stroke-width="1.25" opacity=".6" />
-  <path d="M16 18.5h5m-2.5-2.5v5" />
+  <rect x="3" y="5" width="8" height="14" rx="1.5"/>
+  <path d="M3 10h8" stroke-width="1.5"/>
+  <path d="M14 12h8M18 8v8" stroke-width="2.5"/>
 </svg>
 
 <text x="325.0" y="5839" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Create Attribute</text>
 <text x="325.0" y="5857" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="428" y="5756" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="attribute-delete" x="491.0" y="5769" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="4" y="4" width="11" height="11" rx="2" stroke-width="1.5" />
-  <path d="M7 7h5M7 10h5M7 13h3" stroke-width="1.25" opacity=".6" />
-  <path d="M16 18.5h5" />
+  <rect x="3" y="5" width="8" height="14" rx="1.5"/>
+  <path d="M3 10h8" stroke-width="1.5"/>
+  <path d="M14 12h8" stroke-width="2.5"/>
 </svg>
 
 <text x="515.0" y="5839" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Delete Attribute</text>
 <text x="515.0" y="5857" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="618" y="5756" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="attribute-rename" x="681.0" y="5769" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="4" y="4" width="11" height="11" rx="2" stroke-width="1.5" />
-  <path d="M7 7h5M7 10h5M7 13h3" stroke-width="1.25" opacity=".6" />
-  <path d="M16 19l3-4 2 2-3 4h-2ZM18 16l2 2" stroke-width="1.5" />
+  <rect x="3" y="5" width="8" height="14" rx="1.5"/>
+  <path d="M3 10h8" stroke-width="1.5"/>
+  <path d="M14 16l5-9 3 2-5 9-4 2Z"/>
+  <path d="M18 9l3 2" stroke-width="1.5"/>
 </svg>
 
 <text x="705.0" y="5839" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Rename Attribute</text>
@@ -3327,19 +3224,18 @@
 <text x="895.0" y="5857" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="998" y="5756" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="attribute-promote" x="1061.0" y="5769" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <rect x="4" y="4" width="11" height="11" rx="2" stroke-width="1.5" />
-  <path d="M7 7h5M7 10h5M7 13h3" stroke-width="1.25" opacity=".6" />
-  <path d="M18.5 21 18.5 16M16.5 18 18.5 16 20.5 18" />
+  <rect x="3" y="5" width="8" height="14" rx="1.5"/>
+  <path d="M3 10h8" stroke-width="1.5"/>
+  <path d="M18 19V5m-3 3 3-3 3 3" stroke-width="2.5"/>
 </svg>
 
 <text x="1085.0" y="5839" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Promote Attribute</text>
 <text x="1085.0" y="5857" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Nodes</text>
 <rect x="1188" y="5756" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="name-attribute" x="1251.0" y="5769" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <circle cx="17.5" cy="18.5" r="0.65" fill="currentColor" stroke="none" />
-  <rect x="4" y="4" width="11" height="11" rx="2" stroke-width="1.5" />
-  <path d="M7 7h5M7 10h5M7 13h3" stroke-width="1.25" opacity=".6" />
-  <path d="M16 16h3l3 2.5-3 2.5h-3Z" stroke-width="1.5" />
+  <rect x="3" y="5" width="8" height="14" rx="1.5"/>
+  <path d="M3 10h8" stroke-width="1.5"/>
+  <path d="M14 6h7M17.5 6v12M14 18h7" stroke-width="2.5"/>
 </svg>
 
 <text x="1275.0" y="5839" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Name Attribute</text>

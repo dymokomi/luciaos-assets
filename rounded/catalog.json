@@ -23,7 +23,8 @@
       "category": "Modeling",
       "tags": [
         "mesh",
-        "editor"
+        "editor",
+        "separated mesh"
       ],
       "file": "icons/3d/modeling/split-mesh.svg",
       "categoryId": "modeling"
@@ -35,7 +36,8 @@
       "category": "Modeling",
       "tags": [
         "mesh",
-        "editor"
+        "editor",
+        "remove internal edge"
       ],
       "file": "icons/3d/modeling/dissolve.svg",
       "categoryId": "modeling"
@@ -1383,7 +1385,9 @@
       "tags": [
         "push",
         "pull",
-        "mesh"
+        "mesh",
+        "prism",
+        "single face"
       ],
       "file": "icons/3d/modeling/extrude.svg",
       "categoryId": "modeling"
@@ -1676,7 +1680,9 @@
       "category": "Transform & modifiers",
       "tags": [
         "overlap",
-        "csg"
+        "csg",
+        "solid overlap",
+        "SDF intersection"
       ],
       "file": "icons/3d/modifiers/boolean-intersect.svg",
       "categoryId": "modifiers"
@@ -2613,7 +2619,8 @@
         "modeling",
         "Blender Bevel Weight",
         "bevel_weight",
-        "Limit Weight"
+        "Limit Weight",
+        "edge weight"
       ]
     },
     {
@@ -2660,7 +2667,8 @@
         "modeling",
         "Blender Connect Vertex Path",
         "Modo Connect",
-        "connect points"
+        "connect points",
+        "connect endpoints"
       ]
     },
     {
@@ -2676,7 +2684,8 @@
         "modeling",
         "Blender Edge Slide",
         "Modo Slide",
-        "loop"
+        "loop",
+        "slide rails"
       ]
     },
     {
@@ -2741,7 +2750,8 @@
         "Blender Clean Up",
         "Modo Mesh Cleanup",
         "degenerate",
-        "unused"
+        "unused",
+        "mesh cleanup"
       ]
     },
     {
@@ -2774,7 +2784,8 @@
         "Subdivision Surface",
         "Blender Subdivision Surface",
         "Modo Subdivision",
-        "limit surface"
+        "limit surface",
+        "smooth cage"
       ]
     },
     {
@@ -2806,7 +2817,8 @@
         "modeling",
         "Houdini Peak",
         "Blender Shrink Fatten",
-        "normals"
+        "normals",
+        "normal displacement"
       ]
     },
     {
@@ -2854,7 +2866,9 @@
         "cad",
         "CAD Finish Sketch",
         "Sketch Finish Sketch",
-        "Fusion Finish Sketch"
+        "Fusion Finish Sketch",
+        "complete sketch",
+        "check"
       ]
     },
     {
@@ -2870,7 +2884,8 @@
         "cad",
         "Fusion Revolve",
         "Plasticity Revolve",
-        "Modo Lathe"
+        "Modo Lathe",
+        "solid revolution"
       ]
     },
     {
@@ -2905,7 +2920,9 @@
         "Fusion Press Pull",
         "Fusion Offset Face",
         "Plasticity Offset Face",
-        "move faces"
+        "move faces",
+        "lifted face",
+        "press pull"
       ]
     },
     {
@@ -2922,7 +2939,8 @@
         "Fusion Shell",
         "Plasticity Shell",
         "hollow",
-        "wall thickness"
+        "wall thickness",
+        "open top"
       ]
     },
     {
@@ -2938,7 +2956,8 @@
         "cad",
         "Fusion Split Face",
         "Plasticity Imprint",
-        "split faces"
+        "split faces",
+        "divided face"
       ]
     },
     {
@@ -3018,7 +3037,9 @@
         "Fusion Fillet",
         "Plasticity Fillet",
         "Alias Fillet",
-        "rolling ball"
+        "rolling ball",
+        "round edge",
+        "radius"
       ]
     },
     {
@@ -3034,7 +3055,9 @@
         "cad",
         "Fusion Chamfer",
         "Plasticity Chamfer",
-        "flat facet"
+        "flat facet",
+        "straight cut",
+        "edge section"
       ]
     },
     {
@@ -3115,7 +3138,8 @@
         "surfacing",
         "Alias Intersect",
         "Fusion Intersect",
-        "Plasticity Intersect"
+        "Plasticity Intersect",
+        "surface intersection curve"
       ]
     },
     {
@@ -3232,7 +3256,8 @@
         "G1",
         "G2",
         "G3",
-        "continuity"
+        "continuity",
+        "shared edge"
       ]
     },
     {
@@ -3281,7 +3306,9 @@
         "Alias Skin",
         "Fusion Loft",
         "Plasticity Loft",
-        "sections"
+        "sections",
+        "section curves",
+        "loft"
       ]
     },
     {
@@ -3298,7 +3325,9 @@
         "Alias Rail",
         "Fusion Sweep",
         "Plasticity Sweep",
-        "two rails"
+        "two rails",
+        "section",
+        "rails"
       ]
     },
     {
@@ -3315,7 +3344,9 @@
         "Alias Profile",
         "Fusion Sweep",
         "Plasticity Sweep",
-        "profile path"
+        "profile path",
+        "profile",
+        "sweep path"
       ]
     },
     {
@@ -3366,7 +3397,8 @@
         "Alias Sheet Revolve",
         "Fusion Surface Revolve",
         "Plasticity Revolve",
-        "open sheet"
+        "open sheet",
+        "revolution"
       ]
     },
     {
@@ -3382,7 +3414,8 @@
         "surfacing",
         "Alias Extend",
         "Fusion Extend",
-        "Plasticity Extend"
+        "Plasticity Extend",
+        "surface extension"
       ]
     },
     {
@@ -3432,7 +3465,9 @@
         "surfacing",
         "Alias Tube",
         "Plasticity Pipe",
-        "Fusion Pipe"
+        "Fusion Pipe",
+        "round pipe",
+        "elbow"
       ]
     },
     {
@@ -3587,7 +3622,8 @@
         "Plasticity Blend",
         "G1",
         "G2",
-        "G3"
+        "G3",
+        "continuous blend"
       ]
     },
     {
@@ -3671,7 +3707,8 @@
         "Alias Reverse",
         "Blender Reverse Curve",
         "Curve nodes",
-        "direction"
+        "direction",
+        "reverse direction"
       ]
     },
     {
@@ -3790,7 +3827,8 @@
         "Alias Resample Curve",
         "Blender Resample Curve",
         "Curve nodes",
-        "even spacing"
+        "even spacing",
+        "sample points"
       ]
     },
     {
@@ -3808,7 +3846,8 @@
         "Alias Trim Curve",
         "Blender Trim Curve",
         "Curve nodes",
-        "trim ends"
+        "trim ends",
+        "cut curve"
       ]
     },
     {
@@ -3827,7 +3866,9 @@
         "Blender Set Spline Type",
         "Curve nodes",
         "polyline",
-        "Bezier"
+        "Bezier",
+        "angular",
+        "smooth"
       ]
     },
     {
@@ -3844,7 +3885,8 @@
         "NURBS",
         "Alias Curve to Mesh",
         "Blender Curve to Mesh",
-        "conversion"
+        "conversion",
+        "triangulated output"
       ]
     },
     {
@@ -3861,7 +3903,8 @@
         "NURBS",
         "Alias Mesh to Curve",
         "Blender Mesh to Curve",
-        "conversion"
+        "conversion",
+        "curve output"
       ]
     },
     {
@@ -3943,7 +3986,9 @@
         "selection",
         "Blender Select More",
         "Modo Grow",
-        "neighbors"
+        "neighbors",
+        "outward",
+        "expand region"
       ]
     },
     {
@@ -3959,7 +4004,9 @@
         "selection",
         "Blender Select Less",
         "Modo Shrink",
-        "neighbors"
+        "neighbors",
+        "inward",
+        "contract region"
       ]
     },
     {
@@ -3991,7 +4038,8 @@
         "selection",
         "Blender Select Linked",
         "Modo Connected",
-        "islands"
+        "islands",
+        "connected faces"
       ]
     },
     {
@@ -4070,7 +4118,8 @@
         "selection",
         "Blender Faces by Sides",
         "Modo Polygon Type",
-        "side count"
+        "side count",
+        "polygon sides"
       ]
     },
     {
@@ -4166,7 +4215,9 @@
         "selection",
         "Blender Checker Deselect",
         "Modo Checker",
-        "alternating"
+        "alternating",
+        "checkerboard",
+        "alternating cells"
       ]
     },
     {
@@ -4182,7 +4233,8 @@
         "selection",
         "Blender Select Random",
         "Modo Random",
-        "probability"
+        "probability",
+        "irregular scatter"
       ]
     },
     {
@@ -4705,7 +4757,8 @@
         "Fusion Fillet",
         "Blender Fillet Curve",
         "Curve nodes",
-        "rounded corner"
+        "rounded corner",
+        "round corner"
       ]
     },
     {
@@ -4720,7 +4773,8 @@
         "sketch chamfer",
         "sketch",
         "Fusion Chamfer",
-        "cut corner"
+        "cut corner",
+        "straight corner cut"
       ]
     },
     {
@@ -5258,7 +5312,8 @@
         "Normals",
         "Delete",
         "Opacity",
-        "Recolor"
+        "Recolor",
+        "elliptical splats"
       ]
     },
     {
@@ -5306,7 +5361,8 @@
         "assign material",
         "shading",
         "Fusion Physical Material",
-        "Blender Assign Material"
+        "Blender Assign Material",
+        "material assignment"
       ]
     },
     {
@@ -5337,7 +5393,8 @@
         "blast",
         "nodes",
         "Houdini Blast",
-        "delete group"
+        "delete group",
+        "remove geometry"
       ]
     },
     {
@@ -5476,7 +5533,8 @@
         "nodes",
         "CopyToPoints",
         "Houdini Copy to Points",
-        "instances"
+        "instances",
+        "point instances"
       ]
     },
     {
@@ -5508,7 +5566,9 @@
         "nodes",
         "Attribute nodes Create",
         "Houdini Attribute Create",
-        "attributes"
+        "attributes",
+        "table",
+        "plus"
       ]
     },
     {
@@ -5524,7 +5584,9 @@
         "nodes",
         "Attribute nodes Delete",
         "Houdini Attribute Delete",
-        "attributes"
+        "attributes",
+        "table",
+        "minus"
       ]
     },
     {
@@ -5540,7 +5602,9 @@
         "nodes",
         "Attribute nodes Rename",
         "Houdini Attribute Rename",
-        "attributes"
+        "attributes",
+        "table",
+        "pencil"
       ]
     },
     {
@@ -5572,7 +5636,9 @@
         "nodes",
         "Attribute nodes Promote",
         "Houdini Attribute Promote",
-        "class"
+        "class",
+        "table",
+        "up arrow"
       ]
     },
     {
@@ -5588,7 +5654,9 @@
         "nodes",
         "Attribute nodes Name",
         "Houdini Name",
-        "name tag"
+        "name tag",
+        "table",
+        "text caret"
       ]
     },
     {
