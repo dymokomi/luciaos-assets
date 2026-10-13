@@ -1,6 +1,6 @@
 # Rounded icon index
 
-307 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+352 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 159
+## 3D — 204
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -280,6 +280,51 @@
 | Smart Selection Level | [smart-select.svg](icons/3d/selection/smart-select.svg) | Selection |
 | Patch Selection Level | [patch-select.svg](icons/3d/selection/patch-select.svg) | Selection |
 | Curve Selection Level | [curve-select.svg](icons/3d/selection/curve-select.svg) | Selection |
+| Sketch Midpoint Line | [midpoint-line.svg](icons/3d/sketch/midpoint-line.svg) | Sketch |
+| Sketch 3-Point Rectangle | [rectangle-3-point.svg](icons/3d/sketch/rectangle-3-point.svg) | Sketch |
+| Sketch Center Rectangle | [rectangle-center.svg](icons/3d/sketch/rectangle-center.svg) | Sketch |
+| Sketch Center Diameter Circle | [circle-center.svg](icons/3d/sketch/circle-center.svg) | Sketch |
+| Sketch 2-Point Circle | [circle-2-point.svg](icons/3d/sketch/circle-2-point.svg) | Sketch |
+| Sketch 3-Point Circle | [circle-3-point.svg](icons/3d/sketch/circle-3-point.svg) | Sketch |
+| Sketch 2-Tangent Circle | [circle-2-tangent.svg](icons/3d/sketch/circle-2-tangent.svg) | Sketch |
+| Sketch 3-Tangent Circle | [circle-3-tangent.svg](icons/3d/sketch/circle-3-tangent.svg) | Sketch |
+| Sketch 3-Point Arc | [arc-3-point.svg](icons/3d/sketch/arc-3-point.svg) | Sketch |
+| Sketch Center Point Arc | [arc-center.svg](icons/3d/sketch/arc-center.svg) | Sketch |
+| Sketch Tangent Arc | [arc-tangent.svg](icons/3d/sketch/arc-tangent.svg) | Sketch |
+| Sketch Circumscribed Polygon | [polygon-circumscribed.svg](icons/3d/sketch/polygon-circumscribed.svg) | Sketch |
+| Sketch Inscribed Polygon | [polygon-inscribed.svg](icons/3d/sketch/polygon-inscribed.svg) | Sketch |
+| Sketch Edge Polygon | [polygon-edge.svg](icons/3d/sketch/polygon-edge.svg) | Sketch |
+| Sketch Center to Center Slot | [slot-center-to-center.svg](icons/3d/sketch/slot-center-to-center.svg) | Sketch |
+| Sketch Overall Slot | [slot-overall.svg](icons/3d/sketch/slot-overall.svg) | Sketch |
+| Sketch Center Point Slot | [slot-center-point.svg](icons/3d/sketch/slot-center-point.svg) | Sketch |
+| Sketch 3-Point Arc Slot | [slot-arc-3-point.svg](icons/3d/sketch/slot-arc-3-point.svg) | Sketch |
+| Sketch Center Point Arc Slot | [slot-arc-center.svg](icons/3d/sketch/slot-arc-center.svg) | Sketch |
+| Sketch Conic Curve | [conic-curve.svg](icons/3d/sketch/conic-curve.svg) | Sketch |
+| Sketch Point | [sketch-point.svg](icons/3d/sketch/sketch-point.svg) | Sketch |
+| Sketch Project | [project-geometry.svg](icons/3d/sketch/project-geometry.svg) | Sketch |
+| Sketch Intersect | [sketch-intersect.svg](icons/3d/sketch/sketch-intersect.svg) | Sketch |
+| Sketch Include 3D Geometry | [include-3d.svg](icons/3d/sketch/include-3d.svg) | Sketch |
+| Sketch Dimension | [sketch-dimension.svg](icons/3d/sketch/sketch-dimension.svg) | Sketch |
+| Sketch Fillet | [sketch-fillet.svg](icons/3d/sketch/sketch-fillet.svg) | Sketch |
+| Sketch Chamfer | [sketch-chamfer.svg](icons/3d/sketch/sketch-chamfer.svg) | Sketch |
+| Sketch Offset | [offset-curve.svg](icons/3d/sketch/offset-curve.svg) | Sketch |
+| Sketch Trim | [sketch-trim.svg](icons/3d/sketch/sketch-trim.svg) | Sketch |
+| Sketch Extend | [sketch-extend.svg](icons/3d/sketch/sketch-extend.svg) | Sketch |
+| Sketch Break | [sketch-break.svg](icons/3d/sketch/sketch-break.svg) | Sketch |
+| Sketch Change Parameters | [change-parameters.svg](icons/3d/sketch/change-parameters.svg) | Sketch |
+| Sketch Slice | [sketch-slice.svg](icons/3d/sketch/sketch-slice.svg) | Sketch |
+| Sketch Constraint Horizontal/Vertical | [constraint-horizontal-vertical.svg](icons/3d/sketch/constraint-horizontal-vertical.svg) | Sketch |
+| Sketch Constraint Coincident | [constraint-coincident.svg](icons/3d/sketch/constraint-coincident.svg) | Sketch |
+| Sketch Constraint Tangent | [constraint-tangent.svg](icons/3d/sketch/constraint-tangent.svg) | Sketch |
+| Sketch Constraint Equal | [constraint-equal.svg](icons/3d/sketch/constraint-equal.svg) | Sketch |
+| Sketch Constraint Parallel | [constraint-parallel.svg](icons/3d/sketch/constraint-parallel.svg) | Sketch |
+| Sketch Constraint Perpendicular | [constraint-perpendicular.svg](icons/3d/sketch/constraint-perpendicular.svg) | Sketch |
+| Sketch Constraint MidPoint | [constraint-midpoint.svg](icons/3d/sketch/constraint-midpoint.svg) | Sketch |
+| Sketch Constraint Concentric | [constraint-concentric.svg](icons/3d/sketch/constraint-concentric.svg) | Sketch |
+| Sketch Constraint Collinear | [constraint-collinear.svg](icons/3d/sketch/constraint-collinear.svg) | Sketch |
+| Sketch Constraint Symmetry | [constraint-symmetry.svg](icons/3d/sketch/constraint-symmetry.svg) | Sketch |
+| Sketch Constraint Curvature | [constraint-curvature.svg](icons/3d/sketch/constraint-curvature.svg) | Sketch |
+| Sketch Constraint Polygon | [constraint-polygon.svg](icons/3d/sketch/constraint-polygon.svg) | Sketch |
 
 ## Code — 29
 

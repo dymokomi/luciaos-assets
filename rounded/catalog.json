@@ -4297,6 +4297,718 @@
         "Curves",
         "curve level"
       ]
+    },
+    {
+      "id": "midpoint-line",
+      "name": "Sketch Midpoint Line",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/midpoint-line.svg",
+      "tags": [
+        "Sketch Midpoint Line",
+        "midpoint line",
+        "sketch",
+        "Fusion Midpoint Line",
+        "line from center"
+      ]
+    },
+    {
+      "id": "rectangle-3-point",
+      "name": "Sketch 3-Point Rectangle",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/rectangle-3-point.svg",
+      "tags": [
+        "Sketch 3-Point Rectangle",
+        "rectangle 3 point",
+        "sketch",
+        "Fusion 3-Point Rectangle",
+        "three clicked corners"
+      ]
+    },
+    {
+      "id": "rectangle-center",
+      "name": "Sketch Center Rectangle",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/rectangle-center.svg",
+      "tags": [
+        "Sketch Center Rectangle",
+        "rectangle center",
+        "sketch",
+        "Fusion Center Rectangle",
+        "rectangle from center"
+      ]
+    },
+    {
+      "id": "circle-center",
+      "name": "Sketch Center Diameter Circle",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/circle-center.svg",
+      "tags": [
+        "Sketch Center Diameter Circle",
+        "circle center",
+        "sketch",
+        "Fusion Center Diameter Circle",
+        "Center Diameter Circle",
+        "Curve primitives",
+        "Blender Curve Circle",
+        "center radius"
+      ]
+    },
+    {
+      "id": "circle-2-point",
+      "name": "Sketch 2-Point Circle",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/circle-2-point.svg",
+      "tags": [
+        "Sketch 2-Point Circle",
+        "circle 2 point",
+        "sketch",
+        "Fusion 2-Point Circle",
+        "diameter endpoints"
+      ]
+    },
+    {
+      "id": "circle-3-point",
+      "name": "Sketch 3-Point Circle",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/circle-3-point.svg",
+      "tags": [
+        "Sketch 3-Point Circle",
+        "circle 3 point",
+        "sketch",
+        "Fusion 3-Point Circle",
+        "three picked points"
+      ]
+    },
+    {
+      "id": "circle-2-tangent",
+      "name": "Sketch 2-Tangent Circle",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/circle-2-tangent.svg",
+      "tags": [
+        "Sketch 2-Tangent Circle",
+        "circle 2 tangent",
+        "sketch",
+        "Fusion 2-Tangent Circle",
+        "two tangent lines"
+      ]
+    },
+    {
+      "id": "circle-3-tangent",
+      "name": "Sketch 3-Tangent Circle",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/circle-3-tangent.svg",
+      "tags": [
+        "Sketch 3-Tangent Circle",
+        "circle 3 tangent",
+        "sketch",
+        "Fusion 3-Tangent Circle",
+        "three tangent lines"
+      ]
+    },
+    {
+      "id": "arc-3-point",
+      "name": "Sketch 3-Point Arc",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/arc-3-point.svg",
+      "tags": [
+        "Sketch 3-Point Arc",
+        "arc 3 point",
+        "sketch",
+        "Fusion 3-Point Arc",
+        "Blender Curve Arc",
+        "Curve primitives",
+        "three points"
+      ]
+    },
+    {
+      "id": "arc-center",
+      "name": "Sketch Center Point Arc",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/arc-center.svg",
+      "tags": [
+        "Sketch Center Point Arc",
+        "arc center",
+        "sketch",
+        "Fusion Center Point Arc",
+        "center start end"
+      ]
+    },
+    {
+      "id": "arc-tangent",
+      "name": "Sketch Tangent Arc",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/arc-tangent.svg",
+      "tags": [
+        "Sketch Tangent Arc",
+        "arc tangent",
+        "sketch",
+        "Fusion Tangent Arc",
+        "tangent continuation"
+      ]
+    },
+    {
+      "id": "polygon-circumscribed",
+      "name": "Sketch Circumscribed Polygon",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/polygon-circumscribed.svg",
+      "tags": [
+        "Sketch Circumscribed Polygon",
+        "polygon circumscribed",
+        "sketch",
+        "Fusion Circumscribed Polygon",
+        "outside circle",
+        "tangent edges"
+      ]
+    },
+    {
+      "id": "polygon-inscribed",
+      "name": "Sketch Inscribed Polygon",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/polygon-inscribed.svg",
+      "tags": [
+        "Sketch Inscribed Polygon",
+        "polygon inscribed",
+        "sketch",
+        "Fusion Inscribed Polygon",
+        "inside circle",
+        "corners on circle"
+      ]
+    },
+    {
+      "id": "polygon-edge",
+      "name": "Sketch Edge Polygon",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/polygon-edge.svg",
+      "tags": [
+        "Sketch Edge Polygon",
+        "polygon edge",
+        "sketch",
+        "Fusion Edge Polygon",
+        "polygon by edge"
+      ]
+    },
+    {
+      "id": "slot-center-to-center",
+      "name": "Sketch Center to Center Slot",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/slot-center-to-center.svg",
+      "tags": [
+        "Sketch Center to Center Slot",
+        "slot center to center",
+        "sketch",
+        "Fusion Center to Center Slot",
+        "Slots",
+        "two arc centers"
+      ]
+    },
+    {
+      "id": "slot-overall",
+      "name": "Sketch Overall Slot",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/slot-overall.svg",
+      "tags": [
+        "Sketch Overall Slot",
+        "slot overall",
+        "sketch",
+        "Fusion Overall Slot",
+        "Slots",
+        "overall endpoints"
+      ]
+    },
+    {
+      "id": "slot-center-point",
+      "name": "Sketch Center Point Slot",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/slot-center-point.svg",
+      "tags": [
+        "Sketch Center Point Slot",
+        "slot center point",
+        "sketch",
+        "Fusion Center Point Slot",
+        "Slots",
+        "middle point"
+      ]
+    },
+    {
+      "id": "slot-arc-3-point",
+      "name": "Sketch 3-Point Arc Slot",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/slot-arc-3-point.svg",
+      "tags": [
+        "Sketch 3-Point Arc Slot",
+        "slot arc 3 point",
+        "sketch",
+        "Fusion 3-Point Arc Slot",
+        "Slots",
+        "three arc points"
+      ]
+    },
+    {
+      "id": "slot-arc-center",
+      "name": "Sketch Center Point Arc Slot",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/slot-arc-center.svg",
+      "tags": [
+        "Sketch Center Point Arc Slot",
+        "slot arc center",
+        "sketch",
+        "Fusion Center Point Arc Slot",
+        "Slots",
+        "arc center"
+      ]
+    },
+    {
+      "id": "conic-curve",
+      "name": "Sketch Conic Curve",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/conic-curve.svg",
+      "tags": [
+        "Sketch Conic Curve",
+        "conic curve",
+        "sketch",
+        "Fusion Conic Curve",
+        "rho",
+        "apex",
+        "conic"
+      ]
+    },
+    {
+      "id": "sketch-point",
+      "name": "Sketch Point",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-point.svg",
+      "tags": [
+        "Sketch Point",
+        "sketch point",
+        "sketch",
+        "Fusion Point",
+        "P",
+        "clicked point"
+      ]
+    },
+    {
+      "id": "project-geometry",
+      "name": "Sketch Project",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/project-geometry.svg",
+      "tags": [
+        "Sketch Project",
+        "project geometry",
+        "sketch",
+        "Fusion Project",
+        "Sketch Project / Include"
+      ]
+    },
+    {
+      "id": "sketch-intersect",
+      "name": "Sketch Intersect",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-intersect.svg",
+      "tags": [
+        "Sketch Intersect",
+        "sketch intersect",
+        "sketch",
+        "Fusion Intersect",
+        "Sketch Project / Include",
+        "section profile"
+      ]
+    },
+    {
+      "id": "include-3d",
+      "name": "Sketch Include 3D Geometry",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/include-3d.svg",
+      "tags": [
+        "Sketch Include 3D Geometry",
+        "include 3d",
+        "sketch",
+        "Fusion Include 3D Geometry",
+        "Sketch Project / Include",
+        "3D edge"
+      ]
+    },
+    {
+      "id": "sketch-dimension",
+      "name": "Sketch Dimension",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-dimension.svg",
+      "tags": [
+        "Sketch Dimension",
+        "sketch dimension",
+        "sketch",
+        "Fusion Dimension",
+        "Sketch Sketch Dimension",
+        "dimension value"
+      ]
+    },
+    {
+      "id": "sketch-fillet",
+      "name": "Sketch Fillet",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-fillet.svg",
+      "tags": [
+        "Sketch Fillet",
+        "sketch fillet",
+        "sketch",
+        "Fusion Fillet",
+        "Blender Fillet Curve",
+        "Curve nodes",
+        "rounded corner"
+      ]
+    },
+    {
+      "id": "sketch-chamfer",
+      "name": "Sketch Chamfer",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-chamfer.svg",
+      "tags": [
+        "Sketch Chamfer",
+        "sketch chamfer",
+        "sketch",
+        "Fusion Chamfer",
+        "cut corner"
+      ]
+    },
+    {
+      "id": "offset-curve",
+      "name": "Sketch Offset",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/offset-curve.svg",
+      "tags": [
+        "Sketch Offset",
+        "offset curve",
+        "sketch",
+        "Fusion Offset",
+        "Plasticity Offset Curve",
+        "parallel curve"
+      ]
+    },
+    {
+      "id": "sketch-trim",
+      "name": "Sketch Trim",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-trim.svg",
+      "tags": [
+        "Sketch Trim",
+        "sketch trim",
+        "sketch",
+        "Fusion Trim",
+        "T",
+        "trim intersections"
+      ]
+    },
+    {
+      "id": "sketch-extend",
+      "name": "Sketch Extend",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-extend.svg",
+      "tags": [
+        "Sketch Extend",
+        "sketch extend",
+        "sketch",
+        "Fusion Extend",
+        "extend to next curve"
+      ]
+    },
+    {
+      "id": "sketch-break",
+      "name": "Sketch Break",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-break.svg",
+      "tags": [
+        "Sketch Break",
+        "sketch break",
+        "sketch",
+        "Fusion Break",
+        "break at intersection"
+      ]
+    },
+    {
+      "id": "change-parameters",
+      "name": "Sketch Change Parameters",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/change-parameters.svg",
+      "tags": [
+        "Sketch Change Parameters",
+        "change parameters",
+        "sketch",
+        "Fusion Change Parameters",
+        "user parameters",
+        "fx"
+      ]
+    },
+    {
+      "id": "sketch-slice",
+      "name": "Sketch Slice",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/sketch-slice.svg",
+      "tags": [
+        "Sketch Slice",
+        "sketch slice",
+        "sketch",
+        "Fusion Slice",
+        "section model"
+      ]
+    },
+    {
+      "id": "constraint-horizontal-vertical",
+      "name": "Sketch Constraint Horizontal/Vertical",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-horizontal-vertical.svg",
+      "tags": [
+        "Sketch Constraint Horizontal/Vertical",
+        "constraint horizontal vertical",
+        "sketch",
+        "Fusion Constraint Horizontal/Vertical",
+        "Horizontal",
+        "Vertical",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-coincident",
+      "name": "Sketch Constraint Coincident",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-coincident.svg",
+      "tags": [
+        "Sketch Constraint Coincident",
+        "constraint coincident",
+        "sketch",
+        "Fusion Constraint Coincident",
+        "coincident endpoints",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-tangent",
+      "name": "Sketch Constraint Tangent",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-tangent.svg",
+      "tags": [
+        "Sketch Constraint Tangent",
+        "constraint tangent",
+        "sketch",
+        "Fusion Constraint Tangent",
+        "tangency",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-equal",
+      "name": "Sketch Constraint Equal",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-equal.svg",
+      "tags": [
+        "Sketch Constraint Equal",
+        "constraint equal",
+        "sketch",
+        "Fusion Constraint Equal",
+        "equal length",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-parallel",
+      "name": "Sketch Constraint Parallel",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-parallel.svg",
+      "tags": [
+        "Sketch Constraint Parallel",
+        "constraint parallel",
+        "sketch",
+        "Fusion Constraint Parallel",
+        "parallel lines",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-perpendicular",
+      "name": "Sketch Constraint Perpendicular",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-perpendicular.svg",
+      "tags": [
+        "Sketch Constraint Perpendicular",
+        "constraint perpendicular",
+        "sketch",
+        "Fusion Constraint Perpendicular",
+        "right angle",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-midpoint",
+      "name": "Sketch Constraint MidPoint",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-midpoint.svg",
+      "tags": [
+        "Sketch Constraint MidPoint",
+        "constraint midpoint",
+        "sketch",
+        "Fusion Constraint MidPoint",
+        "midpoint relation",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-concentric",
+      "name": "Sketch Constraint Concentric",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-concentric.svg",
+      "tags": [
+        "Sketch Constraint Concentric",
+        "constraint concentric",
+        "sketch",
+        "Fusion Constraint Concentric",
+        "shared center",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-collinear",
+      "name": "Sketch Constraint Collinear",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-collinear.svg",
+      "tags": [
+        "Sketch Constraint Collinear",
+        "constraint collinear",
+        "sketch",
+        "Fusion Constraint Collinear",
+        "same line",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-symmetry",
+      "name": "Sketch Constraint Symmetry",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-symmetry.svg",
+      "tags": [
+        "Sketch Constraint Symmetry",
+        "constraint symmetry",
+        "sketch",
+        "Fusion Constraint Symmetry",
+        "mirrored points",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-curvature",
+      "name": "Sketch Constraint Curvature",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-curvature.svg",
+      "tags": [
+        "Sketch Constraint Curvature",
+        "constraint curvature",
+        "sketch",
+        "Fusion Constraint Curvature",
+        "G2",
+        "curvature continuity",
+        "sketch constraints"
+      ]
+    },
+    {
+      "id": "constraint-polygon",
+      "name": "Sketch Constraint Polygon",
+      "domain": "3d",
+      "category": "Sketch",
+      "categoryId": "sketch",
+      "file": "icons/3d/sketch/constraint-polygon.svg",
+      "tags": [
+        "Sketch Constraint Polygon",
+        "constraint polygon",
+        "sketch",
+        "Fusion Constraint Polygon",
+        "equal polygon sides",
+        "sketch constraints"
+      ]
     }
   ],
   "collections": [

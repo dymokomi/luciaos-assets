@@ -1561,4 +1561,249 @@
   <circle cx="4" cy="18" r="1.5" fill="currentColor" stroke="none"/>
   <circle cx="20" cy="6" r="1.5" fill="currentColor" stroke="none"/>
 </symbol>
+<symbol id="midpoint-line" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 13h16"/>
+  <circle cx="4" cy="13" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="13" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="13" r="2" fill="currentColor" stroke="none"/>
+  <path d="M10 7 5 7M7 9 5 7 7 5"/>
+  <path d="M14 7 19 7M17 5 19 7 17 9"/>
+</symbol>
+<symbol id="rectangle-3-point" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 10l12-6 6 10-12 6Z"/>
+  <circle cx="3" cy="10" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="15" cy="4" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="21" cy="14" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="rectangle-center" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="4" y="6" width="16" height="12" rx="1"/>
+  <path d="M12 12l8-6" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="6" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="circle-center" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="8"/>
+  <path d="M12 12h8" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="circle-2-point" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="8"/>
+  <path d="M4 12h16" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <circle cx="4" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="circle-3-point" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="8"/>
+  <circle cx="12" cy="4" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="5.072" cy="16" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="18.928" cy="16" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="circle-2-tangent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 3l9 18 9-18" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="9.82" r="5"/>
+  <circle cx="7.53" cy="12.06" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="16.47" cy="12.06" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="circle-3-tangent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3 2.762 19h18.476Z" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="13.667" r="5.333"/>
+  <circle cx="7.381" cy="11" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="16.619" cy="11" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="arc-3-point" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 17a8 10 0 0 1 16 0"/>
+  <circle cx="4" cy="17" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="7" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="17" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="arc-center" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 19V4M4 19h15" stroke-width="1.25" opacity=".6"/>
+  <path d="M4 4a15 15 0 0 1 15 15"/>
+  <circle cx="4" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="4" cy="4" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="19" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="arc-tangent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 19h7" stroke-width="1.25" opacity=".6"/>
+  <path d="M10 19A10 10 0 0 0 20 9"/>
+  <circle cx="10" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="polygon-circumscribed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="6" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".6"/>
+  <path d="M12 3.5 19.361 7.75v8.5L12 20.5l-7.361-4.25v-8.5Z"/>
+</symbol>
+<symbol id="polygon-inscribed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="8.5" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".6"/>
+  <path d="M3.5 12 7.75 4.639h8.5L20.5 12l-4.25 7.361h-8.5Z"/>
+</symbol>
+<symbol id="polygon-edge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3.5 19.361 7.75v8.5L12 20.5l-7.361-4.25v-8.5Z" stroke-width="1.25" opacity=".6"/>
+  <path d="M4.639 16.25 12 20.5"/>
+  <circle cx="4.639" cy="16.25" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="20.5" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="slot-center-to-center" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M7 8h10a4 4 0 0 1 0 8H7a4 4 0 0 1 0-8Z"/>
+  <path d="M7 12h10" stroke-width="1.25" opacity=".6"/>
+  <circle cx="7" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="17" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="slot-overall" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M7 8h10a4 4 0 0 1 0 8H7a4 4 0 0 1 0-8Z"/>
+  <path d="M3 12h18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <circle cx="3" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="21" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="slot-center-point" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M7 8h10a4 4 0 0 1 0 8H7a4 4 0 0 1 0-8Z"/>
+  <path d="M12 9v6" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="slot-arc-3-point" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 17a9 9 0 0 1 18 0 2 2 0 0 1-4 0 5 5 0 0 0-10 0 2 2 0 0 1-4 0Z"/>
+  <circle cx="5" cy="17" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="10" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="19" cy="17" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="slot-arc-center" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 17a9 9 0 0 1 18 0 2 2 0 0 1-4 0 5 5 0 0 0-10 0 2 2 0 0 1-4 0Z"/>
+  <path d="M12 17V10M12 17h7" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="17" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="10" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="conic-curve" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 19 12 3 21 19" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M3 19Q12 3 21 19"/>
+  <circle cx="3" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="3" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="21" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+  <path d="M12 9v4M10.5 10.5h3" stroke-width="1.25" opacity=".6"/>
+</symbol>
+<symbol id="sketch-point" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 4v4M12 16v4M4 12h4M16 12h4" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="project-geometry" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 15 12 19.5 21 15 12 10.5Z" stroke-width="1.25" opacity=".6"/>
+  <path d="M4 5l7 3.5 7-3.5" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M4 14l7 3.5 7-3.5"/>
+  <path d="M12 7 12 12M14 10 12 12 10 10"/>
+</symbol>
+<symbol id="sketch-intersect" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 12l8-4.5 8 4.5-8 4.5Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 11.5l9-5 9 5" stroke-width="1.25" opacity=".6"/>
+  <path d="M4 12l8-4.5 8 4.5-8 4.5Z"/>
+</symbol>
+<symbol id="include-3d" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<g transform="translate(1.8 2.8) scale(0.6)">
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M4 8l8 4.5 8-4.5" stroke-width="3"/>
+  </g>
+  <path d="M16 18.5h5m-2.5-2.5v5"/>
+</symbol>
+<symbol id="sketch-dimension" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 6v14M20 6v14" stroke-width="1.25" opacity=".6"/>
+  <path d="M4 15 20 15M18 13 20 15 18 17M6 17 4 15 6 13"/>
+  <path d="M10 7h4"/>
+</symbol>
+<symbol id="sketch-fillet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 11V4h8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M4 20v-8a8 8 0 0 1 8-8h8"/>
+</symbol>
+<symbol id="sketch-chamfer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 12V4h8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M4 20v-8l8-8h8"/>
+</symbol>
+<symbol id="offset-curve" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 6C8 0 16 12 21 6"/>
+  <path d="M3 19C8 13 16 25 21 19" stroke-width="1.25" opacity=".6"/>
+  <path d="M12 9 12 16M14 14 12 16 10 14M10 11 12 9 14 11"/>
+</symbol>
+<symbol id="sketch-trim" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3v12" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 10h9"/>
+  <path d="M12 10h9" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="m16.5 16.5 4 4m0-4-4 4"/>
+</symbol>
+<symbol id="sketch-extend" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M20 4v16" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 16l7-4"/>
+  <path d="M10 12l10-6" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M17.3 5.3 20 6l-.7 2.7"/>
+</symbol>
+<symbol id="sketch-break" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3v18" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 14l6-2M15 10l6-2"/>
+  <circle cx="9" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="15" cy="10" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="change-parameters" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="5" width="9" height="14" rx="1.5" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 12h9M6 5v14" stroke-width="1.25" opacity=".6"/>
+  <path d="M15 20l2-15q.3-2 3-1M14 10h6M17 14l4 5m0-5-4 5" stroke-width="1.5"/>
+</symbol>
+<symbol id="sketch-slice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 12l8 4.5v4L4 16Z" fill="currentColor" fill-opacity="0.3" stroke="none"/>
+  <path d="M12 16.5l8-4.5v4l-8 4.5Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
+  <path d="M4 12V8l8-4.5L20 8v4M4 8l8 4.5L20 8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M4 12v4l8 4.5 8-4.5v-4M12 16.5v4" stroke-width="1.25" opacity=".6"/>
+  <path d="M3 11.5l9 5 9-5"/>
+</symbol>
+<symbol id="constraint-horizontal-vertical" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 4v15h15"/>
+  <path d="M8 15h3v-3" stroke-width="1.25" opacity=".6"/>
+  <path d="M11 5h8M16 3v4" stroke-width="1.25"/>
+</symbol>
+<symbol id="constraint-coincident" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 5l8 9 8-9" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="14" r="2" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="14" r="5" stroke-width="1.25" opacity=".6"/>
+</symbol>
+<symbol id="constraint-tangent" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="10" cy="14" r="6" stroke-width="1.25" opacity=".6"/>
+  <path d="M7.5 3 21 16.5"/>
+  <circle cx="14.25" cy="9.75" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="constraint-equal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 5h16M4 19h16M9 10h6M9 14h6"/>
+</symbol>
+<symbol id="constraint-parallel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 20 11 4M13 20 19 4"/>
+</symbol>
+<symbol id="constraint-perpendicular" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 19h16M10 4v15"/>
+  <path d="M10 14h5v5" stroke-width="1.25" opacity=".6"/>
+</symbol>
+<symbol id="constraint-midpoint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 16h18"/>
+  <path d="M8 12l4-7 4 7Z" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="16" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="constraint-concentric" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="8.5" stroke-width="1.25" opacity=".6"/>
+  <circle cx="12" cy="12" r="5"/>
+  <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="constraint-collinear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 18l6-4M15 10l6-4"/>
+  <path d="M9 14l6-4" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+</symbol>
+<symbol id="constraint-symmetry" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <circle cx="6" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="18" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <path d="M8 6H4v3M16 6h4v3M4 15v3h4M20 15v3h-4" stroke-width="1.25" opacity=".6"/>
+</symbol>
+<symbol id="constraint-curvature" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 17h7C17 17 20 12 20 5"/>
+  <path d="M8 17v-5M11 17v-5M14 16l-1-5M17 13l-3-3" stroke-width="1.25" opacity=".6"/>
+  <circle cx="10" cy="17" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="constraint-polygon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3.5 19.361 7.75v8.5L12 20.5l-7.361-4.25v-8.5Z"/>
+  <path d="M6.5 4.5l3 5M15 15l3 5" stroke-width="1.25" opacity=".6"/>
+</symbol>
 </svg>
