@@ -4,14 +4,14 @@ The shared asset library for LuciaOS and related projects.
 
 ## Rounded icons
 
-**234 editable SVG icons**, organized into thematic folders. Every icon uses a
+**258 editable SVG icons**, organized into thematic folders. Every icon uses a
 24 × 24 canvas, a 2 px base stroke, transparent background, and `currentColor`.
 
 | Collection | Icons | Location |
 | --- | ---: | --- |
 | Common controls | 59 | [`rounded/icons/common/`](rounded/icons/common/) |
 | Graphics editing | 46 | [`rounded/icons/graphics/`](rounded/icons/graphics/) |
-| 3D tools | 86 | [`rounded/icons/3d/`](rounded/icons/3d/) |
+| 3D tools | 110 | [`rounded/icons/3d/`](rounded/icons/3d/) |
 | Code editing | 29 | [`rounded/icons/code/`](rounded/icons/code/) |
 | Mail | 14 | [`rounded/icons/mail/`](rounded/icons/mail/) |
 
@@ -26,12 +26,12 @@ for the existing icons reused by the 3D editor.
 
 ## Complete preview sheets
 
-Both sheets contain **all 234 icons**, with names and categories:
+Both sheets contain **all 258 icons**, with names and categories:
 
 - **White:** [PNG](rounded/previews/all-white.png) · [SVG](rounded/previews/all-white.svg)
 - **Dark:** [PNG](rounded/previews/all-dark.png) · [SVG](rounded/previews/all-dark.svg)
 
-The PNGs are 1600 × 4540 px; the SVG sheets can be scaled freely.
+The PNGs are 1600 × 4912 px; the SVG sheets can be scaled freely.
 
 ![All rounded icons on white](rounded/previews/all-white.png)
 

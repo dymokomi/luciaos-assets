@@ -1,6 +1,6 @@
 # Rounded icon index
 
-234 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+258 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 86
+## 3D — 110
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -207,6 +207,30 @@
 | CAD Reblend | [reblend.svg](icons/3d/cad/reblend.svg) | CAD |
 | Sketch Circular Pattern | [pattern-circular.svg](icons/3d/cad/pattern-circular.svg) | CAD |
 | Sketch Rectangular Pattern | [pattern-rectangular.svg](icons/3d/cad/pattern-rectangular.svg) | CAD |
+| Surfacing Project | [project-curve.svg](icons/3d/surfacing/project-curve.svg) | Surfacing |
+| Surfacing Intersect | [intersect-surfaces.svg](icons/3d/surfacing/intersect-surfaces.svg) | Surfacing |
+| Surfacing Trim | [trim-surface.svg](icons/3d/surfacing/trim-surface.svg) | Surfacing |
+| Surfacing Untrim | [untrim-surface.svg](icons/3d/surfacing/untrim-surface.svg) | Surfacing |
+| Surfacing Trim Convert | [trim-convert.svg](icons/3d/surfacing/trim-convert.svg) | Surfacing |
+| Surfacing Shrink | [shrink-surface.svg](icons/3d/surfacing/shrink-surface.svg) | Surfacing |
+| Surfacing Stitch | [stitch.svg](icons/3d/surfacing/stitch.svg) | Surfacing |
+| Surfacing Unstitch | [unstitch.svg](icons/3d/surfacing/unstitch.svg) | Surfacing |
+| Surfacing Align | [align-surface.svg](icons/3d/surfacing/align-surface.svg) | Surfacing |
+| Surfacing Symmetry Align | [symmetry-align.svg](icons/3d/surfacing/symmetry-align.svg) | Surfacing |
+| Surfacing Square | [square-surface.svg](icons/3d/surfacing/square-surface.svg) | Surfacing |
+| Surfacing Skin | [skin.svg](icons/3d/surfacing/skin.svg) | Surfacing |
+| Surfacing Rail | [rail-surface.svg](icons/3d/surfacing/rail-surface.svg) | Surfacing |
+| Surfacing Profile | [profile-sweep.svg](icons/3d/surfacing/profile-sweep.svg) | Surfacing |
+| Surfacing Set Planar | [set-planar.svg](icons/3d/surfacing/set-planar.svg) | Surfacing |
+| Surfacing Sheet Extrude | [sheet-extrude.svg](icons/3d/surfacing/sheet-extrude.svg) | Surfacing |
+| Surfacing Sheet Revolve | [sheet-revolve.svg](icons/3d/surfacing/sheet-revolve.svg) | Surfacing |
+| Surfacing Extend | [extend-surface.svg](icons/3d/surfacing/extend-surface.svg) | Surfacing |
+| Surfacing Blend Surface | [blend-surface.svg](icons/3d/surfacing/blend-surface.svg) | Surfacing |
+| Surfacing Surface Fillet | [surface-fillet.svg](icons/3d/surfacing/surface-fillet.svg) | Surfacing |
+| Surfacing Tube | [tube.svg](icons/3d/surfacing/tube.svg) | Surfacing |
+| Surfacing Fill Surface | [fill-surface.svg](icons/3d/surfacing/fill-surface.svg) | Surfacing |
+| Surfacing Bridge Fillet | [bridge-fillet.svg](icons/3d/surfacing/bridge-fillet.svg) | Surfacing |
+| Surfacing Corner | [corner-blend.svg](icons/3d/surfacing/corner-blend.svg) | Surfacing |
 
 ## Code — 29
 

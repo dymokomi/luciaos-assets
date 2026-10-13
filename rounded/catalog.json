@@ -3084,6 +3084,404 @@
         "Plasticity Array",
         "Modo Array"
       ]
+    },
+    {
+      "id": "project-curve",
+      "name": "Surfacing Project",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/project-curve.svg",
+      "tags": [
+        "Surfacing Project",
+        "project curve",
+        "surfacing",
+        "Alias Project",
+        "Sketch Project / Include",
+        "Fusion Project to Surface",
+        "Plasticity Project"
+      ]
+    },
+    {
+      "id": "intersect-surfaces",
+      "name": "Surfacing Intersect",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/intersect-surfaces.svg",
+      "tags": [
+        "Surfacing Intersect",
+        "intersect surfaces",
+        "surfacing",
+        "Alias Intersect",
+        "Fusion Intersect",
+        "Plasticity Intersect"
+      ]
+    },
+    {
+      "id": "trim-surface",
+      "name": "Surfacing Trim",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/trim-surface.svg",
+      "tags": [
+        "Surfacing Trim",
+        "trim surface",
+        "surfacing",
+        "Alias Trim",
+        "Fusion Trim",
+        "Plasticity Trim"
+      ]
+    },
+    {
+      "id": "untrim-surface",
+      "name": "Surfacing Untrim",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/untrim-surface.svg",
+      "tags": [
+        "Surfacing Untrim",
+        "untrim surface",
+        "surfacing",
+        "Alias Untrim",
+        "Plasticity Untrim",
+        "restore trim"
+      ]
+    },
+    {
+      "id": "trim-convert",
+      "name": "Surfacing Trim Convert",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/trim-convert.svg",
+      "tags": [
+        "Surfacing Trim Convert",
+        "trim convert",
+        "surfacing",
+        "Alias Trim Convert",
+        "untrimmed",
+        "rebuild trimmed surface"
+      ]
+    },
+    {
+      "id": "shrink-surface",
+      "name": "Surfacing Shrink",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/shrink-surface.svg",
+      "tags": [
+        "Surfacing Shrink",
+        "shrink surface",
+        "surfacing",
+        "Alias Shrink",
+        "Plasticity Shrink",
+        "trim boundary"
+      ]
+    },
+    {
+      "id": "stitch",
+      "name": "Surfacing Stitch",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/stitch.svg",
+      "tags": [
+        "Surfacing Stitch",
+        "stitch",
+        "surfacing",
+        "Alias Stitch",
+        "Fusion Stitch",
+        "Plasticity Join",
+        "shell"
+      ]
+    },
+    {
+      "id": "unstitch",
+      "name": "Surfacing Unstitch",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/unstitch.svg",
+      "tags": [
+        "Surfacing Unstitch",
+        "unstitch",
+        "surfacing",
+        "Alias Unstitch",
+        "Fusion Unstitch",
+        "Plasticity Separate",
+        "shell"
+      ]
+    },
+    {
+      "id": "align-surface",
+      "name": "Surfacing Align",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/align-surface.svg",
+      "tags": [
+        "Surfacing Align",
+        "align surface",
+        "surfacing",
+        "Alias Align",
+        "G0",
+        "G1",
+        "G2",
+        "G3",
+        "continuity"
+      ]
+    },
+    {
+      "id": "symmetry-align",
+      "name": "Surfacing Symmetry Align",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/symmetry-align.svg",
+      "tags": [
+        "Surfacing Symmetry Align",
+        "symmetry align",
+        "surfacing",
+        "Alias Symmetry Align",
+        "symmetry",
+        "continuity"
+      ]
+    },
+    {
+      "id": "square-surface",
+      "name": "Surfacing Square",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/square-surface.svg",
+      "tags": [
+        "Surfacing Square",
+        "square surface",
+        "surfacing",
+        "Alias Square",
+        "four boundary curves",
+        "four sided patch"
+      ]
+    },
+    {
+      "id": "skin",
+      "name": "Surfacing Skin",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/skin.svg",
+      "tags": [
+        "Surfacing Skin",
+        "skin",
+        "surfacing",
+        "Alias Skin",
+        "Fusion Loft",
+        "Plasticity Loft",
+        "sections"
+      ]
+    },
+    {
+      "id": "rail-surface",
+      "name": "Surfacing Rail",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/rail-surface.svg",
+      "tags": [
+        "Surfacing Rail",
+        "rail surface",
+        "surfacing",
+        "Alias Rail",
+        "Fusion Sweep",
+        "Plasticity Sweep",
+        "two rails"
+      ]
+    },
+    {
+      "id": "profile-sweep",
+      "name": "Surfacing Profile",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/profile-sweep.svg",
+      "tags": [
+        "Surfacing Profile",
+        "profile sweep",
+        "surfacing",
+        "Alias Profile",
+        "Fusion Sweep",
+        "Plasticity Sweep",
+        "profile path"
+      ]
+    },
+    {
+      "id": "set-planar",
+      "name": "Surfacing Set Planar",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/set-planar.svg",
+      "tags": [
+        "Surfacing Set Planar",
+        "set planar",
+        "surfacing",
+        "Alias Set Planar",
+        "Fusion Patch",
+        "planar surface",
+        "closed boundary"
+      ]
+    },
+    {
+      "id": "sheet-extrude",
+      "name": "Surfacing Sheet Extrude",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/sheet-extrude.svg",
+      "tags": [
+        "Surfacing Sheet Extrude",
+        "sheet extrude",
+        "surfacing",
+        "Alias Sheet Extrude",
+        "Fusion Surface Extrude",
+        "Plasticity Extrude",
+        "open surface"
+      ]
+    },
+    {
+      "id": "sheet-revolve",
+      "name": "Surfacing Sheet Revolve",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/sheet-revolve.svg",
+      "tags": [
+        "Surfacing Sheet Revolve",
+        "sheet revolve",
+        "surfacing",
+        "Alias Sheet Revolve",
+        "Fusion Surface Revolve",
+        "Plasticity Revolve",
+        "open sheet"
+      ]
+    },
+    {
+      "id": "extend-surface",
+      "name": "Surfacing Extend",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/extend-surface.svg",
+      "tags": [
+        "Surfacing Extend",
+        "extend surface",
+        "surfacing",
+        "Alias Extend",
+        "Fusion Extend",
+        "Plasticity Extend"
+      ]
+    },
+    {
+      "id": "blend-surface",
+      "name": "Surfacing Blend Surface",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/blend-surface.svg",
+      "tags": [
+        "Surfacing Blend Surface",
+        "blend surface",
+        "surfacing",
+        "Alias Blend Surface",
+        "Fusion Loft",
+        "Plasticity Bridge",
+        "G1",
+        "G2"
+      ]
+    },
+    {
+      "id": "surface-fillet",
+      "name": "Surfacing Surface Fillet",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/surface-fillet.svg",
+      "tags": [
+        "Surfacing Surface Fillet",
+        "surface fillet",
+        "surfacing",
+        "Alias Surface Fillet",
+        "Fusion Fillet",
+        "between surfaces"
+      ]
+    },
+    {
+      "id": "tube",
+      "name": "Surfacing Tube",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/tube.svg",
+      "tags": [
+        "Surfacing Tube",
+        "tube",
+        "surfacing",
+        "Alias Tube",
+        "Plasticity Pipe",
+        "Fusion Pipe"
+      ]
+    },
+    {
+      "id": "fill-surface",
+      "name": "Surfacing Fill Surface",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/fill-surface.svg",
+      "tags": [
+        "Surfacing Fill Surface",
+        "fill surface",
+        "surfacing",
+        "Alias Fill Surface",
+        "Fusion Patch",
+        "Plasticity Patch",
+        "N sided patch"
+      ]
+    },
+    {
+      "id": "bridge-fillet",
+      "name": "Surfacing Bridge Fillet",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/bridge-fillet.svg",
+      "tags": [
+        "Surfacing Bridge Fillet",
+        "bridge fillet",
+        "surfacing",
+        "Alias Bridge Fillet",
+        "fillet bridge"
+      ]
+    },
+    {
+      "id": "corner-blend",
+      "name": "Surfacing Corner",
+      "domain": "3d",
+      "category": "Surfacing",
+      "categoryId": "surfacing",
+      "file": "icons/3d/surfacing/corner-blend.svg",
+      "tags": [
+        "Surfacing Corner",
+        "corner blend",
+        "surfacing",
+        "Alias Corner",
+        "three fillets",
+        "corner patch"
+      ]
     }
   ],
   "collections": [
