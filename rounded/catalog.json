@@ -2567,6 +2567,247 @@
         "configuration"
       ],
       "file": "icons/common/files/project-settings.svg"
+    },
+    {
+      "id": "poly-draw",
+      "name": "Mesh PolyDraw",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/poly-draw.svg",
+      "tags": [
+        "Mesh PolyDraw",
+        "poly draw",
+        "modeling",
+        "PolyDraw",
+        "Modo Polygon Pen",
+        "mesh",
+        "clicked points"
+      ]
+    },
+    {
+      "id": "duplicate-faces",
+      "name": "Mesh Duplicate",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/duplicate-faces.svg",
+      "tags": [
+        "Mesh Duplicate",
+        "duplicate faces",
+        "modeling",
+        "Blender Duplicate",
+        "normal"
+      ]
+    },
+    {
+      "id": "bevel-weight",
+      "name": "Mesh Bevel Weight",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/bevel-weight.svg",
+      "tags": [
+        "Mesh Bevel Weight",
+        "bevel weight",
+        "modeling",
+        "Blender Bevel Weight",
+        "bevel_weight",
+        "Limit Weight"
+      ]
+    },
+    {
+      "id": "offset-edge-loops",
+      "name": "Mesh Offset Edge Loops",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/offset-edge-loops.svg",
+      "tags": [
+        "Mesh Offset Edge Loops",
+        "offset edge loops",
+        "modeling",
+        "Blender Offset Edge Slide",
+        "Offset Edge Loops"
+      ]
+    },
+    {
+      "id": "knife",
+      "name": "Mesh Knife",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/knife.svg",
+      "tags": [
+        "Mesh Knife",
+        "knife",
+        "modeling",
+        "Blender Knife",
+        "Modo Edge Slice",
+        "cut"
+      ]
+    },
+    {
+      "id": "connect",
+      "name": "Mesh Connect",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/connect.svg",
+      "tags": [
+        "Mesh Connect",
+        "connect",
+        "modeling",
+        "Blender Connect Vertex Path",
+        "Modo Connect",
+        "connect points"
+      ]
+    },
+    {
+      "id": "edge-slide",
+      "name": "Mesh Edge Slide",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/edge-slide.svg",
+      "tags": [
+        "Mesh Edge Slide",
+        "edge slide",
+        "modeling",
+        "Blender Edge Slide",
+        "Modo Slide",
+        "loop"
+      ]
+    },
+    {
+      "id": "vertex-slide",
+      "name": "Mesh Vertex Slide",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/vertex-slide.svg",
+      "tags": [
+        "Mesh Vertex Slide",
+        "vertex slide",
+        "modeling",
+        "Blender Vertex Slide",
+        "Modo Slide",
+        "point"
+      ]
+    },
+    {
+      "id": "bridge",
+      "name": "Mesh Bridge",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/bridge.svg",
+      "tags": [
+        "Mesh Bridge",
+        "bridge",
+        "modeling",
+        "Blender Bridge Edge Loops",
+        "Modo Bridge"
+      ]
+    },
+    {
+      "id": "fuse",
+      "name": "Mesh Fuse",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/fuse.svg",
+      "tags": [
+        "Mesh Fuse",
+        "fuse",
+        "modeling",
+        "Merge by Distance",
+        "Blender Merge by Distance",
+        "Houdini Fuse",
+        "distance"
+      ]
+    },
+    {
+      "id": "clean-mesh",
+      "name": "Mesh Clean",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/clean-mesh.svg",
+      "tags": [
+        "Mesh Clean",
+        "clean mesh",
+        "modeling",
+        "Blender Clean Up",
+        "Modo Mesh Cleanup",
+        "degenerate",
+        "unused"
+      ]
+    },
+    {
+      "id": "spin",
+      "name": "Mesh Spin",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/spin.svg",
+      "tags": [
+        "Mesh Spin",
+        "spin",
+        "modeling",
+        "Blender Spin",
+        "Modo Radial Sweep",
+        "surface of revolution"
+      ]
+    },
+    {
+      "id": "subdivision-surface",
+      "name": "Mesh Subdivision",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/subdivision-surface.svg",
+      "tags": [
+        "Mesh Subdivision",
+        "subdivision surface",
+        "modeling",
+        "Subdivision Surface",
+        "Blender Subdivision Surface",
+        "Modo Subdivision",
+        "limit surface"
+      ]
+    },
+    {
+      "id": "crease",
+      "name": "Mesh Crease",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/crease.svg",
+      "tags": [
+        "Mesh Crease",
+        "crease",
+        "modeling",
+        "Blender Edge Crease",
+        "Modo Edge Weight",
+        "subdivision"
+      ]
+    },
+    {
+      "id": "peak",
+      "name": "Mesh Peak",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/peak.svg",
+      "tags": [
+        "Mesh Peak",
+        "peak",
+        "modeling",
+        "Houdini Peak",
+        "Blender Shrink Fatten",
+        "normals"
+      ]
     }
   ],
   "collections": [

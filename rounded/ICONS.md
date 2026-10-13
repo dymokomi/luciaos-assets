@@ -1,6 +1,6 @@
 # Rounded icon index
 
-202 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+217 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 54
+## 3D — 69
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -175,6 +175,21 @@
 | Add node | [add-node.svg](icons/3d/nodes/add-node.svg) | Nodes |
 | Group nodes | [group-nodes.svg](icons/3d/nodes/group-nodes.svg) | Nodes |
 | Output node | [output-node.svg](icons/3d/nodes/output-node.svg) | Nodes |
+| Mesh PolyDraw | [poly-draw.svg](icons/3d/modeling/poly-draw.svg) | Modeling |
+| Mesh Duplicate | [duplicate-faces.svg](icons/3d/modeling/duplicate-faces.svg) | Modeling |
+| Mesh Bevel Weight | [bevel-weight.svg](icons/3d/modeling/bevel-weight.svg) | Modeling |
+| Mesh Offset Edge Loops | [offset-edge-loops.svg](icons/3d/modeling/offset-edge-loops.svg) | Modeling |
+| Mesh Knife | [knife.svg](icons/3d/modeling/knife.svg) | Modeling |
+| Mesh Connect | [connect.svg](icons/3d/modeling/connect.svg) | Modeling |
+| Mesh Edge Slide | [edge-slide.svg](icons/3d/modeling/edge-slide.svg) | Modeling |
+| Mesh Vertex Slide | [vertex-slide.svg](icons/3d/modeling/vertex-slide.svg) | Modeling |
+| Mesh Bridge | [bridge.svg](icons/3d/modeling/bridge.svg) | Modeling |
+| Mesh Fuse | [fuse.svg](icons/3d/modeling/fuse.svg) | Modeling |
+| Mesh Clean | [clean-mesh.svg](icons/3d/modeling/clean-mesh.svg) | Modeling |
+| Mesh Spin | [spin.svg](icons/3d/modeling/spin.svg) | Modeling |
+| Mesh Subdivision | [subdivision-surface.svg](icons/3d/modeling/subdivision-surface.svg) | Modeling |
+| Mesh Crease | [crease.svg](icons/3d/modeling/crease.svg) | Modeling |
+| Mesh Peak | [peak.svg](icons/3d/modeling/peak.svg) | Modeling |
 
 ## Code — 29
 
