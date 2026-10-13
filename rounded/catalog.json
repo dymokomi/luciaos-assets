@@ -3482,6 +3482,387 @@
         "three fillets",
         "corner patch"
       ]
+    },
+    {
+      "id": "cv-curve",
+      "name": "Curves CV Curve",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/cv-curve.svg",
+      "tags": [
+        "Curves CV Curve",
+        "cv curve",
+        "curves",
+        "NURBS",
+        "Alias CV Curve",
+        "Fusion Control Point Spline",
+        "Sketch Control Point Spline",
+        "Plasticity Control Point Curve"
+      ]
+    },
+    {
+      "id": "ep-curve",
+      "name": "Curves EP Curve",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/ep-curve.svg",
+      "tags": [
+        "Curves EP Curve",
+        "ep curve",
+        "curves",
+        "NURBS",
+        "Alias EP Curve",
+        "Fusion Fit Point Spline",
+        "Sketch Fit Point Spline",
+        "Plasticity Curve"
+      ]
+    },
+    {
+      "id": "curve-on-surface",
+      "name": "Curves Curve on Surface",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/curve-on-surface.svg",
+      "tags": [
+        "Curves Curve on Surface",
+        "curve on surface",
+        "curves",
+        "NURBS",
+        "Alias Curve on Surface",
+        "draw surface curve"
+      ]
+    },
+    {
+      "id": "duplicate-curve",
+      "name": "Curves Duplicate Curve",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/duplicate-curve.svg",
+      "tags": [
+        "Curves Duplicate Curve",
+        "duplicate curve",
+        "curves",
+        "NURBS",
+        "Alias Duplicate Curve",
+        "Plasticity Duplicate Edge",
+        "isoparm"
+      ]
+    },
+    {
+      "id": "isoparm",
+      "name": "Curves Isoparm",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/isoparm.svg",
+      "tags": [
+        "Curves Isoparm",
+        "isoparm",
+        "curves",
+        "NURBS",
+        "Alias Isoparm",
+        "extract parameter curve"
+      ]
+    },
+    {
+      "id": "blend-curve",
+      "name": "Curves Blend Curve",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/blend-curve.svg",
+      "tags": [
+        "Curves Blend Curve",
+        "blend curve",
+        "curves",
+        "NURBS",
+        "Alias Blend Curve",
+        "Curves Blend Edges",
+        "Sketch Blend Curve",
+        "Fusion Blend Curve",
+        "Plasticity Blend",
+        "G1",
+        "G2",
+        "G3"
+      ]
+    },
+    {
+      "id": "attach-curves",
+      "name": "Curves Attach",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/attach-curves.svg",
+      "tags": [
+        "Curves Attach",
+        "attach curves",
+        "curves",
+        "NURBS",
+        "Alias Attach",
+        "Plasticity Join",
+        "join curves"
+      ]
+    },
+    {
+      "id": "detach-curve",
+      "name": "Curves Detach",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/detach-curve.svg",
+      "tags": [
+        "Curves Detach",
+        "detach curve",
+        "curves",
+        "NURBS",
+        "Alias Detach",
+        "Plasticity Detach",
+        "split point"
+      ]
+    },
+    {
+      "id": "close-curve",
+      "name": "Curves Close",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/close-curve.svg",
+      "tags": [
+        "Curves Close",
+        "close curve",
+        "curves",
+        "NURBS",
+        "Alias Close",
+        "close ends"
+      ]
+    },
+    {
+      "id": "stretch-curve",
+      "name": "Curves Stretch",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/stretch-curve.svg",
+      "tags": [
+        "Curves Stretch",
+        "stretch curve",
+        "curves",
+        "NURBS",
+        "Alias Stretch",
+        "move curve end"
+      ]
+    },
+    {
+      "id": "reverse-curve",
+      "name": "Curves Reverse",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/reverse-curve.svg",
+      "tags": [
+        "Curves Reverse",
+        "reverse curve",
+        "curves",
+        "NURBS",
+        "Alias Reverse",
+        "Blender Reverse Curve",
+        "Curve nodes",
+        "direction"
+      ]
+    },
+    {
+      "id": "insert-knot",
+      "name": "Curves Insert Knot",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/insert-knot.svg",
+      "tags": [
+        "Curves Insert Knot",
+        "insert knot",
+        "curves",
+        "NURBS",
+        "Alias Insert Knot",
+        "add span"
+      ]
+    },
+    {
+      "id": "remove-knot",
+      "name": "Curves Remove Knot",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/remove-knot.svg",
+      "tags": [
+        "Curves Remove Knot",
+        "remove knot",
+        "curves",
+        "NURBS",
+        "Alias Remove Knot",
+        "remove span"
+      ]
+    },
+    {
+      "id": "raise-degree",
+      "name": "Curves Raise Degree",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/raise-degree.svg",
+      "tags": [
+        "Curves Raise Degree",
+        "raise degree",
+        "curves",
+        "NURBS",
+        "Alias Raise Degree",
+        "degree elevation"
+      ]
+    },
+    {
+      "id": "rebuild-curve",
+      "name": "Curves Rebuild",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/rebuild-curve.svg",
+      "tags": [
+        "Curves Rebuild",
+        "rebuild curve",
+        "curves",
+        "NURBS",
+        "Alias Rebuild",
+        "Fusion Rebuild Curve",
+        "spans",
+        "degree"
+      ]
+    },
+    {
+      "id": "convert-to-bspline",
+      "name": "Curves Convert to B-spline",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/convert-to-bspline.svg",
+      "tags": [
+        "Curves Convert to B-spline",
+        "convert to bspline",
+        "curves",
+        "NURBS",
+        "Alias Convert to B-spline",
+        "B spline",
+        "control net"
+      ]
+    },
+    {
+      "id": "curve-spiral",
+      "name": "Curve Spiral",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/curve-spiral.svg",
+      "tags": [
+        "Curve Spiral",
+        "curve spiral",
+        "curves",
+        "NURBS",
+        "Alias Curve Spiral",
+        "Blender Curve Spiral",
+        "Curve primitives",
+        "Spiral"
+      ]
+    },
+    {
+      "id": "resample-curve",
+      "name": "Resample Curve",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/resample-curve.svg",
+      "tags": [
+        "Resample Curve",
+        "resample curve",
+        "curves",
+        "NURBS",
+        "Alias Resample Curve",
+        "Blender Resample Curve",
+        "Curve nodes",
+        "even spacing"
+      ]
+    },
+    {
+      "id": "trim-curve",
+      "name": "Trim Curve",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/trim-curve.svg",
+      "tags": [
+        "Trim Curve",
+        "trim curve",
+        "curves",
+        "NURBS",
+        "Alias Trim Curve",
+        "Blender Trim Curve",
+        "Curve nodes",
+        "trim ends"
+      ]
+    },
+    {
+      "id": "set-curve-type",
+      "name": "Set Curve Type",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/set-curve-type.svg",
+      "tags": [
+        "Set Curve Type",
+        "set curve type",
+        "curves",
+        "NURBS",
+        "Alias Set Curve Type",
+        "Blender Set Spline Type",
+        "Curve nodes",
+        "polyline",
+        "Bezier"
+      ]
+    },
+    {
+      "id": "curve-to-mesh",
+      "name": "Curve to Mesh",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/curve-to-mesh.svg",
+      "tags": [
+        "Curve to Mesh",
+        "curve to mesh",
+        "curves",
+        "NURBS",
+        "Alias Curve to Mesh",
+        "Blender Curve to Mesh",
+        "conversion"
+      ]
+    },
+    {
+      "id": "mesh-to-curve",
+      "name": "Mesh to Curve",
+      "domain": "3d",
+      "category": "Curves",
+      "categoryId": "curves",
+      "file": "icons/3d/curves/mesh-to-curve.svg",
+      "tags": [
+        "Mesh to Curve",
+        "mesh to curve",
+        "curves",
+        "NURBS",
+        "Alias Mesh to Curve",
+        "Blender Mesh to Curve",
+        "conversion"
+      ]
     }
   ],
   "collections": [

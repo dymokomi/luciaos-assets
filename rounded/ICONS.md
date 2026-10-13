@@ -1,6 +1,6 @@
 # Rounded icon index
 
-258 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+280 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 110
+## 3D — 132
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -231,6 +231,28 @@
 | Surfacing Fill Surface | [fill-surface.svg](icons/3d/surfacing/fill-surface.svg) | Surfacing |
 | Surfacing Bridge Fillet | [bridge-fillet.svg](icons/3d/surfacing/bridge-fillet.svg) | Surfacing |
 | Surfacing Corner | [corner-blend.svg](icons/3d/surfacing/corner-blend.svg) | Surfacing |
+| Curves CV Curve | [cv-curve.svg](icons/3d/curves/cv-curve.svg) | Curves |
+| Curves EP Curve | [ep-curve.svg](icons/3d/curves/ep-curve.svg) | Curves |
+| Curves Curve on Surface | [curve-on-surface.svg](icons/3d/curves/curve-on-surface.svg) | Curves |
+| Curves Duplicate Curve | [duplicate-curve.svg](icons/3d/curves/duplicate-curve.svg) | Curves |
+| Curves Isoparm | [isoparm.svg](icons/3d/curves/isoparm.svg) | Curves |
+| Curves Blend Curve | [blend-curve.svg](icons/3d/curves/blend-curve.svg) | Curves |
+| Curves Attach | [attach-curves.svg](icons/3d/curves/attach-curves.svg) | Curves |
+| Curves Detach | [detach-curve.svg](icons/3d/curves/detach-curve.svg) | Curves |
+| Curves Close | [close-curve.svg](icons/3d/curves/close-curve.svg) | Curves |
+| Curves Stretch | [stretch-curve.svg](icons/3d/curves/stretch-curve.svg) | Curves |
+| Curves Reverse | [reverse-curve.svg](icons/3d/curves/reverse-curve.svg) | Curves |
+| Curves Insert Knot | [insert-knot.svg](icons/3d/curves/insert-knot.svg) | Curves |
+| Curves Remove Knot | [remove-knot.svg](icons/3d/curves/remove-knot.svg) | Curves |
+| Curves Raise Degree | [raise-degree.svg](icons/3d/curves/raise-degree.svg) | Curves |
+| Curves Rebuild | [rebuild-curve.svg](icons/3d/curves/rebuild-curve.svg) | Curves |
+| Curves Convert to B-spline | [convert-to-bspline.svg](icons/3d/curves/convert-to-bspline.svg) | Curves |
+| Curve Spiral | [curve-spiral.svg](icons/3d/curves/curve-spiral.svg) | Curves |
+| Resample Curve | [resample-curve.svg](icons/3d/curves/resample-curve.svg) | Curves |
+| Trim Curve | [trim-curve.svg](icons/3d/curves/trim-curve.svg) | Curves |
+| Set Curve Type | [set-curve-type.svg](icons/3d/curves/set-curve-type.svg) | Curves |
+| Curve to Mesh | [curve-to-mesh.svg](icons/3d/curves/curve-to-mesh.svg) | Curves |
+| Mesh to Curve | [mesh-to-curve.svg](icons/3d/curves/mesh-to-curve.svg) | Curves |
 
 ## Code — 29
 
