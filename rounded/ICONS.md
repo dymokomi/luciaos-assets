@@ -1,6 +1,6 @@
 # Rounded icon index
 
-352 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+362 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 204
+## 3D — 214
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -325,6 +325,16 @@
 | Sketch Constraint Symmetry | [constraint-symmetry.svg](icons/3d/sketch/constraint-symmetry.svg) | Sketch |
 | Sketch Constraint Curvature | [constraint-curvature.svg](icons/3d/sketch/constraint-curvature.svg) | Sketch |
 | Sketch Constraint Polygon | [constraint-polygon.svg](icons/3d/sketch/constraint-polygon.svg) | Sketch |
+| Control Hulls | [control-hulls.svg](icons/3d/viewport/control-hulls.svg) | Viewport |
+| Shaded View | [shaded-view.svg](icons/3d/viewport/shaded-view.svg) | Viewport |
+| Zebra Shading | [zebra.svg](icons/3d/viewport/zebra.svg) | Viewport |
+| Isophote Shading | [isophotes.svg](icons/3d/viewport/isophotes.svg) | Viewport |
+| Curvature Map | [curvature-map.svg](icons/3d/viewport/curvature-map.svg) | Viewport |
+| Draft Angle | [draft-angle.svg](icons/3d/viewport/draft-angle.svg) | Viewport |
+| Snap to Midpoints | [snap-midpoint.svg](icons/3d/viewport/snap-midpoint.svg) | Viewport |
+| Snap to Intersections | [snap-intersection.svg](icons/3d/viewport/snap-intersection.svg) | Viewport |
+| Snap to Curves | [snap-curve.svg](icons/3d/viewport/snap-curve.svg) | Viewport |
+| Snap to Surfaces | [snap-surface.svg](icons/3d/viewport/snap-surface.svg) | Viewport |
 
 ## Code — 29
 

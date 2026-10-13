@@ -5009,6 +5009,171 @@
         "equal polygon sides",
         "sketch constraints"
       ]
+    },
+    {
+      "id": "control-hulls",
+      "name": "Control Hulls",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/control-hulls.svg",
+      "tags": [
+        "Control Hulls",
+        "control hulls",
+        "viewport",
+        "View Control hulls",
+        "Alias Hulls",
+        "Fusion Control Frame",
+        "CV polygon"
+      ]
+    },
+    {
+      "id": "shaded-view",
+      "name": "Shaded View",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/shaded-view.svg",
+      "tags": [
+        "Shaded View",
+        "shaded view",
+        "viewport",
+        "Shading Shaded",
+        "Fusion Shaded",
+        "Plasticity Shaded",
+        "Blender Solid"
+      ]
+    },
+    {
+      "id": "zebra",
+      "name": "Zebra Shading",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/zebra.svg",
+      "tags": [
+        "Zebra Shading",
+        "zebra",
+        "viewport",
+        "Shading Zebra",
+        "Fusion Zebra Analysis",
+        "Plasticity Zebra",
+        "Alias Zebra"
+      ]
+    },
+    {
+      "id": "isophotes",
+      "name": "Isophote Shading",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/isophotes.svg",
+      "tags": [
+        "Isophote Shading",
+        "isophotes",
+        "viewport",
+        "Shading Isophotes",
+        "Alias Isophotes",
+        "brightness bands"
+      ]
+    },
+    {
+      "id": "curvature-map",
+      "name": "Curvature Map",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/curvature-map.svg",
+      "tags": [
+        "Curvature Map",
+        "curvature map",
+        "viewport",
+        "Shading Curvature",
+        "Fusion Curvature Map Analysis",
+        "Plasticity Curvature",
+        "Alias Curvature"
+      ]
+    },
+    {
+      "id": "draft-angle",
+      "name": "Draft Angle",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/draft-angle.svg",
+      "tags": [
+        "Draft Angle",
+        "draft angle",
+        "viewport",
+        "Shading Draft",
+        "Fusion Draft Analysis",
+        "Alias Draft Angle",
+        "pull direction"
+      ]
+    },
+    {
+      "id": "snap-midpoint",
+      "name": "Snap to Midpoints",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/snap-midpoint.svg",
+      "tags": [
+        "Snap to Midpoints",
+        "snap midpoint",
+        "viewport",
+        "Snapping Middles",
+        "Fusion Midpoint Snap",
+        "Modo Midpoint"
+      ]
+    },
+    {
+      "id": "snap-intersection",
+      "name": "Snap to Intersections",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/snap-intersection.svg",
+      "tags": [
+        "Snap to Intersections",
+        "snap intersection",
+        "viewport",
+        "Snapping Crossings",
+        "Fusion Intersection Snap",
+        "Modo Intersection"
+      ]
+    },
+    {
+      "id": "snap-curve",
+      "name": "Snap to Curves",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/snap-curve.svg",
+      "tags": [
+        "Snap to Curves",
+        "snap curve",
+        "viewport",
+        "Snapping Curves",
+        "Alias Curve Snap",
+        "Modo Curve"
+      ]
+    },
+    {
+      "id": "snap-surface",
+      "name": "Snap to Surfaces",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/snap-surface.svg",
+      "tags": [
+        "Snap to Surfaces",
+        "snap surface",
+        "viewport",
+        "Snapping Surfaces",
+        "Fusion Surface Snap",
+        "Modo Surface"
+      ]
     }
   ],
   "collections": [
