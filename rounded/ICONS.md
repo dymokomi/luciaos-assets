@@ -1,6 +1,6 @@
 # Rounded icon index
 
-362 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+402 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 214
+## 3D — 254
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -335,6 +335,46 @@
 | Snap to Intersections | [snap-intersection.svg](icons/3d/viewport/snap-intersection.svg) | Viewport |
 | Snap to Curves | [snap-curve.svg](icons/3d/viewport/snap-curve.svg) | Viewport |
 | Snap to Surfaces | [snap-surface.svg](icons/3d/viewport/snap-surface.svg) | Viewport |
+| CAD Context | [context-cad.svg](icons/3d/nodes/context-cad.svg) | Nodes |
+| SDF Context | [context-sdf.svg](icons/3d/nodes/context-sdf.svg) | Nodes |
+| Volumes Context | [context-volume.svg](icons/3d/nodes/context-volume.svg) | Nodes |
+| GSplats Context | [context-gsplats.svg](icons/3d/nodes/context-gsplats.svg) | Nodes |
+| Input Node | [input-node.svg](icons/3d/nodes/input-node.svg) | Nodes |
+| Import USD Stage | [import-stage.svg](icons/3d/nodes/import-stage.svg) | Nodes |
+| Assign Material | [assign-material.svg](icons/3d/shading/assign-material.svg) | Shading |
+| Tessellate | [tessellate.svg](icons/3d/nodes/tessellate.svg) | Nodes |
+| Blast | [blast.svg](icons/3d/nodes/blast.svg) | Nodes |
+| Edit Mesh | [edit-mesh.svg](icons/3d/nodes/edit-mesh.svg) | Nodes |
+| Edit CAD | [edit-cad.svg](icons/3d/nodes/edit-cad.svg) | Nodes |
+| Edit SDF | [edit-sdf.svg](icons/3d/nodes/edit-sdf.svg) | Nodes |
+| Edit GSplats | [edit-gsplats.svg](icons/3d/nodes/edit-gsplats.svg) | Nodes |
+| Merge Geometry | [merge-geometry.svg](icons/3d/nodes/merge-geometry.svg) | Nodes |
+| Null Node | [null-node.svg](icons/3d/nodes/null-node.svg) | Nodes |
+| Script Node | [script-node.svg](icons/3d/nodes/script-node.svg) | Nodes |
+| Switch Node | [switch-node.svg](icons/3d/nodes/switch-node.svg) | Nodes |
+| Copy to Points | [copy-to-points.svg](icons/3d/nodes/copy-to-points.svg) | Nodes |
+| Match Size | [match-size.svg](icons/3d/nodes/match-size.svg) | Nodes |
+| Create Attribute | [attribute-create.svg](icons/3d/nodes/attribute-create.svg) | Nodes |
+| Delete Attribute | [attribute-delete.svg](icons/3d/nodes/attribute-delete.svg) | Nodes |
+| Rename Attribute | [attribute-rename.svg](icons/3d/nodes/attribute-rename.svg) | Nodes |
+| Randomize Attribute | [attribute-randomize.svg](icons/3d/nodes/attribute-randomize.svg) | Nodes |
+| Promote Attribute | [attribute-promote.svg](icons/3d/nodes/attribute-promote.svg) | Nodes |
+| Name Attribute | [name-attribute.svg](icons/3d/nodes/name-attribute.svg) | Nodes |
+| UV Project | [uv-project.svg](icons/3d/shading/uv-project.svg) | Shading |
+| Cache Node | [cache-node.svg](icons/3d/nodes/cache-node.svg) | Nodes |
+| Shader Node | [shader-node.svg](icons/3d/shading/shader-node.svg) | Shading |
+| Image Texture | [image-texture.svg](icons/3d/shading/image-texture.svg) | Shading |
+| OpenPBR Surface | [openpbr-surface.svg](icons/3d/shading/openpbr-surface.svg) | Shading |
+| SDF Smooth Blend | [sdf-blend.svg](icons/3d/nodes/sdf-blend.svg) | Nodes |
+| Capsule | [capsule.svg](icons/3d/primitives/capsule.svg) | Primitives |
+| Volume Slice | [volume-slice.svg](icons/3d/nodes/volume-slice.svg) | Nodes |
+| Volume from Points | [volume-from-points.svg](icons/3d/nodes/volume-from-points.svg) | Nodes |
+| Volume to Mesh | [volume-to-mesh.svg](icons/3d/nodes/volume-to-mesh.svg) | Nodes |
+| GSplats Relight | [gsplats-relight.svg](icons/3d/nodes/gsplats-relight.svg) | Nodes |
+| GSplats Crop | [gsplats-crop.svg](icons/3d/nodes/gsplats-crop.svg) | Nodes |
+| GSplats Reduce | [gsplats-reduce.svg](icons/3d/nodes/gsplats-reduce.svg) | Nodes |
+| GSplats Opacity | [gsplats-opacity.svg](icons/3d/nodes/gsplats-opacity.svg) | Nodes |
+| GSplats Recolor | [gsplats-recolor.svg](icons/3d/nodes/gsplats-recolor.svg) | Nodes |
 
 ## Code — 29
 

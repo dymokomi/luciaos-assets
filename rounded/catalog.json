@@ -5174,6 +5174,664 @@
         "Fusion Surface Snap",
         "Modo Surface"
       ]
+    },
+    {
+      "id": "context-cad",
+      "name": "CAD Context",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/context-cad.svg",
+      "tags": [
+        "CAD Context",
+        "context cad",
+        "nodes",
+        "Solid bodies network",
+        "CAD context",
+        "Fusion",
+        "Plasticity"
+      ]
+    },
+    {
+      "id": "context-sdf",
+      "name": "SDF Context",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/context-sdf.svg",
+      "tags": [
+        "SDF Context",
+        "context sdf",
+        "nodes",
+        "Signed distance fields",
+        "SDF nodes",
+        "Sphere",
+        "Box",
+        "Torus",
+        "Capsule",
+        "Cylinder",
+        "Boolean",
+        "Modify",
+        "SDF to Volume",
+        "Mesh to SDF"
+      ]
+    },
+    {
+      "id": "context-volume",
+      "name": "Volumes Context",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/context-volume.svg",
+      "tags": [
+        "Volumes Context",
+        "context volume",
+        "nodes",
+        "Voxel volumes",
+        "Volume",
+        "Volume Visualization",
+        "density"
+      ]
+    },
+    {
+      "id": "context-gsplats",
+      "name": "GSplats Context",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/context-gsplats.svg",
+      "tags": [
+        "GSplats Context",
+        "context gsplats",
+        "nodes",
+        "Gaussian splats",
+        "GSplat nodes",
+        "Delight",
+        "Relight",
+        "Bake",
+        "SH Degree",
+        "Crop",
+        "Clean",
+        "Reduce",
+        "from Polygons",
+        "to Volume",
+        "Normals",
+        "Delete",
+        "Opacity",
+        "Recolor"
+      ]
+    },
+    {
+      "id": "input-node",
+      "name": "Input Node",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/input-node.svg",
+      "tags": [
+        "Input Node",
+        "input node",
+        "nodes",
+        "Subnetwork input",
+        "Input",
+        "Houdini Input"
+      ]
+    },
+    {
+      "id": "import-stage",
+      "name": "Import USD Stage",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/import-stage.svg",
+      "tags": [
+        "Import USD Stage",
+        "import stage",
+        "nodes",
+        "Import (USD)",
+        "USD",
+        "stage",
+        "layers"
+      ]
+    },
+    {
+      "id": "assign-material",
+      "name": "Assign Material",
+      "domain": "3d",
+      "category": "Shading",
+      "categoryId": "shading",
+      "file": "icons/3d/shading/assign-material.svg",
+      "tags": [
+        "Assign Material",
+        "assign material",
+        "shading",
+        "Fusion Physical Material",
+        "Blender Assign Material"
+      ]
+    },
+    {
+      "id": "tessellate",
+      "name": "Tessellate",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/tessellate.svg",
+      "tags": [
+        "Tessellate",
+        "tessellate",
+        "nodes",
+        "CAD to mesh",
+        "Fusion Tessellate",
+        "Plasticity Tessellate"
+      ]
+    },
+    {
+      "id": "blast",
+      "name": "Blast",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/blast.svg",
+      "tags": [
+        "Blast",
+        "blast",
+        "nodes",
+        "Houdini Blast",
+        "delete group"
+      ]
+    },
+    {
+      "id": "edit-mesh",
+      "name": "Edit Mesh",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/edit-mesh.svg",
+      "tags": [
+        "Edit Mesh",
+        "edit mesh",
+        "nodes",
+        "Mesh edit node",
+        "topology"
+      ]
+    },
+    {
+      "id": "edit-cad",
+      "name": "Edit CAD",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/edit-cad.svg",
+      "tags": [
+        "Edit CAD",
+        "edit cad",
+        "nodes",
+        "CAD edit node",
+        "solid features"
+      ]
+    },
+    {
+      "id": "edit-sdf",
+      "name": "Edit SDF",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/edit-sdf.svg",
+      "tags": [
+        "Edit SDF",
+        "edit sdf",
+        "nodes",
+        "SDF edit node",
+        "distance field"
+      ]
+    },
+    {
+      "id": "edit-gsplats",
+      "name": "Edit GSplats",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/edit-gsplats.svg",
+      "tags": [
+        "Edit GSplats",
+        "edit gsplats",
+        "nodes",
+        "GSplat edit node",
+        "Gaussian splats"
+      ]
+    },
+    {
+      "id": "merge-geometry",
+      "name": "Merge Geometry",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/merge-geometry.svg",
+      "tags": [
+        "Merge Geometry",
+        "merge geometry",
+        "nodes",
+        "Houdini Merge",
+        "geometry streams",
+        "combine"
+      ]
+    },
+    {
+      "id": "null-node",
+      "name": "Null Node",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/null-node.svg",
+      "tags": [
+        "Null Node",
+        "null node",
+        "nodes",
+        "Houdini Null",
+        "pass through",
+        "Input Output"
+      ]
+    },
+    {
+      "id": "script-node",
+      "name": "Script Node",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/script-node.svg",
+      "tags": [
+        "Script Node",
+        "script node",
+        "nodes",
+        "Script",
+        "Python",
+        "code execution"
+      ]
+    },
+    {
+      "id": "switch-node",
+      "name": "Switch Node",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/switch-node.svg",
+      "tags": [
+        "Switch Node",
+        "switch node",
+        "nodes",
+        "Houdini Switch",
+        "choose input"
+      ]
+    },
+    {
+      "id": "copy-to-points",
+      "name": "Copy to Points",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/copy-to-points.svg",
+      "tags": [
+        "Copy to Points",
+        "copy to points",
+        "nodes",
+        "CopyToPoints",
+        "Houdini Copy to Points",
+        "instances"
+      ]
+    },
+    {
+      "id": "match-size",
+      "name": "Match Size",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/match-size.svg",
+      "tags": [
+        "Match Size",
+        "match size",
+        "nodes",
+        "MatchSize",
+        "Houdini Match Size",
+        "fit target"
+      ]
+    },
+    {
+      "id": "attribute-create",
+      "name": "Create Attribute",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/attribute-create.svg",
+      "tags": [
+        "Create Attribute",
+        "attribute create",
+        "nodes",
+        "Attribute nodes Create",
+        "Houdini Attribute Create",
+        "attributes"
+      ]
+    },
+    {
+      "id": "attribute-delete",
+      "name": "Delete Attribute",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/attribute-delete.svg",
+      "tags": [
+        "Delete Attribute",
+        "attribute delete",
+        "nodes",
+        "Attribute nodes Delete",
+        "Houdini Attribute Delete",
+        "attributes"
+      ]
+    },
+    {
+      "id": "attribute-rename",
+      "name": "Rename Attribute",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/attribute-rename.svg",
+      "tags": [
+        "Rename Attribute",
+        "attribute rename",
+        "nodes",
+        "Attribute nodes Rename",
+        "Houdini Attribute Rename",
+        "attributes"
+      ]
+    },
+    {
+      "id": "attribute-randomize",
+      "name": "Randomize Attribute",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/attribute-randomize.svg",
+      "tags": [
+        "Randomize Attribute",
+        "attribute randomize",
+        "nodes",
+        "Attribute nodes Randomize",
+        "Houdini Attribute Randomize",
+        "attributes"
+      ]
+    },
+    {
+      "id": "attribute-promote",
+      "name": "Promote Attribute",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/attribute-promote.svg",
+      "tags": [
+        "Promote Attribute",
+        "attribute promote",
+        "nodes",
+        "Attribute nodes Promote",
+        "Houdini Attribute Promote",
+        "class"
+      ]
+    },
+    {
+      "id": "name-attribute",
+      "name": "Name Attribute",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/name-attribute.svg",
+      "tags": [
+        "Name Attribute",
+        "name attribute",
+        "nodes",
+        "Attribute nodes Name",
+        "Houdini Name",
+        "name tag"
+      ]
+    },
+    {
+      "id": "uv-project",
+      "name": "UV Project",
+      "domain": "3d",
+      "category": "Shading",
+      "categoryId": "shading",
+      "file": "icons/3d/shading/uv-project.svg",
+      "tags": [
+        "UV Project",
+        "uv project",
+        "shading",
+        "UVProject",
+        "Houdini UV Project",
+        "Blender UV Project",
+        "UV projection"
+      ]
+    },
+    {
+      "id": "cache-node",
+      "name": "Cache Node",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/cache-node.svg",
+      "tags": [
+        "Cache Node",
+        "cache node",
+        "nodes",
+        "Cache",
+        "Houdini File Cache",
+        "disk cache"
+      ]
+    },
+    {
+      "id": "shader-node",
+      "name": "Shader Node",
+      "domain": "3d",
+      "category": "Shading",
+      "categoryId": "shading",
+      "file": "icons/3d/shading/shader-node.svg",
+      "tags": [
+        "Shader Node",
+        "shader node",
+        "shading",
+        "Shader nodes",
+        "material network",
+        "Math",
+        "Blender Shader"
+      ]
+    },
+    {
+      "id": "image-texture",
+      "name": "Image Texture",
+      "domain": "3d",
+      "category": "Shading",
+      "categoryId": "shading",
+      "file": "icons/3d/shading/image-texture.svg",
+      "tags": [
+        "Image Texture",
+        "image texture",
+        "shading",
+        "Shader nodes Image Texture",
+        "Blender Image Texture",
+        "image map"
+      ]
+    },
+    {
+      "id": "openpbr-surface",
+      "name": "OpenPBR Surface",
+      "domain": "3d",
+      "category": "Shading",
+      "categoryId": "shading",
+      "file": "icons/3d/shading/openpbr-surface.svg",
+      "tags": [
+        "OpenPBR Surface",
+        "openpbr surface",
+        "shading",
+        "Shader nodes OpenPBR Surface",
+        "OpenPBR",
+        "material layers"
+      ]
+    },
+    {
+      "id": "sdf-blend",
+      "name": "SDF Smooth Blend",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/sdf-blend.svg",
+      "tags": [
+        "SDF Smooth Blend",
+        "sdf blend",
+        "nodes",
+        "Edit SDF Blend",
+        "smooth union",
+        "smooth minimum"
+      ]
+    },
+    {
+      "id": "capsule",
+      "name": "Capsule",
+      "domain": "3d",
+      "category": "Primitives",
+      "categoryId": "primitives",
+      "file": "icons/3d/primitives/capsule.svg",
+      "tags": [
+        "Capsule",
+        "capsule",
+        "primitives",
+        "Edit SDF Capsule",
+        "capsule primitive"
+      ]
+    },
+    {
+      "id": "volume-slice",
+      "name": "Volume Slice",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/volume-slice.svg",
+      "tags": [
+        "Volume Slice",
+        "volume slice",
+        "nodes",
+        "Volume nodes Volume Slice",
+        "Houdini Volume Slice",
+        "voxels"
+      ]
+    },
+    {
+      "id": "volume-from-points",
+      "name": "Volume from Points",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/volume-from-points.svg",
+      "tags": [
+        "Volume from Points",
+        "volume from points",
+        "nodes",
+        "Volume nodes Volume from Points",
+        "Houdini VDB from Particles",
+        "voxels"
+      ]
+    },
+    {
+      "id": "volume-to-mesh",
+      "name": "Volume to Mesh",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/volume-to-mesh.svg",
+      "tags": [
+        "Volume to Mesh",
+        "volume to mesh",
+        "nodes",
+        "Volume nodes Convert to Mesh",
+        "Houdini Convert VDB",
+        "Blender Volume to Mesh"
+      ]
+    },
+    {
+      "id": "gsplats-relight",
+      "name": "GSplats Relight",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/gsplats-relight.svg",
+      "tags": [
+        "GSplats Relight",
+        "gsplats relight",
+        "nodes",
+        "GSplat nodes Relight",
+        "Gaussian splats",
+        "lighting"
+      ]
+    },
+    {
+      "id": "gsplats-crop",
+      "name": "GSplats Crop",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/gsplats-crop.svg",
+      "tags": [
+        "GSplats Crop",
+        "gsplats crop",
+        "nodes",
+        "GSplat nodes Crop",
+        "Gaussian splats",
+        "crop"
+      ]
+    },
+    {
+      "id": "gsplats-reduce",
+      "name": "GSplats Reduce",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/gsplats-reduce.svg",
+      "tags": [
+        "GSplats Reduce",
+        "gsplats reduce",
+        "nodes",
+        "GSplat nodes Reduce",
+        "Gaussian splats",
+        "simplify"
+      ]
+    },
+    {
+      "id": "gsplats-opacity",
+      "name": "GSplats Opacity",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/gsplats-opacity.svg",
+      "tags": [
+        "GSplats Opacity",
+        "gsplats opacity",
+        "nodes",
+        "GSplat edit steps Opacity",
+        "Gaussian splats",
+        "alpha"
+      ]
+    },
+    {
+      "id": "gsplats-recolor",
+      "name": "GSplats Recolor",
+      "domain": "3d",
+      "category": "Nodes",
+      "categoryId": "nodes",
+      "file": "icons/3d/nodes/gsplats-recolor.svg",
+      "tags": [
+        "GSplats Recolor",
+        "gsplats recolor",
+        "nodes",
+        "GSplat edit steps Recolor",
+        "Gaussian splats",
+        "Color",
+        "swatch"
+      ]
     }
   ],
   "collections": [
@@ -5190,7 +5848,7 @@
     {
       "id": "3d",
       "name": "3D",
-      "description": "Primitives, modeling, sculpting, scenes, node networks, and animation."
+      "description": "Mesh tools, CAD, surfaces, NURBS curves, sketches, selection, viewport modes, and nodes."
     },
     {
       "id": "code",

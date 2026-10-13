@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 6q3-2 6 0v12q-3-2-6 0Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
-  <path d="M15 6q3 2 6 0v12q-3 2-6 0Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
-  <path d="M3 6q3-2 6 0M3 6v12q3-2 6 0M15 6q3 2 6 0v12q-3 2-6 0" stroke-width="1.25" opacity=".6"/>
-  <path d="M9 6v12M15 6v12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
-  <path d="M9 3 5 3M7 5 5 3 7 1"/>
-  <path d="M15 3 19 3M17 1 19 3 17 5"/>
+  <path d="M3 10q3-2 6 0v10q-3-2-6 0Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
+  <path d="M15 10q3 2 6 0v10q-3 2-6 0Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M3 10q3-2 6 0M3 10v10q3-2 6 0M15 10q3 2 6 0v10q-3 2-6 0" stroke-width="1.25" opacity=".6"/>
+  <path d="M9 10v10M15 10v10" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M9 5 5 5M7 7 5 5 7 3"/>
+  <path d="M15 5 19 5M17 3 19 5 17 7"/>
 </svg>

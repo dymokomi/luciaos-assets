@@ -2,15 +2,15 @@
   {
     "theme": "white",
     "file": "previews/all-white.svg",
-    "count": 362,
+    "count": 402,
     "width": 1600,
-    "height": 6524
+    "height": 7144
   },
   {
     "theme": "dark",
     "file": "previews/all-dark.svg",
-    "count": 362,
+    "count": 402,
     "width": 1600,
-    "height": 6524
+    "height": 7144
   }
 ]
