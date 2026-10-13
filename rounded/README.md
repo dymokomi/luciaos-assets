@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-217 editable icons for shared controls, graphics, 3D, code and mail applications.
+234 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
@@ -10,7 +10,7 @@ rounded/
     common/      actions, files, layout, view, navigation, playback, interface
     graphics/    painting, color, effects, selection, paths, layers, transform, typography
     3d/          primitives, selection, modeling, sculpting, viewport, shading,
-                 scene, transform, modifiers, animation, nodes
+                 scene, transform, modifiers, animation, nodes, cad
     code/        files, editing, search, debugging, version-control, workspace
     mail/        messages
   previews/
@@ -28,7 +28,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 59 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
 | Graphics | 46 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 69 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 86 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 
@@ -39,8 +39,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 217 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 4292 canvas. The white sheet uses a pure white background.
+Both sheets contain all 234 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 4540 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 

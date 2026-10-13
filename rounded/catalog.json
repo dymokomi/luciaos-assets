@@ -2808,6 +2808,282 @@
         "Blender Shrink Fatten",
         "normals"
       ]
+    },
+    {
+      "id": "sketch",
+      "name": "CAD Sketch",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/sketch.svg",
+      "tags": [
+        "CAD Sketch",
+        "sketch",
+        "cad",
+        "Fusion Create Sketch",
+        "Plasticity Sketch",
+        "profile",
+        "plane"
+      ]
+    },
+    {
+      "id": "sketch-plane",
+      "name": "CAD Redefine Sketch Plane",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/sketch-plane.svg",
+      "tags": [
+        "CAD Redefine Sketch Plane",
+        "sketch plane",
+        "cad",
+        "Fusion Redefine Sketch Plane",
+        "move sketch"
+      ]
+    },
+    {
+      "id": "finish-sketch",
+      "name": "Finish Sketch",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/finish-sketch.svg",
+      "tags": [
+        "Finish Sketch",
+        "finish sketch",
+        "cad",
+        "CAD Finish Sketch",
+        "Sketch Finish Sketch",
+        "Fusion Finish Sketch"
+      ]
+    },
+    {
+      "id": "revolve",
+      "name": "CAD Revolve",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/revolve.svg",
+      "tags": [
+        "CAD Revolve",
+        "revolve",
+        "cad",
+        "Fusion Revolve",
+        "Plasticity Revolve",
+        "Modo Lathe"
+      ]
+    },
+    {
+      "id": "surface-analysis",
+      "name": "CAD Check",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/surface-analysis.svg",
+      "tags": [
+        "CAD Check",
+        "surface analysis",
+        "cad",
+        "Fusion Zebra Analysis",
+        "curvature",
+        "zebra",
+        "deviation",
+        "Plasticity Analysis"
+      ]
+    },
+    {
+      "id": "offset-face",
+      "name": "CAD Offset Face",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/offset-face.svg",
+      "tags": [
+        "CAD Offset Face",
+        "offset face",
+        "cad",
+        "Fusion Press Pull",
+        "Fusion Offset Face",
+        "Plasticity Offset Face",
+        "move faces"
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "CAD Shell",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/shell.svg",
+      "tags": [
+        "CAD Shell",
+        "shell",
+        "cad",
+        "Fusion Shell",
+        "Plasticity Shell",
+        "hollow",
+        "wall thickness"
+      ]
+    },
+    {
+      "id": "split-face",
+      "name": "CAD Split Face",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/split-face.svg",
+      "tags": [
+        "CAD Split Face",
+        "split face",
+        "cad",
+        "Fusion Split Face",
+        "Plasticity Imprint",
+        "split faces"
+      ]
+    },
+    {
+      "id": "replace-face",
+      "name": "CAD Replace Face",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/replace-face.svg",
+      "tags": [
+        "CAD Replace Face",
+        "replace face",
+        "cad",
+        "Fusion Replace Face",
+        "Plasticity Replace Face",
+        "target surface"
+      ]
+    },
+    {
+      "id": "delete-face",
+      "name": "CAD Delete Face",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/delete-face.svg",
+      "tags": [
+        "CAD Delete Face",
+        "delete face",
+        "cad",
+        "Fusion Delete Face",
+        "Plasticity Delete Face",
+        "heal"
+      ]
+    },
+    {
+      "id": "remove-faces",
+      "name": "CAD Remove Faces",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/remove-faces.svg",
+      "tags": [
+        "CAD Remove Faces",
+        "remove faces",
+        "cad",
+        "Fusion Remove Faces",
+        "open body"
+      ]
+    },
+    {
+      "id": "split-body",
+      "name": "CAD Split Body",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/split-body.svg",
+      "tags": [
+        "CAD Split Body",
+        "split body",
+        "cad",
+        "Fusion Split Body",
+        "Plasticity Cut",
+        "cut plane"
+      ]
+    },
+    {
+      "id": "fillet",
+      "name": "CAD Fillet",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/fillet.svg",
+      "tags": [
+        "CAD Fillet",
+        "fillet",
+        "cad",
+        "Fusion Fillet",
+        "Plasticity Fillet",
+        "Alias Fillet",
+        "rolling ball"
+      ]
+    },
+    {
+      "id": "chamfer",
+      "name": "CAD Chamfer",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/chamfer.svg",
+      "tags": [
+        "CAD Chamfer",
+        "chamfer",
+        "cad",
+        "Fusion Chamfer",
+        "Plasticity Chamfer",
+        "flat facet"
+      ]
+    },
+    {
+      "id": "reblend",
+      "name": "CAD Reblend",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/reblend.svg",
+      "tags": [
+        "CAD Reblend",
+        "reblend",
+        "cad",
+        "Plasticity Reblend",
+        "Alias Reblend",
+        "fillet radius"
+      ]
+    },
+    {
+      "id": "pattern-circular",
+      "name": "Sketch Circular Pattern",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/pattern-circular.svg",
+      "tags": [
+        "Sketch Circular Pattern",
+        "pattern circular",
+        "cad",
+        "Fusion Circular Pattern",
+        "Plasticity Radial Array",
+        "Modo Radial Array"
+      ]
+    },
+    {
+      "id": "pattern-rectangular",
+      "name": "Sketch Rectangular Pattern",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/pattern-rectangular.svg",
+      "tags": [
+        "Sketch Rectangular Pattern",
+        "pattern rectangular",
+        "cad",
+        "Fusion Rectangular Pattern",
+        "Plasticity Array",
+        "Modo Array"
+      ]
     }
   ],
   "collections": [

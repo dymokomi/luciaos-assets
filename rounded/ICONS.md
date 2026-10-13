@@ -1,6 +1,6 @@
 # Rounded icon index
 
-217 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+234 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 69
+## 3D — 86
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -190,6 +190,23 @@
 | Mesh Subdivision | [subdivision-surface.svg](icons/3d/modeling/subdivision-surface.svg) | Modeling |
 | Mesh Crease | [crease.svg](icons/3d/modeling/crease.svg) | Modeling |
 | Mesh Peak | [peak.svg](icons/3d/modeling/peak.svg) | Modeling |
+| CAD Sketch | [sketch.svg](icons/3d/cad/sketch.svg) | CAD |
+| CAD Redefine Sketch Plane | [sketch-plane.svg](icons/3d/cad/sketch-plane.svg) | CAD |
+| Finish Sketch | [finish-sketch.svg](icons/3d/cad/finish-sketch.svg) | CAD |
+| CAD Revolve | [revolve.svg](icons/3d/cad/revolve.svg) | CAD |
+| CAD Check | [surface-analysis.svg](icons/3d/cad/surface-analysis.svg) | CAD |
+| CAD Offset Face | [offset-face.svg](icons/3d/cad/offset-face.svg) | CAD |
+| CAD Shell | [shell.svg](icons/3d/cad/shell.svg) | CAD |
+| CAD Split Face | [split-face.svg](icons/3d/cad/split-face.svg) | CAD |
+| CAD Replace Face | [replace-face.svg](icons/3d/cad/replace-face.svg) | CAD |
+| CAD Delete Face | [delete-face.svg](icons/3d/cad/delete-face.svg) | CAD |
+| CAD Remove Faces | [remove-faces.svg](icons/3d/cad/remove-faces.svg) | CAD |
+| CAD Split Body | [split-body.svg](icons/3d/cad/split-body.svg) | CAD |
+| CAD Fillet | [fillet.svg](icons/3d/cad/fillet.svg) | CAD |
+| CAD Chamfer | [chamfer.svg](icons/3d/cad/chamfer.svg) | CAD |
+| CAD Reblend | [reblend.svg](icons/3d/cad/reblend.svg) | CAD |
+| Sketch Circular Pattern | [pattern-circular.svg](icons/3d/cad/pattern-circular.svg) | CAD |
+| Sketch Rectangular Pattern | [pattern-rectangular.svg](icons/3d/cad/pattern-rectangular.svg) | CAD |
 
 ## Code — 29
 
