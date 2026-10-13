@@ -2921,12 +2921,27 @@
         "CAD Offset Face",
         "offset face",
         "cad",
-        "Fusion Press Pull",
         "Fusion Offset Face",
         "Plasticity Offset Face",
         "move faces",
-        "lifted face",
-        "press pull"
+        "lifted face"
+      ]
+    },
+    {
+      "id": "press-pull",
+      "name": "CAD Press Pull",
+      "domain": "3d",
+      "category": "CAD",
+      "categoryId": "cad",
+      "file": "icons/3d/cad/press-pull.svg",
+      "tags": [
+        "CAD Press Pull",
+        "press pull",
+        "cad",
+        "Fusion Press Pull",
+        "push pull",
+        "face",
+        "double-headed arrow"
       ]
     },
     {
@@ -3009,7 +3024,9 @@
         "remove faces",
         "cad",
         "Fusion Remove Faces",
-        "open body"
+        "open body",
+        "removed face",
+        "ghosted face"
       ]
     },
     {
@@ -3211,7 +3228,9 @@
         "surfacing",
         "Alias Shrink",
         "Plasticity Shrink",
-        "trim boundary"
+        "trim boundary",
+        "control net",
+        "inward arrows"
       ]
     },
     {
@@ -3857,7 +3876,9 @@
         "Blender Trim Curve",
         "Curve nodes",
         "trim ends",
-        "cut curve"
+        "cut curve",
+        "cut gap",
+        "ghosted cutoff"
       ]
     },
     {
@@ -3896,7 +3917,8 @@
         "Alias Curve to Mesh",
         "Blender Curve to Mesh",
         "conversion",
-        "triangulated output"
+        "quad grid",
+        "mesh output"
       ]
     },
     {
@@ -3914,7 +3936,9 @@
         "Alias Mesh to Curve",
         "Blender Mesh to Curve",
         "conversion",
-        "curve output"
+        "curve output",
+        "quad grid",
+        "S curve"
       ]
     },
     {
@@ -5404,7 +5428,9 @@
         "nodes",
         "Houdini Blast",
         "delete group",
-        "remove geometry"
+        "remove geometry",
+        "removed cells",
+        "delete selection"
       ]
     },
     {
@@ -5687,7 +5713,9 @@
         "UVProject",
         "Houdini UV Project",
         "Blender UV Project",
-        "UV projection"
+        "UV projection",
+        "projection arrow",
+        "checker plane"
       ]
     },
     {
@@ -5833,7 +5861,9 @@
         "Houdini Convert VDB",
         "Blender Volume to Mesh",
         "Convert to Mesh",
-        "faceted output"
+        "soft volume",
+        "quad grid",
+        "combined volume and mesh"
       ]
     },
     {

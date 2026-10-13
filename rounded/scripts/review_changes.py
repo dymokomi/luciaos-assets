@@ -17,6 +17,9 @@ def git(*args):
 
 
 def placed(source, x, y, size):
+    if source is None:
+        return (f'<text x="{x + size/2}" y="{y + size/2 + 3}" '
+                'text-anchor="middle" font-size="8" fill="currentColor">NEW</text>')
     return source.replace('<svg ', f'<svg x="{x}" y="{y}" ', 1).replace(
         'width="24" height="24"', f'width="{size}" height="{size}"', 1)
 
@@ -34,10 +37,12 @@ def main():
     parser.add_argument('--sheet-prefix', type=Path, required=True)
     parser.add_argument('--names', type=Path, help='Optional ordered list of changed stems')
     parser.add_argument('--pairs', type=Path,
-                        help='Optional after-sheet comparisons: two changed stems per line')
+                        help='Optional comparisons: two stems per line, including unchanged references')
     args = parser.parse_args()
     changed = [Path(p) for p in git('diff', '--name-only', args.before_ref, '--',
                                    'rounded/icons').splitlines() if p.endswith('.svg')]
+    changed += [Path(p) for p in git('ls-files', '--others', '--exclude-standard', '--',
+                                     'rounded/icons').splitlines() if p.endswith('.svg')]
     if not changed:
         parser.error('No changed icons relative to --before-ref')
     if args.names:
@@ -47,19 +52,28 @@ def main():
             parser.error('--names must contain exactly the changed icons, once each')
         changed = [by_name[n] for n in names]
     pairs = []
+    inventory = {p.stem: p.relative_to(ROOT) for p in (ROOT / 'rounded/icons').rglob('*.svg')}
     if args.pairs:
         pairs = [line.split() for line in args.pairs.read_text().splitlines() if line.strip()]
-        stems = {p.stem for p in changed}
-        if any(len(pair) != 2 or not set(pair) <= stems for pair in pairs):
-            parser.error('--pairs requires two changed icon stems per nonempty line')
+        if any(len(pair) != 2 or not set(pair) <= inventory.keys() for pair in pairs):
+            parser.error('--pairs requires two existing icon stems per nonempty line')
+    references = [inventory[n] for n in dict.fromkeys(n for pair in pairs for n in pair)
+                  if inventory[n] not in changed]
+    reference_names = {p.stem for p in references}
+    reviewed = changed + references
+    baseline = set(git('ls-tree', '-r', '--name-only', args.before_ref, '--',
+                       'rounded/icons').splitlines())
     args.output_dir.mkdir(parents=True, exist_ok=True)
     args.sheet_prefix.parent.mkdir(parents=True, exist_ok=True)
     (args.output_dir / 'manifest.txt').write_text('\n'.join(map(str, changed)) + '\n')
+    (args.output_dir / 'references.txt').write_text('\n'.join(map(str, references)) + '\n')
     for version in ('before', 'after'):
-        sources = {p.stem: git('show', f'{args.before_ref}:{p}') if version == 'before'
-                   else (ROOT / p).read_text() for p in changed}
+        sources = {p.stem: (git('show', f'{args.before_ref}:{p}') if str(p) in baseline else None)
+                   if version == 'before' else (ROOT / p).read_text() for p in reviewed}
         jobs = []
         for name, source in sources.items():
+            if source is None:
+                continue
             folder = args.output_dir / version / name
             folder.mkdir(parents=True, exist_ok=True)
             for theme, bg, ink in THEMES:
@@ -78,7 +92,7 @@ def main():
         pair_header, pair_row = 88, 88
         pair_start = header + row * len(changed)
         height = pair_start + 24
-        if version == 'after' and pairs:
+        if pairs:
             height += pair_header + pair_row * len(pairs)
         pieces = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
                   f'font-family="Helvetica, Arial, sans-serif">',
@@ -89,7 +103,7 @@ def main():
 
         title = re.sub(r'(?<=\D)(?=\d)', ' ', args.sheet_prefix.name.replace('_', ' ')).title()
         text(20, 32, f'LuciaOS / {title} / {version.upper()}', 24)
-        text(20, 56, f'{len(changed)} changed icons · native pixel sizes · resvg · baseline {args.before_ref}')
+        text(20, 56, f'{len(changed)} changed / new icons · native pixel sizes · resvg · baseline {args.before_ref}')
         text(20, 76, 'Color: currentColor · overall disabled alpha 35%')
         for group, (theme, bg, ink, alpha) in enumerate([
                 (*THEMES[0], 1), (*THEMES[1], 1), (*THEMES[0], .35), (*THEMES[1], .35)]):
@@ -102,24 +116,26 @@ def main():
                 y = header + row * i
                 if group == 0:
                     text(14, y + 32, path.stem, 12)
-                    text(14, y + 49, path.parent.name, 10, '#666666')
+                    detail = path.parent.name if sources[path.stem] is not None else 'New icon / absent at baseline'
+                    text(14, y + 49, detail, 10, '#666666')
                 pieces.append(f'<path d="M{x} {y+row}h{block}" stroke="{ink}" opacity=".1"/>')
                 for center, size in zip((40, 104, 172), (16, 24, 48)):
                     pieces.append(f'<g color="{ink}" opacity="{alpha}">' +
                                   placed(sources[path.stem], x + center - size/2,
                                          y + (row-size)/2, size) + '</g>')
-        if version == 'after' and pairs:
+        if pairs:
             pieces.append(f'<rect y="{pair_start}" width="{width}" height="60" fill="#eeeeee"/>')
-            text(14, pair_start + 29, 'Confused pairs / side by side', 18)
-            text(14, pair_start + 49, 'First label = left icon; same themes, opacity and native sizes as above', 12)
+            text(14, pair_start + 29, 'Family comparisons / side by side', 18)
+            reference_note = '; * = unchanged reference' if references else ''
+            text(14, pair_start + 49, 'First label = left icon; same themes, opacity and native sizes as above' + reference_note, 12)
             for group, (_, _, ink, _) in enumerate([
                     (*THEMES[0], 1), (*THEMES[1], 1), (*THEMES[0], .35), (*THEMES[1], .35)]):
                 for center, size in zip((28, 84, 166), (16, 24, 48)):
                     text(label + group * block + center - 8, pair_start + 76, str(size), 11, ink)
             for i, (left, right) in enumerate(pairs):
                 y = pair_start + pair_header + pair_row * i
-                text(14, y + 32, left, 12)
-                text(14, y + 50, right, 12)
+                text(14, y + 32, left + (' *' if left in reference_names else ''), 12)
+                text(14, y + 50, right + (' *' if right in reference_names else ''), 12)
                 for group, (theme, bg, ink, alpha) in enumerate([
                         (*THEMES[0], 1), (*THEMES[1], 1), (*THEMES[0], .35), (*THEMES[1], .35)]):
                     x = label + group * block

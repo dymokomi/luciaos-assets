@@ -1,6 +1,6 @@
 # Rounded icon index
 
-402 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+403 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 254
+## 3D — 255
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -196,6 +196,7 @@
 | CAD Revolve | [revolve.svg](icons/3d/cad/revolve.svg) | CAD |
 | CAD Check | [surface-analysis.svg](icons/3d/cad/surface-analysis.svg) | CAD |
 | CAD Offset Face | [offset-face.svg](icons/3d/cad/offset-face.svg) | CAD |
+| CAD Press Pull | [press-pull.svg](icons/3d/cad/press-pull.svg) | CAD |
 | CAD Shell | [shell.svg](icons/3d/cad/shell.svg) | CAD |
 | CAD Split Face | [split-face.svg](icons/3d/cad/split-face.svg) | CAD |
 | CAD Replace Face | [replace-face.svg](icons/3d/cad/replace-face.svg) | CAD |

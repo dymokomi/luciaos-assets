@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-402 editable icons for shared controls, graphics, 3D, code and mail applications.
+403 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
@@ -29,7 +29,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 59 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
 | Graphics | 46 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 254 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 255 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 
@@ -40,7 +40,7 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 402 icons once, grouped by collection. Icons are shown
+Both sheets contain all 403 icons once, grouped by collection. Icons are shown
 at 48 px on a 1600 × 7144 canvas. The white sheet uses a pure white background.
 
 ## Application controls
@@ -90,6 +90,7 @@ Pause, Search, Frame nodes, Go up one level, Show all, and Hide.
 | Show outside objects greyed / ghosted | `common/view/ghosted.svg` |
 | Hide outside objects / show none | `common/view/hidden.svg` |
 | Project settings | `common/files/project-settings.svg` |
+| Press Pull | `3d/cad/press-pull.svg` |
 
 The visibility set uses an eye: solid outline, thin dashed outline, or a slash.
 Project settings combines a document and gear; app-wide settings keeps the
@@ -208,10 +209,11 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
    contour; offset boundary at 1.5 px, shaded strip .3. Chamfer uses the same
    section with a long straight diagonal. No cube, isoline or rolling ball.
    Sketch Fillet and Sketch Chamfer use the corresponding flat, unshaded outline.
-2. **Offset Face (`3d/cad`, Fusion Press Pull):** a diamond face with fill .45
+2. **Offset Face (`3d/cad`):** a diamond face with fill .45
    and 2 px outline, clearly separated above the original ghost diamond. An
    upward arrow sits beside the gap. No connecting walls: those would turn the
-   silhouette back into Extrude's continuous tall prism.
+   silhouette back into Extrude's continuous tall prism. Press Pull has its own
+   `3d/cad/press-pull.svg`: one face with a double-headed arrow through its center.
 3. **Skin (`3d/surfacing`):** three bold section curves, spaced across a .25
    lofted region, with two lighter boundaries joining their ends. No arrow.
    Rail uses an arched section across two long rails; Profile Sweep uses a square
@@ -312,13 +314,15 @@ python3 rounded/scripts/review_changes.py --before-ref 8bfff65 \
 This renders each version with `resvg` at 16, 24, 48 and 96 px in both themes,
 enabled and at 35% overall opacity. It writes labelled `round3_before.png` and
 `round3_after.png` sheets at native 16/24/48 px, with the identical changed-icon
-inventory in each. The output directory holds individual PNGs, temporary SVGs
-and a manifest. `--names` optionally supplies a preferred stem order; its list
-must match exactly the changed inventory. Use a different baseline and output
-prefix for subsequent rounds. The script requires `resvg` and Python 3.9+ only.
+inventory in each. Newly added icons have a labelled placeholder in the before
+sheet. The output directory holds individual PNGs, temporary SVGs, a changed-icon
+manifest and a separate reference list. `--names` optionally supplies a preferred
+stem order; its list must match exactly the changed inventory. Use a different
+baseline and output prefix for subsequent rounds. The script requires `resvg`
+and Python 3.9+ only.
 
-Round 4 uses the same 31-icon inventory in both sheets and adds side-by-side
-comparisons of the confused pairs to the after sheet. Reproduce it with:
+Round 4 uses the same 31-icon inventory in both sheets, with side-by-side
+comparisons of the confused pairs. Reproduce it with:
 
 ```sh
 python3 rounded/scripts/review_changes.py --before-ref d602dc6 \
@@ -328,11 +332,30 @@ python3 rounded/scripts/review_changes.py --before-ref d602dc6 \
   --sheet-prefix /Users/sedov/Dev/luce_work/codex/round4
 ```
 
-`--pairs` takes two changed icon stems per line. The pictured **Convert to Mesh**
-node uses `3d/nodes/volume-to-mesh.svg`; its faceted destination fills the icon's
-height. Reblend uses an existing radius with a resize arrow; Surface Fillet
-joins two surface sets. Null has an empty center, and Switch shows two inputs
-with one selected connection.
+`--pairs` takes two icon stems per line and can include unchanged family
+references, marked with an asterisk. Reblend uses an existing radius with a
+resize arrow; Surface Fillet joins two surface sets. Null has an empty center,
+and Switch shows two inputs with one selected connection.
+
+Round 5 revises eight icons and adds **Press Pull**. The exact nine-icon
+inventory appears in both sheets, with unchanged **Extrude** and **Offset Face**
+beside Press Pull in the family comparisons. Reproduce it with:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref 4b07e9a \
+  --names rounded/reviews/round5-icons.txt \
+  --pairs rounded/reviews/round5-pairs.txt \
+  --output-dir /tmp/lucia-round5/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/round5
+```
+
+Trim Curve uses a gap mark and a dashed .45 cutoff. The two curve/mesh
+conversions share a clear 2 × 2 quad grid and a balanced S-curve. The pictured
+**Convert to Mesh** node uses `3d/nodes/volume-to-mesh.svg`, now a combined soft
+volume (.25 fill) and quad grid. Remove Faces uses the full selection-cube
+bounds; Shrink shows two inward arrows around its trim boundary and ghosted
+control net. UV Project uses a downward arrow over a checker plane, and Blast
+shows retained cells beside a ghosted removed cell and an x.
 
 The offline catalog falls back to selecting the SVG source for manual copying
 if clipboard access is unavailable. Individual downloads work offline.
