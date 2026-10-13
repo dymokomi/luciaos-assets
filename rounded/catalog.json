@@ -24,7 +24,8 @@
       "tags": [
         "mesh",
         "editor",
-        "separated mesh"
+        "separated mesh",
+        "split along edges"
       ],
       "file": "icons/3d/modeling/split-mesh.svg",
       "categoryId": "modeling"
@@ -2903,7 +2904,10 @@
         "curvature",
         "zebra",
         "deviation",
-        "Plasticity Analysis"
+        "Plasticity Analysis",
+        "continuity check",
+        "shared edge",
+        "curvature comb"
       ]
     },
     {
@@ -2973,7 +2977,8 @@
         "cad",
         "Fusion Replace Face",
         "Plasticity Replace Face",
-        "target surface"
+        "target surface",
+        "replace surface"
       ]
     },
     {
@@ -3020,7 +3025,8 @@
         "cad",
         "Fusion Split Body",
         "Plasticity Cut",
-        "cut plane"
+        "cut plane",
+        "separated solid halves"
       ]
     },
     {
@@ -3073,7 +3079,9 @@
         "cad",
         "Plasticity Reblend",
         "Alias Reblend",
-        "fillet radius"
+        "fillet radius",
+        "resize existing fillet",
+        "radius change"
       ]
     },
     {
@@ -3363,7 +3371,8 @@
         "Alias Set Planar",
         "Fusion Patch",
         "planar surface",
-        "closed boundary"
+        "closed boundary",
+        "fill closed curve"
       ]
     },
     {
@@ -3449,7 +3458,8 @@
         "surfacing",
         "Alias Surface Fillet",
         "Fusion Fillet",
-        "between surfaces"
+        "between surfaces",
+        "separate face sets"
       ]
     },
     {
@@ -5486,7 +5496,8 @@
         "nodes",
         "Houdini Null",
         "pass through",
-        "Input Output"
+        "Input Output",
+        "empty pass-through"
       ]
     },
     {
@@ -5502,7 +5513,8 @@
         "nodes",
         "Script",
         "Python",
-        "code execution"
+        "code execution",
+        "script prompt"
       ]
     },
     {
@@ -5517,7 +5529,9 @@
         "switch node",
         "nodes",
         "Houdini Switch",
-        "choose input"
+        "choose input",
+        "two inputs",
+        "selector"
       ]
     },
     {
@@ -5656,7 +5670,7 @@
         "Houdini Name",
         "name tag",
         "table",
-        "text caret"
+        "text glyph"
       ]
     },
     {
@@ -5817,7 +5831,9 @@
         "nodes",
         "Volume nodes Convert to Mesh",
         "Houdini Convert VDB",
-        "Blender Volume to Mesh"
+        "Blender Volume to Mesh",
+        "Convert to Mesh",
+        "faceted output"
       ]
     },
     {

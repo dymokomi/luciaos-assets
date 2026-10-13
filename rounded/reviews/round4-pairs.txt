@@ -1,0 +1,12 @@
+reblend surface-fillet
+shell replace-face
+trim-surface untrim-surface
+raise-degree rebuild-curve
+resample-curve trim-curve
+resample-curve reverse-curve
+trim-curve reverse-curve
+curve-to-mesh mesh-to-curve
+null-node switch-node
+subdivision-surface script-node
+name-attribute attribute-promote
+rail-surface profile-sweep

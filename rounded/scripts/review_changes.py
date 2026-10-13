@@ -33,6 +33,8 @@ def main():
     parser.add_argument('--output-dir', type=Path, required=True)
     parser.add_argument('--sheet-prefix', type=Path, required=True)
     parser.add_argument('--names', type=Path, help='Optional ordered list of changed stems')
+    parser.add_argument('--pairs', type=Path,
+                        help='Optional after-sheet comparisons: two changed stems per line')
     args = parser.parse_args()
     changed = [Path(p) for p in git('diff', '--name-only', args.before_ref, '--',
                                    'rounded/icons').splitlines() if p.endswith('.svg')]
@@ -44,6 +46,12 @@ def main():
         if len(names) != len(changed) or set(names) != set(by_name):
             parser.error('--names must contain exactly the changed icons, once each')
         changed = [by_name[n] for n in names]
+    pairs = []
+    if args.pairs:
+        pairs = [line.split() for line in args.pairs.read_text().splitlines() if line.strip()]
+        stems = {p.stem for p in changed}
+        if any(len(pair) != 2 or not set(pair) <= stems for pair in pairs):
+            parser.error('--pairs requires two changed icon stems per nonempty line')
     args.output_dir.mkdir(parents=True, exist_ok=True)
     args.sheet_prefix.parent.mkdir(parents=True, exist_ok=True)
     (args.output_dir / 'manifest.txt').write_text('\n'.join(map(str, changed)) + '\n')
@@ -67,7 +75,11 @@ def main():
         with ThreadPoolExecutor(max_workers=8) as pool:
             list(pool.map(render, jobs))
         width, header, row, label, block = 1104, 136, 72, 224, 220
-        height = header + row * len(changed) + 24
+        pair_header, pair_row = 88, 88
+        pair_start = header + row * len(changed)
+        height = pair_start + 24
+        if version == 'after' and pairs:
+            height += pair_header + pair_row * len(pairs)
         pieces = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
                   f'font-family="Helvetica, Arial, sans-serif">',
                   f'<rect width="{width}" height="{height}" fill="#eeeeee"/>']
@@ -96,6 +108,28 @@ def main():
                     pieces.append(f'<g color="{ink}" opacity="{alpha}">' +
                                   placed(sources[path.stem], x + center - size/2,
                                          y + (row-size)/2, size) + '</g>')
+        if version == 'after' and pairs:
+            pieces.append(f'<rect y="{pair_start}" width="{width}" height="60" fill="#eeeeee"/>')
+            text(14, pair_start + 29, 'Confused pairs / side by side', 18)
+            text(14, pair_start + 49, 'First label = left icon; same themes, opacity and native sizes as above', 12)
+            for group, (_, _, ink, _) in enumerate([
+                    (*THEMES[0], 1), (*THEMES[1], 1), (*THEMES[0], .35), (*THEMES[1], .35)]):
+                for center, size in zip((28, 84, 166), (16, 24, 48)):
+                    text(label + group * block + center - 8, pair_start + 76, str(size), 11, ink)
+            for i, (left, right) in enumerate(pairs):
+                y = pair_start + pair_header + pair_row * i
+                text(14, y + 32, left, 12)
+                text(14, y + 50, right, 12)
+                for group, (theme, bg, ink, alpha) in enumerate([
+                        (*THEMES[0], 1), (*THEMES[1], 1), (*THEMES[0], .35), (*THEMES[1], .35)]):
+                    x = label + group * block
+                    pieces.append(f'<path d="M{x} {y+pair_row}h{block}" stroke="{ink}" opacity=".1"/>')
+                    for center, size in zip((28, 84, 166), (16, 24, 48)):
+                        for side, name in ((-1, left), (1, right)):
+                            cx = x + center + side * (size + 4) / 2
+                            pieces.append(f'<g color="{ink}" opacity="{alpha}">' +
+                                          placed(sources[name], cx - size/2,
+                                                 y + (pair_row-size)/2, size) + '</g>')
         pieces.append('</svg>')
         sheet = args.output_dir / f'{args.sheet_prefix.name}_{version}.svg'
         sheet.write_text('\n'.join(pieces) + '\n')

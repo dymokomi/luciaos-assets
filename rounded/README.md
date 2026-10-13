@@ -158,7 +158,8 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
   clear gap from art. They mark mode (Insert Knot, Remove Knot, Delete Face),
   never replace the picture. Attribute operations instead pair a two-row table
   with a large subject mark in the right half: plus, minus, up arrow, pencil or
-  text caret. Finish Sketch's check is the operation itself and spans the plane.
+  text glyph. Name uses a path-drawn A, distinct from Promote's upward arrow.
+  Finish Sketch's check is the operation itself and spans the plane.
 - **Optical size:** content box 3–21 px; keep at least 1.5 px between parallel
   strokes. Use at most about 8 strokes. At 16 px the subject must read even
   when every context line vanishes.
@@ -315,6 +316,23 @@ inventory in each. The output directory holds individual PNGs, temporary SVGs
 and a manifest. `--names` optionally supplies a preferred stem order; its list
 must match exactly the changed inventory. Use a different baseline and output
 prefix for subsequent rounds. The script requires `resvg` and Python 3.9+ only.
+
+Round 4 uses the same 31-icon inventory in both sheets and adds side-by-side
+comparisons of the confused pairs to the after sheet. Reproduce it with:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref d602dc6 \
+  --names rounded/reviews/round4-icons.txt \
+  --pairs rounded/reviews/round4-pairs.txt \
+  --output-dir /tmp/lucia-round4/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/round4
+```
+
+`--pairs` takes two changed icon stems per line. The pictured **Convert to Mesh**
+node uses `3d/nodes/volume-to-mesh.svg`; its faceted destination fills the icon's
+height. Reblend uses an existing radius with a resize arrow; Surface Fillet
+joins two surface sets. Null has an empty center, and Switch shows two inputs
+with one selected connection.
 
 The offline catalog falls back to selecting the SVG source for manual copying
 if clipboard access is unavailable. Individual downloads work offline.
