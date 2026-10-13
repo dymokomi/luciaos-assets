@@ -3863,6 +3863,440 @@
         "Blender Mesh to Curve",
         "conversion"
       ]
+    },
+    {
+      "id": "select-loop",
+      "name": "Select Loop",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-loop.svg",
+      "tags": [
+        "Select Loop",
+        "select loop",
+        "selection",
+        "Blender Select Loops",
+        "Modo Loop",
+        "edge loop",
+        "face loop",
+        "point loop"
+      ]
+    },
+    {
+      "id": "select-ring",
+      "name": "Select Ring",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-ring.svg",
+      "tags": [
+        "Select Ring",
+        "select ring",
+        "selection",
+        "Blender Select Edge Rings",
+        "Modo Ring",
+        "quads"
+      ]
+    },
+    {
+      "id": "select-boundary",
+      "name": "Select Boundary Loop",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-boundary.svg",
+      "tags": [
+        "Select Boundary Loop",
+        "select boundary",
+        "selection",
+        "Blender Select Boundary Loop",
+        "Modo Boundary",
+        "open edges"
+      ]
+    },
+    {
+      "id": "select-region",
+      "name": "Select Loop to Region",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-region.svg",
+      "tags": [
+        "Select Loop to Region",
+        "select region",
+        "selection",
+        "Blender Loop Inner Region",
+        "Modo Loop to Region",
+        "faces"
+      ]
+    },
+    {
+      "id": "select-grow",
+      "name": "Select Grow Selection",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-grow.svg",
+      "tags": [
+        "Select Grow Selection",
+        "select grow",
+        "selection",
+        "Blender Select More",
+        "Modo Grow",
+        "neighbors"
+      ]
+    },
+    {
+      "id": "select-shrink",
+      "name": "Select Shrink Selection",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-shrink.svg",
+      "tags": [
+        "Select Shrink Selection",
+        "select shrink",
+        "selection",
+        "Blender Select Less",
+        "Modo Shrink",
+        "neighbors"
+      ]
+    },
+    {
+      "id": "select-border",
+      "name": "Select Border",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-border.svg",
+      "tags": [
+        "Select Border",
+        "select border",
+        "selection",
+        "Blender Select Boundary",
+        "Modo Border",
+        "selected border"
+      ]
+    },
+    {
+      "id": "select-linked",
+      "name": "Select Connected",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-linked.svg",
+      "tags": [
+        "Select Connected",
+        "select linked",
+        "selection",
+        "Blender Select Linked",
+        "Modo Connected",
+        "islands"
+      ]
+    },
+    {
+      "id": "select-linked-flat",
+      "name": "Select Linked Flat",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-linked-flat.svg",
+      "tags": [
+        "Select Linked Flat",
+        "select linked flat",
+        "selection",
+        "Blender Linked Flat Faces",
+        "coplanar"
+      ]
+    },
+    {
+      "id": "select-path",
+      "name": "Select Shortest Path",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-path.svg",
+      "tags": [
+        "Select Shortest Path",
+        "select path",
+        "selection",
+        "Blender Shortest Path",
+        "Modo Shortest Path",
+        "path"
+      ]
+    },
+    {
+      "id": "select-similar",
+      "name": "Select Similar",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-similar.svg",
+      "tags": [
+        "Select Similar",
+        "select similar",
+        "selection",
+        "Blender Select Similar",
+        "Modo Similar",
+        "matching faces"
+      ]
+    },
+    {
+      "id": "select-sharp",
+      "name": "Select Sharp Edges",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-sharp.svg",
+      "tags": [
+        "Select Sharp Edges",
+        "select sharp",
+        "selection",
+        "Blender Select Sharp Edges",
+        "Modo Sharp Edges",
+        "dihedral angle"
+      ]
+    },
+    {
+      "id": "select-by-sides",
+      "name": "Select By Sides",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-by-sides.svg",
+      "tags": [
+        "Select By Sides",
+        "select by sides",
+        "selection",
+        "Blender Faces by Sides",
+        "Modo Polygon Type",
+        "side count"
+      ]
+    },
+    {
+      "id": "select-by-area",
+      "name": "Select By Area",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-by-area.svg",
+      "tags": [
+        "Select By Area",
+        "select by area",
+        "selection",
+        "Blender Select Similar Area",
+        "Modo Polygon Area",
+        "area"
+      ]
+    },
+    {
+      "id": "select-by-normal",
+      "name": "Select By Normal",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-by-normal.svg",
+      "tags": [
+        "Select By Normal",
+        "select by normal",
+        "selection",
+        "Blender Select Similar Normal",
+        "Modo Polygon Normal",
+        "direction"
+      ]
+    },
+    {
+      "id": "select-non-manifold",
+      "name": "Select Non-manifold",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-non-manifold.svg",
+      "tags": [
+        "Select Non-manifold",
+        "select non manifold",
+        "selection",
+        "Blender Select Non Manifold",
+        "Modo Non Manifold",
+        "fin",
+        "pinch"
+      ]
+    },
+    {
+      "id": "select-loose",
+      "name": "Select Loose",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-loose.svg",
+      "tags": [
+        "Select Loose",
+        "select loose",
+        "selection",
+        "Blender Loose Geometry",
+        "Modo Unused Vertices",
+        "isolated points"
+      ]
+    },
+    {
+      "id": "select-interior",
+      "name": "Select Interior Faces",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-interior.svg",
+      "tags": [
+        "Select Interior Faces",
+        "select interior",
+        "selection",
+        "Blender Interior Faces",
+        "internal wall"
+      ]
+    },
+    {
+      "id": "select-checker",
+      "name": "Select Checker",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-checker.svg",
+      "tags": [
+        "Select Checker",
+        "select checker",
+        "selection",
+        "Blender Checker Deselect",
+        "Modo Checker",
+        "alternating"
+      ]
+    },
+    {
+      "id": "select-random",
+      "name": "Select Random",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-random.svg",
+      "tags": [
+        "Select Random",
+        "select random",
+        "selection",
+        "Blender Select Random",
+        "Modo Random",
+        "probability"
+      ]
+    },
+    {
+      "id": "select-mirror",
+      "name": "Select Mirror Selection",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-mirror.svg",
+      "tags": [
+        "Select Mirror Selection",
+        "select mirror",
+        "selection",
+        "Blender Select Mirror",
+        "Modo Mirror Selection",
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "select-convert",
+      "name": "Select Convert",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-convert.svg",
+      "tags": [
+        "Select Convert",
+        "select convert",
+        "selection",
+        "Modo Convert Selection",
+        "point to edge",
+        "edge to face"
+      ]
+    },
+    {
+      "id": "x-ray",
+      "name": "Select Through Depth",
+      "domain": "3d",
+      "category": "Viewport",
+      "categoryId": "viewport",
+      "file": "icons/3d/viewport/x-ray.svg",
+      "tags": [
+        "Select Through Depth",
+        "x ray",
+        "viewport",
+        "Blender X-Ray",
+        "Modo Select Through",
+        "X-ray picking"
+      ]
+    },
+    {
+      "id": "selection-set",
+      "name": "Selection Sets",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/selection-set.svg",
+      "tags": [
+        "Selection Sets",
+        "selection set",
+        "selection",
+        "Blender Selection Sets",
+        "Modo Selection Set",
+        "saved selection"
+      ]
+    },
+    {
+      "id": "smart-select",
+      "name": "Smart Selection Level",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/smart-select.svg",
+      "tags": [
+        "Smart Selection Level",
+        "smart select",
+        "selection",
+        "Smart",
+        "point edge face",
+        "CAD"
+      ]
+    },
+    {
+      "id": "patch-select",
+      "name": "Patch Selection Level",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/patch-select.svg",
+      "tags": [
+        "Patch Selection Level",
+        "patch select",
+        "selection",
+        "Patch",
+        "CAD patch",
+        "surface level"
+      ]
+    },
+    {
+      "id": "curve-select",
+      "name": "Curve Selection Level",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/curve-select.svg",
+      "tags": [
+        "Curve Selection Level",
+        "curve select",
+        "selection",
+        "Curves",
+        "curve level"
+      ]
     }
   ],
   "collections": [

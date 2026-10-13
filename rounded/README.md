@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-280 editable icons for shared controls, graphics, 3D, code and mail applications.
+307 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
@@ -28,7 +28,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 59 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
 | Graphics | 46 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 132 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 159 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 
@@ -39,8 +39,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 280 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 5284 canvas. The white sheet uses a pure white background.
+Both sheets contain all 307 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 5656 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 

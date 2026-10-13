@@ -1,6 +1,6 @@
 # Rounded icon index
 
-280 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+307 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -117,7 +117,7 @@
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
 
-## 3D — 132
+## 3D — 159
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -253,6 +253,33 @@
 | Set Curve Type | [set-curve-type.svg](icons/3d/curves/set-curve-type.svg) | Curves |
 | Curve to Mesh | [curve-to-mesh.svg](icons/3d/curves/curve-to-mesh.svg) | Curves |
 | Mesh to Curve | [mesh-to-curve.svg](icons/3d/curves/mesh-to-curve.svg) | Curves |
+| Select Loop | [select-loop.svg](icons/3d/selection/select-loop.svg) | Selection |
+| Select Ring | [select-ring.svg](icons/3d/selection/select-ring.svg) | Selection |
+| Select Boundary Loop | [select-boundary.svg](icons/3d/selection/select-boundary.svg) | Selection |
+| Select Loop to Region | [select-region.svg](icons/3d/selection/select-region.svg) | Selection |
+| Select Grow Selection | [select-grow.svg](icons/3d/selection/select-grow.svg) | Selection |
+| Select Shrink Selection | [select-shrink.svg](icons/3d/selection/select-shrink.svg) | Selection |
+| Select Border | [select-border.svg](icons/3d/selection/select-border.svg) | Selection |
+| Select Connected | [select-linked.svg](icons/3d/selection/select-linked.svg) | Selection |
+| Select Linked Flat | [select-linked-flat.svg](icons/3d/selection/select-linked-flat.svg) | Selection |
+| Select Shortest Path | [select-path.svg](icons/3d/selection/select-path.svg) | Selection |
+| Select Similar | [select-similar.svg](icons/3d/selection/select-similar.svg) | Selection |
+| Select Sharp Edges | [select-sharp.svg](icons/3d/selection/select-sharp.svg) | Selection |
+| Select By Sides | [select-by-sides.svg](icons/3d/selection/select-by-sides.svg) | Selection |
+| Select By Area | [select-by-area.svg](icons/3d/selection/select-by-area.svg) | Selection |
+| Select By Normal | [select-by-normal.svg](icons/3d/selection/select-by-normal.svg) | Selection |
+| Select Non-manifold | [select-non-manifold.svg](icons/3d/selection/select-non-manifold.svg) | Selection |
+| Select Loose | [select-loose.svg](icons/3d/selection/select-loose.svg) | Selection |
+| Select Interior Faces | [select-interior.svg](icons/3d/selection/select-interior.svg) | Selection |
+| Select Checker | [select-checker.svg](icons/3d/selection/select-checker.svg) | Selection |
+| Select Random | [select-random.svg](icons/3d/selection/select-random.svg) | Selection |
+| Select Mirror Selection | [select-mirror.svg](icons/3d/selection/select-mirror.svg) | Selection |
+| Select Convert | [select-convert.svg](icons/3d/selection/select-convert.svg) | Selection |
+| Select Through Depth | [x-ray.svg](icons/3d/viewport/x-ray.svg) | Viewport |
+| Selection Sets | [selection-set.svg](icons/3d/selection/selection-set.svg) | Selection |
+| Smart Selection Level | [smart-select.svg](icons/3d/selection/smart-select.svg) | Selection |
+| Patch Selection Level | [patch-select.svg](icons/3d/selection/patch-select.svg) | Selection |
+| Curve Selection Level | [curve-select.svg](icons/3d/selection/curve-select.svg) | Selection |
 
 ## Code — 29
 

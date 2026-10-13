@@ -1392,4 +1392,173 @@
   <path d="M10 12 14 12M12 10 14 12 12 14"/>
   <path d="M16 18C16 5 21 19 21 6"/>
 </symbol>
+<symbol id="select-loop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M4 12l8 4.5 8-4.5" stroke-width="3"/>
+  <circle cx="4" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="12" cy="16.5" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="select-ring" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 6h18v12H3ZM9 6v12M15 6v12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 6v12M9 6v12M15 6v12" stroke-width="3"/>
+</symbol>
+<symbol id="select-boundary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M9 4v16M15 4v16M4 9h16M4 15h16" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M6 4h12q2 0 2 2v12q0 2-2 2H6q-2 0-2-2V6q0-2 2-2Z" stroke-width="2.5"/>
+</symbol>
+<symbol id="select-region" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 8h8v8H8Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M4 4h16v16H4ZM8 4v16M12 4v16M16 4v16M4 8h16M4 12h16M4 16h16" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M8 8h8v8H8Z" stroke-width="2.5"/>
+</symbol>
+<symbol id="select-grow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 6h12v12H6ZM10 10v4h4v-4Z" fill="currentColor" fill-opacity="0.25" stroke="none" fill-rule="evenodd"/>
+  <path d="M10 10h4v4h-4Z" fill="currentColor" fill-opacity="0.6" stroke="none"/>
+  <path d="M6 6h12v12H6ZM10 6v12M14 6v12M6 10h12M6 14h12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M10 10h4v4h-4Z" stroke-width="1.5"/>
+  <path d="M12 5 12 2M10 4 12 2 14 4"/>
+  <path d="M12 19 12 22M14 20 12 22 10 20"/>
+  <path d="M5 12 2 12M4 14 2 12 4 10"/>
+  <path d="M19 12 22 12M20 10 22 12 20 14"/>
+</symbol>
+<symbol id="select-shrink" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 6h12v12H6ZM10 10v4h4v-4Z" fill="currentColor" fill-opacity="0.25" stroke="none" fill-rule="evenodd"/>
+  <path d="M10 10h4v4h-4Z" fill="currentColor" fill-opacity="0.6" stroke="none"/>
+  <path d="M6 6h12v12H6ZM10 6v12M14 6v12M6 10h12M6 14h12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M10 10h4v4h-4Z" stroke-width="1.5"/>
+  <path d="M12 2 12 5M14 3 12 5 10 3"/>
+  <path d="M12 22 12 19M10 21 12 19 14 21"/>
+  <path d="M2 12 5 12M3 10 5 12 3 14"/>
+  <path d="M22 12 19 12M21 14 19 12 21 10"/>
+</symbol>
+<symbol id="select-border" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 3h18v18H3ZM9 9v6h6V9Z" fill="currentColor" fill-opacity="0.45" stroke="none" fill-rule="evenodd"/>
+  <path d="M3 3h18v18H3ZM9 3v18M15 3v18M3 9h18M3 15h18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 3h18v18H3Z" stroke-width="2.5"/>
+  <path d="M9 9h6v6H9Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+</symbol>
+<symbol id="select-linked" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 7l7-3 2 10-7 4Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M3 7l7-3 2 10-7 4Z"/>
+  <path d="M3 7l9 7M10 4 5 18" stroke-width="1.25" opacity=".6"/>
+  <circle cx="6.5" cy="10.5" r="1.5" fill="currentColor" stroke="none"/>
+  <path d="M16 7l5 3-1 9-5-3ZM16 7l4 12" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+</symbol>
+<symbol id="select-linked-flat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 13l10-5 4 2-10 5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M3 13l10-5 4 2-10 5Z"/>
+  <path d="M8 10.5l4 2" stroke-width="1.25" opacity=".6"/>
+  <path d="M17 10l4-7v9L7 19v-4" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M16 6q2 1 3 0" stroke-width="1.25"/>
+</symbol>
+<symbol id="select-path" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 3h18v18H3ZM9 3v18M15 3v18M3 9h18M3 15h18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 21V15H9V9H15V3h6" stroke-width="2.5"/>
+  <circle cx="3" cy="21" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="21" cy="3" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="select-similar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 8h5v6H3ZM16 8h5v6h-5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M3 8h5v6H3ZM16 8h5v6h-5Z" stroke-width="1.5"/>
+  <path d="M9 14l3-7 3 7Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M9 18h6M9 21h6" stroke-width="1.5"/>
+</symbol>
+<symbol id="select-sharp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M4 8 12 3.5 20 8M12 12.5v8" stroke-width="2.75"/>
+  <path d="M8.5 12q3.5 3 7 0" stroke-width="1.25" opacity=".6"/>
+</symbol>
+<symbol id="select-by-sides" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 16 5.5 9 8 16Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M9 9h6v7H9Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M9 9h6v7H9Z" stroke-width="1.5"/>
+  <path d="M16 11l3-3 3 3-1 5h-4Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+</symbol>
+<symbol id="select-by-area" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="14" width="5" height="5" rx="0.5" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <rect x="11" y="4" width="10" height="15" rx="1" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <rect x="11" y="4" width="10" height="15" rx="1"/>
+  <path d="M13 16l6-9M12 15l2 2M18 6l2 2" stroke-width="1.25"/>
+</symbol>
+<symbol id="select-by-normal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M7 7l5-5 5 5" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".45"/>
+  <path d="M12 3.5 20 8l-8 4.5L4 8Z" stroke-width="1.5"/>
+  <path d="M12 8 12 2M10 4 12 2 14 4"/>
+</symbol>
+<symbol id="select-non-manifold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 7 4 3v12l8 6ZM12 7l8-4v12l-8 6Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
+  <path d="M12 7 18 11v10h-6Z" fill="currentColor" fill-opacity="0.25" stroke="none"/>
+  <path d="M12 7 4 3v12l8 6M12 7l8-4v12l-8 6M12 7 18 11v10h-6" stroke-width="1.25" opacity=".6"/>
+  <path d="M12 7v14" stroke-width="3"/>
+</symbol>
+<symbol id="select-loose" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 4h10v10H3ZM3 4l10 10M8 4v10M3 9h10" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <circle cx="19" cy="8" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="16" cy="19" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
+<symbol id="select-interior" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 5.75l8 4.5v8l-8-4.5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M8 5.75l8 4.5v8l-8-4.5Z"/>
+</symbol>
+<symbol id="select-checker" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="3" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <rect x="15" y="3" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <rect x="9" y="9" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <rect x="3" y="15" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <rect x="15" y="15" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M3 3h18v18H3ZM9 3v18M15 3v18M3 9h18M3 15h18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+</symbol>
+<symbol id="select-random" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="3" y="3" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <rect x="9" y="3" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <rect x="15" y="9" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <rect x="9" y="15" width="6" height="6" rx="0" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M3 3h18v18H3ZM9 3v18M15 3v18M3 9h18M3 15h18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+</symbol>
+<symbol id="select-mirror" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 9h5v7H3Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 9h5v7H3ZM16 9h5v7h-5Z" stroke-width="1.5"/>
+  <path d="M8 5 16 5M14 3 16 5 14 7"/>
+</symbol>
+<symbol id="select-convert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="5" cy="12" r="2" fill="currentColor" stroke="none"/>
+  <path d="M15 9h6v6h-6Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M15 9h6v6h-6Z" stroke-width="1.5"/>
+  <path d="M6 6q5-5 12 0m-2-2 2 2-2 2M18 18q-5 5-12 0m2-2-2 2 2 2"/>
+</symbol>
+<symbol id="x-ray" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
+  <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
+  <path d="M12 3.5v8L4 16m8-4.5 8 4.5" stroke-width="1.5"/>
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+</symbol>
+<symbol id="selection-set" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 11h6v6H5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M7 7V4q0-1 1-1h11q2 0 2 2v11q0 1-1 1h-3" stroke-width="1.25" opacity=".6"/>
+  <rect x="3" y="7" width="14" height="14" rx="2"/>
+  <path d="M12 7v6l-2-1-2 1V7" stroke-width="1.25"/>
+</symbol>
+<symbol id="smart-select" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M12 12.5 20 8" stroke-width="2.75"/>
+  <circle cx="4" cy="8" r="2" fill="currentColor" stroke="none"/>
+  <path d="M12 12.5v8l8-4.5V8" stroke-width="1.5"/>
+</symbol>
+<symbol id="patch-select" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 6C9 3.5 15 8.5 20 6L20 18C15 20.5 9 15.5 4 18Z" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+  <path d="M4 6C9 3.5 15 8.5 20 6L20 18C15 20.5 9 15.5 4 18Z"/>
+  <path d="M4 10C9 7.5 15 12.5 20 10M4 14C9 11.5 15 16.5 20 14" stroke-width="1" opacity=".5"/>
+</symbol>
+<symbol id="curve-select" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M4 6C9 3.5 15 8.5 20 6L20 18C15 20.5 9 15.5 4 18Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M4 18C4 5 20 19 20 6"/>
+  <circle cx="4" cy="18" r="1.5" fill="currentColor" stroke="none"/>
+  <circle cx="20" cy="6" r="1.5" fill="currentColor" stroke="none"/>
+</symbol>
 </svg>
