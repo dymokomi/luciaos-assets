@@ -74,7 +74,10 @@
       "category": "Modeling",
       "tags": [
         "mesh",
-        "editor"
+        "editor",
+        "surface normal",
+        "curved patch",
+        "normal ticks"
       ],
       "file": "icons/3d/modeling/surface-normal.svg",
       "categoryId": "modeling"
@@ -1166,7 +1169,9 @@
       "category": "Transform",
       "tags": [
         "tools",
-        "editor"
+        "editor",
+        "Move/Copy",
+        "four-way arrows"
       ],
       "file": "icons/graphics/transform/move-tool.svg",
       "categoryId": "transform"
@@ -1388,7 +1393,9 @@
         "pull",
         "mesh",
         "prism",
-        "single face"
+        "single face",
+        "swept face",
+        "flat base"
       ],
       "file": "icons/3d/modeling/extrude.svg",
       "categoryId": "modeling"
@@ -2924,7 +2931,9 @@
         "Fusion Offset Face",
         "Plasticity Offset Face",
         "move faces",
-        "lifted face"
+        "lifted face",
+        "separated faces",
+        "ghost position"
       ]
     },
     {
@@ -2941,7 +2950,9 @@
         "Fusion Press Pull",
         "push pull",
         "face",
-        "double-headed arrow"
+        "double-headed arrow",
+        "face normal",
+        "upright face"
       ]
     },
     {
@@ -2959,7 +2970,9 @@
         "Plasticity Shell",
         "hollow",
         "wall thickness",
-        "open top"
+        "open top",
+        "inner cavity edge",
+        "thick rim"
       ]
     },
     {
@@ -3026,7 +3039,8 @@
         "Fusion Remove Faces",
         "open body",
         "removed face",
-        "ghosted face"
+        "ghosted face",
+        "missing face"
       ]
     },
     {
@@ -3878,7 +3892,9 @@
         "trim ends",
         "cut curve",
         "cut gap",
-        "ghosted cutoff"
+        "ghosted cutoff",
+        "solid end ticks",
+        "retained curve"
       ]
     },
     {
@@ -3918,7 +3934,10 @@
         "Blender Curve to Mesh",
         "conversion",
         "quad grid",
-        "mesh output"
+        "mesh output",
+        "S curve",
+        "source left",
+        "target right"
       ]
     },
     {
@@ -3938,7 +3957,9 @@
         "conversion",
         "curve output",
         "quad grid",
-        "S curve"
+        "S curve",
+        "source left",
+        "target right"
       ]
     },
     {
@@ -5714,8 +5735,8 @@
         "Houdini UV Project",
         "Blender UV Project",
         "UV projection",
-        "projection arrow",
-        "checker plane"
+        "checker tile",
+        "projection lines"
       ]
     },
     {
@@ -5863,7 +5884,10 @@
         "Convert to Mesh",
         "soft volume",
         "quad grid",
-        "combined volume and mesh"
+        "cloud",
+        "conversion",
+        "source left",
+        "target right"
       ]
     },
     {

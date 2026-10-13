@@ -91,6 +91,7 @@ Pause, Search, Frame nodes, Go up one level, Show all, and Hide.
 | Hide outside objects / show none | `common/view/hidden.svg` |
 | Project settings | `common/files/project-settings.svg` |
 | Press Pull | `3d/cad/press-pull.svg` |
+| Move/Copy | `graphics/transform/move-tool.svg` |
 
 The visibility set uses an eye: solid outline, thin dashed outline, or a slash.
 Project settings combines a document and gear; app-wide settings keeps the
@@ -174,7 +175,9 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
   (Delete Face, Remove Knot).
 - **Before / after side by side:** conversions only (Trim Convert, Tessellate,
   Curve to Mesh). Small left glyph at .6, 4 px arrow, larger right glyph at full
-  opacity. The destination must read by itself. Set Curve Type instead overlays
+  opacity. Essential source contours may use full-opacity 2 px strokes when
+  the source must distinguish related conversions at node size. The destination
+  must read by itself. Set Curve Type instead overlays
   an angular ghost and a smooth curve, without the conversion layout.
 - **Inputs:** sketch profile, rail and boundary curves use subject strokes, no
   fill. Their surface or body result takes the shaded tier.
@@ -213,7 +216,8 @@ value comes only from opacity, in either theme and at 35% disabled alpha.
    and 2 px outline, clearly separated above the original ghost diamond. An
    upward arrow sits beside the gap. No connecting walls: those would turn the
    silhouette back into Extrude's continuous tall prism. Press Pull has its own
-   `3d/cad/press-pull.svg`: one face with a double-headed arrow through its center.
+   `3d/cad/press-pull.svg`: one upright isometric face with a double-headed arrow
+   through its center along the diagonal normal. Move/Copy keeps its four-way cross.
 3. **Skin (`3d/surfacing`):** three bold section curves, spaced across a .25
    lofted region, with two lighter boundaries joining their ends. No arrow.
    Rail uses an arched section across two long rails; Profile Sweep uses a square
@@ -356,6 +360,33 @@ volume (.25 fill) and quad grid. Remove Faces uses the full selection-cube
 bounds; Shrink shows two inward arrows around its trim boundary and ghosted
 control net. UV Project uses a downward arrow over a checker plane, and Blast
 shows retained cells beside a ghosted removed cell and an x.
+
+Round 6 revises eleven icons from `88debb5` without changing filenames. The
+before/after sheets contain exactly that inventory, with the unchanged Move tool
+as the sole reference. All three conversion pairings appear side by side, along
+with Press Pull / Move, UV Project / Surface Normal, Shell / Remove Faces, and
+Offset Face / Extrude. Reproduce them with:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref 88debb5 \
+  --names rounded/reviews/round6-icons.txt \
+  --pairs rounded/reviews/round6-pairs.txt \
+  --output-dir /tmp/lucia-round6/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/round6
+```
+
+Press Pull uses one .45 face and one double-headed arrow along its normal; its
+upright face separates it from Move/Copy's cross at 16 px. UV Project projects a
+checker tile onto a surface with two projection lines. Surface Normal uses a
+curved patch with short normal arrows and a tick. Trim Curve has a 2.5 px kept
+segment, two solid end ticks around the cut gap, and a dashed tail at .6 opacity.
+The three conversions consistently put the source left and target right, with
+2 px arrows and S-curves, solid grid contours, and a closed volume cloud filled
+at .35. Shell has parallel outer and inner cavity edges with short walls;
+Remove Faces leaves an unfilled opening with only a ghost outline. Offset Face
+separates two matching faces with a gap; Extrude joins its swept face to a flat
+base with continuous prism walls. Review at 16/24/48/96 px in both themes,
+enabled and at 35%, and with context and ghost strokes hidden.
 
 The offline catalog falls back to selecting the SVG source for manual copying
 if clipboard access is unavailable. Individual downloads work offline.

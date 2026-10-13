@@ -1,0 +1,7 @@
+press-pull move-tool
+uv-project surface-normal
+curve-to-mesh mesh-to-curve
+curve-to-mesh volume-to-mesh
+mesh-to-curve volume-to-mesh
+shell remove-faces
+offset-face extrude
