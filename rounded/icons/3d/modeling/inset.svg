@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <g stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75">
-  <rect x="4" y="4" width="16" height="16" rx="2"/>
-  <path d="m5 5 3 3m11-3-3 3M5 19l3-3m11 3-3-3"/>
-  </g>
-  <rect x="8" y="8" width="8" height="8" rx="1.5" fill="currentColor" fill-opacity=".28"/>
+  <path d="M6 4h12q2 0 2 2v12q0 2-2 2H6q-2 0-2-2V6q0-2 2-2ZM9.5 8Q8 8 8 9.5v5q0 1.5 1.5 1.5h5q1.5 0 1.5-1.5v-5Q16 8 14.5 8Z" fill="currentColor" fill-opacity="0.2" stroke="none" fill-rule="evenodd"/>
+  <rect x="8" y="8" width="8" height="8" rx="1.5" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M6 4h12q2 0 2 2v12q0 2-2 2H6q-2 0-2-2V6q0-2 2-2Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="m5 5 3 3m11-3-3 3M5 19l3-3m11 3-3-3" stroke-width="1.25" opacity=".6"/>
+  <rect x="8" y="8" width="8" height="8" rx="1.5"/>
 </svg>
