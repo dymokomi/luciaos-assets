@@ -537,8 +537,9 @@ Both intersecting faces continue beyond the crossing line;
 their translucent overlap conveys intersection. Soft Transform lifts a point
 and its neighbours above a projected falloff circle. Corrective Smooth keeps a
 curved patch's boundary shape while relaxing the ghosted folds. Edge Transport
-follows four connected edges along a mesh border, with progressively smaller
-vertex dots and adjacent face fills stepping down through .45, .35, .3 and .2.
+uses one open zigzag of four straight edges and five solid vertex dots, stepping
+down in radius from 2.5 to 1.25 px to carry a value from the large source dot.
+Its unfilled chain has no mesh context or extra marks.
 The cage boundary stays rectangular; neither Lattice nor Edge Transport uses
 an arrow. Fills remain below all strokes, and essential contours stay solid.
 
