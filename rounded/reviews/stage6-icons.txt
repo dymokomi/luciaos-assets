@@ -1,0 +1,8 @@
+icosphere
+quad-sphere
+disc
+platonic-solid
+helix
+poly-pen
+shrinkwrap
+snap-target

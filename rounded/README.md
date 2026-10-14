@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-406 editable icons for shared controls, graphics, 3D, code and mail applications.
+414 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
@@ -29,7 +29,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 60 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback, Tool shelf |
 | Graphics | 48 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 255 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 263 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 
@@ -40,8 +40,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 406 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 7144 canvas. The white sheet uses a pure white background.
+Both sheets contain all 414 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 7268 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 
@@ -393,6 +393,45 @@ enabled and at 35%, and with context and ghost strokes hidden.
 
 The offline catalog falls back to selecting the SVG source for manual copying
 if clipboard access is unavailable. Individual downloads work offline.
+
+### Stage 6: poly tools
+
+Eight new icons extend the rounded 3D family:
+
+- `primitives/`: `icosphere`, `quad-sphere`, `disc`, `platonic-solid`.
+- `curves/`: `helix`.
+- `modeling/`: `poly-pen`.
+- `modifiers/`: `shrinkwrap`.
+- `viewport/`: `snap-target`.
+
+Icosphere uses ten visible triangular facets; Quad Sphere uses a rounded cube
+face subdivided into four quads, with eight surrounding quads and no converging
+meridian poles. Disc is a filled, flat fan in perspective; Platonic Solid is an
+octahedron with four visible faces. Their non-overlapping .2, .3 and .45 fills
+separate the lit, side and front faces beneath the solid topology edges.
+
+Helix winds vertically with thinner rear wire segments and a dashed axis, while
+Curve Spiral stays planar. Poly Pen places a quad corner with its nib and marks
+all four vertices. Shrinkwrap bends a quad strip over a shaded solid, with two
+arrows pointing onto the surface. Snap Target puts a four-arm crosshair on the
+same curved patch as Snap Surface. No existing icon artwork changes.
+
+Reproduce the review at native 16/24/48 px, both themes, enabled and at 35%
+opacity; the render directory also includes individual 96 px images:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref 51973d0 \
+  --names rounded/reviews/stage6-icons.txt \
+  --pairs rounded/reviews/stage6-pairs.txt \
+  --output-dir /tmp/lucia-stage6/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/stage6
+cp /Users/sedov/Dev/luce_work/codex/stage6_after.png \
+  /Users/sedov/Dev/luce_work/codex/stage6_sheet.png
+```
+
+The sheet pairs the new icons with Sphere, Cube, Curve Spiral, Pen Tool, Shrink
+Surface and Snap Surface. The before sheet marks all eight additions as absent
+at the baseline and retains the same unchanged neighbours.
 
 ## License
 

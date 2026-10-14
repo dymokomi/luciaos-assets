@@ -1,0 +1,9 @@
+icosphere sphere
+quad-sphere sphere
+quad-sphere cube
+disc sphere
+platonic-solid cube
+helix curve-spiral
+poly-pen pen-tool
+shrinkwrap shrink-surface
+snap-target snap-surface

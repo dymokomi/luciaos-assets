@@ -1,6 +1,6 @@
 # Rounded icon index
 
-406 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+414 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 60
 
@@ -120,7 +120,7 @@
 | Movie Camera | [movie-camera.svg](icons/graphics/photography/movie-camera.svg) | Photography |
 | Film Strip | [film-strip.svg](icons/graphics/photography/film-strip.svg) | Photography |
 
-## 3D — 255
+## 3D — 263
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -136,11 +136,15 @@
 | Solid with wireframe | [solid-wireframe.svg](icons/3d/viewport/solid-wireframe.svg) | Viewport |
 | Shaded with wireframe | [shaded-wireframe.svg](icons/3d/viewport/shaded-wireframe.svg) | Viewport |
 | Cube | [cube.svg](icons/3d/primitives/cube.svg) | Primitives |
+| Platonic solid | [platonic-solid.svg](icons/3d/primitives/platonic-solid.svg) | Primitives |
 | Sphere | [sphere.svg](icons/3d/primitives/sphere.svg) | Primitives |
+| Icosphere | [icosphere.svg](icons/3d/primitives/icosphere.svg) | Primitives |
+| Quad sphere | [quad-sphere.svg](icons/3d/primitives/quad-sphere.svg) | Primitives |
 | Cylinder | [cylinder.svg](icons/3d/primitives/cylinder.svg) | Primitives |
 | Cone | [cone.svg](icons/3d/primitives/cone.svg) | Primitives |
 | Torus | [torus.svg](icons/3d/primitives/torus.svg) | Primitives |
 | Plane | [plane.svg](icons/3d/primitives/plane.svg) | Primitives |
+| Disc | [disc.svg](icons/3d/primitives/disc.svg) | Primitives |
 | Vertex selection | [vertex-select.svg](icons/3d/selection/vertex-select.svg) | Mesh selection |
 | Edge selection | [edge-select.svg](icons/3d/selection/edge-select.svg) | Mesh selection |
 | Face selection | [face-select.svg](icons/3d/selection/face-select.svg) | Mesh selection |
@@ -169,6 +173,7 @@
 | Boolean union | [boolean-union.svg](icons/3d/modifiers/boolean-union.svg) | Transform & modifiers |
 | Boolean subtract | [boolean-subtract.svg](icons/3d/modifiers/boolean-subtract.svg) | Transform & modifiers |
 | Boolean intersect | [boolean-intersect.svg](icons/3d/modifiers/boolean-intersect.svg) | Transform & modifiers |
+| Shrinkwrap | [shrinkwrap.svg](icons/3d/modifiers/shrinkwrap.svg) | Modifiers |
 | Mirror modifier | [mirror-modifier.svg](icons/3d/modifiers/mirror-modifier.svg) | Transform & modifiers |
 | Array modifier | [array-modifier.svg](icons/3d/modifiers/array-modifier.svg) | Transform & modifiers |
 | Rig | [rig.svg](icons/3d/animation/rig.svg) | Animation |
@@ -179,6 +184,7 @@
 | Group nodes | [group-nodes.svg](icons/3d/nodes/group-nodes.svg) | Nodes |
 | Output node | [output-node.svg](icons/3d/nodes/output-node.svg) | Nodes |
 | Mesh PolyDraw | [poly-draw.svg](icons/3d/modeling/poly-draw.svg) | Modeling |
+| Poly pen | [poly-pen.svg](icons/3d/modeling/poly-pen.svg) | Modeling |
 | Mesh Duplicate | [duplicate-faces.svg](icons/3d/modeling/duplicate-faces.svg) | Modeling |
 | Mesh Bevel Weight | [bevel-weight.svg](icons/3d/modeling/bevel-weight.svg) | Modeling |
 | Mesh Offset Edge Loops | [offset-edge-loops.svg](icons/3d/modeling/offset-edge-loops.svg) | Modeling |
@@ -252,6 +258,7 @@
 | Curves Rebuild | [rebuild-curve.svg](icons/3d/curves/rebuild-curve.svg) | Curves |
 | Curves Convert to B-spline | [convert-to-bspline.svg](icons/3d/curves/convert-to-bspline.svg) | Curves |
 | Curve Spiral | [curve-spiral.svg](icons/3d/curves/curve-spiral.svg) | Curves |
+| Helix | [helix.svg](icons/3d/curves/helix.svg) | Curves |
 | Resample Curve | [resample-curve.svg](icons/3d/curves/resample-curve.svg) | Curves |
 | Trim Curve | [trim-curve.svg](icons/3d/curves/trim-curve.svg) | Curves |
 | Set Curve Type | [set-curve-type.svg](icons/3d/curves/set-curve-type.svg) | Curves |
@@ -339,6 +346,7 @@
 | Snap to Intersections | [snap-intersection.svg](icons/3d/viewport/snap-intersection.svg) | Viewport |
 | Snap to Curves | [snap-curve.svg](icons/3d/viewport/snap-curve.svg) | Viewport |
 | Snap to Surfaces | [snap-surface.svg](icons/3d/viewport/snap-surface.svg) | Viewport |
+| Snap target | [snap-target.svg](icons/3d/viewport/snap-target.svg) | Viewport |
 | CAD Context | [context-cad.svg](icons/3d/nodes/context-cad.svg) | Nodes |
 | SDF Context | [context-sdf.svg](icons/3d/nodes/context-sdf.svg) | Nodes |
 | Volumes Context | [context-volume.svg](icons/3d/nodes/context-volume.svg) | Nodes |

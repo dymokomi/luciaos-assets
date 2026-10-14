@@ -1306,6 +1306,21 @@
       "categoryId": "primitives"
     },
     {
+      "id": "platonic-solid",
+      "name": "Platonic solid",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "platonic solid",
+        "octahedron",
+        "regular polyhedron",
+        "triangular faces",
+        "poly primitive"
+      ],
+      "file": "icons/3d/primitives/platonic-solid.svg",
+      "categoryId": "primitives"
+    },
+    {
       "id": "sphere",
       "name": "Sphere",
       "domain": "3d",
@@ -1315,6 +1330,37 @@
         "primitive"
       ],
       "file": "icons/3d/primitives/sphere.svg",
+      "categoryId": "primitives"
+    },
+    {
+      "id": "icosphere",
+      "name": "Icosphere",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "icosphere",
+        "geodesic sphere",
+        "triangular facets",
+        "triangle mesh",
+        "poly primitive"
+      ],
+      "file": "icons/3d/primitives/icosphere.svg",
+      "categoryId": "primitives"
+    },
+    {
+      "id": "quad-sphere",
+      "name": "Quad sphere",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "quad sphere",
+        "quad ball",
+        "cube sphere",
+        "pole-free",
+        "quad mesh",
+        "poly primitive"
+      ],
+      "file": "icons/3d/primitives/quad-sphere.svg",
       "categoryId": "primitives"
     },
     {
@@ -1364,6 +1410,22 @@
         "primitive"
       ],
       "file": "icons/3d/primitives/plane.svg",
+      "categoryId": "primitives"
+    },
+    {
+      "id": "disc",
+      "name": "Disc",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "disc",
+        "disk",
+        "filled circle",
+        "triangle fan",
+        "planar mesh",
+        "poly primitive"
+      ],
+      "file": "icons/3d/primitives/disc.svg",
       "categoryId": "primitives"
     },
     {
@@ -1712,6 +1774,22 @@
         "SDF intersection"
       ],
       "file": "icons/3d/modifiers/boolean-intersect.svg",
+      "categoryId": "modifiers"
+    },
+    {
+      "id": "shrinkwrap",
+      "name": "Shrinkwrap",
+      "domain": "3d",
+      "category": "Modifiers",
+      "tags": [
+        "shrinkwrap",
+        "shrink wrap",
+        "conform mesh",
+        "wrap surface",
+        "mesh sheet",
+        "surface projection"
+      ],
+      "file": "icons/3d/modifiers/shrinkwrap.svg",
       "categoryId": "modifiers"
     },
     {
@@ -2617,6 +2695,22 @@
         "mesh",
         "clicked points"
       ]
+    },
+    {
+      "id": "poly-pen",
+      "name": "Poly pen",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "poly pen",
+        "polygon pen",
+        "pen nib",
+        "quad corners",
+        "place vertices",
+        "mesh drawing"
+      ],
+      "file": "icons/3d/modeling/poly-pen.svg",
+      "categoryId": "modeling"
     },
     {
       "id": "duplicate-faces",
@@ -3873,6 +3967,22 @@
         "Curve primitives",
         "Spiral"
       ]
+    },
+    {
+      "id": "helix",
+      "name": "Helix",
+      "domain": "3d",
+      "category": "Curves",
+      "tags": [
+        "helix",
+        "3d spiral",
+        "coil",
+        "spring",
+        "vertical axis",
+        "poly curve"
+      ],
+      "file": "icons/3d/curves/helix.svg",
+      "categoryId": "curves"
     },
     {
       "id": "resample-curve",
@@ -5302,6 +5412,22 @@
         "Fusion Surface Snap",
         "Modo Surface"
       ]
+    },
+    {
+      "id": "snap-target",
+      "name": "Snap target",
+      "domain": "3d",
+      "category": "Viewport",
+      "tags": [
+        "snap target",
+        "snapping",
+        "crosshair",
+        "surface target",
+        "surface patch",
+        "target point"
+      ],
+      "file": "icons/3d/viewport/snap-target.svg",
+      "categoryId": "viewport"
     },
     {
       "id": "context-cad",
