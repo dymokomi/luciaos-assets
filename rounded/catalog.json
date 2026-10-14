@@ -6596,6 +6596,158 @@
       ],
       "file": "icons/audio/editing/note-lane.svg",
       "categoryId": "editing"
+    },
+    {
+      "id": "bend",
+      "name": "Bend",
+      "domain": "3d",
+      "category": "Modifiers",
+      "categoryId": "modifiers",
+      "file": "icons/3d/modifiers/bend.svg",
+      "tags": [
+        "bend",
+        "deformer",
+        "twist",
+        "taper",
+        "squash",
+        "bend axis",
+        "straight bar",
+        "mesh deformation",
+        "luced-3d"
+      ]
+    },
+    {
+      "id": "lattice",
+      "name": "Lattice",
+      "domain": "3d",
+      "category": "Modifiers",
+      "categoryId": "modifiers",
+      "file": "icons/3d/modifiers/lattice.svg",
+      "tags": [
+        "lattice",
+        "deformer",
+        "control cage",
+        "3x3 control points",
+        "free form deformation",
+        "mesh",
+        "luced-3d"
+      ]
+    },
+    {
+      "id": "mesh-check",
+      "name": "Mesh check",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/mesh-check.svg",
+      "tags": [
+        "mesh check",
+        "mesh analysis",
+        "analysis overlay",
+        "mesh validation",
+        "wireframe",
+        "check",
+        "luced-3d"
+      ]
+    },
+    {
+      "id": "select-poles",
+      "name": "Select poles",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-poles.svg",
+      "tags": [
+        "select poles",
+        "vertex valence",
+        "five or more edges",
+        "high valence vertex",
+        "mesh selection",
+        "luced-3d"
+      ]
+    },
+    {
+      "id": "select-degenerate",
+      "name": "Select degenerate",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-degenerate.svg",
+      "tags": [
+        "select degenerate",
+        "degenerate faces",
+        "zero area",
+        "collapsed sliver",
+        "mesh selection",
+        "luced-3d"
+      ]
+    },
+    {
+      "id": "select-intersecting",
+      "name": "Select intersecting",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/select-intersecting.svg",
+      "tags": [
+        "select intersecting",
+        "intersecting faces",
+        "self intersection",
+        "crossing faces",
+        "mesh selection",
+        "luced-3d"
+      ]
+    },
+    {
+      "id": "soft-transform",
+      "name": "Soft transform",
+      "domain": "3d",
+      "category": "Sculpting",
+      "categoryId": "sculpting",
+      "file": "icons/3d/sculpting/soft-transform.svg",
+      "tags": [
+        "soft transform",
+        "soft selection",
+        "falloff circle",
+        "proportional editing",
+        "move vertex",
+        "sculpt",
+        "luced-3d"
+      ]
+    },
+    {
+      "id": "corrective-smooth",
+      "name": "Corrective smooth",
+      "domain": "3d",
+      "category": "Sculpting",
+      "categoryId": "sculpting",
+      "file": "icons/3d/sculpting/corrective-smooth.svg",
+      "tags": [
+        "corrective smooth",
+        "smooth deformation",
+        "relax surface",
+        "preserve shape",
+        "crumpled patch",
+        "sculpt",
+        "luced-3d"
+      ]
+    },
+    {
+      "id": "edge-transport",
+      "name": "Edge transport",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/edge-transport.svg",
+      "tags": [
+        "edge transport",
+        "transport value",
+        "edge traversal",
+        "hop by hop",
+        "source vertex",
+        "mesh attribute",
+        "luced-3d"
+      ]
     }
   ],
   "collections": [

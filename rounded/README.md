@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-440 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
+449 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
 
 ## Organization
 
@@ -30,7 +30,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 60 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback, Tool shelf |
 | Graphics | 48 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 273 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 282 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 | Audio | 16 | Record, Metronome, Mute, Solo, Piano keyboard, Mixer, Automation |
@@ -42,8 +42,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 440 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 7860 canvas. The white sheet uses a pure white background.
+Both sheets contain all 449 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 7984 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 
@@ -513,6 +513,47 @@ The comparisons include the existing circle, curve, planar, normal, selection,
 shading and UV tools, plus the new hard/soft and seam pairs. Subject-only checks
 hide ghost, context and isoline strokes at 16 and 24 px in both themes and states.
 No requested icon was skipped or substituted.
+
+### Stage 8: deformers, mesh checks and sculpting
+
+Nine new icons extend the existing categories:
+
+- `modifiers/`: `bend`, `lattice`.
+- `selection/`: `select-poles`, `select-degenerate`, `select-intersecting`.
+- `modeling/`: `mesh-check`, `edge-transport`.
+- `sculpting/`: `soft-transform`, `corrective-smooth`.
+
+Bend curves a shaded bar around an axis, with its straight position ghosted;
+the same icon covers Bend, Twist, Taper and Squash. Lattice uses three rows and
+three columns of cage points, with the middle-right point pulled outward and
+the enclosed mesh following it. Mesh Check pairs a shaded wireframe with a
+check confined to the bottom-right 7 × 7 px, clear of the body.
+
+The selectors retain the selection family's dashed mesh context and solid
+subjects: a six-edge pole, a collapsed triangular sliver and the 3 px crossing
+line of two faces. Both intersecting faces continue beyond the crossing line;
+their translucent overlap conveys intersection. Soft Transform lifts a point
+and its neighbours above a projected falloff circle. Corrective Smooth keeps a
+curved patch's boundary shape while relaxing the ghosted folds. Edge Transport
+follows connected edges from a source dot through successive vertices to an
+arrowhead. Fills remain below all strokes, and essential contours stay solid.
+
+Reproduce the native 16/24/48 px contact sheet in both themes at 100% and 35%
+opacity, alongside Shrinkwrap, Sculpt Tool and Select Non-manifold:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref 3258151 \
+  --names rounded/reviews/stage8-icons.txt \
+  --pairs rounded/reviews/stage8-pairs.txt \
+  --output-dir /tmp/lucia-stage8/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/stage8
+cp /Users/sedov/Dev/luce_work/codex/stage8_after.png \
+  /Users/sedov/Dev/luce_work/codex/stage8_sheet.png
+```
+
+The render directory also contains individual 96 px images. Review includes
+subject-only renders with context, ghosts and isolines hidden. All nine stems
+are new and unique; no earlier icon artwork changes or substitutions are needed.
 
 ## License
 

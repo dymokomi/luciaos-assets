@@ -1,6 +1,6 @@
 # Rounded icon index
 
-440 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+449 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 60
 
@@ -120,7 +120,7 @@
 | Movie Camera | [movie-camera.svg](icons/graphics/photography/movie-camera.svg) | Photography |
 | Film Strip | [film-strip.svg](icons/graphics/photography/film-strip.svg) | Photography |
 
-## 3D — 273
+## 3D — 282
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -397,6 +397,15 @@
 | Smooth by angle | [smooth-by-angle.svg](icons/3d/modeling/smooth-by-angle.svg) | Modeling |
 | Mark seam | [mark-seam.svg](icons/3d/shading/mark-seam.svg) | Shading |
 | Seams from islands | [seams-from-islands.svg](icons/3d/shading/seams-from-islands.svg) | Shading |
+| Bend | [bend.svg](icons/3d/modifiers/bend.svg) | Modifiers |
+| Lattice | [lattice.svg](icons/3d/modifiers/lattice.svg) | Modifiers |
+| Mesh check | [mesh-check.svg](icons/3d/modeling/mesh-check.svg) | Modeling |
+| Select poles | [select-poles.svg](icons/3d/selection/select-poles.svg) | Selection |
+| Select degenerate | [select-degenerate.svg](icons/3d/selection/select-degenerate.svg) | Selection |
+| Select intersecting | [select-intersecting.svg](icons/3d/selection/select-intersecting.svg) | Selection |
+| Soft transform | [soft-transform.svg](icons/3d/sculpting/soft-transform.svg) | Sculpting |
+| Corrective smooth | [corrective-smooth.svg](icons/3d/sculpting/corrective-smooth.svg) | Sculpting |
+| Edge transport | [edge-transport.svg](icons/3d/modeling/edge-transport.svg) | Modeling |
 
 ## Code — 29
 

@@ -1,0 +1,3 @@
+bend shrinkwrap
+soft-transform sculpt-tool
+select-intersecting select-non-manifold
