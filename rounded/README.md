@@ -441,33 +441,40 @@ Ten new icons extend the existing categories:
   `recalculate-normals`, `hard-edges`, `soft-edges`, `smooth-by-angle`.
 - `shading/`: `mark-seam`, `seams-from-islands`.
 
-Circularize overlays a jagged ghost loop with a clean circle and picked points.
-Straighten presses a wavy ghost run onto a straight row of points; Space Evenly
-adds equal measurement intervals below its points. Make Planar retains two
-coplanar faces beneath the bent ghost, separating it from Flatten and Set Planar.
-Recalculate Normals combines two agreeing arrows with a ghost flipped arrow and
-a turning arc; this explicit normal illustration uses the extra-arrow exception.
+Stage 7B refines seven drawings from `6ec94c6` for 16 px use. Circularize uses
+the same radius-8 circle as Circle 3 Point, over a jagged ghost loop. Straighten
+spans the grid diagonally with three points and a wavy ghost; Space Evenly uses
+three points above two broad measurement intervals. Both use Resample Curve's
+radius-1.8 point size. Make Planar retains two coplanar faces beneath the bent
+ghost, separating it from Flatten and Set Planar. Recalculate Normals has a
+full-width face, two tall agreeing arrows, and a curved shaft turning away from
+the ghost flipped normal; this illustration uses the extra-arrow exception.
 
-Hard Edges and Soft Edges share the selection cube and .2/.3/.45 values. The hard
-corner has a 3.25 px selected edge and flat face values; the soft corner replaces
-that edge with a continuous curved value boundary and a thin smooth isoline.
-Smooth by Angle separates a shaded patch from its angle arc and threshold tick.
-Mark Seam uses full-opacity 2.5 px stitch dashes; Seams from Islands converts an
-L-shaped UV boundary into the same seam dashes on a .6-scale selection cube.
-Fills are separate, non-overlapping regions beneath the contours. Existing icon
-artwork is unchanged.
+Hard Edges and Soft Edges share the exact selection-cube silhouette and .2 top.
+The hard corner has a 3.25 px selected edge and flat .45/.3 side values. The soft
+corner blends those side values across the vertical edge, with no center stroke
+or horizontal isoline. Abutting half-pixel fill strips sample the opacity blend
+without IDs or overlapping fills; crisp fill edges prevent hairline gaps, while
+the outline retains normal antialiasing. Smooth by Angle has a wider shaded patch
+above a full-width angle, arc and threshold tick. Mark Seam retains its
+full-opacity 2.5 px stitch dashes; Seams from Islands now pairs a larger L-shaped
+UV outline with the same dashes around a full-width perspective face, comparable
+in size to UV Project. Fills remain below the contours. Make Planar, Hard Edges,
+Mark Seam and all earlier-stage icon artwork are unchanged in Stage 7B.
 
-Reproduce the new-icon and neighbour review at native 16/24/48 px, light and
-dark, enabled and at 35% opacity. Individual 96 px renders are also generated:
+Reproduce Stage 7B in the same ten-icon and neighbour layout as Stage 7, at native
+16/24/48 px, light and dark, enabled and at 35% opacity. The original Stage 7
+baseline keeps the inventory and reference labels identical. Individual 96 px
+renders are also generated:
 
 ```sh
 python3 rounded/scripts/review_changes.py --before-ref cbc31cb \
   --names rounded/reviews/stage7-icons.txt \
   --pairs rounded/reviews/stage7-pairs.txt \
-  --output-dir /tmp/lucia-stage7/renders \
-  --sheet-prefix /Users/sedov/Dev/luce_work/codex/stage7
-cp /Users/sedov/Dev/luce_work/codex/stage7_after.png \
-  /Users/sedov/Dev/luce_work/codex/stage7_sheet.png
+  --output-dir /tmp/lucia-stage7b/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/stage7b
+cp /Users/sedov/Dev/luce_work/codex/stage7b_after.png \
+  /Users/sedov/Dev/luce_work/codex/stage7b_sheet.png
 ```
 
 The comparisons include the existing circle, curve, planar, normal, selection,

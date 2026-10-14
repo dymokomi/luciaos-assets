@@ -1,7 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
-  <path d="M4 8l8 4.5c-5 3 5 5 0 8L4 16Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
-  <path d="M12 12.5 20 8v8l-8 4.5c5-3-5-5 0-8Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <!-- Abutting strips sample a .45-to-.3 opacity gradient without paint-server IDs. -->
+  <g fill="currentColor" stroke="none" shape-rendering="crispEdges">
+    <path d="M4 8 8 10.25v8L4 16Z" fill-opacity="0.4500"/>
+    <path d="M8 10.25 8.5 10.5312v8L8 18.25Z" fill-opacity="0.4453"/>
+    <path d="M8.5 10.5312 9 10.8125v8L8.5 18.5312Z" fill-opacity="0.4359"/>
+    <path d="M9 10.8125 9.5 11.0938v8L9 18.8125Z" fill-opacity="0.4266"/>
+    <path d="M9.5 11.0938 10 11.375v8L9.5 19.0938Z" fill-opacity="0.4172"/>
+    <path d="M10 11.375 10.5 11.6562v8L10 19.375Z" fill-opacity="0.4078"/>
+    <path d="M10.5 11.6562 11 11.9375v8L10.5 19.6562Z" fill-opacity="0.3984"/>
+    <path d="M11 11.9375 11.5 12.2188v8L11 19.9375Z" fill-opacity="0.3891"/>
+    <path d="M11.5 12.2188 12 12.5v8L11.5 20.2188Z" fill-opacity="0.3797"/>
+    <path d="M12 12.5 12.5 12.2188v8L12 20.5Z" fill-opacity="0.3703"/>
+    <path d="M12.5 12.2188 13 11.9375v8L12.5 20.2188Z" fill-opacity="0.3609"/>
+    <path d="M13 11.9375 13.5 11.6562v8L13 19.9375Z" fill-opacity="0.3516"/>
+    <path d="M13.5 11.6562 14 11.375v8L13.5 19.6562Z" fill-opacity="0.3422"/>
+    <path d="M14 11.375 14.5 11.0938v8L14 19.375Z" fill-opacity="0.3328"/>
+    <path d="M14.5 11.0938 15 10.8125v8L14.5 19.0938Z" fill-opacity="0.3234"/>
+    <path d="M15 10.8125 15.5 10.5312v8L15 18.8125Z" fill-opacity="0.3141"/>
+    <path d="M15.5 10.5312 16 10.25v8L15.5 18.5312Z" fill-opacity="0.3047"/>
+    <path d="M16 10.25 20 8v8L16 18.25Z" fill-opacity="0.3000"/>
+  </g>
   <path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8ZM4 8l8 4.5L20 8" stroke-width="1.5"/>
-  <path d="M4 12c5 6 11 6 16 0" stroke-width="1" opacity=".5"/>
 </svg>
