@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="7144" viewBox="0 0 1600 7144" color="#272b33" font-family="Helvetica, Arial, sans-serif">
-<title>LuciaOS Rounded — all 405 icons on white</title>
+<title>LuciaOS Rounded — all 406 icons on white</title>
 <desc>Complete icon library, grouped by common controls, graphics, 3D, and code. Each icon is labelled by name and category.</desc>
 <rect width="1600" height="7144" fill="#ffffff"/>
 <text x="48" y="44" fill="#727b89" font-size="12" font-weight="600" text-anchor="start">LUCIAOS / ASSET LIBRARY</text>
 <text x="48" y="94" fill="#272b33" font-size="40" font-weight="600" text-anchor="start">Rounded icon library</text>
-<text x="48" y="127" fill="#727b89" font-size="15" font-weight="400" text-anchor="start">405 icons · 24 × 24 canvas · 2 px base stroke · CurrentColor · Shown at 48 px</text>
+<text x="48" y="127" fill="#727b89" font-size="15" font-weight="400" text-anchor="start">406 icons · 24 × 24 canvas · 2 px base stroke · CurrentColor · Shown at 48 px</text>
 <text x="1552" y="44" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">WHITE / COMPLETE SET</text>
 <text x="48" y="186" fill="#272b33" font-size="24" font-weight="600" text-anchor="start">Common</text>
 <text x="48" y="210" fill="#727b89" font-size="13" font-weight="400" text-anchor="start">Shared actions, files, layout, view, navigation, and playback controls.</text>
-<text x="1552" y="186" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">59 ICONS</text>
+<text x="1552" y="186" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">60 ICONS</text>
 <rect x="48" y="232" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
 <svg data-icon-id="duplicate" x="111.0" y="245" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M7.5 16.5H6.3Q3 16.5 3 13.2V6.3Q3 3 6.3 3h6.9Q16.5 3 16.5 6.3v1.2"/><path d="M10.7 7.5Q14.0 7.25 17.3 7.5Q20.5 7.5 20.5 10.7Q20.75 14.0 20.5 17.3Q20.5 20.5 17.3 20.5Q14.0 20.75 10.7 20.5Q7.5 20.5 7.5 17.3Q7.25 14.0 7.5 10.7Q7.5 7.5 10.7 7.5Z"/>
@@ -353,110 +353,127 @@
 <text x="895.0" y="935" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Settings</text>
 <text x="895.0" y="953" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Interface</text>
 <rect x="998" y="852" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="arrow-left" x="1061.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<svg data-icon-id="tool-shelf" x="1061.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9.5 5.5H19a2 2 0 0 1 2 2v2H9.5Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <g fill="currentColor" fill-opacity=".45" stroke="none">
+    <rect x="5.5" y="11" width="3" height="3" rx=".4"/>
+    <rect x="10.5" y="11" width="3" height="3" rx=".4"/>
+    <rect x="15.5" y="11" width="3" height="3" rx=".4"/>
+    <rect x="5.5" y="15.5" width="3" height="3" rx=".4"/>
+    <rect x="10.5" y="15.5" width="3" height="3" rx=".4"/>
+    <rect x="15.5" y="15.5" width="3" height="3" rx=".4"/>
+  </g>
+  <rect x="3" y="5.5" width="18" height="15" rx="2"/>
+  <path d="M9.5 5.5v4H21M15.5 5.5v4"/>
+</svg>
+
+<text x="1085.0" y="935" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Tool shelf</text>
+<text x="1085.0" y="953" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Interface</text>
+<rect x="1188" y="852" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="arrow-left" x="1251.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M19 12H5"/>
   <path d="M7 14 5 12 7 10"/>
 </svg>
 
-<text x="1085.0" y="935" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Arrow left</text>
-<text x="1085.0" y="953" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Navigation</text>
-<rect x="1188" y="852" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="arrow-right" x="1251.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="1275.0" y="935" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Arrow left</text>
+<text x="1275.0" y="953" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Navigation</text>
+<rect x="1378" y="852" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="arrow-right" x="1441.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M5 12h14"/>
   <path d="M17 10 19 12 17 14"/>
 </svg>
 
-<text x="1275.0" y="935" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Arrow right</text>
-<text x="1275.0" y="953" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Navigation</text>
-<rect x="1378" y="852" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="arrow-up" x="1441.0" y="865" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="1465.0" y="935" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Arrow right</text>
+<text x="1465.0" y="953" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Navigation</text>
+<rect x="48" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="arrow-up" x="111.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M12 19V5"/>
   <path d="M10 7 12 5 14 7"/>
 </svg>
 
-<text x="1465.0" y="935" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Arrow up</text>
-<text x="1465.0" y="953" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Navigation</text>
-<rect x="48" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="arrow-down" x="111.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="135.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Arrow up</text>
+<text x="135.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Navigation</text>
+<rect x="238" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="arrow-down" x="301.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M12 5v14"/>
   <path d="M14 17 12 19 10 17"/>
 </svg>
 
-<text x="135.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Arrow down</text>
-<text x="135.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Navigation</text>
-<rect x="238" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="go-to-start" x="301.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="325.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Arrow down</text>
+<text x="325.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Navigation</text>
+<rect x="428" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="go-to-start" x="491.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M4 5v14M18 5.5q0-1.5-1.3-.7L7 11.1q-1.4.9 0 1.8l9.7 6.3q1.3.8 1.3-.7Z"/>
 </svg>
 
-<text x="325.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Go to start</text>
-<text x="325.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
-<rect x="428" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="step-back" x="491.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="515.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Go to start</text>
+<text x="515.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="618" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="step-back" x="681.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M20 5v14M15 6.5q0-1.5-1.3-.7l-7.2 5.3q-1.2.9 0 1.8l7.2 5.3q1.3.8 1.3-.7Z"/>
 </svg>
 
-<text x="515.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Step back one frame</text>
-<text x="515.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
-<rect x="618" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="step-forward" x="681.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="705.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Step back one frame</text>
+<text x="705.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="808" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="step-forward" x="871.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M4 5v14M9 6.5q0-1.5 1.3-.7l7.2 5.3q1.2.9 0 1.8l-7.2 5.3q-1.3.8-1.3-.7Z"/>
 </svg>
 
-<text x="705.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Step forward one frame</text>
-<text x="705.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
-<rect x="808" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="go-to-end" x="871.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="895.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Step forward one frame</text>
+<text x="895.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="998" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="go-to-end" x="1061.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M20 5v14M6 5.5q0-1.5 1.3-.7l9.7 6.3q1.4.9 0 1.8l-9.7 6.3q-1.3.8-1.3-.7Z"/>
 </svg>
 
-<text x="895.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Go to end</text>
-<text x="895.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
-<rect x="998" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="repeat" x="1061.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="1085.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Go to end</text>
+<text x="1085.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="1188" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="repeat" x="1251.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M4 10V8q0-3 3-3h12m-2-2 2 2-2 2M20 14v2q0 3-3 3H5m2-2-2 2 2 2"/>
 </svg>
 
-<text x="1085.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Repeat playback</text>
-<text x="1085.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
-<rect x="1188" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="play-backwards" x="1251.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="1275.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Repeat playback</text>
+<text x="1275.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="1378" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="play-backwards" x="1441.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M17 5.5q0-2-1.7-.9L4 11q-1.5 1 0 2l11.3 6.4q1.7 1.1 1.7-.9Z"/>
 </svg>
 
-<text x="1275.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Play backwards</text>
-<text x="1275.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
-<rect x="1378" y="976" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="play" x="1441.0" y="989" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="1465.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Play backwards</text>
+<text x="1465.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="48" y="1100" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="play" x="111.0" y="1113" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M7 5.5q0-2 1.7-.9L20 11q1.5 1 0 2l-11.3 6.4q-1.7 1.1-1.7-.9Z"/>
 </svg>
 
-<text x="1465.0" y="1059" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Play</text>
-<text x="1465.0" y="1077" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
-<rect x="48" y="1100" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="filter" x="111.0" y="1113" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="135.0" y="1183" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Play</text>
+<text x="135.0" y="1201" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Playback</text>
+<rect x="238" y="1100" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="filter" x="301.0" y="1113" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M4 4h16q1 0 .4 1L14 12.5V19l-4 2v-8.5L3.6 5Q3 4 4 4Z"/>
 </svg>
 
-<text x="135.0" y="1183" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Filter</text>
-<text x="135.0" y="1201" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Interface</text>
-<rect x="238" y="1100" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="ghosted" x="301.0" y="1113" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="325.0" y="1183" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Filter</text>
+<text x="325.0" y="1201" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Interface</text>
+<rect x="428" y="1100" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="ghosted" x="491.0" y="1113" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
   <circle cx="12" cy="12" r="2.5" fill="currentColor" fill-opacity=".18" stroke-width="1.25" opacity=".75"/>
 </svg>
 
-<text x="325.0" y="1183" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Ghosted</text>
-<text x="325.0" y="1201" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
-<rect x="428" y="1100" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
-<svg data-icon-id="project-settings" x="491.0" y="1113" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<text x="515.0" y="1183" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Ghosted</text>
+<text x="515.0" y="1201" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">View &amp; visibility</text>
+<rect x="618" y="1100" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="project-settings" x="681.0" y="1113" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M9 20H7q-3 0-3-3V6q0-3 3-3h6l5 5v2M13 3v3q0 2 2 2h3"/>
   <path d="M16 11h2l.4 1.5 1.4.8 1.5-.4 1 1.7-1.1 1.1v1.6l1.1 1.1-1 1.7-1.5-.4-1.4.8-.4 1.5h-2l-.4-1.5-1.4-.8-1.5.4-1-1.7 1.1-1.1v-1.6l-1.1-1.1 1-1.7 1.5.4 1.4-.8Z" stroke-width="1.5"/>
   <circle cx="17" cy="16.5" r="1.8" stroke-width="1.5"/>
 </svg>
 
-<text x="515.0" y="1183" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Project settings</text>
-<text x="515.0" y="1201" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
+<text x="705.0" y="1183" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Project settings</text>
+<text x="705.0" y="1201" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
 <text x="48" y="1274" fill="#272b33" font-size="24" font-weight="600" text-anchor="start">Graphics</text>
 <text x="48" y="1298" fill="#727b89" font-size="13" font-weight="400" text-anchor="start">Painting, color, selections, paths, layers, and transforms.</text>
 <text x="1552" y="1274" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">48 ICONS</text>
@@ -3755,6 +3772,6 @@
 <text x="1085.0" y="7023" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Drafts</text>
 <text x="1085.0" y="7041" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Messages</text>
 <path d="M48 7093h1504" stroke="#e2e6ec"/>
-<text x="48" y="7120" fill="#727b89" font-size="12" font-weight="400" text-anchor="start">All 405 icons · Editable SVG paths · Browse and search in rounded/catalog.html</text>
+<text x="48" y="7120" fill="#727b89" font-size="12" font-weight="400" text-anchor="start">All 406 icons · Editable SVG paths · Browse and search in rounded/catalog.html</text>
 <text x="1552" y="7120" fill="#727b89" font-size="12" font-weight="400" text-anchor="end">Dy Mokomi / CC BY 4.0</text>
 </svg>

@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-403 editable icons for shared controls, graphics, 3D, code and mail applications.
+406 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
@@ -27,8 +27,8 @@ rounded/
 
 | Collection | Count | Examples |
 | --- | ---: | --- |
-| Common | 59 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback |
-| Graphics | 46 | Brush, Pen, Magic Wand, Layers, Color, Transform |
+| Common | 60 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback, Tool shelf |
+| Graphics | 48 | Brush, Pen, Magic Wand, Layers, Color, Transform |
 | 3D | 255 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
@@ -40,7 +40,7 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 403 icons once, grouped by collection. Icons are shown
+Both sheets contain all 406 icons once, grouped by collection. Icons are shown
 at 48 px on a 1600 × 7144 canvas. The white sheet uses a pure white background.
 
 ## Application controls
@@ -52,6 +52,8 @@ at 48 px on a 1600 × 7144 canvas. The white sheet uses a pure white background.
 
 - **Split window horizontally:** stacked top/bottom panes, with a horizontal divider.
 - **Split window vertically:** side-by-side panes, with a vertical divider.
+- **Tool shelf:** a bottom-docked tool palette, with an active tab, two shaded
+  tabs, and a 2 × 3 grid of tiles inside a rounded panel.
 - **Snap to grid:** the Grid frame with dots at its four interior intersections.
 - **Development:** Terminal, Build, Bug, Start / Run, Stop, Pause, and Reload.
 - **2D editing:** Corner pin, Crop, Reflection, Clone stamp, Brush, and Pencil.
@@ -90,6 +92,7 @@ Pause, Search, Frame nodes, Go up one level, Show all, and Hide.
 | Show outside objects greyed / ghosted | `common/view/ghosted.svg` |
 | Hide outside objects / show none | `common/view/hidden.svg` |
 | Project settings | `common/files/project-settings.svg` |
+| Open the tabbed tool shelf | `common/interface/tool-shelf.svg` |
 | Press Pull | `3d/cad/press-pull.svg` |
 | Move/Copy | `graphics/transform/move-tool.svg` |
 

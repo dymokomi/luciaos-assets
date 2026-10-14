@@ -745,6 +745,25 @@
       "categoryId": "interface"
     },
     {
+      "id": "tool-shelf",
+      "name": "Tool shelf",
+      "domain": "common",
+      "category": "Interface",
+      "tags": [
+        "tools",
+        "shelf",
+        "palette",
+        "tabs",
+        "tiles",
+        "bottom dock",
+        "3d viewport",
+        "Alias",
+        "Cinema 4D"
+      ],
+      "file": "icons/common/interface/tool-shelf.svg",
+      "categoryId": "interface"
+    },
+    {
       "id": "brush-tool",
       "name": "Brush tool",
       "domain": "graphics",

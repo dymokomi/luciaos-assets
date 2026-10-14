@@ -244,6 +244,19 @@
 <path d="M9.226 5.302 L10.369 4.936 L10.437 3.137 L13.563 3.137 L13.631 4.936 L14.774 5.302 L15.842 5.852 L17.162 4.628 L19.372 6.838 L18.148 8.158 L18.698 9.226 L19.064 10.369 L20.863 10.437 L20.863 13.563 L19.064 13.631 L18.698 14.774 L18.148 15.842 L19.372 17.162 L17.162 19.372 L15.842 18.148 L14.774 18.698 L13.631 19.064 L13.563 20.863 L10.437 20.863 L10.369 19.064 L9.226 18.698 L8.158 18.148 L6.838 19.372 L4.628 17.162 L5.852 15.842 L5.302 14.774 L4.936 13.631 L3.137 13.563 L3.137 10.437 L4.936 10.369 L5.302 9.226 L5.852 8.158 L4.628 6.838 L6.838 4.628 L8.158 5.852Z"/>
   <circle cx="12" cy="12" r="3"/>
 </symbol>
+<symbol id="tool-shelf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M9.5 5.5H19a2 2 0 0 1 2 2v2H9.5Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <g fill="currentColor" fill-opacity=".45" stroke="none">
+    <rect x="5.5" y="11" width="3" height="3" rx=".4"/>
+    <rect x="10.5" y="11" width="3" height="3" rx=".4"/>
+    <rect x="15.5" y="11" width="3" height="3" rx=".4"/>
+    <rect x="5.5" y="15.5" width="3" height="3" rx=".4"/>
+    <rect x="10.5" y="15.5" width="3" height="3" rx=".4"/>
+    <rect x="15.5" y="15.5" width="3" height="3" rx=".4"/>
+  </g>
+  <rect x="3" y="5.5" width="18" height="15" rx="2"/>
+  <path d="M9.5 5.5v4H21M15.5 5.5v4"/>
+</symbol>
 <symbol id="brush-tool" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 <path d="M9 13 17.5 4.5q1.5-1.5 2.5-.5t-.5 2.5L12 15M9 13l3 2M8.5 13.5q-3-1-3.5 2.5-.4 2-2 3 5.5 2 8-2 .8-1.7-2.5-3.5Z"/>
 </symbol>
