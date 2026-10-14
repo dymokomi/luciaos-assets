@@ -5970,6 +5970,34 @@
         "Color",
         "swatch"
       ]
+    },
+    {
+      "id": "movie-camera",
+      "name": "Movie Camera",
+      "domain": "graphics",
+      "category": "Photography",
+      "tags": [
+        "film",
+        "cinema",
+        "motion picture",
+        "camera"
+      ],
+      "file": "icons/graphics/photography/movie-camera.svg",
+      "categoryId": "photography"
+    },
+    {
+      "id": "film-strip",
+      "name": "Film Strip",
+      "domain": "graphics",
+      "category": "Photography",
+      "tags": [
+        "film",
+        "photo",
+        "negative",
+        "frames"
+      ],
+      "file": "icons/graphics/photography/film-strip.svg",
+      "categoryId": "photography"
     }
   ],
   "collections": [

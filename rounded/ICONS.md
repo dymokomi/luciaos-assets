@@ -1,6 +1,6 @@
 # Rounded icon index
 
-403 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+405 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 59
 
@@ -66,7 +66,7 @@
 | Ghosted | [ghosted.svg](icons/common/view/ghosted.svg) | View & visibility |
 | Project settings | [project-settings.svg](icons/common/files/project-settings.svg) | Files & output |
 
-## Graphics — 46
+## Graphics — 48
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -116,6 +116,8 @@
 | Flip vertical | [flip-vertical.svg](icons/graphics/transform/flip-vertical.svg) | Transform |
 | Corner pin | [corner-pin.svg](icons/graphics/transform/corner-pin.svg) | Transform |
 | Text tool | [text-tool.svg](icons/graphics/typography/text-tool.svg) | Typography |
+| Movie Camera | [movie-camera.svg](icons/graphics/photography/movie-camera.svg) | Photography |
+| Film Strip | [film-strip.svg](icons/graphics/photography/film-strip.svg) | Photography |
 
 ## 3D — 255
 

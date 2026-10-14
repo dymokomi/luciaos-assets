@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="7144" viewBox="0 0 1600 7144" color="#272b33" font-family="Helvetica, Arial, sans-serif">
-<title>LuciaOS Rounded — all 403 icons on white</title>
+<title>LuciaOS Rounded — all 405 icons on white</title>
 <desc>Complete icon library, grouped by common controls, graphics, 3D, and code. Each icon is labelled by name and category.</desc>
 <rect width="1600" height="7144" fill="#ffffff"/>
 <text x="48" y="44" fill="#727b89" font-size="12" font-weight="600" text-anchor="start">LUCIAOS / ASSET LIBRARY</text>
 <text x="48" y="94" fill="#272b33" font-size="40" font-weight="600" text-anchor="start">Rounded icon library</text>
-<text x="48" y="127" fill="#727b89" font-size="15" font-weight="400" text-anchor="start">403 icons · 24 × 24 canvas · 2 px base stroke · CurrentColor · Shown at 48 px</text>
+<text x="48" y="127" fill="#727b89" font-size="15" font-weight="400" text-anchor="start">405 icons · 24 × 24 canvas · 2 px base stroke · CurrentColor · Shown at 48 px</text>
 <text x="1552" y="44" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">WHITE / COMPLETE SET</text>
 <text x="48" y="186" fill="#272b33" font-size="24" font-weight="600" text-anchor="start">Common</text>
 <text x="48" y="210" fill="#727b89" font-size="13" font-weight="400" text-anchor="start">Shared actions, files, layout, view, navigation, and playback controls.</text>
@@ -459,7 +459,7 @@
 <text x="515.0" y="1201" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Files &amp; output</text>
 <text x="48" y="1274" fill="#272b33" font-size="24" font-weight="600" text-anchor="start">Graphics</text>
 <text x="48" y="1298" fill="#727b89" font-size="13" font-weight="400" text-anchor="start">Painting, color, selections, paths, layers, and transforms.</text>
-<text x="1552" y="1274" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">46 ICONS</text>
+<text x="1552" y="1274" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">48 ICONS</text>
 <rect x="48" y="1320" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
 <svg data-icon-id="burn-tool" x="111.0" y="1333" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M8 13a3.5 3.5 0 1 1 4.5-4.5"/>
@@ -804,6 +804,20 @@
 
 <text x="1085.0" y="2023" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Text tool</text>
 <text x="1085.0" y="2041" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Typography</text>
+<rect x="1188" y="1940" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="movie-camera" x="1251.0" y="1953" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="6.5" cy="6.5" r="3"/><circle cx="13.5" cy="6.5" r="3"/><rect x="3" y="11" width="13" height="9" rx="2.5"/><path d="m16 14 5-3v9l-5-3Z"/>
+</svg>
+
+<text x="1275.0" y="2023" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Movie Camera</text>
+<text x="1275.0" y="2041" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Photography</text>
+<rect x="1378" y="1940" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="film-strip" x="1441.0" y="1953" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 3v18M16 3v18M4 8h4M4 12h4M4 16h4M16 8h4M16 12h4M16 16h4"/>
+</svg>
+
+<text x="1465.0" y="2023" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Film Strip</text>
+<text x="1465.0" y="2041" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Photography</text>
 <text x="48" y="2114" fill="#272b33" font-size="24" font-weight="600" text-anchor="start">3D</text>
 <text x="48" y="2138" fill="#727b89" font-size="13" font-weight="400" text-anchor="start">Mesh tools, CAD, surfaces, NURBS curves, sketches, selection, viewport modes, and nodes.</text>
 <text x="1552" y="2114" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">255 ICONS</text>
@@ -3741,6 +3755,6 @@
 <text x="1085.0" y="7023" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Drafts</text>
 <text x="1085.0" y="7041" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Messages</text>
 <path d="M48 7093h1504" stroke="#e2e6ec"/>
-<text x="48" y="7120" fill="#727b89" font-size="12" font-weight="400" text-anchor="start">All 403 icons · Editable SVG paths · Browse and search in rounded/catalog.html</text>
+<text x="48" y="7120" fill="#727b89" font-size="12" font-weight="400" text-anchor="start">All 405 icons · Editable SVG paths · Browse and search in rounded/catalog.html</text>
 <text x="1552" y="7120" fill="#727b89" font-size="12" font-weight="400" text-anchor="end">Dy Mokomi / CC BY 4.0</text>
 </svg>
