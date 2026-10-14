@@ -1,0 +1,14 @@
+circularize circle-3-point
+straighten set-curve-type
+space-evenly resample-curve
+make-planar flatten
+make-planar set-planar
+recalculate-normals surface-normal
+recalculate-normals reverse-normals
+hard-edges edge-select
+soft-edges solid-view
+hard-edges soft-edges
+smooth-by-angle select-sharp
+mark-seam select-loop
+seams-from-islands uv-project
+mark-seam seams-from-islands

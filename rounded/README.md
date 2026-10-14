@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-414 editable icons for shared controls, graphics, 3D, code and mail applications.
+424 editable icons for shared controls, graphics, 3D, code and mail applications.
 
 ## Organization
 
@@ -29,7 +29,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 60 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback, Tool shelf |
 | Graphics | 48 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 263 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 273 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 
@@ -40,8 +40,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 414 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 7268 canvas. The white sheet uses a pure white background.
+Both sheets contain all 424 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 7516 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 
@@ -432,6 +432,48 @@ cp /Users/sedov/Dev/luce_work/codex/stage6_after.png \
 The sheet pairs the new icons with Sphere, Cube, Curve Spiral, Pen Tool, Shrink
 Surface and Snap Surface. The before sheet marks all eight additions as absent
 at the baseline and retains the same unchanged neighbours.
+
+### Stage 7: mesh shape, normals and seams
+
+Ten new icons extend the existing categories:
+
+- `modeling/`: `circularize`, `straighten`, `space-evenly`, `make-planar`,
+  `recalculate-normals`, `hard-edges`, `soft-edges`, `smooth-by-angle`.
+- `shading/`: `mark-seam`, `seams-from-islands`.
+
+Circularize overlays a jagged ghost loop with a clean circle and picked points.
+Straighten presses a wavy ghost run onto a straight row of points; Space Evenly
+adds equal measurement intervals below its points. Make Planar retains two
+coplanar faces beneath the bent ghost, separating it from Flatten and Set Planar.
+Recalculate Normals combines two agreeing arrows with a ghost flipped arrow and
+a turning arc; this explicit normal illustration uses the extra-arrow exception.
+
+Hard Edges and Soft Edges share the selection cube and .2/.3/.45 values. The hard
+corner has a 3.25 px selected edge and flat face values; the soft corner replaces
+that edge with a continuous curved value boundary and a thin smooth isoline.
+Smooth by Angle separates a shaded patch from its angle arc and threshold tick.
+Mark Seam uses full-opacity 2.5 px stitch dashes; Seams from Islands converts an
+L-shaped UV boundary into the same seam dashes on a .6-scale selection cube.
+Fills are separate, non-overlapping regions beneath the contours. Existing icon
+artwork is unchanged.
+
+Reproduce the new-icon and neighbour review at native 16/24/48 px, light and
+dark, enabled and at 35% opacity. Individual 96 px renders are also generated:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref cbc31cb \
+  --names rounded/reviews/stage7-icons.txt \
+  --pairs rounded/reviews/stage7-pairs.txt \
+  --output-dir /tmp/lucia-stage7/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/stage7
+cp /Users/sedov/Dev/luce_work/codex/stage7_after.png \
+  /Users/sedov/Dev/luce_work/codex/stage7_sheet.png
+```
+
+The comparisons include the existing circle, curve, planar, normal, selection,
+shading and UV tools, plus the new hard/soft and seam pairs. Subject-only checks
+hide ghost, context and isoline strokes at 16 and 24 px in both themes and states.
+No requested icon was skipped or substituted.
 
 ## License
 

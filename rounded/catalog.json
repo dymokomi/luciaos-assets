@@ -6143,6 +6143,167 @@
       ],
       "file": "icons/graphics/photography/film-strip.svg",
       "categoryId": "photography"
+    },
+    {
+      "id": "circularize",
+      "name": "Circularize",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "shape",
+        "circularize",
+        "circular loop",
+        "circle",
+        "points",
+        "loop tools"
+      ],
+      "file": "icons/3d/modeling/circularize.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "straighten",
+      "name": "Straighten",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "shape",
+        "straighten",
+        "straight edge run",
+        "align vertices",
+        "points"
+      ],
+      "file": "icons/3d/modeling/straighten.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "space-evenly",
+      "name": "Space evenly",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "shape",
+        "space evenly",
+        "equal spacing",
+        "distribute vertices",
+        "points"
+      ],
+      "file": "icons/3d/modeling/space-evenly.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "make-planar",
+      "name": "Make planar",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "shape",
+        "make planar",
+        "coplanar faces",
+        "flatten faces",
+        "plane"
+      ],
+      "file": "icons/3d/modeling/make-planar.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "recalculate-normals",
+      "name": "Recalculate normals",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "normals",
+        "recalculate normals",
+        "consistent normals",
+        "reorient faces",
+        "flipped normal"
+      ],
+      "file": "icons/3d/modeling/recalculate-normals.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "hard-edges",
+      "name": "Hard edges",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "normals",
+        "hard edges",
+        "sharp edges",
+        "flat shading",
+        "split normals"
+      ],
+      "file": "icons/3d/modeling/hard-edges.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "soft-edges",
+      "name": "Soft edges",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "normals",
+        "soft edges",
+        "smooth edges",
+        "smooth shading",
+        "averaged normals"
+      ],
+      "file": "icons/3d/modeling/soft-edges.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "smooth-by-angle",
+      "name": "Smooth by angle",
+      "domain": "3d",
+      "category": "Modeling",
+      "tags": [
+        "mesh",
+        "normals",
+        "smooth by angle",
+        "smoothing angle",
+        "angle threshold",
+        "auto smooth"
+      ],
+      "file": "icons/3d/modeling/smooth-by-angle.svg",
+      "categoryId": "modeling"
+    },
+    {
+      "id": "mark-seam",
+      "name": "Mark seam",
+      "domain": "3d",
+      "category": "Shading",
+      "tags": [
+        "mesh",
+        "uv",
+        "mark seam",
+        "texture seam",
+        "stitch line",
+        "unwrap boundary"
+      ],
+      "file": "icons/3d/shading/mark-seam.svg",
+      "categoryId": "shading"
+    },
+    {
+      "id": "seams-from-islands",
+      "name": "Seams from islands",
+      "domain": "3d",
+      "category": "Shading",
+      "tags": [
+        "mesh",
+        "uv",
+        "seams from islands",
+        "uv islands",
+        "island boundary",
+        "unwrap seams"
+      ],
+      "file": "icons/3d/shading/seams-from-islands.svg",
+      "categoryId": "shading"
     }
   ],
   "collections": [

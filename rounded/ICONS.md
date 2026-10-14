@@ -1,6 +1,6 @@
 # Rounded icon index
 
-414 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+424 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 60
 
@@ -120,7 +120,7 @@
 | Movie Camera | [movie-camera.svg](icons/graphics/photography/movie-camera.svg) | Photography |
 | Film Strip | [film-strip.svg](icons/graphics/photography/film-strip.svg) | Photography |
 
-## 3D — 263
+## 3D — 273
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -387,6 +387,16 @@
 | GSplats Reduce | [gsplats-reduce.svg](icons/3d/nodes/gsplats-reduce.svg) | Nodes |
 | GSplats Opacity | [gsplats-opacity.svg](icons/3d/nodes/gsplats-opacity.svg) | Nodes |
 | GSplats Recolor | [gsplats-recolor.svg](icons/3d/nodes/gsplats-recolor.svg) | Nodes |
+| Circularize | [circularize.svg](icons/3d/modeling/circularize.svg) | Modeling |
+| Straighten | [straighten.svg](icons/3d/modeling/straighten.svg) | Modeling |
+| Space evenly | [space-evenly.svg](icons/3d/modeling/space-evenly.svg) | Modeling |
+| Make planar | [make-planar.svg](icons/3d/modeling/make-planar.svg) | Modeling |
+| Recalculate normals | [recalculate-normals.svg](icons/3d/modeling/recalculate-normals.svg) | Modeling |
+| Hard edges | [hard-edges.svg](icons/3d/modeling/hard-edges.svg) | Modeling |
+| Soft edges | [soft-edges.svg](icons/3d/modeling/soft-edges.svg) | Modeling |
+| Smooth by angle | [smooth-by-angle.svg](icons/3d/modeling/smooth-by-angle.svg) | Modeling |
+| Mark seam | [mark-seam.svg](icons/3d/shading/mark-seam.svg) | Shading |
+| Seams from islands | [seams-from-islands.svg](icons/3d/shading/seams-from-islands.svg) | Shading |
 
 ## Code — 29
 

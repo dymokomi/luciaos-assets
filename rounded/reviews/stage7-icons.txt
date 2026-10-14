@@ -1,0 +1,10 @@
+circularize
+straighten
+space-evenly
+make-planar
+recalculate-normals
+hard-edges
+soft-edges
+smooth-by-angle
+mark-seam
+seams-from-islands
