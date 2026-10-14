@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-424 editable icons for shared controls, graphics, 3D, code and mail applications.
+440 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
 
 ## Organization
 
@@ -14,6 +14,7 @@ rounded/
                  curves, sketch
     code/        files, editing, search, debugging, version-control, workspace
     mail/        messages
+    audio/       transport, tracks, instruments, mixing, editing
   previews/
     all-white.svg / all-white.png
     all-dark.svg  / all-dark.png
@@ -32,6 +33,7 @@ rounded/
 | 3D | 273 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
+| Audio | 16 | Record, Metronome, Mute, Solo, Piano keyboard, Mixer, Automation |
 
 ## Preview and browse
 
@@ -40,8 +42,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 424 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 7516 canvas. The white sheet uses a pure white background.
+Both sheets contain all 440 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 7860 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 
@@ -65,6 +67,36 @@ Timeline playback uses the separate `play` icon ID, paired with `play-backwards`
 
 Open shares its artwork with Open folder; Folder shares its artwork with
 Group. Each has its own stable ID for application-specific control labels.
+
+## Audio
+
+The 16 icons in `audio/` support **luced-music**, a DAW built on luce-ui:
+recording and loop regions, track controls, synthesis, mixing, MIDI notes and
+automation. Mute and Solo share a rounded M/S button frame. Track Add uses a
+track header; Lane Add uses a stepped parameter lane. Both keep their plus
+badge in the bottom-right 7 × 7 px, clear of the main drawing.
+
+Reuse `common/playback/` for Play, Stop, Pause, Repeat and the other existing
+transport actions, and `common/view/snap-to-grid.svg` for snapping. Record is
+the solid transport dot; Loop Region marks a timeline range with loop arrows.
+Envelope depicts ADSR, distinct from Automation Curve's curved segment and
+breakpoints. Every audio stem is unique across the library for luce-ui imports.
+
+Audio follows the Design section's four value tiers, with fills below strokes.
+Record, piano black keys and breakpoint dots use solid subject ink; supporting
+surfaces use .25 fill and subject faces .35. Essential contours stay solid when
+context lanes fade. Review the collection beside Play, Stop and Repeat in both
+themes, enabled and at 35% opacity:
+
+```sh
+python3 rounded/scripts/render_audio_sheet.py \
+  --output /Users/sedov/Dev/luce_work/codex/audio_sheet.png \
+  --render-dir /tmp/lucia-audio-review
+```
+
+The labelled sheet shows native 16/24/48 px icons. The render directory also
+contains individual 16/24/48/96 px PNGs and temporary themed SVG wrappers;
+source SVGs retain `currentColor` and transparent backgrounds.
 
 ## Editor control mapping
 
@@ -108,7 +140,7 @@ behind the triangle, while jumping to an endpoint puts it ahead of the triangle.
 - **Directional arrowheads:** the compact rounded chevron used by Restart,
   4 px across and 2 px deep on the 24 px canvas, rotated to follow the shaft.
 - **Color:** `currentColor`. New filled regions use soft fills (opacity .18–.45).
-  Existing selection dots and Stop indicators retain their solid fills.
+  Selection dots, Stop/Record indicators and piano black keys use solid fills.
 - **Source:** native SVG paths and shapes; no fonts or embedded raster images.
 - **Sizing:** 24 px is the preferred toolbar size. The operation and differences
   between related tools must also read at 16 px; reserve fine detail for context.

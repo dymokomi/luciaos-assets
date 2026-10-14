@@ -6304,6 +6304,298 @@
       ],
       "file": "icons/3d/shading/seams-from-islands.svg",
       "categoryId": "shading"
+    },
+    {
+      "id": "record",
+      "name": "Record",
+      "domain": "audio",
+      "category": "Transport",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "recording",
+        "transport",
+        "capture",
+        "record button"
+      ],
+      "file": "icons/audio/transport/record.svg",
+      "categoryId": "transport"
+    },
+    {
+      "id": "metronome",
+      "name": "Metronome",
+      "domain": "audio",
+      "category": "Transport",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "tempo",
+        "click track",
+        "beat",
+        "count in"
+      ],
+      "file": "icons/audio/transport/metronome.svg",
+      "categoryId": "transport"
+    },
+    {
+      "id": "loop-region",
+      "name": "Loop region",
+      "domain": "audio",
+      "category": "Transport",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "timeline",
+        "loop selection",
+        "cycle region",
+        "loop range"
+      ],
+      "file": "icons/audio/transport/loop-region.svg",
+      "categoryId": "transport"
+    },
+    {
+      "id": "mute",
+      "name": "Mute",
+      "domain": "audio",
+      "category": "Tracks",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "mute track",
+        "silence",
+        "m"
+      ],
+      "file": "icons/audio/tracks/mute.svg",
+      "categoryId": "tracks"
+    },
+    {
+      "id": "solo",
+      "name": "Solo",
+      "domain": "audio",
+      "category": "Tracks",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "solo track",
+        "isolate",
+        "s"
+      ],
+      "file": "icons/audio/tracks/solo.svg",
+      "categoryId": "tracks"
+    },
+    {
+      "id": "track-add",
+      "name": "Add track",
+      "domain": "audio",
+      "category": "Tracks",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "track add",
+        "new track",
+        "insert track",
+        "channel"
+      ],
+      "file": "icons/audio/tracks/track-add.svg",
+      "categoryId": "tracks"
+    },
+    {
+      "id": "lane-add",
+      "name": "Add lane",
+      "domain": "audio",
+      "category": "Tracks",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "lane add",
+        "new lane",
+        "automation lane",
+        "sub lane"
+      ],
+      "file": "icons/audio/tracks/lane-add.svg",
+      "categoryId": "tracks"
+    },
+    {
+      "id": "piano-keyboard",
+      "name": "Piano keyboard",
+      "domain": "audio",
+      "category": "Instruments",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "piano",
+        "keyboard",
+        "midi",
+        "keys"
+      ],
+      "file": "icons/audio/instruments/piano-keyboard.svg",
+      "categoryId": "instruments"
+    },
+    {
+      "id": "oscillator",
+      "name": "Oscillator",
+      "domain": "audio",
+      "category": "Instruments",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "synth",
+        "synthesis",
+        "sine wave",
+        "waveform",
+        "vco"
+      ],
+      "file": "icons/audio/instruments/oscillator.svg",
+      "categoryId": "instruments"
+    },
+    {
+      "id": "envelope",
+      "name": "Envelope",
+      "domain": "audio",
+      "category": "Instruments",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "adsr",
+        "attack",
+        "decay",
+        "sustain",
+        "release",
+        "amplitude envelope"
+      ],
+      "file": "icons/audio/instruments/envelope.svg",
+      "categoryId": "instruments"
+    },
+    {
+      "id": "instrument",
+      "name": "Instrument",
+      "domain": "audio",
+      "category": "Instruments",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "synthesizer",
+        "synth module",
+        "virtual instrument",
+        "midi"
+      ],
+      "file": "icons/audio/instruments/instrument.svg",
+      "categoryId": "instruments"
+    },
+    {
+      "id": "audio-output",
+      "name": "Audio output",
+      "domain": "audio",
+      "category": "Mixing",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "speaker",
+        "sound",
+        "volume",
+        "master output",
+        "monitor"
+      ],
+      "file": "icons/audio/mixing/audio-output.svg",
+      "categoryId": "mixing"
+    },
+    {
+      "id": "mixer",
+      "name": "Mixer",
+      "domain": "audio",
+      "category": "Mixing",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "fader",
+        "channel strip",
+        "mixing console",
+        "level"
+      ],
+      "file": "icons/audio/mixing/mixer.svg",
+      "categoryId": "mixing"
+    },
+    {
+      "id": "effect",
+      "name": "Effect",
+      "domain": "audio",
+      "category": "Mixing",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "fx",
+        "insert",
+        "audio effect",
+        "plugin",
+        "signal processing"
+      ],
+      "file": "icons/audio/mixing/effect.svg",
+      "categoryId": "mixing"
+    },
+    {
+      "id": "automation-curve",
+      "name": "Automation curve",
+      "domain": "audio",
+      "category": "Editing",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "automation",
+        "breakpoints",
+        "parameter lane",
+        "curve editor"
+      ],
+      "file": "icons/audio/editing/automation-curve.svg",
+      "categoryId": "editing"
+    },
+    {
+      "id": "note-lane",
+      "name": "Note lane",
+      "domain": "audio",
+      "category": "Editing",
+      "tags": [
+        "audio",
+        "music",
+        "daw",
+        "luced-music",
+        "piano roll",
+        "midi note",
+        "note bar",
+        "sequence",
+        "note editor"
+      ],
+      "file": "icons/audio/editing/note-lane.svg",
+      "categoryId": "editing"
     }
   ],
   "collections": [
@@ -6331,6 +6623,11 @@
       "id": "mail",
       "name": "Mail",
       "description": "Messaging: compose, reply, file and flag mail."
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "description": "Recording, tracks, instruments, mixing, and MIDI / automation editing for luced-music."
     }
   ]
 }

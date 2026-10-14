@@ -1,6 +1,6 @@
 # Rounded icon index
 
-424 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+440 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 60
 
@@ -450,4 +450,25 @@
 | Attachment | [attachment.svg](icons/mail/messages/attachment.svg) | Messages |
 | Compose | [compose.svg](icons/mail/messages/compose.svg) | Messages |
 | Drafts | [drafts.svg](icons/mail/messages/drafts.svg) | Messages |
+
+## Audio — 16
+
+| Icon | SVG file | Theme |
+| --- | --- | --- |
+| Record | [record.svg](icons/audio/transport/record.svg) | Transport |
+| Metronome | [metronome.svg](icons/audio/transport/metronome.svg) | Transport |
+| Loop region | [loop-region.svg](icons/audio/transport/loop-region.svg) | Transport |
+| Mute | [mute.svg](icons/audio/tracks/mute.svg) | Tracks |
+| Solo | [solo.svg](icons/audio/tracks/solo.svg) | Tracks |
+| Add track | [track-add.svg](icons/audio/tracks/track-add.svg) | Tracks |
+| Add lane | [lane-add.svg](icons/audio/tracks/lane-add.svg) | Tracks |
+| Piano keyboard | [piano-keyboard.svg](icons/audio/instruments/piano-keyboard.svg) | Instruments |
+| Oscillator | [oscillator.svg](icons/audio/instruments/oscillator.svg) | Instruments |
+| Envelope | [envelope.svg](icons/audio/instruments/envelope.svg) | Instruments |
+| Instrument | [instrument.svg](icons/audio/instruments/instrument.svg) | Instruments |
+| Audio output | [audio-output.svg](icons/audio/mixing/audio-output.svg) | Mixing |
+| Mixer | [mixer.svg](icons/audio/mixing/mixer.svg) | Mixing |
+| Effect | [effect.svg](icons/audio/mixing/effect.svg) | Mixing |
+| Automation curve | [automation-curve.svg](icons/audio/editing/automation-curve.svg) | Editing |
+| Note lane | [note-lane.svg](icons/audio/editing/note-lane.svg) | Editing |
 

@@ -41,7 +41,7 @@ def complete_sheet(data, sources, dark=False):
     total = len(data['icons'])
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" viewBox="0 0 {WIDTH} {height}" color="{ink}" font-family="Helvetica, Arial, sans-serif">',
              f'<title>LuciaOS Rounded — all {total} icons on {theme.lower()}</title>',
-             '<desc>Complete icon library, grouped by common controls, graphics, 3D, and code. Each icon is labelled by name and category.</desc>',
+             '<desc>Complete icon library, grouped by collection. Each icon is labelled by name and category.</desc>',
              f'<rect width="{WIDTH}" height="{height}" fill="{bg}"/>',
              text(MARGIN, 44, 'LUCIAOS / ASSET LIBRARY', 12, muted, 600),
              text(MARGIN, 94, 'Rounded icon library', 40, ink, 600),
