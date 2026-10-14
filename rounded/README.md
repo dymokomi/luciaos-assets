@@ -524,19 +524,27 @@ Nine new icons extend the existing categories:
 - `sculpting/`: `soft-transform`, `corrective-smooth`.
 
 Bend curves a shaded bar around an axis, with its straight position ghosted;
-the same icon covers Bend, Twist, Taper and Squash. Lattice uses three rows and
-three columns of cage points, with the middle-right point pulled outward and
-the enclosed mesh following it. Mesh Check pairs a shaded wireframe with a
-check confined to the bottom-right 7 × 7 px, clear of the body.
+the same icon covers Bend, Twist, Taper and Squash. Lattice uses a front-facing
+3 × 3 cage with 4 × 4 control dots. One interior point is pulled toward the
+upper-right, bending its row and column and the shaded blob inside the cage.
+Mesh Check pairs a shaded wireframe with a check confined to the bottom-right
+7 × 7 px, clear of the body.
 
 The selectors retain the selection family's dashed mesh context and solid
-subjects: a six-edge pole, a collapsed triangular sliver and the 3 px crossing
-line of two faces. Both intersecting faces continue beyond the crossing line;
+subjects: a radius-3 pole with six evenly spaced 2 px spokes, a collapsed quad
+sliver between two normal quads, and the 3 px crossing line of two faces.
+Both intersecting faces continue beyond the crossing line;
 their translucent overlap conveys intersection. Soft Transform lifts a point
 and its neighbours above a projected falloff circle. Corrective Smooth keeps a
 curved patch's boundary shape while relaxing the ghosted folds. Edge Transport
-follows connected edges from a source dot through successive vertices to an
-arrowhead. Fills remain below all strokes, and essential contours stay solid.
+follows four connected edges along a mesh border, with progressively smaller
+vertex dots and adjacent face fills stepping down through .45, .35, .3 and .2.
+The cage boundary stays rectangular; neither Lattice nor Edge Transport uses
+an arrow. Fills remain below all strokes, and essential contours stay solid.
+
+The refinement of `f95aa7b` changes only Lattice, Select Poles, Select Degenerate
+and Edge Transport. The contact sheet below retains all nine Stage 8 icons and
+the same neighbours, using the original Stage 8 baseline.
 
 Reproduce the native 16/24/48 px contact sheet in both themes at 100% and 35%
 opacity, alongside Shrinkwrap, Sculpt Tool and Select Non-manifold:

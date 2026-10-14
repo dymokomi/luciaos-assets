@@ -6627,7 +6627,8 @@
         "lattice",
         "deformer",
         "control cage",
-        "3x3 control points",
+        "3x3 control cage",
+        "4x4 control points",
         "free form deformation",
         "mesh",
         "luced-3d"
@@ -6662,6 +6663,7 @@
         "vertex valence",
         "five or more edges",
         "high valence vertex",
+        "six spokes",
         "mesh selection",
         "luced-3d"
       ]
@@ -6678,6 +6680,8 @@
         "degenerate faces",
         "zero area",
         "collapsed sliver",
+        "collapsed quad",
+        "quad strip",
         "mesh selection",
         "luced-3d"
       ]
@@ -6745,6 +6749,8 @@
         "edge traversal",
         "hop by hop",
         "source vertex",
+        "mesh border",
+        "decreasing values",
         "mesh attribute",
         "luced-3d"
       ]
