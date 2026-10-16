@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="7984" viewBox="0 0 1600 7984" color="#272b33" font-family="Helvetica, Arial, sans-serif">
-<title>LuciaOS Rounded — all 449 icons on white</title>
+<title>LuciaOS Rounded — all 454 icons on white</title>
 <desc>Complete icon library, grouped by collection. Each icon is labelled by name and category.</desc>
 <rect width="1600" height="7984" fill="#ffffff"/>
 <text x="48" y="44" fill="#727b89" font-size="12" font-weight="600" text-anchor="start">LUCIAOS / ASSET LIBRARY</text>
 <text x="48" y="94" fill="#272b33" font-size="40" font-weight="600" text-anchor="start">Rounded icon library</text>
-<text x="48" y="127" fill="#727b89" font-size="15" font-weight="400" text-anchor="start">449 icons · 24 × 24 canvas · 2 px base stroke · CurrentColor · Shown at 48 px</text>
+<text x="48" y="127" fill="#727b89" font-size="15" font-weight="400" text-anchor="start">454 icons · 24 × 24 canvas · 2 px base stroke · CurrentColor · Shown at 48 px</text>
 <text x="1552" y="44" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">WHITE / COMPLETE SET</text>
 <text x="48" y="186" fill="#272b33" font-size="24" font-weight="600" text-anchor="start">Common</text>
 <text x="48" y="210" fill="#727b89" font-size="13" font-weight="400" text-anchor="start">Shared actions, files, layout, view, navigation, and playback controls.</text>
@@ -837,7 +837,7 @@
 <text x="1465.0" y="2041" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Photography</text>
 <text x="48" y="2114" fill="#272b33" font-size="24" font-weight="600" text-anchor="start">3D</text>
 <text x="48" y="2138" fill="#727b89" font-size="13" font-weight="400" text-anchor="start">Mesh tools, CAD, surfaces, NURBS curves, sketches, selection, viewport modes, and nodes.</text>
-<text x="1552" y="2114" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">282 ICONS</text>
+<text x="1552" y="2114" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">287 ICONS</text>
 <rect x="48" y="2160" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
 <svg data-icon-id="triangulate" x="111.0" y="2173" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M4 4h16v16Z" fill="currentColor" fill-opacity="0.2" stroke="none"/>
@@ -3786,6 +3786,71 @@
 
 <text x="325.0" y="6583" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Edge transport</text>
 <text x="325.0" y="6601" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="428" y="6500" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="bisect" x="491.0" y="6513" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M12 3.5 20 8v8l-8 4.5L4 16V8Z" stroke-width="1.5"/>
+  <path d="M4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 13.5 17 6.5l4 4.5-14 7Z" stroke-width="1.5"/>
+  <path d="M4 13.5 12 15.5 20 10.5" stroke-width="2"/>
+</svg>
+
+<text x="515.0" y="6583" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Bisect</text>
+<text x="515.0" y="6601" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="618" y="6500" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="screw" x="681.0" y="6513" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M5 17C5 20.5 19 17 19 13.5 19 10 5 13.5 5 10 5 13.5 19 10 19 6.5 19 3 8 5 6 3.5V6C8 7.5 19 5.5 19 9 19 12.5 5 16 5 12.5 5 16 19 12.5 19 16 19 19.5 5 23 5 19.5Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M19 13.5C19 10 5 13.5 5 10M19 6.5C19 3 8 5 6 3.5" stroke-width="1.25" opacity=".6"/>
+  <path d="M5 17C5 20.5 19 17 19 13.5M5 10C5 13.5 19 10 19 6.5"/>
+  <path d="M5 17q-1 1.25 0 2.5"/>
+</svg>
+
+<text x="705.0" y="6583" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Screw</text>
+<text x="705.0" y="6601" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="808" y="6500" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="symmetrize" x="871.0" y="6513" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 9H6l-3 4 6 2Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M3 13l2 6 4 1v-5Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M15 9h3l3 4-2 6-4 1Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M9 9H6l-3 4 2 6 4 1Z"/>
+  <path d="M3 13l6 2" stroke-width="1.5"/>
+  <path d="M15 9h3l3 4-2 6-4 1ZM21 13l-6 2" stroke-width="1.5" opacity=".6"/>
+  <path d="M10 5h4m-2-2 2 2-2 2"/>
+</svg>
+
+<text x="895.0" y="6583" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Symmetrize</text>
+<text x="895.0" y="6601" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="998" y="6500" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="tris-to-quads" x="1061.0" y="6513" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 10h7v10Z" fill="currentColor" fill-opacity=".2" stroke="none" opacity=".6"/>
+  <path d="M3 10l7 10H3Z" fill="currentColor" fill-opacity=".45" stroke="none" opacity=".6"/>
+  <path d="M14 10h7v10h-7Z" fill="currentColor" fill-opacity=".35" stroke="none"/>
+  <path d="M3 10h7v10H3ZM3 10l7 10" opacity=".6"/>
+  <path d="M14 10h7v10h-7Z"/>
+  <path d="M10 5h4m-2-2 2 2-2 2"/>
+</svg>
+
+<text x="1085.0" y="6583" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Tris to quads</text>
+<text x="1085.0" y="6601" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
+<rect x="1188" y="6500" width="174" height="112" rx="10" fill="#ffffff" stroke="#e2e6ec"/>
+<svg data-icon-id="decimate" x="1251.0" y="6513" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3 10h7l-3.5 5ZM3 15l3.5 0L3 20ZM6.5 15H10v5Z" fill="currentColor" fill-opacity=".2" stroke="none" opacity=".6"/>
+  <path d="M3 10l3.5 5H3ZM10 10v5H6.5ZM3 20l3.5-5 3.5 5Z" fill="currentColor" fill-opacity=".45" stroke="none" opacity=".6"/>
+  <path d="M14 10h7v10Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M14 10l7 10h-7Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M3 10h7v10H3Z" opacity=".6"/>
+  <path d="M3 10l7 10M10 10 3 20M3 15h7" stroke-width="1.25" opacity=".6"/>
+  <path d="M14 10h7v10h-7Z"/>
+  <path d="M14 10l7 10"/>
+  <path d="M10 5h4m-2-2 2 2-2 2"/>
+</svg>
+
+<text x="1275.0" y="6583" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Decimate</text>
+<text x="1275.0" y="6601" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <text x="48" y="6674" fill="#272b33" font-size="24" font-weight="600" text-anchor="start">Code</text>
 <text x="48" y="6698" fill="#727b89" font-size="13" font-weight="400" text-anchor="start">Editing, search, debugging, version control, and workspace tools.</text>
 <text x="1552" y="6674" fill="#727b89" font-size="12" font-weight="600" text-anchor="end">29 ICONS</text>
@@ -4272,6 +4337,6 @@
 <text x="1465.0" y="7863" fill="#272b33" font-size="11.5" font-weight="500" text-anchor="middle">Note lane</text>
 <text x="1465.0" y="7881" fill="#727b89" font-size="10" font-weight="400" text-anchor="middle">Editing</text>
 <path d="M48 7933h1504" stroke="#e2e6ec"/>
-<text x="48" y="7960" fill="#727b89" font-size="12" font-weight="400" text-anchor="start">All 449 icons · Editable SVG paths · Browse and search in rounded/catalog.html</text>
+<text x="48" y="7960" fill="#727b89" font-size="12" font-weight="400" text-anchor="start">All 454 icons · Editable SVG paths · Browse and search in rounded/catalog.html</text>
 <text x="1552" y="7960" fill="#727b89" font-size="12" font-weight="400" text-anchor="end">Dy Mokomi / CC BY 4.0</text>
 </svg>

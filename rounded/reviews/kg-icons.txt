@@ -1,0 +1,5 @@
+bisect
+screw
+symmetrize
+tris-to-quads
+decimate

@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-449 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
+454 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
 
 ## Organization
 
@@ -30,7 +30,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 60 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback, Tool shelf |
 | Graphics | 48 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 282 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 287 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 | Audio | 16 | Record, Metronome, Mute, Solo, Piano keyboard, Mixer, Automation |
@@ -42,7 +42,7 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 449 icons once, grouped by collection. Icons are shown
+Both sheets contain all 454 icons once, grouped by collection. Icons are shown
 at 48 px on a 1600 × 7984 canvas. The white sheet uses a pure white background.
 
 ## Application controls
@@ -563,6 +563,34 @@ cp /Users/sedov/Dev/luce_work/codex/stage8_after.png \
 The render directory also contains individual 96 px images. Review includes
 subject-only renders with context, ghosts and isolines hidden. All nine stems
 are new and unique; no earlier icon artwork changes or substitutions are needed.
+
+### Kinogaki Studio mesh tools
+
+Five new `3d/modeling/` icons complete the mesh tool set: `bisect`, `screw`,
+`symmetrize`, `tris-to-quads` and `decimate`. Bisect pairs the selection-cube
+silhouette with a thin tilted cutting sheet and a solid surface intersection.
+Screw carries a shaded helical ridge upward around a vertical axis. Symmetrize
+uses matching mesh halves, a lighter reflection and an arrow across the dashed
+mirror plane. The topology conversions share a before/after layout with an
+arrow between their upper corners: two triangles become one quad, or six
+triangles become two while retaining the patch silhouette.
+
+Reproduce the contact sheet with Spin, Triangulate, Subdivide and Offset Edge
+Loops at native 16/24/48 px in both themes, enabled and at 35% opacity:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref 2a67c6f \
+  --names rounded/reviews/kg-icons.txt \
+  --pairs rounded/reviews/kg-pairs.txt \
+  --output-dir /tmp/lucia-kg/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/kg_icons
+cp /Users/sedov/Dev/luce_work/codex/kg_icons_after.png \
+  /Users/sedov/Dev/luce_work/codex/kg_icons_sheet.png
+```
+
+Individual 96 px renders are also included in the render directory. Review
+includes the essential contours with context strokes hidden. All five stems
+are unique; the existing neighbour artwork is unchanged.
 
 ## License
 

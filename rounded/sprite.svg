@@ -2447,4 +2447,49 @@
     <circle cx="19.75" cy="13.5" r="1.25"/>
   </g>
 </symbol>
+<symbol id="bisect" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 3.5 20 8l-8 4.5L4 8Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M4 8l8 4.5v8L4 16Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M12 12.5 20 8v8l-8 4.5Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M12 3.5 20 8v8l-8 4.5L4 16V8Z" stroke-width="1.5"/>
+  <path d="M4 8l8 4.5L20 8M12 12.5v8" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M3 13.5 17 6.5l4 4.5-14 7Z" stroke-width="1.5"/>
+  <path d="M4 13.5 12 15.5 20 10.5" stroke-width="2"/>
+</symbol>
+<symbol id="screw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 17C5 20.5 19 17 19 13.5 19 10 5 13.5 5 10 5 13.5 19 10 19 6.5 19 3 8 5 6 3.5V6C8 7.5 19 5.5 19 9 19 12.5 5 16 5 12.5 5 16 19 12.5 19 16 19 19.5 5 23 5 19.5Z" fill="currentColor" fill-opacity=".25" stroke="none"/>
+  <path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M19 13.5C19 10 5 13.5 5 10M19 6.5C19 3 8 5 6 3.5" stroke-width="1.25" opacity=".6"/>
+  <path d="M5 17C5 20.5 19 17 19 13.5M5 10C5 13.5 19 10 19 6.5"/>
+  <path d="M5 17q-1 1.25 0 2.5"/>
+</symbol>
+<symbol id="symmetrize" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M9 9H6l-3 4 6 2Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M3 13l2 6 4 1v-5Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M15 9h3l3 4-2 6-4 1Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M12 3v18" stroke-width="1.25" stroke-dasharray="1.6 2.2" opacity=".75"/>
+  <path d="M9 9H6l-3 4 2 6 4 1Z"/>
+  <path d="M3 13l6 2" stroke-width="1.5"/>
+  <path d="M15 9h3l3 4-2 6-4 1ZM21 13l-6 2" stroke-width="1.5" opacity=".6"/>
+  <path d="M10 5h4m-2-2 2 2-2 2"/>
+</symbol>
+<symbol id="tris-to-quads" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 10h7v10Z" fill="currentColor" fill-opacity=".2" stroke="none" opacity=".6"/>
+  <path d="M3 10l7 10H3Z" fill="currentColor" fill-opacity=".45" stroke="none" opacity=".6"/>
+  <path d="M14 10h7v10h-7Z" fill="currentColor" fill-opacity=".35" stroke="none"/>
+  <path d="M3 10h7v10H3ZM3 10l7 10" opacity=".6"/>
+  <path d="M14 10h7v10h-7Z"/>
+  <path d="M10 5h4m-2-2 2 2-2 2"/>
+</symbol>
+<symbol id="decimate" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M3 10h7l-3.5 5ZM3 15l3.5 0L3 20ZM6.5 15H10v5Z" fill="currentColor" fill-opacity=".2" stroke="none" opacity=".6"/>
+  <path d="M3 10l3.5 5H3ZM10 10v5H6.5ZM3 20l3.5-5 3.5 5Z" fill="currentColor" fill-opacity=".45" stroke="none" opacity=".6"/>
+  <path d="M14 10h7v10Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M14 10l7 10h-7Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M3 10h7v10H3Z" opacity=".6"/>
+  <path d="M3 10l7 10M10 10 3 20M3 15h7" stroke-width="1.25" opacity=".6"/>
+  <path d="M14 10h7v10h-7Z"/>
+  <path d="M14 10l7 10"/>
+  <path d="M10 5h4m-2-2 2 2-2 2"/>
+</symbol>
 </svg>

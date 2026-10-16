@@ -6754,6 +6754,99 @@
         "mesh attribute",
         "luced-3d"
       ]
+    },
+    {
+      "id": "bisect",
+      "name": "Bisect",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/bisect.svg",
+      "tags": [
+        "bisect",
+        "mesh bisect",
+        "cutting plane",
+        "plane cut",
+        "section",
+        "cut mesh",
+        "mesh",
+        "modeling",
+        "Kinogaki Studio"
+      ]
+    },
+    {
+      "id": "screw",
+      "name": "Screw",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/screw.svg",
+      "tags": [
+        "screw",
+        "mesh screw",
+        "helical sweep",
+        "helix",
+        "rising profile",
+        "vertical axis",
+        "mesh",
+        "modeling",
+        "Kinogaki Studio"
+      ]
+    },
+    {
+      "id": "symmetrize",
+      "name": "Symmetrize",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/symmetrize.svg",
+      "tags": [
+        "symmetrize",
+        "mesh symmetry",
+        "mirror plane",
+        "mirrored half",
+        "copy symmetry",
+        "mesh",
+        "modeling",
+        "Kinogaki Studio"
+      ]
+    },
+    {
+      "id": "tris-to-quads",
+      "name": "Tris to quads",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/tris-to-quads.svg",
+      "tags": [
+        "tris to quads",
+        "triangles to quads",
+        "triangle pairs",
+        "dissolve diagonal",
+        "topology conversion",
+        "mesh",
+        "modeling",
+        "Kinogaki Studio"
+      ]
+    },
+    {
+      "id": "decimate",
+      "name": "Decimate",
+      "domain": "3d",
+      "category": "Modeling",
+      "categoryId": "modeling",
+      "file": "icons/3d/modeling/decimate.svg",
+      "tags": [
+        "decimate",
+        "mesh decimation",
+        "reduce mesh",
+        "polygon reduction",
+        "simplify topology",
+        "triangle count",
+        "mesh",
+        "modeling",
+        "Kinogaki Studio"
+      ]
     }
   ],
   "collections": [

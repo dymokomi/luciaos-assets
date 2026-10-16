@@ -1,6 +1,6 @@
 # Rounded icon index
 
-449 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+454 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 60
 
@@ -120,7 +120,7 @@
 | Movie Camera | [movie-camera.svg](icons/graphics/photography/movie-camera.svg) | Photography |
 | Film Strip | [film-strip.svg](icons/graphics/photography/film-strip.svg) | Photography |
 
-## 3D — 282
+## 3D — 287
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -406,6 +406,11 @@
 | Soft transform | [soft-transform.svg](icons/3d/sculpting/soft-transform.svg) | Sculpting |
 | Corrective smooth | [corrective-smooth.svg](icons/3d/sculpting/corrective-smooth.svg) | Sculpting |
 | Edge transport | [edge-transport.svg](icons/3d/modeling/edge-transport.svg) | Modeling |
+| Bisect | [bisect.svg](icons/3d/modeling/bisect.svg) | Modeling |
+| Screw | [screw.svg](icons/3d/modeling/screw.svg) | Modeling |
+| Symmetrize | [symmetrize.svg](icons/3d/modeling/symmetrize.svg) | Modeling |
+| Tris to quads | [tris-to-quads.svg](icons/3d/modeling/tris-to-quads.svg) | Modeling |
+| Decimate | [decimate.svg](icons/3d/modeling/decimate.svg) | Modeling |
 
 ## Code — 29
 
