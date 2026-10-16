@@ -1376,6 +1376,23 @@
       "categoryId": "primitives"
     },
     {
+      "id": "pipe",
+      "name": "Pipe",
+      "domain": "3d",
+      "category": "Primitives",
+      "tags": [
+        "pipe",
+        "hollow tube",
+        "hollow cylinder",
+        "wall thickness",
+        "open top",
+        "primitive",
+        "Kinogaki Studio"
+      ],
+      "file": "icons/3d/primitives/pipe.svg",
+      "categoryId": "primitives"
+    },
+    {
       "id": "cone",
       "name": "Cone",
       "domain": "3d",

@@ -1,6 +1,6 @@
 # Rounded icon index
 
-454 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+455 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 60
 
@@ -120,7 +120,7 @@
 | Movie Camera | [movie-camera.svg](icons/graphics/photography/movie-camera.svg) | Photography |
 | Film Strip | [film-strip.svg](icons/graphics/photography/film-strip.svg) | Photography |
 
-## 3D — 287
+## 3D — 288
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -141,6 +141,7 @@
 | Icosphere | [icosphere.svg](icons/3d/primitives/icosphere.svg) | Primitives |
 | Quad sphere | [quad-sphere.svg](icons/3d/primitives/quad-sphere.svg) | Primitives |
 | Cylinder | [cylinder.svg](icons/3d/primitives/cylinder.svg) | Primitives |
+| Pipe | [pipe.svg](icons/3d/primitives/pipe.svg) | Primitives |
 | Cone | [cone.svg](icons/3d/primitives/cone.svg) | Primitives |
 | Torus | [torus.svg](icons/3d/primitives/torus.svg) | Primitives |
 | Plane | [plane.svg](icons/3d/primitives/plane.svg) | Primitives |

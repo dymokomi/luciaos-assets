@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-454 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
+455 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
 
 ## Organization
 
@@ -30,7 +30,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 60 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback, Tool shelf |
 | Graphics | 48 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 287 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 288 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 | Audio | 16 | Record, Metronome, Mute, Solo, Piano keyboard, Mixer, Automation |
@@ -42,7 +42,7 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 454 icons once, grouped by collection. Icons are shown
+Both sheets contain all 455 icons once, grouped by collection. Icons are shown
 at 48 px on a 1600 × 7984 canvas. The white sheet uses a pure white background.
 
 ## Application controls
@@ -597,6 +597,32 @@ cp /Users/sedov/Dev/luce_work/codex/kg_icons_after.png \
 Individual 96 px renders are also included in the render directory. Review
 includes the essential contours with context strokes hidden. All five stems
 are unique; the existing neighbour artwork is unchanged.
+
+### Kinogaki Studio Pipe primitive
+
+`3d/primitives/pipe.svg` adds a short hollow cylinder with a broad annular rim
+and a visible inner wall. The lit rim uses .2 fill, the inner wall .3, and the
+outer body the Cylinder family's .45/.3 shading. The opening stays transparent
+below the inner wall. Non-overlapping fills sit beneath full-opacity contours:
+2 px for the silhouette and outer rim, 1.5 px for the inner ellipse.
+The broad opening and short body distinguish Pipe from Cylinder at 16 px.
+
+Reproduce the contact sheet beside Cylinder, Torus and Cone at native 16/24/48 px
+in both themes, enabled and at 35% opacity:
+
+```sh
+python3 rounded/scripts/review_changes.py --before-ref 16a173e \
+  --names rounded/reviews/kg-pipe-icons.txt \
+  --pairs rounded/reviews/kg-pipe-pairs.txt \
+  --output-dir /tmp/lucia-kg-pipe/renders \
+  --sheet-prefix /Users/sedov/Dev/luce_work/codex/kg_pipe
+cp /Users/sedov/Dev/luce_work/codex/kg_pipe_after.png \
+  /Users/sedov/Dev/luce_work/codex/kg_pipe_sheet.png
+```
+
+Individual 96 px renders are also included. Pipe uses no context or ghost lines;
+all contours survive the subject-only check. Its stem is unique across the
+library. The existing primitive artwork is unchanged.
 
 ## License
 
