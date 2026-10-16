@@ -3826,27 +3826,21 @@
 <text x="895.0" y="6601" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="998" y="6500" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="tris-to-quads" x="1061.0" y="6513" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 10h7v10Z" fill="currentColor" fill-opacity=".2" stroke="none" opacity=".6"/>
-  <path d="M3 10l7 10H3Z" fill="currentColor" fill-opacity=".45" stroke="none" opacity=".6"/>
-  <path d="M14 10h7v10h-7Z" fill="currentColor" fill-opacity=".35" stroke="none"/>
-  <path d="M3 10h7v10H3ZM3 10l7 10" opacity=".6"/>
-  <path d="M14 10h7v10h-7Z"/>
-  <path d="M10 5h4m-2-2 2 2-2 2"/>
+  <path d="M3 11h7v7Z" fill="currentColor" fill-opacity=".3" stroke="none"/>
+  <path d="M3 11l7 7H3Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
+  <path d="M14 11h7v7h-7Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M3 11h7v7H3ZM3 11l7 7"/>
+  <path d="M14 11h7v7h-7Z"/>
+  <path d="M10 6h4m-2-2 2 2-2 2"/>
 </svg>
 
 <text x="1085.0" y="6583" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Tris to quads</text>
 <text x="1085.0" y="6601" fill="#a2abb9" font-size="10" font-weight="400" text-anchor="middle">Modeling</text>
 <rect x="1188" y="6500" width="174" height="112" rx="10" fill="#1b1f26" stroke="#353c47"/>
 <svg data-icon-id="decimate" x="1251.0" y="6513" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M3 10h7l-3.5 5ZM3 15l3.5 0L3 20ZM6.5 15H10v5Z" fill="currentColor" fill-opacity=".2" stroke="none" opacity=".6"/>
-  <path d="M3 10l3.5 5H3ZM10 10v5H6.5ZM3 20l3.5-5 3.5 5Z" fill="currentColor" fill-opacity=".45" stroke="none" opacity=".6"/>
-  <path d="M14 10h7v10Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
-  <path d="M14 10l7 10h-7Z" fill="currentColor" fill-opacity=".45" stroke="none"/>
-  <path d="M3 10h7v10H3Z" opacity=".6"/>
-  <path d="M3 10l7 10M10 10 3 20M3 15h7" stroke-width="1.25" opacity=".6"/>
-  <path d="M14 10h7v10h-7Z"/>
-  <path d="M14 10l7 10"/>
-  <path d="M10 5h4m-2-2 2 2-2 2"/>
+  <path d="M3 5h18v14H3Z" fill="currentColor" fill-opacity=".2" stroke="none"/>
+  <path d="M7.5 5v14M12 5v14M3 12h9M3 5l9 14M7.5 5 12 12M3 12l4.5 7M21 5l-9 7 9 7" stroke-width="1.5"/>
+  <path d="M3 5h18v14H3Z"/>
 </svg>
 
 <text x="1275.0" y="6583" fill="#eef1f6" font-size="11.5" font-weight="500" text-anchor="middle">Decimate</text>

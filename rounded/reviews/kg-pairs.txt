@@ -1,4 +1,5 @@
 screw spin
+tris-to-quads decimate
 tris-to-quads triangulate
 decimate subdivide
 bisect offset-edge-loops

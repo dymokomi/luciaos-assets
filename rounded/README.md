@@ -571,9 +571,15 @@ Five new `3d/modeling/` icons complete the mesh tool set: `bisect`, `screw`,
 silhouette with a thin tilted cutting sheet and a solid surface intersection.
 Screw carries a shaded helical ridge upward around a vertical axis. Symmetrize
 uses matching mesh halves, a lighter reflection and an arrow across the dashed
-mirror plane. The topology conversions share a before/after layout with an
-arrow between their upper corners: two triangles become one quad, or six
-triangles become two while retaining the patch silhouette.
+mirror plane. Tris to Quads uses two equal 7 × 7 squares: a bold diagonal splits
+the left into two triangles, and the lighter right square is a clean quad, with
+an arrow between their upper corners. Decimate uses one continuous rectangular
+patch, with eight small triangles on the left and three large triangles on the
+right; its unchanged outline has no arrow or badge.
+
+The refinement of `502d196` changes only Tris to Quads and Decimate. The review
+retains all five icons and their original neighbours, with a direct comparison
+of the two revised tools added for 16 px readability.
 
 Reproduce the contact sheet with Spin, Triangulate, Subdivide and Offset Edge
 Loops at native 16/24/48 px in both themes, enabled and at 35% opacity:
