@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-455 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
+461 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
 
 ## Organization
 
@@ -30,7 +30,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 60 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback, Tool shelf |
 | Graphics | 48 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 288 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 294 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 | Audio | 16 | Record, Metronome, Mute, Solo, Piano keyboard, Mixer, Automation |
@@ -42,8 +42,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 455 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 7984 canvas. The white sheet uses a pure white background.
+Both sheets contain all 461 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 8108 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 
@@ -623,6 +623,34 @@ cp /Users/sedov/Dev/luce_work/codex/kg_pipe_after.png \
 Individual 96 px renders are also included. Pipe uses no context or ghost lines;
 all contours survive the subject-only check. Its stem is unique across the
 library. The existing primitive artwork is unchanged.
+
+### Kinogaki Studio group nodes
+
+Six `3d/selection/` icons depict named sets of mesh components:
+`group-create`, `group-expression`, `group-combine`, `group-promote`,
+`group-delete` and `group-rename`. Their shared motif is a small face patch
+with selected faces at .45, supporting faces at .25, and an attached label.
+Full-opacity contours preserve the patch and label when context lines fade.
+
+Create adds a plus; Expression uses a funnel without letters. Combine overlaps
+two tagged patches, with translucent overlap carrying the union. Promote moves
+from selected points on the left to a tagged face patch on the right through
+one compact arrow. Delete puts a minus on the label; Rename puts a pencil on it.
+The existing selection artwork is unchanged, and all six stems are unique.
+
+Reproduce the contact sheet beside Select Grow, Select Convert and Face Select
+at native 16/24/48 px in both themes, enabled and at 35% opacity:
+
+```sh
+python3 rounded/scripts/render_group_sheet.py \
+  --output /Users/sedov/Dev/luce_work/codex/kg_groups_sheet.png \
+  --render-dir /tmp/lucia-kg-groups/renders
+```
+
+The render directory includes individual 16/24/48/96 px PNGs and temporary
+themed SVG wrappers. Add `--subject-only` with a separate output and render
+directory to review the same icons with context and ghost strokes hidden.
+Source SVGs retain `currentColor` and transparent backgrounds.
 
 ## License
 

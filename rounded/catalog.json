@@ -6864,6 +6864,124 @@
         "modeling",
         "Kinogaki Studio"
       ]
+    },
+    {
+      "id": "group-create",
+      "name": "Group Create",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/group-create.svg",
+      "tags": [
+        "Group Create",
+        "Kinogaki Studio",
+        "group node",
+        "named component set",
+        "mesh selection",
+        "tagged face patch",
+        "create named group",
+        "add group",
+        "selected faces",
+        "plus"
+      ]
+    },
+    {
+      "id": "group-expression",
+      "name": "Group Expression",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/group-expression.svg",
+      "tags": [
+        "Group Expression",
+        "Kinogaki Studio",
+        "group node",
+        "named component set",
+        "mesh selection",
+        "tagged face patch",
+        "filter group",
+        "expression selection",
+        "procedural group",
+        "funnel"
+      ]
+    },
+    {
+      "id": "group-combine",
+      "name": "Group Combine",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/group-combine.svg",
+      "tags": [
+        "Group Combine",
+        "Kinogaki Studio",
+        "group node",
+        "named component set",
+        "mesh selection",
+        "tagged face patch",
+        "combine groups",
+        "union groups",
+        "merge component sets",
+        "overlapping patches"
+      ]
+    },
+    {
+      "id": "group-promote",
+      "name": "Group Promote",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/group-promote.svg",
+      "tags": [
+        "Group Promote",
+        "Kinogaki Studio",
+        "group node",
+        "named component set",
+        "mesh selection",
+        "tagged face patch",
+        "promote group",
+        "domain conversion",
+        "points to faces",
+        "vertices to polygons"
+      ]
+    },
+    {
+      "id": "group-delete",
+      "name": "Group Delete",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/group-delete.svg",
+      "tags": [
+        "Group Delete",
+        "Kinogaki Studio",
+        "group node",
+        "named component set",
+        "mesh selection",
+        "tagged face patch",
+        "delete named group",
+        "remove group",
+        "minus"
+      ]
+    },
+    {
+      "id": "group-rename",
+      "name": "Group Rename",
+      "domain": "3d",
+      "category": "Selection",
+      "categoryId": "selection",
+      "file": "icons/3d/selection/group-rename.svg",
+      "tags": [
+        "Group Rename",
+        "Kinogaki Studio",
+        "group node",
+        "named component set",
+        "mesh selection",
+        "tagged face patch",
+        "rename named group",
+        "edit group name",
+        "pencil"
+      ]
     }
   ],
   "collections": [

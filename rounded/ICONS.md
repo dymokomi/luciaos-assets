@@ -1,6 +1,6 @@
 # Rounded icon index
 
-455 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+461 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 60
 
@@ -120,7 +120,7 @@
 | Movie Camera | [movie-camera.svg](icons/graphics/photography/movie-camera.svg) | Photography |
 | Film Strip | [film-strip.svg](icons/graphics/photography/film-strip.svg) | Photography |
 
-## 3D — 288
+## 3D — 294
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -412,6 +412,12 @@
 | Symmetrize | [symmetrize.svg](icons/3d/modeling/symmetrize.svg) | Modeling |
 | Tris to quads | [tris-to-quads.svg](icons/3d/modeling/tris-to-quads.svg) | Modeling |
 | Decimate | [decimate.svg](icons/3d/modeling/decimate.svg) | Modeling |
+| Group Create | [group-create.svg](icons/3d/selection/group-create.svg) | Selection |
+| Group Expression | [group-expression.svg](icons/3d/selection/group-expression.svg) | Selection |
+| Group Combine | [group-combine.svg](icons/3d/selection/group-combine.svg) | Selection |
+| Group Promote | [group-promote.svg](icons/3d/selection/group-promote.svg) | Selection |
+| Group Delete | [group-delete.svg](icons/3d/selection/group-delete.svg) | Selection |
+| Group Rename | [group-rename.svg](icons/3d/selection/group-rename.svg) | Selection |
 
 ## Code — 29
 
