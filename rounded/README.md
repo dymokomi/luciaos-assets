@@ -1,6 +1,6 @@
 # LuciaOS Rounded
 
-461 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
+465 editable icons for shared controls, graphics, 3D, code, mail and audio applications.
 
 ## Organization
 
@@ -30,7 +30,7 @@ rounded/
 | --- | ---: | --- |
 | Common | 60 | Save, Undo, Zoom, Lock, Alignment, Arrows, Playback, Tool shelf |
 | Graphics | 48 | Brush, Pen, Magic Wand, Layers, Color, Transform |
-| 3D | 294 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
+| 3D | 298 | Cube, Extrude, Sculpt, Material, Lights, Keyframes, Nodes |
 | Code | 29 | Terminal, Braces, Debugging, Git, Extensions |
 | Mail | 14 | Compose, Reply, Inbox, Archive, Attachment |
 | Audio | 16 | Record, Metronome, Mute, Solo, Piano keyboard, Mixer, Automation |
@@ -42,8 +42,8 @@ rounded/
 - [Offline catalog](catalog.html): search by name, keyword, or path; filter by collection and theme; copy source or download an icon.
 - [Full icon index](ICONS.md)
 
-Both sheets contain all 461 icons once, grouped by collection. Icons are shown
-at 48 px on a 1600 × 8108 canvas. The white sheet uses a pure white background.
+Both sheets contain all 465 icons once, grouped by collection. Icons are shown
+at 48 px on a 1600 × 8232 canvas. The white sheet uses a pure white background.
 
 ## Application controls
 
@@ -651,6 +651,36 @@ The render directory includes individual 16/24/48/96 px PNGs and temporary
 themed SVG wrappers. Add `--subject-only` with a separate output and render
 directory to review the same icons with context and ghost strokes hidden.
 Source SVGs retain `currentColor` and transparent backgrounds.
+
+### Kinogaki Studio lights and camera actions
+
+Four `3d/scene/` icons extend the existing Point, Sun, Spot and Camera family:
+`light-area`, `light-dome`, `camera-look-through` and `camera-from-view`.
+Area uses the shared perspective plane with a .2 lit face, .3/.45 shallow
+edges, and three parallel rays along the projected surface normal. Dome uses
+an arched hemisphere above a solid ground line, .2/.3 surface shading, and
+three inward rays; the middle ray has a compact chevron to show direction.
+
+Look Through pairs the existing rounded camera body and flared lens with an
+eye. From View pairs a corner-marked rectangular view with a small camera and
+a plus in the bottom-right badge area. The camera bodies use .25 fill and
+their lenses .35, beneath full-opacity contours. The view frame's essential
+corner ticks remain solid when its dashed context edges disappear.
+All four stems are unique across the library.
+
+Reproduce the labelled contact sheet beside Light Point, Light Sun, Light Spot
+and Camera at native 16/24/48 px in both themes, at 100% and 35% opacity:
+
+```sh
+python3 rounded/scripts/render_scene_sheet.py \
+  --output /Users/sedov/Dev/luce_work/codex/kg_lights_sheet.png \
+  --render-dir /tmp/lucia-kg-lights/renders
+```
+
+The render directory also contains individual 96 px PNGs. Add `--subject-only`
+with a separate output and render directory to inspect the solid contours with
+context and ghost strokes hidden. Sources keep `currentColor` and transparent
+backgrounds; fills do not overlap, and all fills precede strokes.
 
 ## License
 

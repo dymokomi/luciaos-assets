@@ -1,6 +1,6 @@
 # Rounded icon index
 
-461 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
+465 icons. Paths are relative to this directory; filenames and sprite IDs are stable.
 
 ## Common — 60
 
@@ -120,7 +120,7 @@
 | Movie Camera | [movie-camera.svg](icons/graphics/photography/movie-camera.svg) | Photography |
 | Film Strip | [film-strip.svg](icons/graphics/photography/film-strip.svg) | Photography |
 
-## 3D — 294
+## 3D — 298
 
 | Icon | SVG file | Theme |
 | --- | --- | --- |
@@ -169,6 +169,10 @@
 | Point light | [light-point.svg](icons/3d/scene/light-point.svg) | Scene |
 | Sun light | [light-sun.svg](icons/3d/scene/light-sun.svg) | Scene |
 | Spot light | [light-spot.svg](icons/3d/scene/light-spot.svg) | Scene |
+| Area light | [light-area.svg](icons/3d/scene/light-area.svg) | Scene |
+| Dome light | [light-dome.svg](icons/3d/scene/light-dome.svg) | Scene |
+| Look through camera | [camera-look-through.svg](icons/3d/scene/camera-look-through.svg) | Scene |
+| Camera from view | [camera-from-view.svg](icons/3d/scene/camera-from-view.svg) | Scene |
 | Transform gizmo | [transform-gizmo.svg](icons/3d/transform/transform-gizmo.svg) | Transform |
 | Pivot | [pivot.svg](icons/3d/transform/pivot.svg) | Transform |
 | Boolean union | [boolean-union.svg](icons/3d/modifiers/boolean-union.svg) | Transform & modifiers |

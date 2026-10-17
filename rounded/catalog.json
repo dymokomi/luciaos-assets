@@ -1730,6 +1730,71 @@
       "categoryId": "scene"
     },
     {
+      "id": "light-area",
+      "name": "Area light",
+      "domain": "3d",
+      "category": "Scene",
+      "tags": [
+        "light",
+        "area",
+        "rectangular emitter",
+        "panel",
+        "parallel rays",
+        "Kinogaki Studio"
+      ],
+      "file": "icons/3d/scene/light-area.svg",
+      "categoryId": "scene"
+    },
+    {
+      "id": "light-dome",
+      "name": "Dome light",
+      "domain": "3d",
+      "category": "Scene",
+      "tags": [
+        "light",
+        "dome",
+        "environment lighting",
+        "hemisphere",
+        "inward rays",
+        "Kinogaki Studio"
+      ],
+      "file": "icons/3d/scene/light-dome.svg",
+      "categoryId": "scene"
+    },
+    {
+      "id": "camera-look-through",
+      "name": "Look through camera",
+      "domain": "3d",
+      "category": "Scene",
+      "tags": [
+        "camera",
+        "look through",
+        "camera view",
+        "eye",
+        "viewport",
+        "Kinogaki Studio"
+      ],
+      "file": "icons/3d/scene/camera-look-through.svg",
+      "categoryId": "scene"
+    },
+    {
+      "id": "camera-from-view",
+      "name": "Camera from view",
+      "domain": "3d",
+      "category": "Scene",
+      "tags": [
+        "camera",
+        "create camera",
+        "current view",
+        "view frame",
+        "viewport",
+        "add",
+        "Kinogaki Studio"
+      ],
+      "file": "icons/3d/scene/camera-from-view.svg",
+      "categoryId": "scene"
+    },
+    {
       "id": "transform-gizmo",
       "name": "Transform gizmo",
       "domain": "3d",
